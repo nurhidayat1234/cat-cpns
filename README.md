@@ -31,6 +31,18 @@ Harus lewat HTTP server (bukan `file://`) karena soal dimuat dari
 - Progress tersimpan otomatis di browser (localStorage) — simulasi bisa
   dilanjutkan kalau halaman tertutup. Waktu habis = otomatis selesai.
 
+## Tampilan beranda (gaya SSCASN, isi tetap latihan)
+
+Beranda meniru *tata letak* situs SSCASN — hero biru full-bleed dengan pola
+titik, menu atas, tombol **Buat Akun** / **Masuk**, carousel 3 slide, dan
+seksi **Alur Latihan** gaya timeline — tetapi logo, nama, dan isinya tetap
+milik situs latihan ini. Tidak ada logo SSCASN/BKN, tidak ada foto ASN, dan
+tidak ada tanggal/jadwal resmi: timeline berisi alur latihan (Buat Akun →
+Pilih Mode → Kerjakan Soal → Lihat Hasil → Pelajari Pembahasan), bukan
+jadwal pengadaan. Carousel berputar otomatis 6 detik (berhenti saat
+di-hover) dengan panah + dot; tombol hero mengarah ke mode, format, atau
+kartu daftar.
+
 ## Akun login (wajib untuk mengerjakan tes) — database Google Sheet
 
 Pengguna **wajib daftar / login** sebelum mengerjakan simulasi dan latihan.
