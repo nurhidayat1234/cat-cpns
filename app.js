@@ -92,7 +92,14 @@ function getQ(i) {
 }
 
 // ---------- exam ----------
+function requireLogin() {
+  if (window.Auth && Auth.isLoggedIn()) return true;
+  if (window.Auth && Auth.promptLogin) Auth.promptLogin();
+  return false;
+}
+
 function startExam(mode) {
+  if (!requireLogin()) return; // tes hanya untuk yang sudah login
   stopTimer();
   newSession(mode);
   renderExamChrome();
@@ -103,6 +110,7 @@ function startExam(mode) {
 }
 
 function resumeExam() {
+  if (!requireLogin()) return; // lanjutkan simulasi juga butuh login
   const s = loadStoredSession();
   if (!s) return;
   stopTimer();

@@ -31,26 +31,24 @@ Harus lewat HTTP server (bukan `file://`) karena soal dimuat dari
 - Progress tersimpan otomatis di browser (localStorage) — simulasi bisa
   dilanjutkan kalau halaman tertutup. Waktu habis = otomatis selesai.
 
-## Akun login (opsional) — database Google Sheet
+## Akun login (wajib untuk mengerjakan tes) — database Google Sheet
 
-Pengguna bisa **daftar / login** dari kartu di beranda. Yang login mendapat:
+Pengguna **wajib daftar / login** sebelum mengerjakan simulasi dan latihan.
+Tanpa login, tombol mode tes menampilkan label "Login diperlukan" dan klik
+apa pun mengarah ke kartu login. Menu **Pembahasan Soal** tetap bisa dibuka
+tanpa login (hanya membaca soal + penjelasan, tanpa nilai).
+
+Yang login mendapat:
 
 - Hasil setiap simulasi/latihan tersimpan ke akun (tab `Hasil` di Sheet).
 - **Riwayat Saya** di beranda — 20 hasil terakhir (tanggal, mode, skor
   TWK/TIU/TKP, total, status LULUS/TIDAK LULUS).
 - Nama tampil di pojok kanan atas + tombol Keluar.
 
-Tanpa login pun situs tetap bisa dipakai (tamu) — hasilnya hanya tersimpan
-di browser sendiri.
-
-**Cara kerja:** `auth.js` (frontend) ↔ Apps Script web app ↔ Google Sheet
-**"CAT CPNS — Database"** (tab `Users` + `Hasil`). Backend ada di
-`scripts/apps-script/Code.gs` (aksi `register`, `login`, `saveResult`,
-`history`); cara deploy-nya di `scripts/apps-script/README.md`. Backend
-**sudah di-deploy 25 Nov 2026** sebagai web app "CAT CPNS auth v1" dan
-`AUTH_API_URL` di `auth.js` sudah terisi — login langsung jalan. Kalau URL
-dihapus/dikosongkan lagi, form login menampilkan pesan "Backend login belum
-dikonfigurasi".
+Tampilan login: kartu dua panel (panel navy berisi manfaat akun + form
+Masuk/Daftar dengan tab). Backend **sudah di-deploy 25 Nov 2026** sebagai web
+app "CAT CPNS auth v1" dan `AUTH_API_URL` di `auth.js` sudah terisi — login
+langsung jalan.
 
 **Keamanan:** password di-hash SHA-256 di browser sebelum dikirim; yang
 disimpan di Sheet hanya hash-nya. Login memakai token acak yang kedaluwarsa

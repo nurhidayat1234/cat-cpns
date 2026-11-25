@@ -115,10 +115,22 @@ const Auth = (() => {
   function renderHome() {
     const authCard = $("authCard");
     const historyCard = $("historyCard");
-    if (authCard) authCard.style.display = isLoggedIn() ? "none" : "block";
+    if (authCard) authCard.style.display = isLoggedIn() ? "none" : "";
     if (historyCard) historyCard.style.display = isLoggedIn() ? "block" : "none";
+    document.body.classList.toggle("is-logged-in", isLoggedIn());
     if (isLoggedIn()) loadHistory();
     else switchTab("login"); // sesudah logout, form kembali ke tab Masuk
+  }
+
+  // Dipanggil saat tamu mencoba mengerjakan tes: arahkan ke kartu login.
+  function promptLogin() {
+    showScreenHome();
+    const card = $("authCard");
+    if (card) card.scrollIntoView({ behavior: "smooth", block: "start" });
+    switchTab("login");
+    showMsg("Login dulu untuk mengerjakan tes — masuk atau daftar gratis di sini.", false);
+    const em = $("loginEmail");
+    if (em) em.focus();
   }
 
   function render() {
@@ -270,7 +282,7 @@ const Auth = (() => {
     render();
   }
 
-  return { init, isLoggedIn, saveResult, render, loadHistory };
+  return { init, isLoggedIn, saveResult, render, loadHistory, promptLogin };
 })();
 
 // Diekspos ke window agar app.js bisa memanggil Auth.isLoggedIn()/saveResult().

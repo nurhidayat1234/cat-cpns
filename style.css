@@ -291,29 +291,113 @@ table.fmt th { background: #f1f4fa; }
   font-weight: 700;
 }
 .chip-btn:hover { background: rgba(255, 255, 255, 0.14); }
-.auth-tabs { display: flex; gap: 0.5rem; margin-bottom: 0.9rem; }
-.auth-tab {
-  border: 1px solid var(--border);
-  background: #f1f4fa;
-  border-radius: 8px;
-  padding: 0.45rem 1.1rem;
-  font-weight: 700;
-  color: var(--navy);
+/* Auth (login / daftar) — kartu profesional dua panel */
+.auth-card {
+  display: grid;
+  grid-template-columns: 1fr 1.15fr;
+  padding: 0;
+  overflow: hidden;
 }
-.auth-tab.active { background: var(--blue); border-color: var(--blue); color: #fff; }
-.auth-form { display: flex; flex-direction: column; gap: 0.7rem; max-width: 420px; }
-.auth-form label { font-size: 0.9rem; font-weight: 700; display: flex; flex-direction: column; gap: 0.25rem; }
+.auth-side {
+  background: linear-gradient(160deg, var(--navy) 0%, #16336e 100%);
+  color: #fff;
+  padding: 1.5rem 1.4rem;
+}
+.auth-side h2 { color: #fff; font-size: 1.35rem; margin: 0.4rem 0 0.6rem; }
+.auth-eyebrow {
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #9db9f2;
+}
+.auth-side-lead { color: #dbe6fb; margin: 0 0 1rem; font-size: 0.95rem; }
+.auth-perks { list-style: none; margin: 0 0 1.1rem; padding: 0; display: flex; flex-direction: column; gap: 0.75rem; }
+.auth-perks li { display: flex; flex-direction: column; gap: 0.1rem; padding-left: 1.5rem; position: relative; }
+.auth-perks li::before {
+  content: "";
+  position: absolute;
+  left: 0; top: 0.35rem;
+  width: 0.9rem; height: 0.9rem;
+  border-radius: 50%;
+  background: var(--green) center / 0.6rem no-repeat;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 12'%3E%3Cpath d='M2 6.5 4.5 9 10 3' fill='none' stroke='white' stroke-width='2'/%3E%3C/svg%3E");
+}
+.auth-perks strong { font-size: 0.95rem; }
+.auth-perks span { color: #b9c9e8; font-size: 0.87rem; }
+.auth-side-note { color: #9db9f2; font-size: 0.85rem; margin: 0; }
+.auth-main { padding: 1.5rem 1.4rem; }
+.auth-tabs {
+  display: flex;
+  background: #eef2f8;
+  border-radius: 10px;
+  padding: 4px;
+  gap: 4px;
+  margin-bottom: 1.1rem;
+}
+.auth-tab {
+  flex: 1;
+  border: none;
+  background: transparent;
+  border-radius: 7px;
+  padding: 0.5rem 1rem;
+  font-weight: 700;
+  color: var(--muted);
+}
+.auth-tab.active { background: #fff; color: var(--navy); box-shadow: 0 1px 3px rgba(13, 27, 62, 0.2); }
+.auth-form { display: flex; flex-direction: column; gap: 0.8rem; }
+.auth-form label { font-size: 0.9rem; font-weight: 700; display: flex; flex-direction: column; gap: 0.3rem; }
 .auth-form input {
-  padding: 0.55rem 0.7rem;
-  border-radius: 8px;
+  padding: 0.65rem 0.8rem;
+  border-radius: 9px;
   border: 1px solid var(--border);
   font-size: 0.95rem;
   font-family: inherit;
+  background: #fbfcfe;
 }
-.auth-form input:focus { outline: 2px solid var(--blue); outline-offset: 1px; }
-.auth-msg { font-size: 0.92rem; font-weight: 700; min-height: 1.2em; margin: 0.7rem 0 0; }
+.auth-form input:focus {
+  outline: none;
+  border-color: var(--blue);
+  background: #fff;
+  box-shadow: 0 0 0 3px rgba(47, 128, 237, 0.22);
+}
+.auth-form .btn-primary { width: 100%; padding: 0.7rem; margin-top: 0.2rem; }
+.auth-msg { font-size: 0.92rem; font-weight: 700; min-height: 1.2em; margin: 0.8rem 0 0; }
 .auth-msg.err { color: var(--red); }
 .auth-msg.ok { color: var(--green); }
+
+/* Kunci tes: tamu harus login dulu */
+.gate-notice {
+  background: #fff7e0;
+  border: 1px solid #f0d48a;
+  border-radius: 8px;
+  padding: 0.7rem 0.9rem;
+  font-size: 0.93rem;
+  margin: 0 0 0.9rem;
+}
+body.is-logged-in #gateNotice { display: none; }
+.mode-test { position: relative; }
+.lock-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  margin-top: 0.35rem;
+  align-self: flex-start;
+  font-size: 0.78rem;
+  font-weight: 800;
+  color: #7a5b00;
+  background: #fff3cd;
+  border: 1px solid #f0d48a;
+  border-radius: 999px;
+  padding: 0.15rem 0.6rem;
+}
+.lock-badge::before {
+  content: "";
+  width: 0.7rem; height: 0.7rem;
+  background: center / contain no-repeat url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 12'%3E%3Cpath d='M3 5V4a3 3 0 0 1 6 0v1h1v6H2V5h1zm2 0h2V4a1 1 0 0 0-2 0v1z' fill='%237a5b00'/%3E%3C/svg%3E");
+}
+body.is-logged-in .lock-badge { display: none; }
+body:not(.is-logged-in) .mode-test { background: #f7f9fc; }
 table.hist { width: 100%; border-collapse: collapse; font-size: 0.9rem; }
 table.hist th, table.hist td { border: 1px solid var(--border); padding: 0.4rem 0.55rem; text-align: left; }
 table.hist th { background: #f1f4fa; }
@@ -323,6 +407,7 @@ table.hist th { background: #f1f4fa; }
 @media (max-width: 760px) {
   .exam-layout { grid-template-columns: 1fr; }
   .mode-grid { grid-template-columns: 1fr; }
+  .auth-card { grid-template-columns: 1fr; }
   .timer { font-size: 1.3rem; }
   h1 { font-size: 1.4rem; }
 }

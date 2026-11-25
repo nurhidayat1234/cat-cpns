@@ -22,7 +22,7 @@ NAMA = "Penguji E2E"
 PW = "rahasia123"
 errors = []
 with sync_playwright() as p:
-    b = p.chromium.launch(headless=True, proxy=PROXY, args=["--no-sandbox", "--disable-gpu"])
+    b = p.chromium.launch(headless=True, proxy=PROXY, args=["--no-sandbox", "--disable-gpu", "--ignore-certificate-errors"])
     page = b.new_page(viewport={"width": 1280, "height": 900})
     page.on("console", lambda m: errors.append(m.text) if m.type == "error" else None)
     page.on("pageerror", lambda e: errors.append(str(e)))

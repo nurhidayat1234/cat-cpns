@@ -1,12 +1,15 @@
 """End-to-end test website CAT CPNS (lokal, http://127.0.0.1:8140).
-Menjawab 110 soal lewat UI: semua benar KECUALI TWK-01 (salah) dan TKP-01
-(pilih opsi skor 3). Harapan: TWK 145, TIU 175, TKP 223, total 543, LULUS.
+Login dulu (tes wajib login sejak 25 Nov 2026), lalu menjawab 110 soal lewat
+UI: semua benar KECUALI TWK-01 (salah) dan TKP-01 (pilih opsi skor 3).
+Harapan: TWK 145, TIU 175, TKP 223, total 543, LULUS.
 Lalu cek pembahasan (filter salah = 2 soal) dan mode jelajah dari beranda.
+Butuh forwarder proxy lokal demo/proxyfwd.py (port 18080) untuk login.
 """
 import json, os, sys, time
 from playwright.sync_api import sync_playwright
 
 BASE = "http://127.0.0.1:8140"
+PROXY = {"server": "http://127.0.0.1:18080", "bypass": "127.0.0.1,localhost"}
 qs = json.load(open(os.path.expanduser("~/workspace/programmer/cat-cpns/data/questions.json")))
 by_id = {q["id"]: q for q in qs}
 order = [q["id"] for q in qs]  # TWK -> TIU -> TKP, urutan tampil
@@ -23,15 +26,28 @@ exp = {"TWK": 145, "TIU": 175, "TKP": 223, "total": 543}
 
 errors = []
 with sync_playwright() as p:
-    b = p.chromium.launch(headless=True, args=["--no-sandbox", "--disable-gpu"])
+    b = p.chromium.launch(headless=True, proxy=PROXY, args=["--no-sandbox", "--disable-gpu", "--ignore-certificate-errors"])
     page = b.new_page(viewport={"width": 1280, "height": 900})
     page.on("console", lambda m: errors.append(m.text) if m.type == "error" else None)
     page.on("pageerror", lambda e: errors.append(str(e)))
+    page.on("dialog", lambda d: d.accept())
     page.goto(BASE + "/", wait_until="networkidle", timeout=30000)
     assert "CAT CPNS" in page.title(), page.title()
     assert page.locator("text=110 soal").first.is_visible()
     t0 = page.locator("#timer")
     print("1. Beranda OK (110 soal, mode tersedia).")
+
+    # login dulu (wajib sebelum tes): daftar akun penguji unik
+    email = f"penguji-e2e-{int(time.time())}@example.com"
+    page.locator('.auth-tab[data-tab="register"]').click()
+    page.locator("#regNama").fill("Penguji E2E")
+    page.locator("#regEmail").fill(email)
+    page.locator("#regPassword").fill("rahasia123")
+    page.locator("#regPassword2").fill("rahasia123")
+    page.locator('#registerForm button[type="submit"]').click()
+    page.wait_for_selector("#authChip:has-text('Penguji E2E')", timeout=30000)
+    assert page.locator("#gateNotice").is_hidden(), "pemberitahuan kunci harus hilang sesudah login"
+    print("1b. Login OK, mode tes terbuka.")
 
     # mulai simulasi penuh
     page.locator('.mode[data-mode="full"]').click()
