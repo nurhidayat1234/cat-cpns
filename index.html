@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CAT CPNS — Simulasi SKD (Latihan)</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="brand">
+    <span class="brand-mark">CAT</span>
+    <div>
+      <strong>Simulasi CAT CPNS — SKD</strong>
+      <small>Latihan mandiri &middot; Bukan soal resmi BKN</small>
+    </div>
+  </div>
+  <div class="topbar-right" id="topbarRight"></div>
+</header>
+
+<main class="wrap">
+
+  <!-- ============ HOME ============ -->
+  <section id="screen-home" class="screen">
+    <div class="hero">
+      <h1>Simulasi CAT CPNS — Seleksi Kompetensi Dasar</h1>
+      <p class="lead">Latihan soal SKD dengan format seperti ujian CAT BKN: 110 soal,
+      timer 100 menit, navigasi antar soal, tandai ragu-ragu, lalu hasil
+      dibandingkan dengan passing grade resmi.</p>
+      <p class="disclaimer"><strong>LATIHAN / SIMULASI.</strong> Soal-soal di situs ini
+      dibuat original mengikuti kisi-kisi resmi — <strong>bukan soal CPNS asli dan bukan
+      bocoran</strong>. Situs ini tidak berafiliasi dengan BKN, KemenPANRB, atau panitia
+      seleksi mana pun.</p>
+    </div>
+
+    <div class="card" id="resumeCard" style="display:none">
+      <h2>Lanjutkan simulasi sebelumnya?</h2>
+      <p id="resumeText" class="muted"></p>
+      <div class="row">
+        <button class="btn-primary" id="resumeBtn">Lanjutkan</button>
+        <button class="btn-ghost" id="discardBtn">Hapus &amp; mulai baru</button>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>Pilih mode</h2>
+      <div class="mode-grid">
+        <button class="mode" data-mode="full">
+          <strong>Simulasi SKD Penuh</strong>
+          <span>110 soal &middot; 100 menit &middot; TWK 30 + TIU 35 + TKP 45</span>
+          <em>Seperti ujian asli</em>
+        </button>
+        <button class="mode" data-mode="TWK">
+          <strong>Latihan TWK</strong>
+          <span>30 soal &middot; 27 menit &middot; Wawasan Kebangsaan</span>
+          <em>Benar 5, salah 0 &middot; PG 65</em>
+        </button>
+        <button class="mode" data-mode="TIU">
+          <strong>Latihan TIU</strong>
+          <span>35 soal &middot; 32 menit &middot; Intelegensia Umum</span>
+          <em>Benar 5, salah 0 &middot; PG 80</em>
+        </button>
+        <button class="mode" data-mode="TKP">
+          <strong>Latihan TKP</strong>
+          <span>45 soal &middot; 41 menit &middot; Karakteristik Pribadi</span>
+          <em>Setiap opsi 1–5 &middot; PG 166</em>
+        </button>
+        <button class="mode" data-mode="review">
+          <strong>Pembahasan Soal</strong>
+          <span>Telusuri semua 110 soal beserta pembahasannya per kategori</span>
+          <em>Tanpa timer &middot; tanpa nilai</em>
+        </button>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>Format resmi yang dipakai</h2>
+      <table class="fmt">
+        <thead><tr><th>Komponen</th><th>Soal</th><th>Penilaian</th><th>Skor maks</th><th>Passing grade (umum)</th></tr></thead>
+        <tbody>
+          <tr><td>TWK — Tes Wawasan Kebangsaan</td><td>30</td><td>Benar 5, salah/kosong 0</td><td>150</td><td>65</td></tr>
+          <tr><td>TIU — Tes Intelegensia Umum</td><td>35</td><td>Benar 5, salah/kosong 0</td><td>175</td><td>80</td></tr>
+          <tr><td>TKP — Tes Karakteristik Pribadi</td><td>45</td><td>Setiap opsi 1–5, kosong 0</td><td>225</td><td>166</td></tr>
+          <tr><td><strong>Total</strong></td><td><strong>110</strong></td><td></td><td><strong>550</strong></td><td><strong>311</strong></td></tr>
+        </tbody>
+      </table>
+      <p class="muted small">Durasi 100 menit (130 menit untuk disabilitas sensorik netra).
+      Dasar: Keputusan Menteri PANRB Nomor 321 Tahun 2024 (nilai ambang batas SKD
+      pengadaan PNS TA 2024). <strong>Catatan:</strong> per pengecekan 25 November 2026,
+      passing grade untuk seleksi CPNS 2026 belum ditetapkan pemerintah — angka di atas
+      adalah acuan terakhir yang berlaku dan dapat berubah. Situs ini tidak menampilkan
+      tanggal pendaftaran, kuota formasi, atau jadwal seleksi (tidak ada yang resmi
+      saat ini). Detail sumber: <a href="SUMBER.md">SUMBER.md</a>.</p>
+    </div>
+
+    <div class="card">
+      <h2>Cara mengerjakan</h2>
+      <ol class="howto">
+        <li>Pilih jawaban dengan mengklik opsi A–E. Jawaban tersimpan otomatis.</li>
+        <li>Gunakan kotak nomor soal di kanan untuk pindah soal. Hijau = sudah dijawab, kuning = ragu-ragu, putih = belum dijawab.</li>
+        <li>Tombol <b>Tandai Ragu-ragu</b> menandai soal untuk ditinjau lagi sebelum selesai.</li>
+        <li>Waktu habis = otomatis selesai dan masuk ke hasil. Klik <b>Selesai</b> kapan saja untuk mengakhiri lebih awal (akan ditanya jumlah soal yang belum dijawab).</li>
+        <li>Di hasil, klik <b>Lihat Pembahasan</b> untuk melihat jawaban benar, skor yang didapat, dan penjelasan tiap soal.</li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- ============ EXAM ============ -->
+  <section id="screen-exam" class="screen" style="display:none">
+    <div class="exam-top">
+      <div class="exam-meta">
+        <span class="chip" id="examModeLabel">SKD Penuh</span>
+        <span class="chip" id="examCatLabel">TWK</span>
+        <span id="examProgress">Soal 1 dari 110</span>
+      </div>
+      <div class="timer" id="timer">100:00</div>
+    </div>
+    <div class="exam-layout">
+      <div class="exam-main">
+        <div class="card qcard">
+          <div class="q-head">
+            <span class="q-num" id="qNum">Soal 1</span>
+            <span class="q-subtopic" id="qSubtopic"></span>
+          </div>
+          <p class="q-text" id="qText"></p>
+          <div class="options" id="options"></div>
+          <div class="q-actions">
+            <button class="btn-ghost" id="prevBtn">&larr; Sebelumnya</button>
+            <button class="btn-ghost" id="doubtBtn">Tandai Ragu-ragu</button>
+            <button class="btn-primary" id="nextBtn">Selanjutnya &rarr;</button>
+          </div>
+        </div>
+        <div class="finish-row">
+          <button class="btn-finish" id="finishBtn">Selesai &amp; Lihat Hasil</button>
+        </div>
+      </div>
+      <aside class="palette card">
+        <h3>Navigasi Soal</h3>
+        <div class="palette-grid" id="palette"></div>
+        <div class="legend">
+          <span><i class="dot answered"></i> Dijawab</span>
+          <span><i class="dot doubt"></i> Ragu-ragu</span>
+          <span><i class="dot current"></i> Sedang dibuka</span>
+          <span><i class="dot blank"></i> Belum dijawab</span>
+        </div>
+        <p class="muted small" id="paletteSummary"></p>
+      </aside>
+    </div>
+  </section>
+
+  <!-- ============ RESULT ============ -->
+  <section id="screen-result" class="screen" style="display:none">
+    <div class="card result-hero">
+      <h2 id="resultTitle">Hasil Simulasi</h2>
+      <p id="resultVerdict" class="verdict"></p>
+      <p class="muted" id="resultMeta"></p>
+      <div class="score-total"><span id="resultTotal">0</span><small>/ 550</small></div>
+      <div class="row">
+        <button class="btn-primary" id="reviewBtn">Lihat Pembahasan</button>
+        <button class="btn-ghost" id="retryBtn">Ulangi Simulasi</button>
+        <button class="btn-ghost" id="homeBtn">Kembali ke Beranda</button>
+      </div>
+    </div>
+    <div class="card">
+      <h2>Skor per kategori</h2>
+      <div id="resultCats"></div>
+      <p class="muted small">Lulus SKD (kebutuhan umum) = TWK ≥ 65 DAN TIU ≥ 80 DAN TKP ≥ 166.
+      Ketiganya wajib terpenuhi sendiri-sendiri — total tinggi saja tidak cukup.
+      Acuan: KepmenPANRB 321/2024 (TA 2024); passing grade CPNS 2026 belum ditetapkan.</p>
+    </div>
+  </section>
+
+  <!-- ============ REVIEW / PEMBAHASAN ============ -->
+  <section id="screen-review" class="screen" style="display:none">
+    <div class="card">
+      <div class="review-head">
+        <h2>Pembahasan Soal</h2>
+        <div class="row">
+          <button class="btn-ghost" id="reviewHomeBtn">&larr; Beranda</button>
+          <button class="btn-ghost" id="reviewResultBtn" style="display:none">Kembali ke Hasil</button>
+        </div>
+      </div>
+      <div class="filters">
+        <label>Kategori
+          <select id="filterCat">
+            <option value="ALL">Semua</option>
+            <option value="TWK">TWK</option>
+            <option value="TIU">TIU</option>
+            <option value="TKP">TKP</option>
+          </select>
+        </label>
+        <label>Tampilkan
+          <select id="filterShow">
+            <option value="ALL">Semua soal</option>
+            <option value="WRONG">Hanya yang salah / skor kurang</option>
+            <option value="DOUBT">Hanya yang ditandai ragu-ragu</option>
+            <option value="UNANSWERED">Hanya yang tidak dijawab</option>
+          </select>
+        </label>
+        <span class="muted small" id="reviewCount"></span>
+      </div>
+      <p class="muted small" id="reviewNote"></p>
+    </div>
+    <div id="reviewList"></div>
+  </section>
+
+</main>
+
+<footer class="foot">
+  <p>Simulasi CAT CPNS — latihan mandiri. Soal original mengikuti kisi-kisi resmi.
+  Bukan soal resmi BKN dan bukan bocoran. Tidak berafiliasi dengan BKN, KemenPANRB,
+  atau panitia seleksi. Format mengacu KepmenPANRB 321/2024 (TA 2024) — diverifikasi 25 Nov 2026.</p>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
