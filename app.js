@@ -470,6 +470,58 @@ async function init() {
   $("reviewResultBtn").addEventListener("click", () => { if (lastResult) { renderResult(lastResult); showScreen("result"); } });
   $("filterCat").addEventListener("change", renderReviewList);
   $("filterShow").addEventListener("change", renderReviewList);
+
+  // ---------- hero carousel + navigasi beranda ----------
+  const slides = Array.from(document.querySelectorAll(".hero-slide"));
+  const dots = Array.from(document.querySelectorAll(".hero-dot"));
+  let heroIdx = 0, heroTimer = null;
+  function showSlide(i) {
+    if (!slides.length) return;
+    heroIdx = (i + slides.length) % slides.length;
+    slides.forEach((s, k) => s.classList.toggle("active", k === heroIdx));
+    dots.forEach((d, k) => d.classList.toggle("active", k === heroIdx));
+  }
+  function heroAuto() {
+    clearInterval(heroTimer);
+    heroTimer = setInterval(() => showSlide(heroIdx + 1), 6000);
+  }
+  const heroEl = document.querySelector(".hero");
+  if (slides.length) {
+    $("heroPrev").addEventListener("click", () => { showSlide(heroIdx - 1); heroAuto(); });
+    $("heroNext").addEventListener("click", () => { showSlide(heroIdx + 1); heroAuto(); });
+    dots.forEach((d) => d.addEventListener("click", () => { showSlide(+d.dataset.slide); heroAuto(); }));
+    heroEl.addEventListener("mouseenter", () => clearInterval(heroTimer));
+    heroEl.addEventListener("mouseleave", heroAuto);
+    heroAuto();
+  }
+  // Tombol di hero / timeline: gulir ke kartu atau buka daftar/masuk.
+  document.querySelectorAll("[data-scroll-to]").forEach((el) => {
+    el.addEventListener("click", () => {
+      showScreen("home");
+      const t = document.getElementById(el.dataset.scrollTo);
+      if (t) t.scrollIntoView({ behavior: "smooth", block: "start" });
+    });
+  });
+  document.querySelectorAll('[data-action="register"]').forEach((el) => {
+    el.addEventListener("click", () => { if (window.Auth) Auth.promptRegister(); });
+  });
+  // Link nav atas: Beranda / Format / Cara / Pembahasan.
+  document.querySelectorAll("[data-nav]").forEach((el) => {
+    el.addEventListener("click", (ev) => {
+      ev.preventDefault();
+      const target = el.dataset.nav;
+      if (target === "review") { openReview(false); return; }
+      showScreen("home");
+      refreshResumeCard();
+      const map = { home: null, format: "formatCard", howto: "howtoCard" };
+      if (target === "home") window.scrollTo({ top: 0, behavior: "smooth" });
+      else if (map[target]) {
+        const t = document.getElementById(map[target]);
+        if (t) t.scrollIntoView({ behavior: "smooth", block: "start" });
+      }
+    });
+  });
+
   refreshResumeCard();
 }
 

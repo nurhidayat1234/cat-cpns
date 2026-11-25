@@ -90,17 +90,16 @@ const Auth = (() => {
       chip.appendChild(hello);
       chip.appendChild(out);
     } else {
-      const btn = document.createElement("button");
-      btn.className = "chip-btn";
-      btn.textContent = "Masuk / Daftar";
-      btn.onclick = () => {
-        showScreenHome();
-        const card = $("authCard");
-        if (card) card.scrollIntoView({ behavior: "smooth", block: "start" });
-        const em = $("loginEmail");
-        if (em) em.focus();
-      };
-      chip.appendChild(btn);
+      const reg = document.createElement("button");
+      reg.className = "chip-btn chip-btn-outline";
+      reg.textContent = "Buat Akun";
+      reg.onclick = () => promptRegister();
+      const login = document.createElement("button");
+      login.className = "chip-btn chip-btn-solid";
+      login.textContent = "Masuk";
+      login.onclick = () => promptLogin();
+      chip.appendChild(reg);
+      chip.appendChild(login);
     }
   }
 
@@ -131,6 +130,17 @@ const Auth = (() => {
     showMsg("Login dulu untuk mengerjakan tes — masuk atau daftar gratis di sini.", false);
     const em = $("loginEmail");
     if (em) em.focus();
+  }
+
+  // Arahkan ke kartu daftar (dari tombol "Buat Akun" / hero).
+  function promptRegister() {
+    if (isLoggedIn()) return;
+    showScreenHome();
+    const card = $("authCard");
+    if (card) card.scrollIntoView({ behavior: "smooth", block: "start" });
+    switchTab("register");
+    const nm = $("regNama");
+    if (nm) nm.focus();
   }
 
   function render() {
@@ -282,7 +292,7 @@ const Auth = (() => {
     render();
   }
 
-  return { init, isLoggedIn, saveResult, render, loadHistory, promptLogin };
+  return { init, isLoggedIn, saveResult, render, loadHistory, promptLogin, promptRegister };
 })();
 
 // Diekspos ke window agar app.js bisa memanggil Auth.isLoggedIn()/saveResult().

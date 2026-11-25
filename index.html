@@ -15,6 +15,12 @@
       <small>Latihan mandiri &middot; Bukan soal resmi BKN</small>
     </div>
   </div>
+  <nav class="topnav" aria-label="Navigasi utama">
+    <a href="#" data-nav="home">Beranda</a>
+    <a href="#" data-nav="format">Format SKD</a>
+    <a href="#" data-nav="howto">Cara Mengerjakan</a>
+    <a href="#" data-nav="review">Pembahasan</a>
+  </nav>
   <div class="topbar-right" id="topbarRight"><span id="examModeLabelTop"></span><span id="authChip"></span></div>
 </header>
 
@@ -22,16 +28,58 @@
 
   <!-- ============ HOME ============ -->
   <section id="screen-home" class="screen">
-    <div class="hero">
-      <h1>Simulasi CAT CPNS — Seleksi Kompetensi Dasar</h1>
-      <p class="lead">Latihan soal SKD dengan format seperti ujian CAT BKN: 110 soal,
-      timer 100 menit, navigasi antar soal, tandai ragu-ragu, lalu hasil
-      dibandingkan dengan passing grade resmi.</p>
-      <p class="disclaimer"><strong>LATIHAN / SIMULASI.</strong> Soal-soal di situs ini
-      dibuat original mengikuti kisi-kisi resmi — <strong>bukan soal CPNS asli dan bukan
-      bocoran</strong>. Situs ini tidak berafiliasi dengan BKN, KemenPANRB, atau panitia
-      seleksi mana pun.</p>
+    <div class="hero hero-band">
+      <div class="hero-inner">
+        <div class="hero-copy">
+          <div class="hero-slides">
+            <div class="hero-slide active">
+              <h1>Simulasi CAT CPNS<br>Seleksi Kompetensi Dasar</h1>
+              <p class="hero-lead">Latihan soal SKD dengan format seperti ujian CAT BKN: 110 soal,
+              timer 100 menit, navigasi antar soal, tandai ragu-ragu, lalu hasil
+              dibandingkan dengan passing grade resmi.</p>
+              <p class="hero-pill">Latihan / Simulasi &middot; Bukan soal resmi BKN</p>
+              <button class="hero-cta solid" data-scroll-to="modeCard" type="button">Mulai Latihan</button>
+            </div>
+            <div class="hero-slide">
+              <h1>110 Soal &middot; 100 Menit</h1>
+              <p class="hero-lead">TWK 30 soal (PG 65), TIU 35 soal (PG 80), TKP 45 soal
+              (PG 166). Total skor maksimal 550 — ketiga passing grade wajib
+              terpenuhi sendiri-sendiri.</p>
+              <p class="hero-pill">Acuan: KepmenPANRB 321/2024 (TA 2024)</p>
+              <button class="hero-cta solid" data-scroll-to="formatCard" type="button">Lihat Format</button>
+            </div>
+            <div class="hero-slide">
+              <h1>Hasil Tersimpan<br>di Akunmu</h1>
+              <p class="hero-lead">Daftar gratis, tanpa biaya dan tanpa verifikasi email.
+              Setiap simulasi dan latihan tercatat otomatis — 20 hasil terakhir
+              lengkap dengan skor per kategori, dan bisa dilanjutkan kapan saja.</p>
+              <p class="hero-pill">Gratis &middot; Tanpa biaya</p>
+              <button class="hero-cta solid" data-action="register" type="button">Buat Akun Gratis</button>
+            </div>
+          </div>
+          <div class="hero-controls">
+            <button class="hero-arrow" id="heroPrev" type="button" aria-label="Slide sebelumnya">&larr;</button>
+            <span class="hero-dots">
+              <button class="hero-dot active" data-slide="0" type="button" aria-label="Slide 1"></button>
+              <button class="hero-dot" data-slide="1" type="button" aria-label="Slide 2"></button>
+              <button class="hero-dot" data-slide="2" type="button" aria-label="Slide 3"></button>
+            </span>
+            <button class="hero-arrow" id="heroNext" type="button" aria-label="Slide berikutnya">&rarr;</button>
+          </div>
+        </div>
+        <div class="hero-visual" aria-hidden="true">
+          <div class="hero-visual-title">Format SKD</div>
+          <div class="hero-stat"><span class="hero-stat-name">TWK</span><span class="hero-stat-bar"><i style="width:27%"></i></span><span class="hero-stat-val">30 soal &middot; PG 65</span></div>
+          <div class="hero-stat"><span class="hero-stat-name">TIU</span><span class="hero-stat-bar"><i style="width:32%"></i></span><span class="hero-stat-val">35 soal &middot; PG 80</span></div>
+          <div class="hero-stat"><span class="hero-stat-name">TKP</span><span class="hero-stat-bar"><i style="width:41%"></i></span><span class="hero-stat-val">45 soal &middot; PG 166</span></div>
+          <div class="hero-visual-total"><strong>110 soal</strong><span>100 menit &middot; skor maks 550</span></div>
+        </div>
+      </div>
     </div>
+    <p class="disclaimer hero-disclaimer"><strong>LATIHAN / SIMULASI.</strong> Soal-soal di situs ini
+    dibuat original mengikuti kisi-kisi resmi — <strong>bukan soal CPNS asli dan bukan
+    bocoran</strong>. Situs ini tidak berafiliasi dengan BKN, KemenPANRB, atau panitia
+    seleksi mana pun.</p>
 
     <div class="card auth-card" id="authCard">
       <div class="auth-side">
@@ -97,7 +145,7 @@
       </div>
     </div>
 
-    <div class="card">
+    <div class="card" id="modeCard">
       <h2>Pilih mode</h2>
       <p id="gateNotice" class="gate-notice"><strong>Login diperlukan untuk mengerjakan tes.</strong>
       Masuk atau daftar akun gratis di atas untuk membuka simulasi dan latihan.
@@ -135,7 +183,42 @@
       </div>
     </div>
 
-    <div class="card">
+    <div class="card timeline-card" id="alurCard">
+      <h2 class="timeline-title">Alur Latihan</h2>
+      <div class="timeline-steps">
+        <button class="tstep" data-action="register" type="button">
+          <span class="tstep-icon icon-user"><i class="tstep-check"></i></span>
+          <strong>Buat Akun</strong>
+          <span>Gratis, tanpa verifikasi email</span>
+        </button>
+        <span class="tstep-chev" aria-hidden="true">&rsaquo;</span>
+        <button class="tstep" data-scroll-to="modeCard" type="button">
+          <span class="tstep-icon icon-list"><i class="tstep-check"></i></span>
+          <strong>Pilih Mode</strong>
+          <span>SKD Penuh / TWK / TIU / TKP</span>
+        </button>
+        <span class="tstep-chev" aria-hidden="true">&rsaquo;</span>
+        <div class="tstep">
+          <span class="tstep-icon icon-clock"><i class="tstep-check"></i></span>
+          <strong>Kerjakan Soal</strong>
+          <span>Timer 100 menit, tandai ragu-ragu</span>
+        </div>
+        <span class="tstep-chev" aria-hidden="true">&rsaquo;</span>
+        <div class="tstep">
+          <span class="tstep-icon icon-chart"><i class="tstep-check"></i></span>
+          <strong>Lihat Hasil</strong>
+          <span>Skor vs passing grade resmi</span>
+        </div>
+        <span class="tstep-chev" aria-hidden="true">&rsaquo;</span>
+        <button class="tstep" data-nav="review" type="button">
+          <span class="tstep-icon icon-book"><i class="tstep-check"></i></span>
+          <strong>Pelajari Pembahasan</strong>
+          <span>Jawaban + penjelasan tiap soal</span>
+        </button>
+      </div>
+    </div>
+
+    <div class="card" id="formatCard">
       <h2>Format resmi yang dipakai</h2>
       <table class="fmt">
         <thead><tr><th>Komponen</th><th>Soal</th><th>Penilaian</th><th>Skor maks</th><th>Passing grade (umum)</th></tr></thead>
@@ -155,7 +238,7 @@
       saat ini). Detail sumber: <a href="SUMBER.md">SUMBER.md</a>.</p>
     </div>
 
-    <div class="card">
+    <div class="card" id="howtoCard">
       <h2>Cara mengerjakan</h2>
       <ol class="howto">
         <li>Pilih jawaban dengan mengklik opsi A–E. Jawaban tersimpan otomatis.</li>

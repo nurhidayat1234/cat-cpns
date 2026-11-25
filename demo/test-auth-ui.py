@@ -25,7 +25,8 @@ with sync_playwright() as p:
     page.wait_for_timeout(1500)
 
     assert page.locator("#authCard").is_visible(), "kartu auth tidak tampil"
-    assert page.locator("#authChip").inner_text().strip() == "Masuk / Daftar", "chip topbar salah"
+    chip_text = page.locator("#authChip").inner_text()
+    assert "Buat Akun" in chip_text and "Masuk" in chip_text, f"chip topbar salah: {chip_text!r}"
     assert page.locator("#historyCard").is_hidden(), "riwayat harus tersembunyi saat logout"
     assert page.locator("#gateNotice").is_visible(), "pemberitahuan kunci harus tampil saat tamu"
     assert page.locator('.mode-test .lock-badge').first.is_visible(), "label kunci di mode tes tidak tampil"

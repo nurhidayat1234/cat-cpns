@@ -73,7 +73,7 @@ with sync_playwright() as p:
     # Logout -> login lagi -> riwayat tetap ada
     page.locator("#authChip button").click()
     page.wait_for_selector("#authCard:visible", timeout=15000)
-    assert "Masuk / Daftar" in page.locator("#authChip").inner_text()
+    assert "Buat Akun" in page.locator("#authChip").inner_text() and "Masuk" in page.locator("#authChip").inner_text()
     page.locator("#loginEmail").fill(EMAIL)
     page.locator("#loginPassword").fill(PW)
     page.locator('#loginForm button[type="submit"]').click()
