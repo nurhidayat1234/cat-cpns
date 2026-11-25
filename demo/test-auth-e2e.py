@@ -30,7 +30,9 @@ with sync_playwright() as p:
     page.goto(BASE, wait_until="networkidle", timeout=30000)
     page.wait_for_timeout(1500)
 
-    # Daftar
+    # Daftar lewat halaman login sendiri
+    page.locator("#authChip button:has-text('Buat Akun')").click()
+    page.wait_for_selector("#screen-auth:visible", timeout=10000)
     page.locator('.auth-tab[data-tab="register"]').click()
     page.locator("#regNama").fill(NAMA)
     page.locator("#regEmail").fill(EMAIL)

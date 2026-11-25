@@ -45,10 +45,14 @@ kartu daftar.
 
 ## Akun login (wajib untuk mengerjakan tes) — database Google Sheet
 
-Pengguna **wajib daftar / login** sebelum mengerjakan simulasi dan latihan.
-Tanpa login, tombol mode tes menampilkan label "Login diperlukan" dan klik
-apa pun mengarah ke kartu login. Menu **Pembahasan Soal** tetap bisa dibuka
-tanpa login (hanya membaca soal + penjelasan, tanpa nilai).
+Login punya **halaman sendiri** (`#screen-auth`): tombol **Buat Akun** /
+**Masuk** di pojok kanan atas, tombol hero, dan kartu ajakan di beranda
+semuanya membuka halaman itu. **Soal hanya muncul sesudah login** — tamu
+melihat beranda tanpa tombol mode tes (mode tes disembunyikan lewat CSS
+sampai `body.is-logged-in`); sesudah login berhasil, beranda menampilkan
+mode tes dan kartu ajakan login hilang. Menu **Pembahasan Soal** tetap bisa
+dibuka tanpa login (hanya membaca soal + penjelasan, tanpa nilai). Logout
+kembali ke halaman login.
 
 Yang login mendapat:
 

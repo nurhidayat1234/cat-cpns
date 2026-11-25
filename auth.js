@@ -86,6 +86,8 @@ const Auth = (() => {
         clearUser();
         render();
         showMsg("Kamu sudah keluar.", true);
+        goScreen("auth");
+        switchTab("login");
       };
       chip.appendChild(hello);
       chip.appendChild(out);
@@ -103,41 +105,45 @@ const Auth = (() => {
     }
   }
 
-  function showScreenHome() {
-    ["home", "exam", "result", "review"].forEach((s) => {
+  const SCREENS = ["home", "exam", "result", "review", "auth"];
+  function goScreen(name) {
+    SCREENS.forEach((s) => {
       const el = $("screen-" + s);
-      if (el) el.style.display = s === "home" ? "block" : "none";
+      if (el) el.style.display = s === name ? "block" : "none";
     });
     window.scrollTo(0, 0);
+  }
+
+  function showScreenHome() {
+    goScreen("home");
   }
 
   function renderHome() {
     const authCard = $("authCard");
     const historyCard = $("historyCard");
+    const guestCta = $("guestCtaCard");
     if (authCard) authCard.style.display = isLoggedIn() ? "none" : "";
     if (historyCard) historyCard.style.display = isLoggedIn() ? "block" : "none";
+    if (guestCta) guestCta.style.display = isLoggedIn() ? "none" : "block";
     document.body.classList.toggle("is-logged-in", isLoggedIn());
     if (isLoggedIn()) loadHistory();
     else switchTab("login"); // sesudah logout, form kembali ke tab Masuk
   }
 
-  // Dipanggil saat tamu mencoba mengerjakan tes: arahkan ke kartu login.
+  // Buka halaman login sendiri (bukan kartu di beranda).
   function promptLogin() {
-    showScreenHome();
-    const card = $("authCard");
-    if (card) card.scrollIntoView({ behavior: "smooth", block: "start" });
+    if (isLoggedIn()) { goScreen("home"); return; }
+    goScreen("auth");
     switchTab("login");
     showMsg("Login dulu untuk mengerjakan tes — masuk atau daftar gratis di sini.", false);
     const em = $("loginEmail");
     if (em) em.focus();
   }
 
-  // Arahkan ke kartu daftar (dari tombol "Buat Akun" / hero).
+  // Buka halaman daftar (dari tombol "Buat Akun" / hero).
   function promptRegister() {
-    if (isLoggedIn()) return;
-    showScreenHome();
-    const card = $("authCard");
-    if (card) card.scrollIntoView({ behavior: "smooth", block: "start" });
+    if (isLoggedIn()) { goScreen("home"); return; }
+    goScreen("auth");
     switchTab("register");
     const nm = $("regNama");
     if (nm) nm.focus();
@@ -174,6 +180,7 @@ const Auth = (() => {
           clearUser();
           render();
           showMsg("Sesi habis. Silakan login lagi.", false);
+          goScreen("auth");
           return;
         }
         throw new Error(r.error || "Gagal memuat riwayat.");
@@ -263,6 +270,7 @@ const Auth = (() => {
       try {
         await doLogin($("loginEmail").value.trim(), $("loginPassword").value);
         showMsg("Berhasil masuk. Selamat berlatih, " + user.nama + "!", true);
+        goScreen("home");
       } catch (e) {
         showMsg(e.message, false);
       } finally {
@@ -283,6 +291,7 @@ const Auth = (() => {
           $("regPassword2").value
         );
         showMsg("Akun dibuat dan kamu sudah masuk. Selamat berlatih!", true);
+        goScreen("home");
       } catch (e) {
         showMsg(e.message, false);
       } finally {

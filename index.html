@@ -81,52 +81,12 @@
     bocoran</strong>. Situs ini tidak berafiliasi dengan BKN, KemenPANRB, atau panitia
     seleksi mana pun.</p>
 
-    <div class="card auth-card" id="authCard">
-      <div class="auth-side">
-        <span class="auth-eyebrow">Akun Peserta &middot; Gratis</span>
-        <h2>Masuk untuk mulai berlatih</h2>
-        <p class="auth-side-lead">Satu akun untuk semua simulasi dan latihan.
-        Hasilmu tersimpan otomatis dan bisa dilihat kapan saja.</p>
-        <ul class="auth-perks">
-          <li><strong>Hasil tersimpan otomatis</strong><span>Setiap simulasi dan latihan tercatat ke akunmu.</span></li>
-          <li><strong>Riwayat nilai</strong><span>20 hasil terakhir, lengkap dengan skor per kategori.</span></li>
-          <li><strong>Lanjutkan kapan saja</strong><span>Simulasi yang belum selesai bisa dilanjutkan dari tempatmu berhenti.</span></li>
-        </ul>
-        <p class="auth-side-note">Daftar gratis, tanpa biaya dan tanpa verifikasi email.</p>
-      </div>
-      <div class="auth-main">
-        <div class="auth-tabs">
-          <button class="auth-tab active" data-tab="login" type="button">Masuk</button>
-          <button class="auth-tab" data-tab="register" type="button">Daftar</button>
-        </div>
-        <form id="loginForm" class="auth-form">
-          <label>Email
-            <input type="email" id="loginEmail" required autocomplete="email" placeholder="nama@email.com">
-          </label>
-          <label>Password
-            <input type="password" id="loginPassword" required autocomplete="current-password" placeholder="Minimal 6 karakter">
-          </label>
-          <button class="btn-primary" type="submit">Masuk</button>
-        </form>
-        <form id="registerForm" class="auth-form" style="display:none">
-          <label>Nama
-            <input type="text" id="regNama" required autocomplete="name" placeholder="Nama lengkap">
-          </label>
-          <label>Email
-            <input type="email" id="regEmail" required autocomplete="email" placeholder="nama@email.com">
-          </label>
-          <label>Password
-            <input type="password" id="regPassword" required autocomplete="new-password" placeholder="Minimal 6 karakter">
-          </label>
-          <label>Ulangi password
-            <input type="password" id="regPassword2" required autocomplete="new-password" placeholder="Ketik ulang password">
-          </label>
-          <button class="btn-primary" type="submit">Daftar Akun</button>
-        </form>
-        <p id="authMsg" class="auth-msg" role="status"></p>
-        <p class="muted small">Password di-hash (SHA-256) di browser sebelum dikirim —
-        password aslimu tidak pernah tersimpan di server. Jangan pakai ulang
-        password akun pentingmu di sini.</p>
+    <div class="card guest-cta" id="guestCtaCard">
+      <h2>Masuk untuk melihat soal</h2>
+      <p class="muted">Simulasi dan latihan hanya tampil sesudah login. Daftar gratis — hasilmu tersimpan otomatis di akunmu.</p>
+      <div class="row guest-cta-row">
+        <button class="btn-primary" data-action="login" type="button">Masuk</button>
+        <button class="btn-ghost" data-action="register" type="button">Buat Akun Gratis</button>
       </div>
     </div>
 
@@ -148,7 +108,7 @@
     <div class="card" id="modeCard">
       <h2>Pilih mode</h2>
       <p id="gateNotice" class="gate-notice"><strong>Login diperlukan untuk mengerjakan tes.</strong>
-      Masuk atau daftar akun gratis di atas untuk membuka simulasi dan latihan.
+      Buka halaman Masuk / Daftar untuk membuka simulasi dan latihan.
       Menu Pembahasan tetap bisa dibuka tanpa login.</p>
       <div class="mode-grid">
         <button class="mode mode-test" data-mode="full">
@@ -247,6 +207,59 @@
         <li>Waktu habis = otomatis selesai dan masuk ke hasil. Klik <b>Selesai</b> kapan saja untuk mengakhiri lebih awal (akan ditanya jumlah soal yang belum dijawab).</li>
         <li>Di hasil, klik <b>Lihat Pembahasan</b> untuk melihat jawaban benar, skor yang didapat, dan penjelasan tiap soal.</li>
       </ol>
+    </div>
+  </section>
+
+  <!-- ============ LOGIN / DAFTAR (halaman sendiri) ============ -->
+  <section id="screen-auth" class="screen" style="display:none">
+    <p><a href="#" class="auth-back" data-nav="home">&larr; Kembali ke Beranda</a></p>
+    <div class="card auth-card" id="authCard">
+      <div class="auth-side">
+        <span class="auth-eyebrow">Akun Peserta &middot; Gratis</span>
+        <h2>Masuk untuk mulai berlatih</h2>
+        <p class="auth-side-lead">Satu akun untuk semua simulasi dan latihan.
+        Hasilmu tersimpan otomatis dan bisa dilihat kapan saja.</p>
+        <ul class="auth-perks">
+          <li><strong>Hasil tersimpan otomatis</strong><span>Setiap simulasi dan latihan tercatat ke akunmu.</span></li>
+          <li><strong>Riwayat nilai</strong><span>20 hasil terakhir, lengkap dengan skor per kategori.</span></li>
+          <li><strong>Lanjutkan kapan saja</strong><span>Simulasi yang belum selesai bisa dilanjutkan dari tempatmu berhenti.</span></li>
+        </ul>
+        <p class="auth-side-note">Daftar gratis, tanpa biaya dan tanpa verifikasi email.</p>
+      </div>
+      <div class="auth-main">
+        <div class="auth-tabs">
+          <button class="auth-tab active" data-tab="login" type="button">Masuk</button>
+          <button class="auth-tab" data-tab="register" type="button">Daftar</button>
+        </div>
+        <form id="loginForm" class="auth-form">
+          <label>Email
+            <input type="email" id="loginEmail" required autocomplete="email" placeholder="nama@email.com">
+          </label>
+          <label>Password
+            <input type="password" id="loginPassword" required autocomplete="current-password" placeholder="Minimal 6 karakter">
+          </label>
+          <button class="btn-primary" type="submit">Masuk</button>
+        </form>
+        <form id="registerForm" class="auth-form" style="display:none">
+          <label>Nama
+            <input type="text" id="regNama" required autocomplete="name" placeholder="Nama lengkap">
+          </label>
+          <label>Email
+            <input type="email" id="regEmail" required autocomplete="email" placeholder="nama@email.com">
+          </label>
+          <label>Password
+            <input type="password" id="regPassword" required autocomplete="new-password" placeholder="Minimal 6 karakter">
+          </label>
+          <label>Ulangi password
+            <input type="password" id="regPassword2" required autocomplete="new-password" placeholder="Ketik ulang password">
+          </label>
+          <button class="btn-primary" type="submit">Daftar Akun</button>
+        </form>
+        <p id="authMsg" class="auth-msg" role="status"></p>
+        <p class="muted small">Password di-hash (SHA-256) di browser sebelum dikirim —
+        password aslimu tidak pernah tersimpan di server. Jangan pakai ulang
+        password akun pentingmu di sini.</p>
+      </div>
     </div>
   </section>
 

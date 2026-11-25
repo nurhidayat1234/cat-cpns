@@ -1,10 +1,11 @@
 """Uji UI login CAT CPNS (dengan backend Apps Script — AUTH_API_URL sudah terisi).
 Menjalankan server lokal di 127.0.0.1:8140 lalu:
-- beranda menampilkan kartu login profesional + tombol topbar + pemberitahuan kunci
-- tamu yang klik mode tes DIBLOKIR: ujian tidak mulai, diarahkan ke kartu login
-- tab Daftar bisa dibuka; validasi password pendek muncul sebelum memanggil server
+- tamu melihat beranda tanpa soal: mode tes tersembunyi, hanya Pembahasan + ajakan login
+- halaman login sendiri: tombol topbar Masuk membukanya, tab Daftar bisa dibuka
+- tamu yang memanggil promptLogin diarahkan ke halaman login
+- validasi password pendek muncul sebelum memanggil server
 - login dengan akun yang tidak terdaftar menampilkan pesan server yang jelas
-- daftar akun baru -> mode terbuka -> latihan TWK jalan dan hasil tersimpan ke akun
+- daftar akun baru -> soal muncul -> latihan TWK jalan dan hasil tersimpan ke akun
 Butuh forwarder proxy lokal demo/proxyfwd.py (port 18080) untuk mencapai Apps Script.
 Jalankan: python3 demo/test-auth-ui.py  (dari ~/workspace/programmer/cat-cpns)
 """
@@ -24,30 +25,48 @@ with sync_playwright() as p:
     page.goto(BASE, wait_until="networkidle", timeout=30000)
     page.wait_for_timeout(1500)
 
-    assert page.locator("#authCard").is_visible(), "kartu auth tidak tampil"
+    # Tamu: beranda tanpa soal — mode tes tersembunyi, hanya Pembahasan + ajakan login
+    assert page.locator("#screen-home").is_visible(), "beranda tidak tampil"
+    assert page.locator("#screen-auth").is_hidden(), "halaman login harus tersembunyi saat awal"
+    assert page.locator("#authCard").is_hidden(), "kartu login harus di halaman sendiri, bukan beranda"
+    assert page.locator(".mode-test").first.is_hidden(), "mode tes harus tersembunyi sebelum login"
+    assert page.locator('.mode[data-mode="review"]').is_visible(), "Pembahasan harus tetap terlihat tanpa login"
+    assert page.locator("#guestCtaCard").is_visible(), "ajakan login untuk tamu tidak tampil"
     chip_text = page.locator("#authChip").inner_text()
     assert "Buat Akun" in chip_text and "Masuk" in chip_text, f"chip topbar salah: {chip_text!r}"
     assert page.locator("#historyCard").is_hidden(), "riwayat harus tersembunyi saat logout"
     assert page.locator("#gateNotice").is_visible(), "pemberitahuan kunci harus tampil saat tamu"
-    assert page.locator('.mode-test .lock-badge').first.is_visible(), "label kunci di mode tes tidak tampil"
-    assert page.locator(".auth-side").is_visible(), "panel samping login tidak tampil"
-    print("OK: kartu login profesional tampil, mode tes terkunci untuk tamu")
+    print("OK: tamu melihat beranda tanpa soal (mode tes tersembunyi, Pembahasan terbuka)")
 
-    # Tamu klik mode tes -> diblokir, ujian tidak mulai
-    page.locator('.mode[data-mode="TWK"]').click()
-    page.wait_for_timeout(1200)
-    assert page.locator("#screen-exam").is_hidden(), "ujian TIDAK BOLEH mulai sebelum login"
+    # Tombol topbar Masuk membuka halaman login sendiri
+    page.locator("#authChip button:has-text('Masuk')").click()
+    page.wait_for_selector("#screen-auth:visible", timeout=10000)
+    assert page.locator("#authCard").is_visible(), "kartu login tidak tampil di halaman sendiri"
+    assert page.locator(".auth-side").is_visible(), "panel samping login tidak tampil"
+    assert page.locator("#loginForm").is_visible(), "form masuk tidak tampil"
+    print("OK: halaman login sendiri terbuka dari topbar")
+
+    # Kembali ke beranda, soal tetap tersembunyi; promptLogin mengarah ke halaman login
+    page.locator(".auth-back").click()
+    page.wait_for_selector("#screen-home:visible", timeout=10000)
+    assert page.locator(".mode-test").first.is_hidden(), "mode tes harus tetap tersembunyi"
+    page.evaluate("Auth.promptLogin()")
+    page.wait_for_selector("#screen-auth:visible", timeout=10000)
     assert "Login dulu" in page.locator("#authMsg").inner_text(), "pesan arah login gagal"
-    print("OK: tamu diblokir saat klik mode tes, diarahkan ke login")
+    print("OK: promptLogin mengarah ke halaman login")
 
     # Pembahasan tetap bisa dibuka tanpa login (bukan tes)
+    page.locator(".auth-back").click()
+    page.wait_for_selector("#screen-home:visible", timeout=10000)
     page.locator('.mode[data-mode="review"]').click()
     page.wait_for_selector("#screen-review:visible", timeout=10000)
     page.locator("#reviewHomeBtn").click()
     page.wait_for_selector("#screen-home:visible", timeout=10000)
     print("OK: Pembahasan tetap terbuka tanpa login")
 
-    # Tab Daftar + validasi client-side (password pendek)
+    # Buka halaman login lagi untuk tab Daftar + validasi client-side (password pendek)
+    page.locator("#authChip button:has-text('Masuk')").click()
+    page.wait_for_selector("#screen-auth:visible", timeout=10000)
     page.locator('.auth-tab[data-tab="register"]').click()
     assert page.locator("#registerForm").is_visible(), "form daftar tidak tampil"
     page.locator("#regNama").fill("Penguji")
@@ -86,9 +105,12 @@ with sync_playwright() as p:
     page.locator("#regPassword2").fill("rahasia123")
     page.locator('#registerForm button[type="submit"]').click()
     page.wait_for_selector("#authChip:has-text('Penguji UI')", timeout=30000)
+    page.wait_for_selector("#screen-home:visible", timeout=10000)
+    assert page.locator(".mode-test").first.is_visible(), "mode tes harus muncul sesudah login"
     assert page.locator("#gateNotice").is_hidden(), "pemberitahuan kunci harus hilang sesudah login"
     assert page.locator('.mode-test .lock-badge').first.is_hidden(), "label kunci harus hilang sesudah login"
-    print("OK: daftar + login berhasil, kunci mode terbuka")
+    assert page.locator("#guestCtaCard").is_hidden(), "ajakan login harus hilang sesudah login"
+    print("OK: daftar + login berhasil, soal muncul di beranda")
 
     # Latihan TWK sebagai pengguna login
     page.locator('.mode[data-mode="TWK"]').click()

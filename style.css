@@ -727,3 +727,23 @@ button.tstep:hover { background: #f0f6ff; transform: translateY(-3px); }
   .tstep-icon { margin-bottom: 0; flex: 0 0 auto; }
   .tstep-chev { transform: rotate(90deg); padding: 0; align-self: center; margin-left: 1.6rem; }
 }
+
+/* ===== Login halaman sendiri, soal muncul sesudah login (25 Nov 2026) ===== */
+
+/* Tamu tidak melihat tombol mode tes sama sekali — hanya Pembahasan. */
+body:not(.is-logged-in) .mode-test { display: none; }
+
+/* Halaman login: kartu di tengah, lebar nyaman. */
+#screen-auth .auth-card { max-width: 900px; margin: 0 auto; }
+.auth-back {
+  font-weight: 700;
+  text-decoration: none;
+  display: inline-block;
+  margin-bottom: 0.9rem;
+}
+.auth-back:hover { text-decoration: underline; }
+
+/* Kartu ajakan untuk tamu di beranda. */
+.guest-cta { text-align: center; }
+.guest-cta h2 { margin-bottom: 0.3rem; }
+.guest-cta-row { justify-content: center; margin-top: 0.9rem; }

@@ -21,7 +21,7 @@ let lastResult = null;
 const $ = (id) => document.getElementById(id);
 
 function showScreen(name) {
-  ["home", "exam", "result", "review"].forEach((s) => {
+  ["home", "exam", "result", "review", "auth"].forEach((s) => {
     $("screen-" + s).style.display = s === name ? "block" : "none";
   });
   window.scrollTo(0, 0);
@@ -502,8 +502,19 @@ async function init() {
       if (t) t.scrollIntoView({ behavior: "smooth", block: "start" });
     });
   });
-  document.querySelectorAll('[data-action="register"]').forEach((el) => {
-    el.addEventListener("click", () => { if (window.Auth) Auth.promptRegister(); });
+  // Tombol di hero / timeline / kartu tamu: masuk, daftar, atau gulir ke kartu.
+  document.querySelectorAll("[data-action]").forEach((el) => {
+    el.addEventListener("click", () => {
+      if (!window.Auth) return;
+      if (el.dataset.action === "login") { Auth.promptLogin(); return; }
+      if (el.dataset.action === "register") {
+        if (Auth.isLoggedIn()) {
+          showScreen("home");
+          const t = document.getElementById("modeCard");
+          if (t) t.scrollIntoView({ behavior: "smooth", block: "start" });
+        } else Auth.promptRegister();
+      }
+    });
   });
   // Link nav atas: Beranda / Format / Cara / Pembahasan.
   document.querySelectorAll("[data-nav]").forEach((el) => {

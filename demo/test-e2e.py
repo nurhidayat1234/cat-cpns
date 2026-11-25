@@ -37,8 +37,10 @@ with sync_playwright() as p:
     t0 = page.locator("#timer")
     print("1. Beranda OK (110 soal, mode tersedia).")
 
-    # login dulu (wajib sebelum tes): daftar akun penguji unik
+    # login dulu (wajib sebelum tes): buka halaman login, daftar akun penguji unik
     email = f"penguji-e2e-{int(time.time())}@example.com"
+    page.locator("#authChip button:has-text('Buat Akun')").click()
+    page.wait_for_selector("#screen-auth:visible", timeout=10000)
     page.locator('.auth-tab[data-tab="register"]').click()
     page.locator("#regNama").fill("Penguji E2E")
     page.locator("#regEmail").fill(email)
