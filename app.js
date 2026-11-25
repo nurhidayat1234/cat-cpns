@@ -117,7 +117,7 @@ function resumeExam() {
 function renderExamChrome() {
   const modeLabel = session.mode === "full" ? "SKD Penuh — 110 soal" : CONFIG[session.mode].label;
   $("examModeLabel").textContent = modeLabel;
-  $("topbarRight").textContent = modeLabel;
+  $("examModeLabelTop").textContent = modeLabel;
   updateTimerUI();
 }
 
@@ -230,6 +230,18 @@ function finishExam(timeUp) {
   session = null;
   saveSession();
   renderResult(result);
+  // Simpan hasil ke akun (Google Sheet) bila sedang login; tamu dilewati.
+  const note = $("resultSaveNote");
+  if (note) note.textContent = "";
+  if (window.Auth && Auth.isLoggedIn()) {
+    Auth.saveResult(result).then((ok) => {
+      if (note) note.textContent = ok
+        ? "Hasil tersimpan di akunmu — lihat di Riwayat Saya (beranda)."
+        : "Hasil tidak tersimpan di akun (server tidak merespons). Hasil tetap tersimpan di browser ini.";
+    });
+  } else if (note) {
+    note.textContent = "Kamu mengerjakan sebagai tamu — login untuk menyimpan hasil ke akunmu.";
+  }
   showScreen("result");
 }
 

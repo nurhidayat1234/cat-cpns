@@ -278,6 +278,46 @@ table.fmt th { background: #f1f4fa; }
 .tag.tiu { background: #e2f5ea; color: #14703f; }
 .tag.tkp { background: #fdf1dc; color: #8a6100; }
 
+/* Auth (login / daftar) */
+.topbar-right { display: flex; gap: 0.8rem; align-items: center; }
+#authChip { display: flex; gap: 0.6rem; align-items: center; }
+.chip-btn {
+  background: transparent;
+  color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  border-radius: 999px;
+  padding: 0.3rem 0.9rem;
+  font-size: 0.88rem;
+  font-weight: 700;
+}
+.chip-btn:hover { background: rgba(255, 255, 255, 0.14); }
+.auth-tabs { display: flex; gap: 0.5rem; margin-bottom: 0.9rem; }
+.auth-tab {
+  border: 1px solid var(--border);
+  background: #f1f4fa;
+  border-radius: 8px;
+  padding: 0.45rem 1.1rem;
+  font-weight: 700;
+  color: var(--navy);
+}
+.auth-tab.active { background: var(--blue); border-color: var(--blue); color: #fff; }
+.auth-form { display: flex; flex-direction: column; gap: 0.7rem; max-width: 420px; }
+.auth-form label { font-size: 0.9rem; font-weight: 700; display: flex; flex-direction: column; gap: 0.25rem; }
+.auth-form input {
+  padding: 0.55rem 0.7rem;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  font-size: 0.95rem;
+  font-family: inherit;
+}
+.auth-form input:focus { outline: 2px solid var(--blue); outline-offset: 1px; }
+.auth-msg { font-size: 0.92rem; font-weight: 700; min-height: 1.2em; margin: 0.7rem 0 0; }
+.auth-msg.err { color: var(--red); }
+.auth-msg.ok { color: var(--green); }
+table.hist { width: 100%; border-collapse: collapse; font-size: 0.9rem; }
+table.hist th, table.hist td { border: 1px solid var(--border); padding: 0.4rem 0.55rem; text-align: left; }
+table.hist th { background: #f1f4fa; }
+
 .foot { max-width: 1020px; margin: 0 auto; padding: 0 1rem 2rem; color: var(--muted); font-size: 0.85rem; }
 
 @media (max-width: 760px) {

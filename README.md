@@ -31,6 +31,32 @@ Harus lewat HTTP server (bukan `file://`) karena soal dimuat dari
 - Progress tersimpan otomatis di browser (localStorage) — simulasi bisa
   dilanjutkan kalau halaman tertutup. Waktu habis = otomatis selesai.
 
+## Akun login (opsional) — database Google Sheet
+
+Pengguna bisa **daftar / login** dari kartu di beranda. Yang login mendapat:
+
+- Hasil setiap simulasi/latihan tersimpan ke akun (tab `Hasil` di Sheet).
+- **Riwayat Saya** di beranda — 20 hasil terakhir (tanggal, mode, skor
+  TWK/TIU/TKP, total, status LULUS/TIDAK LULUS).
+- Nama tampil di pojok kanan atas + tombol Keluar.
+
+Tanpa login pun situs tetap bisa dipakai (tamu) — hasilnya hanya tersimpan
+di browser sendiri.
+
+**Cara kerja:** `auth.js` (frontend) ↔ Apps Script web app ↔ Google Sheet
+**"CAT CPNS — Database"** (tab `Users` + `Hasil`). Backend ada di
+`scripts/apps-script/Code.gs` (aksi `register`, `login`, `saveResult`,
+`history`); cara deploy-nya di `scripts/apps-script/README.md`. Backend
+**sudah di-deploy 25 Nov 2026** sebagai web app "CAT CPNS auth v1" dan
+`AUTH_API_URL` di `auth.js` sudah terisi — login langsung jalan. Kalau URL
+dihapus/dikosongkan lagi, form login menampilkan pesan "Backend login belum
+dikonfigurasi".
+
+**Keamanan:** password di-hash SHA-256 di browser sebelum dikirim; yang
+disimpan di Sheet hanya hash-nya. Login memakai token acak yang kedaluwarsa
+7 hari. Ini bukan keamanan tingkat produksi (tanpa rate limiting dan tanpa
+verifikasi email) — jangan pakai ulang password akun penting di sini.
+
 ## Penilaian (format resmi, KepmenPANRB 321/2024 — TA 2024)
 
 | Komponen | Soal | Penilaian | Maks | Passing grade |
@@ -47,6 +73,8 @@ angka di atas adalah acuan terakhir (TA 2024). Detail dan sumber: `SUMBER.md`.
 ## File
 
 - `index.html`, `style.css`, `app.js` — aplikasi (statis, tanpa build).
+- `auth.js` — login/daftar, sesi, simpan hasil & riwayat (butuh `AUTH_API_URL`).
+- `scripts/apps-script/` — backend Apps Script + panduan deploy.
 - `data/questions.json` — bank soal (110 soal + pembahasan), digabung dari
   `data/questions-twk.json`, `data/questions-tiu.json`, `data/questions-tkp.json`.
 - `SUMBER.md` — format resmi + status verifikasi + sumber.
