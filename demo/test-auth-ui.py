@@ -1,7 +1,7 @@
 """Uji UI login CAT CPNS (dengan backend Apps Script — AUTH_API_URL sudah terisi).
 Menjalankan server lokal di 127.0.0.1:8140 lalu:
-- tamu melihat beranda tanpa soal: mode tes tersembunyi, hanya Pembahasan + ajakan login
-- halaman login sendiri: tombol topbar Masuk membukanya, tab Daftar bisa dibuka
+- tamu melihat beranda tanpa soal dan tanpa Pembahasan: kartu mode tersembunyi, hanya ajakan login
+- Pembahasan tertutup untuk tamu (nav + langkah timeline mengarah ke halaman login)
 - tamu yang memanggil promptLogin diarahkan ke halaman login
 - validasi password pendek muncul sebelum memanggil server
 - login dengan akun yang tidak terdaftar menampilkan pesan server yang jelas
@@ -25,18 +25,17 @@ with sync_playwright() as p:
     page.goto(BASE, wait_until="networkidle", timeout=30000)
     page.wait_for_timeout(1500)
 
-    # Tamu: beranda tanpa soal — mode tes tersembunyi, hanya Pembahasan + ajakan login
+    # Tamu: beranda tanpa soal dan tanpa Pembahasan — kartu mode tersembunyi semua
     assert page.locator("#screen-home").is_visible(), "beranda tidak tampil"
     assert page.locator("#screen-auth").is_hidden(), "halaman login harus tersembunyi saat awal"
     assert page.locator("#authCard").is_hidden(), "kartu login harus di halaman sendiri, bukan beranda"
-    assert page.locator(".mode-test").first.is_hidden(), "mode tes harus tersembunyi sebelum login"
-    assert page.locator('.mode[data-mode="review"]').is_visible(), "Pembahasan harus tetap terlihat tanpa login"
+    assert page.locator("#modeCard").is_hidden(), "kartu mode harus tersembunyi sebelum login (Pembahasan di dalam akun)"
+    assert page.locator('.mode[data-mode="review"]').is_hidden(), "Pembahasan harus tersembunyi sebelum login"
     assert page.locator("#guestCtaCard").is_visible(), "ajakan login untuk tamu tidak tampil"
     chip_text = page.locator("#authChip").inner_text()
     assert "Buat Akun" in chip_text and "Masuk" in chip_text, f"chip topbar salah: {chip_text!r}"
     assert page.locator("#historyCard").is_hidden(), "riwayat harus tersembunyi saat logout"
-    assert page.locator("#gateNotice").is_visible(), "pemberitahuan kunci harus tampil saat tamu"
-    print("OK: tamu melihat beranda tanpa soal (mode tes tersembunyi, Pembahasan terbuka)")
+    print("OK: tamu melihat beranda tanpa soal dan tanpa Pembahasan")
 
     # Tombol topbar Masuk membuka halaman login sendiri
     page.locator("#authChip button:has-text('Masuk')").click()
@@ -55,14 +54,17 @@ with sync_playwright() as p:
     assert "Login dulu" in page.locator("#authMsg").inner_text(), "pesan arah login gagal"
     print("OK: promptLogin mengarah ke halaman login")
 
-    # Pembahasan tetap bisa dibuka tanpa login (bukan tes)
+    # Pembahasan tertutup untuk tamu: nav atas + langkah timeline mengarah ke login
     page.locator(".auth-back").click()
     page.wait_for_selector("#screen-home:visible", timeout=10000)
-    page.locator('.mode[data-mode="review"]').click()
-    page.wait_for_selector("#screen-review:visible", timeout=10000)
-    page.locator("#reviewHomeBtn").click()
+    page.locator('.topnav [data-nav="review"]').click()
+    page.wait_for_selector("#screen-auth:visible", timeout=10000)
+    assert "Login dulu" in page.locator("#authMsg").inner_text(), "nav Pembahasan harus mengarah ke login"
+    page.locator(".auth-back").click()
     page.wait_for_selector("#screen-home:visible", timeout=10000)
-    print("OK: Pembahasan tetap terbuka tanpa login")
+    page.locator('.tstep[data-nav="review"]').click()
+    page.wait_for_selector("#screen-auth:visible", timeout=10000)
+    print("OK: Pembahasan tertutup untuk tamu (nav + timeline mengarah ke login)")
 
     # Buka halaman login lagi untuk tab Daftar + validasi client-side (password pendek)
     page.locator("#authChip button:has-text('Masuk')").click()
@@ -111,6 +113,16 @@ with sync_playwright() as p:
     assert page.locator('.mode-test .lock-badge').first.is_hidden(), "label kunci harus hilang sesudah login"
     assert page.locator("#guestCtaCard").is_hidden(), "ajakan login harus hilang sesudah login"
     print("OK: daftar + login berhasil, soal muncul di beranda")
+
+    # Pembahasan kini terbuka di dalam akun (110 soal + penjelasan)
+    page.locator('.mode[data-mode="review"]').click()
+    page.wait_for_selector("#screen-review:visible", timeout=10000)
+    page.wait_for_function(
+        "document.querySelectorAll('#reviewList .rev-card').length >= 110",
+        timeout=15000)
+    page.locator("#reviewHomeBtn").click()
+    page.wait_for_selector("#screen-home:visible", timeout=10000)
+    print("OK: Pembahasan terbuka sesudah login (110 soal)")
 
     # Latihan TWK sebagai pengguna login
     page.locator('.mode[data-mode="TWK"]').click()

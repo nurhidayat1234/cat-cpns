@@ -31,17 +31,24 @@ Harus lewat HTTP server (bukan `file://`) karena soal dimuat dari
 - Progress tersimpan otomatis di browser (localStorage) — simulasi bisa
   dilanjutkan kalau halaman tertutup. Waktu habis = otomatis selesai.
 
-## Tampilan beranda (gaya SSCASN, isi tetap latihan)
+## Tampilan beranda (pedoman ayocpns.com, isi tetap latihan)
 
-Beranda meniru *tata letak* situs SSCASN — hero biru full-bleed dengan pola
-titik, menu atas, tombol **Buat Akun** / **Masuk**, carousel 3 slide, dan
-seksi **Alur Latihan** gaya timeline — tetapi logo, nama, dan isinya tetap
-milik situs latihan ini. Tidak ada logo SSCASN/BKN, tidak ada foto ASN, dan
-tidak ada tanggal/jadwal resmi: timeline berisi alur latihan (Buat Akun →
-Pilih Mode → Kerjakan Soal → Lihat Hasil → Pelajari Pembahasan), bukan
-jadwal pengadaan. Carousel berputar otomatis 6 detik (berhenti saat
-di-hover) dengan panah + dot; tombol hero mengarah ke mode, format, atau
-kartu daftar.
+Beranda mengikuti **gaya** ayocpns.com (26 Nov 2026): nav pil putih
+mengambang, hero tengah terang (latar pucat + grid samar, judul navy besar,
+kata kunci biru berputar SKD → TWK → TIU → TKP), pita statistik biru
+(110 soal / 100 menit / 550 skor / 3 kategori), 6 kartu fitur, panel ajakan
+gradasi biru, FAQ accordion (5 pertanyaan), footer navy gelap, dan label
+kecil biru di atas tiap judul seksi. Hanya gayanya yang diadopsi — nama,
+logo, angka, klaim pengguna, harga, dan paket situs pedoman **tidak**
+disalin: semua angka di sini adalah fakta situs ini sendiri, dan situs ini
+gratis (tanpa paket berbayar). Seksi **Alur Latihan** gaya timeline tetap
+ada (Buat Akun → Pilih Mode → Kerjakan Soal → Lihat Hasil → Pelajari
+Pembahasan).
+
+Layout kanvas **1440×1024**: konten beranda melebar sampai 1400px, grid
+mode 3 kolom di layar ≥1200px. Layar ujian / hasil / Pembahasan tetap di
+lebar 1020px. Tabel format + riwayat bisa digeser horizontal di layar kecil
+(perbaikan overflow 68px di 390px, 26 Nov 2026).
 
 ## Akun login (wajib untuk mengerjakan tes) — database Google Sheet
 
@@ -50,9 +57,16 @@ Login punya **halaman sendiri** (`#screen-auth`): tombol **Buat Akun** /
 semuanya membuka halaman itu. **Soal hanya muncul sesudah login** — tamu
 melihat beranda tanpa tombol mode tes (mode tes disembunyikan lewat CSS
 sampai `body.is-logged-in`); sesudah login berhasil, beranda menampilkan
-mode tes dan kartu ajakan login hilang. Menu **Pembahasan Soal** tetap bisa
-dibuka tanpa login (hanya membaca soal + penjelasan, tanpa nilai). Logout
+mode tes dan kartu ajakan login hilang. Menu **Pembahasan Soal** juga hanya
+di dalam akun: tamu yang mengeklik nav Pembahasan, langkah "Pelajari
+Pembahasan" di Alur Latihan, atau tombol Pembahasan diarahkan ke halaman
+login (`openReview` di app.js memeriksa login dulu). Logout
 kembali ke halaman login.
+
+**Layout tampilan depan 1440×1024** (26 Nov 2026): konten beranda melebar
+sampai 1400px (`.wrap`, `.hero-inner`, `.foot`), grid mode 3 kolom di layar
+≥1200px. Layar ujian / hasil / Pembahasan tetap di lebar 1020px supaya
+tampilannya tidak berubah.
 
 Yang login mendapat:
 

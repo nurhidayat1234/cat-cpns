@@ -29,57 +29,69 @@
   <!-- ============ HOME ============ -->
   <section id="screen-home" class="screen">
     <div class="hero hero-band">
-      <div class="hero-inner">
-        <div class="hero-copy">
-          <div class="hero-slides">
-            <div class="hero-slide active">
-              <h1>Simulasi CAT CPNS<br>Seleksi Kompetensi Dasar</h1>
-              <p class="hero-lead">Latihan soal SKD dengan format seperti ujian CAT BKN: 110 soal,
-              timer 100 menit, navigasi antar soal, tandai ragu-ragu, lalu hasil
-              dibandingkan dengan passing grade resmi.</p>
-              <p class="hero-pill">Latihan / Simulasi &middot; Bukan soal resmi BKN</p>
-              <button class="hero-cta solid" data-scroll-to="modeCard" type="button">Mulai Latihan</button>
-            </div>
-            <div class="hero-slide">
-              <h1>110 Soal &middot; 100 Menit</h1>
-              <p class="hero-lead">TWK 30 soal (PG 65), TIU 35 soal (PG 80), TKP 45 soal
-              (PG 166). Total skor maksimal 550 — ketiga passing grade wajib
-              terpenuhi sendiri-sendiri.</p>
-              <p class="hero-pill">Acuan: KepmenPANRB 321/2024 (TA 2024)</p>
-              <button class="hero-cta solid" data-scroll-to="formatCard" type="button">Lihat Format</button>
-            </div>
-            <div class="hero-slide">
-              <h1>Hasil Tersimpan<br>di Akunmu</h1>
-              <p class="hero-lead">Daftar gratis, tanpa biaya dan tanpa verifikasi email.
-              Setiap simulasi dan latihan tercatat otomatis — 20 hasil terakhir
-              lengkap dengan skor per kategori, dan bisa dilanjutkan kapan saja.</p>
-              <p class="hero-pill">Gratis &middot; Tanpa biaya</p>
-              <button class="hero-cta solid" data-action="register" type="button">Buat Akun Gratis</button>
-            </div>
-          </div>
-          <div class="hero-controls">
-            <button class="hero-arrow" id="heroPrev" type="button" aria-label="Slide sebelumnya">&larr;</button>
-            <span class="hero-dots">
-              <button class="hero-dot active" data-slide="0" type="button" aria-label="Slide 1"></button>
-              <button class="hero-dot" data-slide="1" type="button" aria-label="Slide 2"></button>
-              <button class="hero-dot" data-slide="2" type="button" aria-label="Slide 3"></button>
-            </span>
-            <button class="hero-arrow" id="heroNext" type="button" aria-label="Slide berikutnya">&rarr;</button>
-          </div>
+      <div class="hero-inner hero-inner-center">
+        <p class="hero-badge">Gratis &middot; Latihan mandiri &middot; Bukan soal resmi BKN</p>
+        <h1>Ukur kesiapanmu menghadapi <span class="hero-rot" id="heroRot">SKD</span></h1>
+        <p class="hero-lead">Latihan soal SKD dengan format seperti ujian CAT BKN: 110 soal,
+        timer 100 menit, tandai ragu-ragu, lalu hasil dibandingkan dengan passing
+        grade resmi. Satu kategori di bawah passing grade berarti tidak lulus —
+        ukur kemampuanmu dari sekarang.</p>
+        <div class="hero-ctas">
+          <button class="hero-cta solid" data-action="register" type="button">Buat Akun Gratis</button>
+          <button class="hero-cta ghost" data-action="start" type="button">Mulai Latihan</button>
         </div>
-        <div class="hero-visual" aria-hidden="true">
-          <div class="hero-visual-title">Format SKD</div>
-          <div class="hero-stat"><span class="hero-stat-name">TWK</span><span class="hero-stat-bar"><i style="width:27%"></i></span><span class="hero-stat-val">30 soal &middot; PG 65</span></div>
-          <div class="hero-stat"><span class="hero-stat-name">TIU</span><span class="hero-stat-bar"><i style="width:32%"></i></span><span class="hero-stat-val">35 soal &middot; PG 80</span></div>
-          <div class="hero-stat"><span class="hero-stat-name">TKP</span><span class="hero-stat-bar"><i style="width:41%"></i></span><span class="hero-stat-val">45 soal &middot; PG 166</span></div>
-          <div class="hero-visual-total"><strong>110 soal</strong><span>100 menit &middot; skor maks 550</span></div>
-        </div>
+      </div>
+    </div>
+    <div class="stats-band">
+      <div class="stats-inner">
+        <div class="stat"><strong>110</strong><span>Soal Latihan</span></div>
+        <div class="stat"><strong>100</strong><span>Menit Simulasi</span></div>
+        <div class="stat"><strong>550</strong><span>Skor Maksimal</span></div>
+        <div class="stat"><strong>3</strong><span>Kategori: TWK &middot; TIU &middot; TKP</span></div>
       </div>
     </div>
     <p class="disclaimer hero-disclaimer"><strong>LATIHAN / SIMULASI.</strong> Soal-soal di situs ini
     dibuat original mengikuti kisi-kisi resmi — <strong>bukan soal CPNS asli dan bukan
     bocoran</strong>. Situs ini tidak berafiliasi dengan BKN, KemenPANRB, atau panitia
     seleksi mana pun.</p>
+
+
+    <div class="card features-card" id="featuresCard">
+      <p class="eyebrow">Kenapa latihan di sini</p>
+      <h2>Semua yang perlu untuk persiapan SKD</h2>
+      <div class="features-grid">
+        <div class="feat-card">
+          <span class="feat-icon icon-list"></span>
+          <strong>110 Soal Original</strong>
+          <span>Soal TWK, TIU, dan TKP disusun mengikuti kisi-kisi resmi.</span>
+        </div>
+        <div class="feat-card">
+          <span class="feat-icon icon-clock"></span>
+          <strong>Simulasi CAT Sesungguhnya</strong>
+          <span>Timer 100 menit, navigasi antar soal, dan tandai ragu-ragu seperti ujian asli.</span>
+        </div>
+        <div class="feat-card">
+          <span class="feat-icon icon-chart"></span>
+          <strong>Skor vs Passing Grade</strong>
+          <span>Hasil dibandingkan dengan passing grade resmi tiap kategori, lengkap dengan status LULUS.</span>
+        </div>
+        <div class="feat-card">
+          <span class="feat-icon icon-book"></span>
+          <strong>Pembahasan Tiap Soal</strong>
+          <span>Setiap soal dilengkapi penjelasan kenapa jawaban itu benar atau terbaik.</span>
+        </div>
+        <div class="feat-card">
+          <span class="feat-icon icon-user"></span>
+          <strong>Hasil Tersimpan di Akun</strong>
+          <span>20 hasil terakhir tercatat otomatis dan simulasi bisa dilanjutkan kapan saja.</span>
+        </div>
+        <div class="feat-card">
+          <span class="feat-icon icon-check"></span>
+          <strong>Format Resmi Terverifikasi</strong>
+          <span>Mengacu KepmenPANRB 321/2024 (TA 2024), diverifikasi 25 Nov 2026.</span>
+        </div>
+      </div>
+    </div>
 
     <div class="card guest-cta" id="guestCtaCard">
       <h2>Masuk untuk melihat soal</h2>
@@ -106,10 +118,11 @@
     </div>
 
     <div class="card" id="modeCard">
+      <p class="eyebrow">Mode latihan</p>
       <h2>Pilih mode</h2>
       <p id="gateNotice" class="gate-notice"><strong>Login diperlukan untuk mengerjakan tes.</strong>
       Buka halaman Masuk / Daftar untuk membuka simulasi dan latihan.
-      Menu Pembahasan tetap bisa dibuka tanpa login.</p>
+      Menu Pembahasan juga hanya tampil sesudah login.</p>
       <div class="mode-grid">
         <button class="mode mode-test" data-mode="full">
           <strong>Simulasi SKD Penuh</strong>
@@ -179,7 +192,9 @@
     </div>
 
     <div class="card" id="formatCard">
+      <p class="eyebrow">Format resmi</p>
       <h2>Format resmi yang dipakai</h2>
+      <div class="table-scroll">
       <table class="fmt">
         <thead><tr><th>Komponen</th><th>Soal</th><th>Penilaian</th><th>Skor maks</th><th>Passing grade (umum)</th></tr></thead>
         <tbody>
@@ -189,6 +204,7 @@
           <tr><td><strong>Total</strong></td><td><strong>110</strong></td><td></td><td><strong>550</strong></td><td><strong>311</strong></td></tr>
         </tbody>
       </table>
+      </div>
       <p class="muted small">Durasi 100 menit (130 menit untuk disabilitas sensorik netra).
       Dasar: Keputusan Menteri PANRB Nomor 321 Tahun 2024 (nilai ambang batas SKD
       pengadaan PNS TA 2024). <strong>Catatan:</strong> per pengecekan 25 November 2026,
@@ -199,6 +215,7 @@
     </div>
 
     <div class="card" id="howtoCard">
+      <p class="eyebrow">Cara mengerjakan</p>
       <h2>Cara mengerjakan</h2>
       <ol class="howto">
         <li>Pilih jawaban dengan mengklik opsi A–E. Jawaban tersimpan otomatis.</li>
@@ -362,6 +379,32 @@
     </div>
     <div id="reviewList"></div>
   </section>
+
+
+    <div class="card faq-card" id="faqCard">
+      <p class="eyebrow">FAQ</p>
+      <h2>Pertanyaan yang sering muncul</h2>
+      <details>
+        <summary>Apakah latihan ini gratis?</summary>
+        <p>Ya, gratis. Daftar akun tanpa biaya dan tanpa verifikasi email, lalu semua simulasi dan latihan bisa dipakai.</p>
+      </details>
+      <details>
+        <summary>Apakah harus login dulu?</summary>
+        <p>Ya. Simulasi, latihan, dan Pembahasan hanya tampil sesudah login — hasilnya tersimpan otomatis di akunmu dan bisa dilihat di Riwayat Saya.</p>
+      </details>
+      <details>
+        <summary>Apakah soalnya soal CPNS asli?</summary>
+        <p>Bukan. Soal-soal di sini dibuat original mengikuti kisi-kisi resmi — bukan soal resmi BKN dan bukan bocoran.</p>
+      </details>
+      <details>
+        <summary>Berapa soal dan berapa waktunya?</summary>
+        <p>110 soal dalam 100 menit: TWK 30 soal, TIU 35 soal, TKP 45 soal. Format mengacu KepmenPANRB 321/2024 (TA 2024).</p>
+      </details>
+      <details>
+        <summary>Berapa passing grade-nya?</summary>
+        <p>Acuan terakhir (TA 2024): TWK 65, TIU 80, TKP 166 — total 311. Ketiganya wajib terpenuhi sendiri-sendiri. Passing grade CPNS 2026 belum ditetapkan pemerintah per pengecekan 25 Nov 2026.</p>
+      </details>
+    </div>
 
 </main>
 

@@ -337,6 +337,8 @@ function renderResult(r) {
 
 // ---------- review / pembahasan ----------
 function openReview(fromResult) {
+  // Pembahasan hanya di dalam akun: tamu diarahkan ke halaman login.
+  if (window.Auth && !Auth.isLoggedIn()) { Auth.promptLogin(); return; }
   const list = $("reviewList");
   list.innerHTML = "";
   $("reviewResultBtn").style.display = fromResult ? "inline-block" : "none";
@@ -471,28 +473,16 @@ async function init() {
   $("filterCat").addEventListener("change", renderReviewList);
   $("filterShow").addEventListener("change", renderReviewList);
 
-  // ---------- hero carousel + navigasi beranda ----------
-  const slides = Array.from(document.querySelectorAll(".hero-slide"));
-  const dots = Array.from(document.querySelectorAll(".hero-dot"));
-  let heroIdx = 0, heroTimer = null;
-  function showSlide(i) {
-    if (!slides.length) return;
-    heroIdx = (i + slides.length) % slides.length;
-    slides.forEach((s, k) => s.classList.toggle("active", k === heroIdx));
-    dots.forEach((d, k) => d.classList.toggle("active", k === heroIdx));
-  }
-  function heroAuto() {
-    clearInterval(heroTimer);
-    heroTimer = setInterval(() => showSlide(heroIdx + 1), 6000);
-  }
-  const heroEl = document.querySelector(".hero");
-  if (slides.length) {
-    $("heroPrev").addEventListener("click", () => { showSlide(heroIdx - 1); heroAuto(); });
-    $("heroNext").addEventListener("click", () => { showSlide(heroIdx + 1); heroAuto(); });
-    dots.forEach((d) => d.addEventListener("click", () => { showSlide(+d.dataset.slide); heroAuto(); }));
-    heroEl.addEventListener("mouseenter", () => clearInterval(heroTimer));
-    heroEl.addEventListener("mouseleave", heroAuto);
-    heroAuto();
+  // ---------- hero: kata kunci berputar (SKD / TWK / TIU / TKP) ----------
+  const heroRot = $("heroRot");
+  if (heroRot) {
+    const words = ["SKD", "TWK", "TIU", "TKP"];
+    let wi = 0;
+    setInterval(() => {
+      wi = (wi + 1) % words.length;
+      heroRot.style.opacity = 0;
+      setTimeout(() => { heroRot.textContent = words[wi]; heroRot.style.opacity = 1; }, 250);
+    }, 2600);
   }
   // Tombol di hero / timeline: gulir ke kartu atau buka daftar/masuk.
   document.querySelectorAll("[data-scroll-to]").forEach((el) => {
@@ -507,6 +497,14 @@ async function init() {
     el.addEventListener("click", () => {
       if (!window.Auth) return;
       if (el.dataset.action === "login") { Auth.promptLogin(); return; }
+      if (el.dataset.action === "start") {
+        if (Auth.isLoggedIn()) {
+          showScreen("home");
+          const t = document.getElementById("modeCard");
+          if (t) t.scrollIntoView({ behavior: "smooth", block: "start" });
+        } else Auth.promptLogin();
+        return;
+      }
       if (el.dataset.action === "register") {
         if (Auth.isLoggedIn()) {
           showScreen("home");
