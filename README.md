@@ -185,7 +185,10 @@ terhadap ambang kategori itu. Detail dan sumber: `SUMBER.md`.
 Beranda menampilkan kartu **Formasi CPNS yang Dibuka**: statistik total formasi,
 total orang yang akan diterima (jumlah kebutuhan), dan jumlah instansi; pencarian
 teks (instansi/jabatan/lokasi) + filter jenis pengadaan; klik satu formasi untuk
-melihat rincian (pendidikan, jenis formasi, usia, kode jabatan); tombol
+melihat rincian (pendidikan, jenis formasi, usia, kode jabatan); daftar
+dipaginasi 10 per halaman dengan tombol Sebelumnya/Berikutnya dan info
+"Halaman X dari Y" (cari/filter ikut paginasi, halaman kembali ke 1 saat
+cari/filter berubah); tombol
 **Daftar CPNS di SSCASN** ke https://sscasn.bkn.go.id/ (tab baru) dan tautan
 **Lihat di SSCASN** ke https://sscasn.bkn.go.id/daftar-formasi/.
 
