@@ -969,3 +969,15 @@ body:not(.is-logged-in) #modeCard { display: none; }
 .paket-btn.active { border-color: var(--blue); background: #e8f2fe; box-shadow: 0 0 0 2px #e8f2fe; }
 .paket-btn:disabled { opacity: 0.45; cursor: not-allowed; }
 @media (max-width: 640px) { .paket-grid { grid-template-columns: repeat(5, 1fr); gap: 0.35rem; } .paket-btn span { display: none; } }
+
+/* ===== Beranda rapi untuk user sudah login (26 Nov 2026) ===== */
+/* Sembunyikan yang tidak perlu sesudah login: hero marketing, disclaimer
+   (teks yang sama sudah ada di footer), kartu fitur marketing.
+   Kartu tamu sudah disembunyikan auth.js; Cara Mengerjakan dipindah
+   ke paling atas oleh auth.js (renderHome). */
+body.is-logged-in #screen-home .hero,
+body.is-logged-in #screen-home .hero-disclaimer,
+body.is-logged-in #screen-home #featuresCard { display: none; }
+/* Langkah "Buat Akun" di Alur Latihan tidak perlu lagi sesudah login. */
+body.is-logged-in #screen-home #alurStepAkun,
+body.is-logged-in #screen-home #alurChev1 { display: none; }

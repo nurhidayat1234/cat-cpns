@@ -126,6 +126,19 @@ const Auth = (() => {
     if (historyCard) historyCard.style.display = isLoggedIn() ? "block" : "none";
     if (guestCta) guestCta.style.display = isLoggedIn() ? "none" : "block";
     document.body.classList.toggle("is-logged-in", isLoggedIn());
+    // Beranda rapi untuk user login: Cara Mengerjakan (Alur Latihan +
+    // daftar langkah) dipindah ke paling atas; saat logout kembalikan
+    // ke urutan semula (Alur sebelum Format, Cara sesudah Format).
+    const home = $("screen-home"), alur = $("alurCard"), howto = $("howtoCard"), fmt = $("formatCard");
+    if (home && alur && howto && fmt) {
+      if (isLoggedIn()) {
+        home.insertBefore(alur, home.firstChild);
+        home.insertBefore(howto, alur.nextSibling);
+      } else {
+        home.insertBefore(alur, fmt);
+        home.insertBefore(howto, fmt.nextSibling);
+      }
+    }
     if (isLoggedIn()) loadHistory();
     else switchTab("login"); // sesudah logout, form kembali ke tab Masuk
   }

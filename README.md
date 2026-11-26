@@ -69,6 +69,17 @@ gratis (tanpa paket berbayar). Seksi **Alur Latihan** gaya timeline tetap
 ada (Buat Akun → Pilih Mode → Kerjakan Soal → Lihat Hasil → Pelajari
 Pembahasan).
 
+**Beranda rapi untuk user sudah login** (26 Nov 2026): sesudah login,
+hero, disclaimer di bawah pita statistik, dan kartu fitur disembunyikan
+(`body.is-logged-in`, style.css); kartu ajakan tamu sudah hilang lewat
+auth.js. **Cara Mengerjakan pindah ke paling atas**: Alur Latihan lalu
+daftar "Cara mengerjakan" (dipindah DOM-nya oleh `renderHome()` di
+auth.js; saat logout urutan tamu dikembalikan). Langkah "Buat Akun" di
+Alur Latihan juga hilang sesudah login. Urutan beranda login: Alur →
+Cara mengerjakan → pita statistik → Riwayat Saya → kartu mode (pemilih
+paket + mode) → Format → FAQ. Uji: `demo/test-home-tidy.py` (tamu →
+login → logout, tanpa console error).
+
 Layout kanvas **1440×1024**: konten beranda melebar sampai 1400px, grid
 mode 3 kolom di layar ≥1200px. Layar ujian / hasil / Pembahasan tetap di
 lebar 1020px. Tabel format + riwayat bisa digeser horizontal di layar kecil
