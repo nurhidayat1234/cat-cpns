@@ -1,0 +1,992 @@
+[
+  {
+    "answer": 0,
+    "category": "TKP",
+    "explanation": "Pilihan A (5) paling tepat: aturan penamaan dijelaskan dengan sopan beserta dasarnya dan orang tua dibantu memilih nama lain yang tetap bermakna. Pilihan B (4) sudah baik karena aturan dijelaskan, tetapi orang tua dibiarkan berkonsultasi sendiri tanpa dibantu. Pilihan C (3) kurang baik karena aturan tidak dijelaskan dan orang tua hanya disuruh kembali. Pilihan D (2) salah karena menerima nama yang melanggar aturan. Pilihan E (1) terburuk karena menolak dengan kasar tanpa penjelasan.",
+    "id": "TKP-01",
+    "options": [
+      "Menjelaskan aturan penamaan dengan sopan, menunjukkan dasar aturannya, dan membantu orang tua memilih nama lain yang tetap bermakna bagi keluarga.",
+      "Menjelaskan aturan tersebut, tetapi menyarankan mereka berkonsultasi dulu dengan keluarga sebelum kembali mengurus.",
+      "Meminta mereka kembali lagi lain hari setelah berdiskusi dengan keluarga, tanpa menjelaskan aturannya.",
+      "Menerima nama itu apa adanya agar orang tua tidak kecewa, meski melanggar aturan.",
+      "Menolak permohonan itu dengan kasar dan menyuruh mereka mengganti nama tanpa penjelasan."
+    ],
+    "question": "Sepasang orang tua mengurus akta kelahiran anak mereka dan mengajukan nama yang diawali kata 'Haji', padahal aturan penamaan melarang pencantuman gelar pada nama anak. Mereka bersikeras karena nama itu sudah menjadi kesepakatan keluarga besar. Apa yang Anda lakukan?",
+    "scores": [
+      5,
+      4,
+      3,
+      2,
+      1
+    ],
+    "subtopic": "Pelayanan Publik"
+  },
+  {
+    "answer": 1,
+    "category": "TKP",
+    "explanation": "Pilihan B (5) paling tepat: warga tunarungu dilayani dengan sabar melalui tulisan dan gambar sampai ia memahami setiap langkah. Pilihan C (4) sudah baik karena dibantu rekan yang memahami bahasa isyarat, tetapi warga harus menunggu. Pilihan A (3) kurang baik karena warga dibiarkan menunggu tanpa kepastian. Pilihan D (2) salah karena menyuruhnya pulang dan kembali bersama pendamping. Pilihan E (1) terburuk karena mengabaikannya dan melayani warga lain.",
+    "id": "TKP-02",
+    "options": [
+      "Memintanya menunggu di kursi tunggu sampai ada petugas lain yang bisa bahasa isyarat.",
+      "Melayaninya dengan sabar melalui tulisan dan gambar, memastikan ia memahami setiap langkah pengurusan.",
+      "Memanggil rekan kerja yang pernah mengikuti pelatihan bahasa isyarat untuk membantu, sambil tetap mendampinginya.",
+      "Memintanya pulang dan kembali bersama pendamping yang bisa berkomunikasi.",
+      "Mengabaikannya dan melayani warga berikutnya karena Anda tidak bisa berkomunikasi dengannya."
+    ],
+    "question": "Seorang warga tunarungu datang sendiri ke loket Anda untuk mengurus surat keterangan. Ia berkomunikasi dengan menulis di kertas dan menunjukkan isyarat sederhana, tetapi Anda tidak memahami bahasa isyarat. Antrean di belakangnya sudah cukup panjang. Apa yang Anda lakukan?",
+    "scores": [
+      3,
+      5,
+      4,
+      2,
+      1
+    ],
+    "subtopic": "Pelayanan Publik"
+  },
+  {
+    "answer": 2,
+    "category": "TKP",
+    "explanation": "Pilihan C (5) paling tepat: warga yang hanya pergi sebentar dipanggil kembali untuk dilayani. Pilihan B (4) sudah baik karena ia tetap dilayani setelah satu atau dua warga selesai. Pilihan D (3) kurang baik karena ia harus menunggu sampai semua antrean habis. Pilihan A (2) salah karena memintanya mengambil nomor baru dan mengantre dari awal. Pilihan E (1) terburuk karena menolak melayaninya hari itu.",
+    "id": "TKP-03",
+    "options": [
+      "Memintanya mengambil nomor antrean baru dan mengantre dari awal.",
+      "Memintanya menunggu hingga satu atau dua warga selesai dilayani, lalu memanggilnya kembali.",
+      "Memanggilnya kembali untuk dilayani karena ia hanya pergi sebentar dan sudah berada di lokasi.",
+      "Memintanya menunggu sampai semua antrean habis baru dilayani.",
+      "Menolak melayaninya hari itu karena ia tidak hadir saat dipanggil."
+    ],
+    "question": "Seorang warga yang nomor antreannya sudah dipanggil tidak ada di ruang tunggu karena sedang ke toilet. Petugas memanggil nomor berikutnya, lalu warga itu kembali dan meminta dilayani segera karena nomornya sudah lewat. Apa yang Anda lakukan?",
+    "scores": [
+      2,
+      4,
+      5,
+      3,
+      1
+    ],
+    "subtopic": "Pelayanan Publik"
+  },
+  {
+    "answer": 3,
+    "category": "TKP",
+    "explanation": "Pilihan D (5) paling tepat: dokumen diverifikasi melalui sistem dengan sopan dan warga diminta membawa dokumen pendukung. Pilihan E (4) sudah baik karena dokumen ditahan sementara untuk diperiksa, tetapi tidak dijelaskan alasannya. Pilihan B (3) kurang baik karena warga hanya disuruh kembali tanpa penjelasan. Pilihan C (2) salah karena menuduhnya di depan warga lain. Pilihan A (1) terburuk karena memproses dokumen yang diduga palsu apa adanya.",
+    "id": "TKP-04",
+    "options": [
+      "Memproses permohonannya apa adanya agar tidak terjadi keributan.",
+      "Memintanya kembali besok dengan membawa dokumen pendukung lain tanpa menjelaskan kecurigaan Anda.",
+      "Menuduhnya di depan warga lain bahwa KTP itu palsu dan menyuruhnya pergi.",
+      "Menjelaskan dengan sopan bahwa dokumen perlu diverifikasi, lalu memeriksa keasliannya melalui sistem dan meminta dokumen pendukung.",
+      "Menahan dokumen itu sementara dan memintanya menunggu sambil Anda memeriksa data di sistem."
+    ],
+    "question": "Seorang warga menyerahkan KTP untuk pengurusan dokumen, tetapi foto pada KTP itu tampak tidak cocok dengan wajahnya dan data pada kartu terlihat janggal. Warga itu mendesak agar permohonannya tetap diproses. Apa yang Anda lakukan?",
+    "scores": [
+      1,
+      3,
+      2,
+      5,
+      4
+    ],
+    "subtopic": "Pelayanan Publik"
+  },
+  {
+    "answer": 4,
+    "category": "TKP",
+    "explanation": "Pilihan E (5) paling tepat: jadwal layanan dijelaskan, warga diarahkan ke layanan daring, dan ditawarkan bantuan melalui kanal resmi di luar jam kerja bila tersedia. Pilihan C (4) sudah baik karena diarahkan ke layanan daring, tetapi tidak ditawarkan bantuan lanjut. Pilihan A (3) kurang baik karena hanya menyuruhnya datang pada jam layanan. Pilihan B (2) salah karena melayaninya di luar jam kerja tanpa sepengetahuan atasan. Pilihan D (1) terburuk karena menolak dan menyuruhnya mengambil cuti.",
+    "id": "TKP-05",
+    "options": [
+      "Memintanya datang pada jam layanan seperti warga lain tanpa pengecualian.",
+      "Melayaninya di luar jam kerja tanpa sepengetahuan atasan.",
+      "Menjelaskan jadwal layanan dan mengarahkannya ke layanan daring yang bisa diakses kapan saja.",
+      "Menolak permintaannya dan menyuruhnya mengambil cuti.",
+      "Menjelaskan jadwal layanan, mengarahkannya ke layanan daring, dan menawarkan bantuan pengurusan melalui kanal resmi di luar jam kerja bila tersedia."
+    ],
+    "question": "Seorang warga bekerja pada shift malam dan hanya bisa datang ke kantor di luar jam layanan. Ia meminta dilayani di luar jam kerja karena tidak bisa mengambil cuti. Apa yang Anda lakukan?",
+    "scores": [
+      3,
+      2,
+      4,
+      1,
+      5
+    ],
+    "subtopic": "Pelayanan Publik"
+  },
+  {
+    "answer": 0,
+    "category": "TKP",
+    "explanation": "Pilihan A (5) paling tepat: kekeliruan informasi diakui dengan permintaan maaf, syarat yang benar dijelaskan, dan warga dibantu melengkapi berkas agar bisa diproses hari itu juga. Pilihan B (4) sudah baik karena syarat yang benar dijelaskan, tetapi tidak ada permintaan maaf. Pilihan C (3) kurang baik karena warga hanya disuruh kembali melengkapi berkas. Pilihan D (2) salah karena menyalahkan petugas lain di depan warga. Pilihan E (1) terburuk karena menolak melayaninya.",
+    "id": "TKP-06",
+    "options": [
+      "Meminta maaf atas kekeliruan informasi itu, menjelaskan syarat yang benar, dan membantunya melengkapi berkas agar bisa diproses hari itu juga.",
+      "Menjelaskan syarat yang benar dan memintanya melengkapi berkas, tanpa meminta maaf.",
+      "Menyuruhnya kembali lagi setelah melengkapi berkas sesuai syarat yang benar.",
+      "Menyalahkan petugas lain di depan warga itu dan membiarkan warga mengurus sendiri.",
+      "Menolak melayaninya karena berkasnya tidak sesuai syarat."
+    ],
+    "question": "Seorang warga datang membawa berkas berdasarkan informasi dari petugas lain yang ternyata keliru, sehingga berkasnya tidak sesuai syarat. Warga itu kecewa dan menyalahkan kantor Anda. Apa yang Anda lakukan?",
+    "scores": [
+      5,
+      4,
+      3,
+      2,
+      1
+    ],
+    "subtopic": "Pelayanan Publik"
+  },
+  {
+    "answer": 1,
+    "category": "TKP",
+    "explanation": "Pilihan B (5) paling tepat: bagian yang tidak terbaca ditunjukkan, pentingnya dokumen yang jelas dijelaskan, dan warga dibantu membuat salinan yang lebih jelas. Pilihan C (4) sudah baik karena fotokopi diterima sementara dengan syarat membawa dokumen asli berikutnya. Pilihan A (3) kurang baik karena warga hanya disuruh pulang tanpa penjelasan bagian mana yang bermasalah. Pilihan D (2) salah karena memproses dengan menebak isi yang tidak terbaca. Pilihan E (1) terburuk karena menolak berkas tanpa penjelasan.",
+    "id": "TKP-07",
+    "options": [
+      "Memintanya pulang dan kembali dengan fotokopi yang jelas tanpa menjelaskan bagian mana yang tidak terbaca.",
+      "Menunjukkan bagian yang tidak terbaca, menjelaskan bahwa dokumen harus jelas agar bisa diverifikasi, dan membantunya membuat salinan yang lebih jelas bila memungkinkan.",
+      "Menerima fotokopi itu sementara dan memintanya membawa dokumen asli pada kunjungan berikutnya.",
+      "Memprosesnya apa adanya dengan menebak isi bagian yang tidak terbaca.",
+      "Menolak berkas itu tanpa penjelasan dan melayani warga berikutnya."
+    ],
+    "question": "Seorang warga menyerahkan fotokopi dokumen pendukung yang buram dan sebagian tulisannya tidak terbaca, sehingga Anda tidak bisa memeriksa keasliannya. Warga itu meminta Anda tetap memprosesnya karena ia sudah mengantre lama. Apa yang Anda lakukan?",
+    "scores": [
+      3,
+      5,
+      4,
+      2,
+      1
+    ],
+    "subtopic": "Pelayanan Publik"
+  },
+  {
+    "answer": 2,
+    "category": "TKP",
+    "explanation": "Pilihan C (5) paling tepat: syarat dijelaskan dengan ramah, warga dibantu menghubungi ketua RT, dan berkas lain disiapkan sementara menunggu surat pengantar. Pilihan B (4) sudah baik karena dibantu menghubungi ketua RT, tetapi berkas lain tidak disiapkan. Pilihan D (3) kurang baik karena warga hanya disuruh kembali besok. Pilihan A (2) salah karena menerbitkan surat tanpa syarat yang wajib. Pilihan E (1) terburuk karena menolak permohonan tanpa solusi.",
+    "id": "TKP-08",
+    "options": [
+      "Menerbitkan surat itu tanpa surat pengantar RT karena batas pendaftaran sudah dekat.",
+      "Menjelaskan syarat surat pengantar RT dan membantunya menghubungi ketua RT agar surat itu bisa diperoleh hari itu juga.",
+      "Menjelaskan syaratnya dengan ramah, membantunya menghubungi ketua RT, dan menyiapkan berkas lain sementara menunggu surat pengantar itu.",
+      "Memintanya kembali besok setelah melengkapi surat pengantar RT.",
+      "Menolak permohonannya karena syarat tidak lengkap."
+    ],
+    "question": "Seorang warga mengurus surat keterangan tidak mampu untuk beasiswa anaknya, tetapi ia tidak membawa surat pengantar dari RT yang menjadi syarat. Ia tampak sangat membutuhkan surat itu segera karena batas pendaftaran beasiswa sudah dekat. Apa yang Anda lakukan?",
+    "scores": [
+      2,
+      4,
+      5,
+      3,
+      1
+    ],
+    "subtopic": "Pelayanan Publik"
+  },
+  {
+    "answer": 3,
+    "category": "TKP",
+    "explanation": "Pilihan D (5) paling tepat: data warga diperiksa di sistem, syarat pengganti dokumen dijelaskan dengan sabar, dan pengurusan diproses sesuai data yang terverifikasi. Pilihan B (4) sudah baik karena data diperiksa di sistem dan syarat dijelaskan, tetapi pengurusan tidak langsung dibantu. Pilihan C (3) kurang baik karena warga hanya disuruh menunggu anggota keluarga. Pilihan A (2) salah karena menyuruhnya pulang tanpa bantuan. Pilihan E (1) terburuk karena menolak melayaninya.",
+    "id": "TKP-09",
+    "options": [
+      "Menyuruhnya pulang dan kembali setelah mengurus dokumen pengganti terlebih dahulu.",
+      "Membantunya memeriksa data kependudukannya di sistem dengan menyebutkan nama dan alamatnya, lalu menjelaskan syarat pengganti dokumen.",
+      "Memintanya menunggu sampai ada anggota keluarganya yang bisa membawakan dokumen.",
+      "Membantunya memeriksa data di sistem, menjelaskan syarat pengganti dokumen dengan sabar, dan memproses pengurusan sesuai data yang terverifikasi.",
+      "Menolak melayaninya karena ia tidak membawa dokumen apa pun."
+    ],
+    "question": "Seorang warga lanjut usia datang ke kantor Anda tanpa membawa dokumen apa pun karena dompetnya hilang di perjalanan. Ia ingin mengurus surat keterangan domisili, tetapi tidak memiliki kartu identitas untuk ditunjukkan. Apa yang Anda lakukan?",
+    "scores": [
+      2,
+      4,
+      3,
+      5,
+      1
+    ],
+    "subtopic": "Pelayanan Publik"
+  },
+  {
+    "answer": 4,
+    "category": "TKP",
+    "explanation": "Pilihan E (5) paling tepat: ajaran rekan muda diterima dengan terbuka, aplikasi dipelajari sampai bisa, dan ia diusulkan melatih anggota tim lain. Pilihan D (4) sudah baik karena ajaran diterima dan aplikasi dipelajari, tetapi manfaatnya tidak dibagikan ke tim. Pilihan A (3) kurang baik karena menolak diajari rekan yang lebih muda. Pilihan B (2) salah karena hanya belajar sekali dan enggan bertanya lagi. Pilihan C (1) terburuk karena mengabaikan tawaran dan tetap memakai cara lama.",
+    "id": "TKP-10",
+    "options": [
+      "Menolak tawarannya karena Anda merasa lebih senior dan tidak enak diajari rekan yang lebih muda.",
+      "Menerima ajarannya, tetapi hanya sekali dan tidak mau bertanya lagi agar tidak terlihat tidak bisa.",
+      "Mengabaikan tawaran itu dan tetap memakai cara lama yang sudah Anda kuasai.",
+      "Menerima ajarannya dengan terbuka dan mempelajari aplikasi itu sampai bisa.",
+      "Menerima ajarannya dengan terbuka, mempelajarinya sampai bisa, dan mengusulkan agar ia juga melatih anggota tim lain."
+    ],
+    "question": "Seorang rekan kerja yang jauh lebih muda dari Anda menguasai aplikasi baru yang akan dipakai tim, sedangkan Anda belum memahaminya. Rekan itu menawarkan diri untuk mengajari Anda. Apa yang Anda lakukan?",
+    "scores": [
+      3,
+      2,
+      1,
+      4,
+      5
+    ],
+    "subtopic": "Jejaring Kerja"
+  },
+  {
+    "answer": 0,
+    "category": "TKP",
+    "explanation": "Pilihan A (5) paling tepat: jadwal disusun bersama atasan agar melatih rekan baru dan pekerjaan Anda sama-sama berjalan, serta dukungan diminta bila diperlukan. Pilihan B (4) sudah baik karena rekan baru dilatih di sela pekerjaan, tetapi beban kerja tidak disampaikan ke atasan. Pilihan C (3) kurang baik karena menolak melatih rekan baru. Pilihan D (2) salah karena melatih dengan asal-asalan. Pilihan E (1) terburuk karena mengabaikan permintaan atasan.",
+    "id": "TKP-11",
+    "options": [
+      "Menyusun jadwal bersama atasan: membagi waktu antara melatih rekan baru dan menyelesaikan pekerjaan Anda, serta meminta dukungan bila diperlukan.",
+      "Melatih rekan baru itu di sela-sela pekerjaan Anda tanpa memberitahu atasan tentang beban kerja Anda.",
+      "Menolak melatih rekan baru itu karena pekerjaan Anda menumpuk.",
+      "Melatih rekan baru itu dengan asal-asalan agar pekerjaan Anda tidak terganggu.",
+      "Mengabaikan permintaan atasan dan fokus pada pekerjaan Anda sendiri."
+    ],
+    "question": "Atasan meminta Anda melatih rekan kerja baru, padahal pekerjaan Anda sendiri sedang menumpuk dan tenggatnya sudah dekat. Rekan baru itu membutuhkan bimbingan agar bisa segera bekerja mandiri. Apa yang Anda lakukan?",
+    "scores": [
+      5,
+      4,
+      3,
+      2,
+      1
+    ],
+    "subtopic": "Jejaring Kerja"
+  },
+  {
+    "answer": 1,
+    "category": "TKP",
+    "explanation": "Pilihan B (5) paling tepat: kesalahpahaman diluruskan dengan tenang di grup, lalu dibicarakan empat mata untuk memperbaiki pembagian tugas. Pilihan C (4) sudah baik karena diluruskan secara pribadi, tetapi suasana grup yang tegang tidak ditenangkan. Pilihan A (3) kurang baik karena membalas dengan nada kasar yang sama. Pilihan D (2) salah karena mengabaikan pesan dan berharap suasana membaik sendiri. Pilihan E (1) terburuk karena menyebarkan pesan itu ke grup lain.",
+    "id": "TKP-12",
+    "options": [
+      "Membalas pesan itu di grup dengan nada yang sama kasarnya agar ia tahu Anda tidak takut.",
+      "Menanggapi dengan tenang di grup bahwa ada kesalahpahaman, lalu mengajaknya berbicara empat mata untuk meluruskan pembagian tugas.",
+      "Menghubunginya secara pribadi untuk meluruskan kesalahpahaman tanpa menanggapi pesannya di grup.",
+      "Mengabaikan pesan itu dan berharap suasana grup membaik sendiri.",
+      "Menyebarkan pesan itu ke grup lain agar rekan lain tahu sikap kasarnya."
+    ],
+    "question": "Seorang rekan kerja mengirim pesan bernada kasar di grup kerja karena salah paham tentang pembagian tugas. Pesan itu dibaca seluruh anggota tim dan suasana grup menjadi tegang. Apa yang Anda lakukan?",
+    "scores": [
+      3,
+      5,
+      4,
+      2,
+      1
+    ],
+    "subtopic": "Jejaring Kerja"
+  },
+  {
+    "answer": 2,
+    "category": "TKP",
+    "explanation": "Pilihan C (5) paling tepat: rapat daring singkat diusulkan, pembagian tugas dicatat di tempat bersama, dan pelaksanaannya dievaluasi setiap minggu. Pilihan B (4) sudah baik karena rapat singkat diusulkan, tetapi pembagian tugas tidak dicatat bersama. Pilihan D (3) kurang baik karena hanya meminta laporan harian tanpa rapat bersama. Pilihan A (2) salah karena membiarkan keadaan tanpa upaya perbaikan. Pilihan E (1) terburuk karena menyalahkan anggota tim.",
+    "id": "TKP-13",
+    "options": [
+      "Membiarkan keadaan itu karena bekerja daring memang sulit dikoordinasikan.",
+      "Mengusulkan rapat daring singkat setiap pagi untuk menyamakan informasi dan pembagian tugas.",
+      "Mengusulkan rapat daring singkat setiap pagi, mencatat pembagian tugas di tempat bersama yang bisa dilihat semua anggota, dan mengevaluasi pelaksanaannya setiap minggu.",
+      "Meminta setiap anggota mengirim laporan harian, tetapi tanpa rapat bersama.",
+      "Menyalahkan anggota tim yang tidak membaca pesan di grup."
+    ],
+    "question": "Tim Anda bekerja dari lokasi yang berbeda-beda dan berkomunikasi secara daring. Akhir-akhir ini informasi sering terlambat sampai, sehingga beberapa anggota mengerjakan hal yang sama dua kali. Apa yang Anda lakukan?",
+    "scores": [
+      2,
+      4,
+      5,
+      3,
+      1
+    ],
+    "subtopic": "Jejaring Kerja"
+  },
+  {
+    "answer": 3,
+    "category": "TKP",
+    "explanation": "Pilihan D (5) paling tepat: kedua tim diajak berdiskusi, skala prioritas disusun bersama, dan pembagian anggaran yang adil diusulkan. Pilihan B (4) sudah baik karena diskusi dan skala prioritas disusun, tetapi pembagian anggaran tidak diusulkan. Pilihan C (3) kurang baik karena tetap memperjuangkan program sendiri dan menolak berdiskusi. Pilihan A (2) salah karena menyerahkan keputusan sepenuhnya kepada atasan tanpa masukan. Pilihan E (1) terburuk karena menyebarkan kabar buruk tentang tim lain.",
+    "id": "TKP-14",
+    "options": [
+      "Meminta atasan memutuskan tanpa memberikan masukan apa pun dari tim Anda.",
+      "Mengajak tim lain berdiskusi untuk menyusun skala prioritas bersama berdasarkan dampak program.",
+      "Tetap memperjuangkan program tim Anda dan menolak berdiskusi dengan tim lain.",
+      "Mengajak tim lain berdiskusi, menyusun skala prioritas bersama, dan mengusulkan pembagian anggaran yang adil bila memungkinkan.",
+      "Menyebarkan kabar buruk tentang tim lain agar program Anda yang dipilih."
+    ],
+    "question": "Tim Anda dan tim lain sama-sama membutuhkan tambahan anggaran untuk program yang sama-sama penting, tetapi dana yang tersedia hanya cukup untuk satu program. Kedua tim bersikeras programnya yang lebih prioritas. Apa yang Anda lakukan?",
+    "scores": [
+      2,
+      4,
+      3,
+      5,
+      1
+    ],
+    "subtopic": "Jejaring Kerja"
+  },
+  {
+    "answer": 4,
+    "category": "TKP",
+    "explanation": "Pilihan E (5) paling tepat: tugas mendesak diambil alih, pembagian sementara disepakati dengan atasan, dan setiap pekerjaan didokumentasikan agar mudah diserahkan kembali. Pilihan B (4) sudah baik karena tugas mendesak diambil alih dan disepakati dengan atasan, tetapi tidak didokumentasikan. Pilihan A (3) kurang baik karena menolak dengan alasan pekerjaan padat. Pilihan C (2) salah karena mengambil alih semua tugas tanpa memberitahu atasan. Pilihan D (1) terburuk karena mengabaikan permintaan dan membiarkan tugas terbengkalai.",
+    "id": "TKP-15",
+    "options": [
+      "Menolak karena pekerjaan Anda sendiri sudah padat.",
+      "Bersedia mengambil alih tugas yang paling mendesak dan menyepakati pembagian tugas sementara dengan atasan.",
+      "Bersedia mengambil alih semua tugasnya tanpa memberitahu atasan.",
+      "Mengabaikan permintaannya dan membiarkan tugasnya terbengkalai.",
+      "Bersedia mengambil alih tugas yang paling mendesak, menyepakati pembagian tugas sementara dengan atasan, dan mendokumentasikan setiap pekerjaan agar mudah diserahkan kembali."
+    ],
+    "question": "Seorang rekan kerja akan cuti melahirkan selama tiga bulan dan meminta Anda mengambil alih sebagian tugasnya. Pekerjaan Anda sendiri sudah cukup padat, tetapi tugas rekan itu harus tetap berjalan. Apa yang Anda lakukan?",
+    "scores": [
+      3,
+      4,
+      2,
+      1,
+      5
+    ],
+    "subtopic": "Jejaring Kerja"
+  },
+  {
+    "answer": 0,
+    "category": "TKP",
+    "explanation": "Pilihan A (5) paling tepat: usulan didiskusikan bersama tim, dinilai dengan data, dan hasilnya disampaikan kepada atasan untuk dipertimbangkan. Pilihan B (4) sudah baik karena didiskusikan dan disampaikan ke atasan, tetapi tanpa data pendukung. Pilihan C (3) kurang baik karena langsung menolak usulan itu. Pilihan D (2) salah karena menerapkan usulan tanpa sepengetahuan atasan. Pilihan E (1) terburuk karena membiarkan tim berdebat tanpa sikap.",
+    "id": "TKP-16",
+    "options": [
+      "Mendiskusikan usulan itu bersama tim, menilai kelebihan dan kekurangannya dengan data, lalu menyampaikan hasilnya kepada atasan untuk dipertimbangkan.",
+      "Mendiskusikan usulan itu bersama tim dan menyampaikan hasilnya kepada atasan, tanpa data pendukung.",
+      "Langsung menolak usulan itu karena bertentangan dengan arahan atasan.",
+      "Mendukung usulan itu dan menerapkannya tanpa sepengetahuan atasan.",
+      "Membiarkan tim berdebat tanpa mengambil sikap apa pun."
+    ],
+    "question": "Seorang anggota tim mengusulkan cara kerja yang bertentangan dengan arahan atasan, tetapi ia yakin cara itu lebih efektif. Sebagian anggota mendukung usulan itu dan sebagian menolak. Apa yang Anda lakukan?",
+    "scores": [
+      5,
+      4,
+      3,
+      2,
+      1
+    ],
+    "subtopic": "Jejaring Kerja"
+  },
+  {
+    "id": "TKP-17",
+    "category": "TKP",
+    "subtopic": "Anti Radikalisme",
+    "question": "Seorang rekan kerja mengajak Anda menandatangani petisi yang menuntut pencopotan lambang Garuda Pancasila dari gedung-gedung pemerintah dengan alasan lambang itu tidak sesuai dengan keyakinannya. Petisi itu sudah ditandatangani beberapa pegawai lain. Apa yang Anda lakukan?",
+    "options": [
+      "Diam saja dan tidak menandatangani petisi itu, tetapi juga tidak menjelaskan apa-apa.",
+      "Menolak menandatangani petisi itu, menjelaskan bahwa Garuda Pancasila adalah lambang negara yang wajib dihormati, dan melaporkan petisi itu kepada atasan.",
+      "Menolak menandatangani petisi itu dan menjelaskan bahwa Garuda Pancasila adalah lambang negara.",
+      "Menandatangani petisi itu agar tidak dianggap berbeda dari rekan lain.",
+      "Ikut menyebarkan petisi itu kepada pegawai lain."
+    ],
+    "answer": 1,
+    "scores": [
+      3,
+      5,
+      4,
+      2,
+      1
+    ],
+    "explanation": "Pilihan B (5) paling tepat: petisi ditolak, lambang negara dijelaskan wajib dihormati, dan petisi itu dilaporkan kepada atasan. Pilihan C (4) sudah baik karena penolakan disertai penjelasan, tetapi tidak dilaporkan. Pilihan A (3) kurang baik karena hanya diam tanpa menjelaskan. Pilihan D (2) salah karena menandatangani petisi itu agar tidak dianggap berbeda. Pilihan E (1) terburuk karena ikut menyebarkan petisi itu."
+  },
+  {
+    "answer": 2,
+    "category": "TKP",
+    "explanation": "Pilihan C (5) paling tepat: penghapusan materi ditolak, pentingnya Pancasila dijelaskan, dan warga diajak berdiskusi tentang manfaatnya. Pilihan B (4) sudah baik karena penolakan disertai penjelasan, tetapi warga tidak diajak berdiskusi. Pilihan D (3) kurang baik karena materi hanya disisipkan singkat tanpa penjelasan. Pilihan A (2) salah karena menghapus materi Pancasila. Pilihan E (1) terburuk karena menghapus dan menggantinya sesuai permintaan warga.",
+    "id": "TKP-18",
+    "options": [
+      "Menghapus materi Pancasila itu agar warga tidak kecewa.",
+      "Menolak menghapusnya dan menjelaskan bahwa Pancasila adalah dasar negara yang wajib dipahami warga.",
+      "Menolak menghapusnya, menjelaskan pentingnya Pancasila bagi kehidupan berbangsa, dan mengajak warga berdiskusi tentang manfaatnya.",
+      "Tetap menyisipkan materi Pancasila secara singkat tanpa menjelaskan alasannya.",
+      "Menghapus materi itu dan menggantinya sesuai permintaan warga."
+    ],
+    "question": "Seorang warga meminta Anda menghapus materi Pancasila dari kegiatan penyuluhan desa dengan alasan materi itu tidak penting dan membuang waktu. Ia meminta Anda menggantinya dengan materi lain yang ia tentukan. Apa yang Anda lakukan?",
+    "scores": [
+      2,
+      4,
+      5,
+      3,
+      1
+    ],
+    "subtopic": "Anti Radikalisme"
+  },
+  {
+    "answer": 3,
+    "category": "TKP",
+    "explanation": "Pilihan D (5) paling tepat: ajakan bergabung ditolak, ajaran kebencian dijelaskan bertentangan dengan Pancasila, dan grup itu dilaporkan melalui saluran yang benar. Pilihan E (4) sudah baik karena menolak dan mengingatkan rekan, tetapi grup tidak dilaporkan. Pilihan B (3) kurang baik karena hanya menolak tanpa tindakan lanjut. Pilihan A (2) salah karena bergabung sekadar untuk melihat isinya. Pilihan C (1) terburuk karena bergabung dan ikut menyebarkan ajaran kebencian.",
+    "id": "TKP-19",
+    "options": [
+      "Bergabung ke grup itu sekadar untuk melihat isinya, tanpa ikut menyebarkan ajarannya.",
+      "Menolak bergabung, tetapi tidak melakukan apa-apa terhadap grup itu.",
+      "Bergabung dan ikut menyebarkan ajaran kebencian itu.",
+      "Menolak bergabung, menjelaskan bahwa ajaran kebencian bertentangan dengan Pancasila, dan melaporkan grup itu melalui saluran yang benar.",
+      "Menolak bergabung dan mengingatkan rekan itu bahwa ajaran kebencian bisa merusak persatuan."
+    ],
+    "question": "Seorang rekan kerja mengajak Anda bergabung ke grup daring yang menyebarkan ajaran kebencian terhadap kelompok masyarakat tertentu dan mengajak anggotanya memusuhi kelompok itu. Rekan itu mengatakan grup itu hanya untuk berbagi informasi. Apa yang Anda lakukan?",
+    "scores": [
+      2,
+      3,
+      1,
+      5,
+      4
+    ],
+    "subtopic": "Anti Radikalisme"
+  },
+  {
+    "answer": 4,
+    "category": "TKP",
+    "explanation": "Pilihan E (5) paling tepat: larangan ditolak, hak warga atas pernikahan dijelaskan, dan tokoh itu diajak berdiskusi dengan kepala desa. Pilihan C (4) sudah baik karena penolakan disertai penjelasan tentang hak warga, tetapi tidak ada ajakan berdiskusi. Pilihan A (3) kurang baik karena hanya diam tanpa menjelaskan. Pilihan B (2) salah karena mengumumkan larangan sebagian saja. Pilihan D (1) terburuk karena mengumumkan larangan itu kepada warga.",
+    "id": "TKP-20",
+    "options": [
+      "Diam saja dan tidak mengumumkan larangan itu, tetapi juga tidak menjelaskan apa-apa kepada tokoh itu.",
+      "Mengumumkan larangan itu sebagian saja agar tokoh itu tidak marah.",
+      "Menolak mengumumkan larangan itu dan menjelaskan bahwa pernikahan adalah hak setiap warga negara.",
+      "Mengumumkan larangan itu kepada warga sesuai permintaan tokoh itu.",
+      "Menolak mengumumkan larangan itu, menjelaskan bahwa pernikahan adalah hak warga negara yang dilindungi hukum, dan mengajak tokoh itu berdiskusi dengan kepala desa."
+    ],
+    "question": "Seorang tokoh masyarakat meminta Anda membantu melarang pernikahan beda suku di wilayah Anda dengan alasan pernikahan itu merusak adat setempat. Ia meminta Anda mengumumkan larangan itu kepada warga. Apa yang Anda lakukan?",
+    "scores": [
+      3,
+      2,
+      4,
+      1,
+      5
+    ],
+    "subtopic": "Anti Radikalisme"
+  },
+  {
+    "answer": 0,
+    "category": "TKP",
+    "explanation": "Pilihan A (5) paling tepat: pernyataan ditolak dengan sopan, dijelaskan bahwa jabatan ditentukan oleh kompetensi, dan nilai persatuan diingatkan. Pilihan B (4) sudah baik karena penolakan disertai penjelasan kompetensi, tetapi nilai persatuan tidak diingatkan. Pilihan C (3) kurang baik karena hanya diam dan tidak ingin berdebat. Pilihan D (2) salah karena mengangguk setuju. Pilihan E (1) terburuk karena ikut menyebarkan pernyataan itu.",
+    "id": "TKP-21",
+    "options": [
+      "Menolak pernyataan itu dengan sopan, menjelaskan bahwa jabatan ditentukan oleh kompetensi dan kinerja, bukan suku, serta mengingatkan nilai persatuan.",
+      "Menolak pernyataan itu dan menjelaskan bahwa jabatan ditentukan oleh kompetensi, tetapi tidak mengingatkan nilai persatuan.",
+      "Diam saja karena tidak ingin berdebat dengan rekan kerja.",
+      "Mengangguk setuju agar tidak dianggap membela suku tertentu.",
+      "Ikut menyebarkan pernyataan itu kepada pegawai lain."
+    ],
+    "question": "Dalam sebuah diskusi di kantor, seorang rekan kerja menyatakan bahwa pegawai dari suku tertentu tidak pantas menjadi atasan karena dianggap tidak memahami budaya daerah itu. Beberapa pegawai lain tampak setuju. Apa yang Anda lakukan?",
+    "scores": [
+      5,
+      4,
+      3,
+      2,
+      1
+    ],
+    "subtopic": "Anti Radikalisme"
+  },
+  {
+    "answer": 1,
+    "category": "TKP",
+    "explanation": "Pilihan B (5) paling tepat: ajakan ditolak, kewajiban membayar pajak dijelaskan, dan ajakan itu dilaporkan bila terus disebarkan. Pilihan C (4) sudah baik karena penolakan disertai penjelasan kewajiban, tetapi tidak ada tindak lanjut pelaporan. Pilihan A (3) kurang baik karena hanya diam dan tetap membayar pajak tanpa menanggapi. Pilihan D (2) salah karena mengikuti ajakan untuk sebagian pajak. Pilihan E (1) terburuk karena ikut menyebarkan ajakan itu.",
+    "id": "TKP-22",
+    "options": [
+      "Diam saja dan tetap membayar pajak seperti biasa tanpa menanggapi ajakan itu.",
+      "Menolak ajakan itu, menjelaskan bahwa membayar pajak adalah kewajiban warga negara yang diatur hukum, dan melaporkan ajakan itu bila terus disebarkan.",
+      "Menolak ajakan itu dan menjelaskan bahwa membayar pajak adalah kewajiban warga negara.",
+      "Mengikuti ajakan itu untuk sebagian pajak agar tidak terlalu mencolok.",
+      "Ikut menyebarkan ajakan itu kepada rekan lain."
+    ],
+    "question": "Seorang rekan kerja mengajak Anda untuk tidak membayar pajak dengan alasan negara saat ini dianggap tidak sah menurut keyakinannya. Ia mengatakan ajakan itu adalah bentuk ketaatan pada keyakinannya. Apa yang Anda lakukan?",
+    "scores": [
+      3,
+      5,
+      4,
+      2,
+      1
+    ],
+    "subtopic": "Anti Radikalisme"
+  },
+  {
+    "answer": 2,
+    "category": "TKP",
+    "explanation": "Pilihan C (5) paling tepat: kegiatan tetap diizinkan, hak semua warga atas fasilitas umum dijelaskan, dan ancaman dilaporkan kepada aparat yang berwenang. Pilihan B (4) sudah baik karena kegiatan tetap diizinkan dan warga diminta bermusyawarah, tetapi ancaman tidak dilaporkan. Pilihan D (3) kurang baik karena kegiatan hanya ditunda tanpa penjelasan. Pilihan A (2) salah karena membatalkan kegiatan kelompok minoritas. Pilihan E (1) terburuk karena ikut mengancam kelompok minoritas.",
+    "id": "TKP-23",
+    "options": [
+      "Membatalkan kegiatan kelompok minoritas itu agar fasilitas umum tidak dirusak.",
+      "Tetap mengizinkan kegiatan itu dan meminta warga tersebut menyampaikan keberatannya melalui musyawarah.",
+      "Tetap mengizinkan kegiatan itu, menjelaskan bahwa semua warga berhak menggunakan fasilitas umum, dan melaporkan ancaman itu kepada aparat yang berwenang.",
+      "Menunda kegiatan itu sampai suasana mereda tanpa menjelaskan alasannya.",
+      "Ikut mengancam kelompok minoritas itu agar membatalkan kegiatannya."
+    ],
+    "question": "Seorang warga mengancam akan merusak fasilitas umum bila kegiatan kelompok minoritas di balai desa tetap diizinkan. Ia mengatakan kegiatan itu mengganggu ketenteraman warga sekitar. Apa yang Anda lakukan?",
+    "scores": [
+      2,
+      4,
+      5,
+      3,
+      1
+    ],
+    "subtopic": "Anti Radikalisme"
+  },
+  {
+    "answer": 3,
+    "category": "TKP",
+    "explanation": "Pilihan D (5) paling tepat: permintaan merahasiakan ditolak, rekan disarankan mengikuti aturan jam kerja, dan diingatkan bahwa kebiasaan itu merugikan tim dan dirinya sendiri. Pilihan B (4) sudah baik karena penolakan disertai saran mengikuti aturan, tetapi dampaknya tidak dijelaskan. Pilihan C (3) kurang baik karena merahasiakannya sementara. Pilihan A (2) salah karena merahasiakannya karena kedekatan. Pilihan E (1) terburuk karena ikut pulang lebih awal.",
+    "id": "TKP-24",
+    "options": [
+      "Merahasiakannya karena ia rekan kerja yang dekat dengan Anda.",
+      "Menolak merahasiakannya dan menyarankannya mengikuti aturan jam kerja yang berlaku.",
+      "Merahasiakannya untuk sementara sambil memintanya memperbaiki kebiasaan itu.",
+      "Menolak merahasiakannya, menyarankannya mengikuti aturan jam kerja, dan mengingatkannya bahwa kebiasaan itu bisa merugikan tim dan dirinya sendiri.",
+      "Ikut pulang lebih awal bersamanya karena tidak ada yang mengawasi."
+    ],
+    "question": "Seorang rekan kerja meminta Anda merahasiakan bahwa ia sering pulang lebih awal dari jam kerja. Ia berjanji akan mengganti jam kerjanya di lain waktu, tetapi hal itu sudah terjadi berulang kali. Apa yang Anda lakukan?",
+    "scores": [
+      2,
+      4,
+      3,
+      5,
+      1
+    ],
+    "subtopic": "Profesionalisme"
+  },
+  {
+    "answer": 4,
+    "category": "TKP",
+    "explanation": "Pilihan E (5) paling tepat: kesalahan segera diberitahukan kepada atasan, laporan yang diperbaiki diserahkan, dan langkah pencegahan dijelaskan. Pilihan B (4) sudah baik karena kesalahan diberitahukan dan laporan diperbaiki, tetapi pencegahan tidak dijelaskan. Pilihan A (3) kurang baik karena membiarkannya karena takut dimarahi. Pilihan C (2) salah karena memperbaiki diam-diam tanpa memberitahu siapa pun. Pilihan D (1) terburuk karena menyalahkan rekan kerja lain.",
+    "id": "TKP-25",
+    "options": [
+      "Membiarkannya karena laporan itu sudah diteruskan dan Anda takut dimarahi.",
+      "Segera memberitahu atasan tentang kesalahan itu dan menyerahkan laporan yang sudah diperbaiki.",
+      "Memperbaiki laporan itu diam-diam tanpa memberitahu siapa pun.",
+      "Menyalahkan rekan kerja lain atas kesalahan itu.",
+      "Segera memberitahu atasan tentang kesalahan itu, menyerahkan laporan yang sudah diperbaiki, dan menjelaskan langkah pencegahan agar kesalahan serupa tidak terulang."
+    ],
+    "question": "Anda menemukan kesalahan angka dalam laporan yang sudah Anda serahkan kepada atasan dan sudah diteruskan ke pimpinan. Kesalahan itu cukup memengaruhi isi laporan. Apa yang Anda lakukan?",
+    "scores": [
+      3,
+      4,
+      2,
+      1,
+      5
+    ],
+    "subtopic": "Profesionalisme"
+  },
+  {
+    "answer": 0,
+    "category": "TKP",
+    "explanation": "Pilihan A (5) paling tepat: permintaan ditolak dengan sopan, dijelaskan bahwa jam kerja untuk tugas kantor, dan diusulkan dikerjakan di luar jam kerja. Pilihan B (4) sudah baik karena penolakan disertai alasan pekerjaan menumpuk, tetapi aturan jam kerja tidak dijelaskan. Pilihan C (3) kurang baik karena mengerjakan keperluan pribadi atasan dan menunda pekerjaan kantor. Pilihan D (2) salah karena mengerjakan keduanya dengan terburu-buru. Pilihan E (1) terburuk karena mengerjakan keperluan pribadi atasan dan mengabaikan pekerjaan kantor.",
+    "id": "TKP-26",
+    "options": [
+      "Menolak dengan sopan, menjelaskan bahwa jam kerja adalah untuk tugas kantor, dan mengusulkan agar keperluan itu dikerjakan di luar jam kerja.",
+      "Menolak dengan sopan dan menjelaskan bahwa pekerjaan kantor Anda sedang menumpuk.",
+      "Mengerjakan keperluan pribadi atasan itu, tetapi menunda pekerjaan kantor Anda.",
+      "Mengerjakan keperluan pribadi atasan itu sambil mengerjakan tugas kantor dengan terburu-buru.",
+      "Mengerjakan keperluan pribadi atasan itu dan mengabaikan pekerjaan kantor Anda."
+    ],
+    "question": "Atasan Anda meminta Anda mengurus keperluan pribadinya pada jam kerja, misalnya mengambil paket dan membayar tagihan keluarganya. Pekerjaan kantor Anda sendiri masih menumpuk. Apa yang Anda lakukan?",
+    "scores": [
+      5,
+      4,
+      3,
+      2,
+      1
+    ],
+    "subtopic": "Profesionalisme"
+  },
+  {
+    "answer": 1,
+    "category": "TKP",
+    "explanation": "Pilihan B (5) paling tepat: permintaan ditolak dengan tegas, dijelaskan bahwa laporan adalah tanggung jawabnya, dan ditawarkan bimbingan bila ia kesulitan. Pilihan C (4) sudah baik karena menolak, tetapi tidak menawarkan bantuan. Pilihan A (3) kurang baik karena mengerjakan sebagian laporan karena kasihan. Pilihan D (2) salah karena mengerjakan laporan itu dengan imbalan. Pilihan E (1) terburuk karena mengerjakan laporan dan meminta imbalan dirahasiakan.",
+    "id": "TKP-27",
+    "options": [
+      "Mengerjakan sebagian laporan itu tanpa imbalan karena kasihan kepadanya.",
+      "Menolak dengan tegas, menjelaskan bahwa laporan adalah tanggung jawabnya sendiri, dan menawarkannya bantuan berupa bimbingan bila ia kesulitan.",
+      "Menolak mengerjakannya, tetapi tidak menawarkan bantuan apa pun.",
+      "Mengerjakan laporan itu dengan imbalan karena Anda membutuhkan uang tambahan.",
+      "Mengerjakan laporan itu dan memintanya merahasiakan imbalan tersebut."
+    ],
+    "question": "Seorang rekan kerja meminta Anda mengerjakan laporannya dengan imbalan sejumlah uang, karena ia tidak sempat mengerjakannya. Laporan itu menjadi tanggung jawabnya dan akan dinilai atas namanya. Apa yang Anda lakukan?",
+    "scores": [
+      3,
+      5,
+      4,
+      2,
+      1
+    ],
+    "subtopic": "Profesionalisme"
+  },
+  {
+    "answer": 2,
+    "category": "TKP",
+    "explanation": "Pilihan C (5) paling tepat: penilaian didasarkan pada fakta kinerja, hasilnya disampaikan jujur, dan rekan disarankan memperbaiki kinerjanya. Pilihan B (4) sudah baik karena penilaian berdasarkan fakta, tetapi hasilnya tidak disampaikan kepadanya. Pilihan D (3) kurang baik karena memberi nilai sedang agar tidak ada yang kecewa. Pilihan A (2) salah karena memberi nilai bagus karena kedekatan. Pilihan E (1) terburuk karena menghindar dan meminta rekan lain yang menilai.",
+    "id": "TKP-28",
+    "options": [
+      "Memberinya nilai bagus karena ia teman dekat Anda.",
+      "Menilainya berdasarkan fakta kinerja, meskipun hasilnya kurang baik.",
+      "Menilainya berdasarkan fakta kinerja, menyampaikan hasil itu secara jujur kepadanya, dan menyarankannya memperbaiki kinerjanya.",
+      "Memberinya nilai sedang agar ia tidak kecewa dan Anda tidak merasa bersalah.",
+      "Meminta rekan lain yang menilainya agar Anda tidak terlibat."
+    ],
+    "question": "Anda ditugaskan menilai kinerja seorang rekan kerja yang merupakan teman dekat Anda. Kinerjanya sebenarnya kurang baik, tetapi ia berharap Anda memberinya nilai bagus. Apa yang Anda lakukan?",
+    "scores": [
+      2,
+      4,
+      5,
+      3,
+      1
+    ],
+    "subtopic": "Profesionalisme"
+  },
+  {
+    "answer": 3,
+    "category": "TKP",
+    "explanation": "Pilihan D (5) paling tepat: permintaan merahasiakan ditolak, rekan disarankan mengembalikan uang, dan perbuatan itu dilaporkan melalui saluran pengaduan yang benar. Pilihan B (4) sudah baik karena penolakan disertai saran mengembalikan uang, tetapi tidak dilaporkan. Pilihan C (3) kurang baik karena merahasiakannya sementara. Pilihan A (2) salah karena merahasiakannya karena rekan membutuhkan uang. Pilihan E (1) terburuk karena ikut meminta bagian dari uang itu.",
+    "id": "TKP-29",
+    "options": [
+      "Merahasiakannya karena ia sedang membutuhkan uang.",
+      "Menolak merahasiakannya dan menyarankannya mengembalikan uang itu.",
+      "Merahasiakannya untuk sementara sambil memintanya tidak mengulanginya.",
+      "Menolak merahasiakannya, menyarankannya mengembalikan uang itu, dan melaporkan perbuatan itu melalui saluran pengaduan yang benar.",
+      "Ikut meminta bagian dari uang itu agar Anda juga merahasiakannya."
+    ],
+    "question": "Anda mengetahui seorang rekan kerja menerima uang dari warga agar pengurusan dokumennya didahulukan. Rekan itu meminta Anda tidak memberitahu siapa pun karena ia sedang membutuhkan uang. Apa yang Anda lakukan?",
+    "scores": [
+      2,
+      4,
+      3,
+      5,
+      1
+    ],
+    "subtopic": "Profesionalisme"
+  },
+  {
+    "answer": 4,
+    "category": "TKP",
+    "explanation": "Pilihan E (5) paling tepat: tugas diterima, dipelajari dengan sungguh-sungguh, bimbingan diminta dari rekan berpengalaman, dan kemajuan dilaporkan kepada atasan secara berkala. Pilihan B (4) sudah baik karena tugas diterima dan dipelajari dengan bimbingan, tetapi kemajuan tidak dilaporkan. Pilihan A (3) kurang baik karena menolak tugas itu. Pilihan C (2) salah karena mengerjakan asal-asalan. Pilihan D (1) terburuk karena mengabaikan tugas itu.",
+    "id": "TKP-30",
+    "options": [
+      "Menolak tugas itu karena Anda tidak memiliki kompetensinya.",
+      "Menerima tugas itu dan mempelajarinya sendiri sambil meminta bimbingan dari rekan yang berpengalaman.",
+      "Menerima tugas itu, tetapi mengerjakannya asal-asalan karena tidak memahami caranya.",
+      "Mengabaikan tugas itu dan berharap atasan memberikannya kepada orang lain.",
+      "Menerima tugas itu, mempelajarinya dengan sungguh-sungguh, meminta bimbingan dari rekan yang berpengalaman, dan menyampaikan kemajuan Anda kepada atasan secara berkala."
+    ],
+    "question": "Atasan memberikan Anda tugas yang berada di luar kompetensi Anda dan tidak ada pelatihan yang disediakan. Tugas itu penting dan tenggatnya sudah dekat. Apa yang Anda lakukan?",
+    "scores": [
+      3,
+      4,
+      2,
+      1,
+      5
+    ],
+    "subtopic": "Profesionalisme"
+  },
+  {
+    "answer": 0,
+    "category": "TKP",
+    "explanation": "Pilihan A (5) paling tepat: rekan dibangunkan dengan sopan, diingatkan tentang tanggung jawab piket, dan kejadian dilaporkan kepada atasan sesuai prosedur. Pilihan B (4) sudah baik karena dibangunkan dan diingatkan, tetapi tidak dilaporkan. Pilihan C (3) kurang baik karena membiarkannya tidur dan mengambil alih tugasnya sendiri. Pilihan D (2) salah karena membiarkannya tidur. Pilihan E (1) terburuk karena ikut tertidur.",
+    "id": "TKP-31",
+    "options": [
+      "Membangunkannya dengan sopan, mengingatkannya tentang tanggung jawab piket, dan melaporkan kejadian itu kepada atasan sesuai prosedur.",
+      "Membangunkannya dan mengingatkannya tentang tanggung jawab piket, tetapi tidak melaporkannya.",
+      "Membiarkannya tidur dan mengambil alih tugas piketnya sendiri malam itu.",
+      "Membiarkannya tidur karena Anda tidak ingin membuatnya marah.",
+      "Ikut tertidur karena tidak ada warga yang datang malam itu."
+    ],
+    "question": "Anda mendapati seorang rekan kerja tertidur saat bertugas pada piket malam, padahal ia bertanggung jawab menerima telepon darurat dari warga. Telepon dari warga sudah beberapa kali tidak terjawab. Apa yang Anda lakukan?",
+    "scores": [
+      5,
+      4,
+      3,
+      2,
+      1
+    ],
+    "subtopic": "Profesionalisme"
+  },
+  {
+    "answer": 1,
+    "category": "TKP",
+    "explanation": "Pilihan B (5) paling tepat: kebiasaan musyawarah dihormati, jadwal disesuaikan, dan diskusi difasilitasi sampai warga mencapai kesepakatan. Pilihan C (4) sudah baik karena diberi tambahan waktu, tetapi batas waktu tetap ditekankan tanpa memfasilitasi kesepakatan. Pilihan A (3) kurang baik karena memaksa musyawarah selesai sesuai jadwal. Pilihan D (2) salah karena membiarkan musyawarah berjalan tanpa arahan. Pilihan E (1) terburuk karena membatalkan musyawarah itu.",
+    "id": "TKP-32",
+    "options": [
+      "Memaksa musyawarah selesai sesuai jadwal Anda karena waktu sudah ditentukan.",
+      "Menghormati kebiasaan musyawarah itu, menyesuaikan jadwal, dan memfasilitasi diskusi sampai warga mencapai kesepakatan.",
+      "Memberi tambahan waktu secukupnya, tetapi tetap mengingatkan warga tentang batas waktu.",
+      "Membiarkan musyawarah berjalan tanpa arahan sampai warga selesai sendiri.",
+      "Membatalkan musyawarah itu karena dianggap membuang waktu."
+    ],
+    "question": "Anda ditugaskan memimpin musyawarah di desa yang masyarakatnya memiliki kebiasaan berdiskusi panjang sebelum mengambil keputusan. Warga meminta waktu lebih lama untuk bermusyawarah, padahal Anda sudah menyiapkan jadwal yang ketat. Apa yang Anda lakukan?",
+    "scores": [
+      3,
+      5,
+      4,
+      2,
+      1
+    ],
+    "subtopic": "Sosial Budaya"
+  },
+  {
+    "answer": 2,
+    "category": "TKP",
+    "explanation": "Pilihan C (5) paling tepat: jadwal rapat disesuaikan ke pagi hari, kehadiran semua anggota dipastikan, dan tim diingatkan untuk saling menghormati waktu ibadah. Pilihan B (4) sudah baik karena jadwal disesuaikan, tetapi tim tidak diingatkan tentang saling menghormati. Pilihan D (3) kurang baik karena meminta rekan tetap hadir meski kelelahan. Pilihan A (2) salah karena tetap menjalankan rapat sesuai jadwal. Pilihan E (1) terburuk karena membatalkan rapat tanpa memberitahu anggota tim lain.",
+    "id": "TKP-33",
+    "options": [
+      "Tetap menjalankan rapat sesuai jadwal karena semua anggota sudah diundang.",
+      "Menyesuaikan jadwal rapat ke pagi hari agar rekan itu tidak terlalu kelelahan.",
+      "Menyesuaikan jadwal rapat ke pagi hari, memastikan semua anggota bisa hadir, dan mengingatkan tim untuk saling menghormati waktu ibadah masing-masing.",
+      "Meminta rekan itu tetap hadir meski kelelahan karena rapat itu penting.",
+      "Membatalkan rapat itu tanpa memberitahu anggota tim lain."
+    ],
+    "question": "Seorang rekan kerja sedang menjalankan ibadah puasa dan Anda menjadwalkan rapat penting pada siang hari yang membuatnya kelelahan. Rekan itu tidak berani meminta jadwal diubah. Apa yang Anda lakukan?",
+    "scores": [
+      2,
+      4,
+      5,
+      3,
+      1
+    ],
+    "subtopic": "Sosial Budaya"
+  },
+  {
+    "answer": 3,
+    "category": "TKP",
+    "explanation": "Pilihan D (5) paling tepat: keberatan warga disampaikan kepada atasan, musyawarah dengan tokoh adat diusulkan, dan lokasi alternatif dicari. Pilihan B (4) sudah baik karena keberatan disampaikan dan musyawarah diusulkan, tetapi lokasi alternatif tidak dicari. Pilihan C (3) kurang baik karena warga hanya disuruh menyampaikan sendiri. Pilihan A (2) salah karena mengabaikan keberatan warga. Pilihan E (1) terburuk karena menyuruh warga menerima pembangunan itu.",
+    "id": "TKP-34",
+    "options": [
+      "Mengabaikan keberatan warga dan tetap melanjutkan pembangunan sesuai rencana.",
+      "Menyampaikan keberatan warga kepada atasan dan mengusulkan musyawarah dengan tokoh adat.",
+      "Meminta warga menyampaikan keberatannya sendiri kepada atasan tanpa membantu.",
+      "Menyampaikan keberatan warga kepada atasan, mengusulkan musyawarah dengan tokoh adat, dan mencari lokasi alternatif yang tidak mengganggu situs adat.",
+      "Menyuruh warga menerima pembangunan itu karena sudah diputuskan pemerintah."
+    ],
+    "question": "Pemerintah daerah berencana membangun fasilitas umum di lahan yang menurut warga setempat merupakan situs adat yang harus dilindungi. Warga menolak pembangunan itu dan meminta Anda menyampaikan keberatan mereka. Apa yang Anda lakukan?",
+    "scores": [
+      2,
+      4,
+      3,
+      5,
+      1
+    ],
+    "subtopic": "Sosial Budaya"
+  },
+  {
+    "answer": 4,
+    "category": "TKP",
+    "explanation": "Pilihan E (5) paling tepat: kebiasaan dijelaskan dengan santai, rekan dibantu beradaptasi, dan warga diajak memahami bahwa ia berasal dari daerah lain. Pilihan C (4) sudah baik karena kebiasaan dijelaskan dengan santai, tetapi rekan tidak dibantu beradaptasi. Pilihan A (3) kurang baik karena membiarkannya belajar sendiri. Pilihan B (2) salah karena menertawakannya di depan warga. Pilihan D (1) terburuk karena menyuruhnya meniru tanpa penjelasan.",
+    "id": "TKP-35",
+    "options": [
+      "Membiarkannya karena ia akan belajar sendiri seiring waktu.",
+      "Menertawakannya di depan warga karena ia tidak memahami kebiasaan itu.",
+      "Menjelaskan kebiasaan itu kepadanya dengan santai agar ia memahaminya.",
+      "Menyuruhnya meniru kebiasaan itu tanpa penjelasan apa pun.",
+      "Menjelaskan kebiasaan itu kepadanya dengan santai, membantunya beradaptasi, dan mengajak warga memahami bahwa ia berasal dari daerah lain."
+    ],
+    "question": "Seorang rekan kerja dari daerah lain tidak memahami kebiasaan di daerah Anda, yaitu mencium tangan orang yang lebih tua sebagai tanda hormat. Ia tampak canggung saat bertemu dengan warga yang lebih tua. Apa yang Anda lakukan?",
+    "scores": [
+      3,
+      2,
+      4,
+      1,
+      5
+    ],
+    "subtopic": "Sosial Budaya"
+  },
+  {
+    "answer": 0,
+    "category": "TKP",
+    "explanation": "Pilihan A (5) paling tepat: perayaan yang lebih inklusif diusulkan agar semua rekan bisa ikut serta dengan nyaman. Pilihan B (4) sudah baik karena perayaan tetap berjalan tanpa memaksa, tetapi tidak ada upaya membuat perayaan inklusif. Pilihan C (3) kurang baik karena mengabaikan keberatan mereka demi tradisi. Pilihan D (2) salah karena meminta rekan yang keberatan tidak usah hadir. Pilihan E (1) terburuk karena mengejek rekan yang tidak mau ikut.",
+    "id": "TKP-36",
+    "options": [
+      "Mengusulkan perayaan yang lebih inklusif, misalnya dengan doa bersama dan ucapan selamat, agar semua rekan bisa ikut serta dengan nyaman.",
+      "Tetap merayakan seperti biasa, tetapi tidak memaksa rekan yang tidak ingin ikut serta.",
+      "Mengabaikan keberatan mereka karena perayaan itu sudah menjadi tradisi kantor.",
+      "Meminta rekan yang keberatan itu tidak usah hadir saat perayaan.",
+      "Mengejek rekan yang tidak mau ikut merayakan ulang tahun itu."
+    ],
+    "question": "Kantor Anda memiliki kebiasaan merayakan ulang tahun pegawai dengan tiup lilin dan menyanyikan lagu tertentu. Sebagian rekan kerja tidak mengikuti perayaan itu karena tidak sesuai dengan keyakinannya. Apa yang Anda lakukan?",
+    "scores": [
+      5,
+      4,
+      3,
+      2,
+      1
+    ],
+    "subtopic": "Sosial Budaya"
+  },
+  {
+    "answer": 1,
+    "category": "TKP",
+    "explanation": "Pilihan B (5) paling tepat: rekan ditegur dengan sopan, dijelaskan bahwa tarian itu warisan budaya yang patut dihormati, dan rekan lain diajak menghargai keberagaman budaya. Pilihan C (4) sudah baik karena teguran disertai penjelasan, tetapi rekan lain tidak diajak menghargai. Pilihan A (3) kurang baik karena hanya diam dengan alasan bercanda. Pilihan D (2) salah karena ikut tertawa kecil. Pilihan E (1) terburuk karena ikut menertawakan tarian itu.",
+    "id": "TKP-37",
+    "options": [
+      "Diam saja karena ia hanya bercanda dan tidak bermaksud buruk.",
+      "Menegurnya dengan sopan, menjelaskan bahwa tarian itu adalah warisan budaya yang patut dihormati, dan mengajak rekan lain menghargai keberagaman budaya.",
+      "Menegurnya dengan sopan dan menjelaskan bahwa tarian itu adalah warisan budaya.",
+      "Ikut tertawa kecil agar tidak dianggap berbeda dari rekan lain.",
+      "Ikut menertawakan tarian itu di depan rekan lain."
+    ],
+    "question": "Seorang rekan kerja menertawakan tarian tradisional dari daerah lain yang ditampilkan dalam sebuah video di kantor. Ia mengatakan tarian itu aneh dan ketinggalan zaman. Beberapa rekan lain ikut tertawa. Apa yang Anda lakukan?",
+    "scores": [
+      3,
+      5,
+      4,
+      2,
+      1
+    ],
+    "subtopic": "Sosial Budaya"
+  },
+  {
+    "answer": 2,
+    "category": "TKP",
+    "explanation": "Pilihan C (5) paling tepat: ucapan terima kasih diterima dengan hormat, pemberian ditolak dengan sopan sambil menjelaskan bahwa pelayanan adalah tugas, dan warga diarahkan ke saluran resmi bila ingin menyampaikan apresiasi. Pilihan B (4) sudah baik karena pemberian ditolak dengan sopan dan dijelaskan, tetapi tidak diarahkan ke saluran resmi. Pilihan D (3) kurang baik karena menerima sebagian kecil pemberian. Pilihan A (2) salah karena menerima pemberian tanpa berpikir panjang. Pilihan E (1) terburuk karena meminta pemberian yang lebih banyak.",
+    "id": "TKP-38",
+    "options": [
+      "Menerima pemberian itu dengan senang hati tanpa berpikir panjang.",
+      "Menolak pemberian itu dengan sopan dan menjelaskan bahwa pelayanan adalah tugas Anda.",
+      "Menerima ucapan terima kasihnya dengan hormat, menolak pemberian itu dengan sopan sambil menjelaskan bahwa pelayanan adalah tugas Anda, dan mengarahkannya untuk menyampaikan apresiasi melalui saluran resmi bila ada.",
+      "Menerima sebagian kecil pemberian itu agar warga tidak tersinggung.",
+      "Meminta pemberian yang lebih banyak karena Anda sudah membantunya."
+    ],
+    "question": "Setelah Anda melayani pengurusan dokumennya, seorang warga dari desa memberikan hasil kebunnya sebagai tanda terima kasih. Pemberian itu merupakan kebiasaan di daerahnya, tetapi Anda khawatir pemberian itu dianggap sebagai imbalan atas pelayanan. Apa yang Anda lakukan?",
+    "scores": [
+      2,
+      4,
+      5,
+      3,
+      1
+    ],
+    "subtopic": "Sosial Budaya"
+  },
+  {
+    "answer": 3,
+    "category": "TKP",
+    "explanation": "Pilihan D (5) paling tepat: surel dibalas dengan ramah, format yang bisa diterima dijelaskan, dan warga dibimbing langkah demi langkah mengubah berkas menjadi PDF. Pilihan B (4) sudah baik karena warga diminta mengirim ulang dalam format PDF, tetapi tidak dibimbing. Pilihan C (3) kurang baik karena surel diabaikan dan menunggu kiriman ulang. Pilihan A (2) salah karena memintanya datang langsung membawa dokumen asli. Pilihan E (1) terburuk karena menolak memproses permohonannya.",
+    "id": "TKP-39",
+    "options": [
+      "Memintanya datang langsung ke kantor membawa dokumen aslinya.",
+      "Membalas surel itu dengan ramah dan memintanya mengirim ulang dalam format PDF.",
+      "Mengabaikan surel itu dan menunggu ia mengirim ulang dengan format yang benar.",
+      "Membalas surel itu dengan ramah, menjelaskan format yang bisa diterima, dan membimbingnya langkah demi langkah mengubah berkas menjadi PDF.",
+      "Menolak memproses permohonannya karena berkasnya tidak bisa dibuka."
+    ],
+    "question": "Seorang warga mengirim dokumen yang dibutuhkan melalui surel, tetapi format berkasnya tidak bisa dibuka di komputer kantor. Ia mengatakan hanya bisa mengirim dalam format itu dari ponselnya. Apa yang Anda lakukan?",
+    "scores": [
+      2,
+      4,
+      3,
+      5,
+      1
+    ],
+    "subtopic": "Adaptasi TIK"
+  },
+  {
+    "answer": 4,
+    "category": "TKP",
+    "explanation": "Pilihan E (5) paling tepat: rekan dibimbing langkah demi langkah, dibuatkan panduan singkat tertulis, dan diminta mencoba sendiri pada tugas berikutnya. Pilihan B (4) sudah baik karena dibimbing langkah demi langkah, tetapi tidak dibuatkan panduan tertulis. Pilihan A (3) kurang baik karena mengisikan formulir untuknya. Pilihan C (2) salah karena menolak membantu dan menyuruhnya belajar sendiri. Pilihan D (1) terburuk karena mengabaikan permintaannya.",
+    "id": "TKP-40",
+    "options": [
+      "Mengisikan formulir itu untuknya agar pekerjaannya cepat selesai.",
+      "Membimbingnya mengisi formulir itu langkah demi langkah agar ia bisa melakukannya sendiri lain kali.",
+      "Menolak membantunya dan menyuruhnya belajar sendiri.",
+      "Mengabaikan permintaannya dan membiarkan ia kebingungan.",
+      "Membimbingnya mengisi formulir itu langkah demi langkah, membuatkan panduan singkat tertulis, dan memintanya mencoba sendiri pada tugas berikutnya."
+    ],
+    "question": "Seorang rekan kerja meminta Anda mengisikan formulir daring untuknya setiap kali ada tugas baru, padahal ia sebenarnya bisa belajar mengisinya sendiri. Ia mengatakan tidak sempat belajar karena pekerjaannya menumpuk. Apa yang Anda lakukan?",
+    "scores": [
+      3,
+      4,
+      2,
+      1,
+      5
+    ],
+    "subtopic": "Adaptasi TIK"
+  },
+  {
+    "answer": 0,
+    "category": "TKP",
+    "explanation": "Pilihan A (5) paling tepat: akun palsu dilaporkan, warga diimbau melalui kanal resmi agar tidak mentransfer uang, dan dijelaskan cara mengenali akun resmi. Pilihan B (4) sudah baik karena akun dilaporkan dan warga diimbau, tetapi cara mengenali akun resmi tidak dijelaskan. Pilihan C (3) kurang baik karena mengabaikan akun itu. Pilihan D (2) salah karena hanya membalas pertanyaan warga tanpa melaporkan akun itu. Pilihan E (1) terburuk karena membiarkan akun itu dengan alasan warga seharusnya bisa membedakan.",
+    "id": "TKP-41",
+    "options": [
+      "Melaporkan akun palsu itu, mengimbau warga melalui kanal resmi kantor agar tidak mentransfer uang, dan menjelaskan cara mengenali akun resmi.",
+      "Melaporkan akun palsu itu dan mengimbau warga melalui kanal resmi agar tidak mentransfer uang.",
+      "Mengabaikan akun itu karena bukan Anda yang membuatnya.",
+      "Membalas pesan warga yang bertanya dengan mengatakan akun itu palsu, tanpa melaporkannya.",
+      "Membiarkan akun itu karena warga seharusnya bisa membedakan akun asli dan palsu."
+    ],
+    "question": "Anda menemukan akun media sosial palsu yang mengatasnamakan kantor Anda dan meminta warga membayar biaya layanan melalui rekening pribadi. Beberapa warga sudah bertanya apakah akun itu benar milik kantor. Apa yang Anda lakukan?",
+    "scores": [
+      5,
+      4,
+      3,
+      2,
+      1
+    ],
+    "subtopic": "Adaptasi TIK"
+  },
+  {
+    "answer": 1,
+    "category": "TKP",
+    "explanation": "Pilihan B (5) paling tepat: antrean dialihkan ke manual sementara, situasi dijelaskan kepada warga, dan nomor antrean daring mereka dicatat agar tetap dilayani sesuai urutan. Pilihan C (4) sudah baik karena antrean dialihkan dan situasi dijelaskan, tetapi nomor antrean daring tidak dicatat. Pilihan A (3) kurang baik karena meminta warga pulang dan kembali besok. Pilihan D (2) salah karena membiarkan warga mengantre tanpa nomor. Pilihan E (1) terburuk karena menutup loket sampai sistem kembali berfungsi.",
+    "id": "TKP-42",
+    "options": [
+      "Meminta warga pulang dan kembali besok setelah sistem diperbaiki.",
+      "Mengalihkan ke antrean manual sementara, menjelaskan situasinya kepada warga, dan mencatat nomor antrean daring mereka agar tetap dilayani sesuai urutan.",
+      "Mengalihkan ke antrean manual sementara dan menjelaskan situasinya kepada warga.",
+      "Membiarkan warga mengantre tanpa nomor dan melayani siapa pun yang datang lebih dulu.",
+      "Menutup loket pelayanan sampai sistem kembali berfungsi."
+    ],
+    "question": "Sistem antrean daring kantor Anda tiba-tiba tidak berfungsi pada jam sibuk, padahal banyak warga sudah mendaftar secara daring dan datang sesuai jadwalnya. Warga mulai kebingungan dan antrean menjadi tidak teratur. Apa yang Anda lakukan?",
+    "scores": [
+      3,
+      5,
+      4,
+      2,
+      1
+    ],
+    "subtopic": "Adaptasi TIK"
+  },
+  {
+    "answer": 2,
+    "category": "TKP",
+    "explanation": "Pilihan C (5) paling tepat: risiko keamanan dijelaskan, rekan dibantu membuat kata sandi yang kuat dan berbeda untuk setiap akun, serta disarankan memakai pengelola kata sandi. Pilihan B (4) sudah baik karena diingatkan untuk mengganti dan membedakan kata sandi, tetapi tidak dibantu membuatnya. Pilihan D (3) kurang baik karena hanya diingatkan sekali tanpa menjelaskan risiko. Pilihan A (2) salah karena membiarkannya dengan alasan urusan pribadi. Pilihan E (1) terburuk karena ikut memakai kata sandi yang sama.",
+    "id": "TKP-43",
+    "options": [
+      "Membiarkannya karena itu urusan pribadinya.",
+      "Mengingatkannya untuk mengganti kata sandi dan menggunakan kata sandi yang berbeda untuk setiap akun.",
+      "Mengingatkannya tentang risiko keamanan, membantunya membuat kata sandi yang kuat dan berbeda untuk setiap akun, serta menyarankan penggunaan pengelola kata sandi.",
+      "Mengingatkannya sekali, tetapi tidak menjelaskan risikonya.",
+      "Memakai kata sandi yang sama seperti dirinya agar mudah saling membantu."
+    ],
+    "question": "Anda mengetahui seorang rekan kerja menggunakan kata sandi yang sama untuk semua akun kantornya, termasuk akun sistem dan surel. Ia mengatakan cara itu lebih mudah diingat. Apa yang Anda lakukan?",
+    "scores": [
+      2,
+      4,
+      5,
+      3,
+      1
+    ],
+    "subtopic": "Adaptasi TIK"
+  },
+  {
+    "answer": 3,
+    "category": "TKP",
+    "explanation": "Pilihan D (5) paling tepat: tautan tidak diklik, rekan lain diingatkan agar tidak mengkliknya, dan tautan dilaporkan kepada petugas teknologi informasi. Pilihan B (4) sudah baik karena tautan tidak diklik dan rekan diingatkan, tetapi tidak dilaporkan. Pilihan C (3) kurang baik karena tautan diabaikan tanpa memberitahu rekan lain. Pilihan A (2) salah karena mengklik tautan itu. Pilihan E (1) terburuk karena meneruskan tautan itu ke grup lain.",
+    "id": "TKP-44",
+    "options": [
+      "Mengklik tautan itu untuk memeriksa apakah daftarnya benar.",
+      "Tidak mengklik tautan itu dan mengingatkan rekan lain agar tidak mengkliknya.",
+      "Mengabaikan tautan itu tanpa memberitahu rekan lain.",
+      "Tidak mengklik tautan itu, mengingatkan rekan lain agar tidak mengkliknya, dan melaporkannya kepada petugas teknologi informasi untuk diperiksa.",
+      "Meneruskan tautan itu ke grup lain agar lebih banyak orang memeriksanya."
+    ],
+    "question": "Di grup kerja, seseorang membagikan tautan yang mengaku berisi daftar penerima bantuan dan meminta pegawai mengkliknya untuk memeriksa data. Tautan itu terlihat mencurigakan dan pengirimnya bukan akun resmi. Apa yang Anda lakukan?",
+    "scores": [
+      2,
+      4,
+      3,
+      5,
+      1
+    ],
+    "subtopic": "Adaptasi TIK"
+  },
+  {
+    "answer": 4,
+    "category": "TKP",
+    "explanation": "Pilihan E (5) paling tepat: aturan penyimpanan data dijelaskan dengan sopan, cara data dilindungi dijelaskan, dan warga diberitahu cara mengajukan permohonan penghapusan data bila jangka waktunya sudah terpenuhi. Pilihan B (4) sudah baik karena aturan dan perlindungan data dijelaskan, tetapi cara mengajukan penghapusan tidak diberitahukan. Pilihan A (3) kurang baik karena menghapus data segera tanpa mengikuti aturan. Pilihan C (2) salah karena mengabaikan permintaannya. Pilihan D (1) terburuk karena menolak dengan kasar.",
+    "id": "TKP-45",
+    "options": [
+      "Menghapus datanya segera agar ia tidak khawatir.",
+      "Menjelaskan bahwa data harus disimpan selama jangka waktu tertentu sesuai aturan dan menjelaskan cara data itu dilindungi.",
+      "Mengabaikan permintaannya karena penghapusan data bukan wewenang Anda.",
+      "Menolak permintaannya dengan kasar dan menyuruhnya tidak khawatir.",
+      "Menjelaskan aturan penyimpanan data dengan sopan, menjelaskan cara data itu dilindungi, dan memberitahunya cara mengajukan permohonan penghapusan data bila jangka waktunya sudah terpenuhi."
+    ],
+    "question": "Seorang warga meminta Anda menghapus data pribadinya dari sistem kantor setelah pengurusan dokumennya selesai, karena ia khawatir datanya disalahgunakan. Anda tahu data itu harus disimpan selama jangka waktu tertentu sesuai aturan. Apa yang Anda lakukan?",
+    "scores": [
+      3,
+      4,
+      2,
+      1,
+      5
+    ],
+    "subtopic": "Adaptasi TIK"
+  }
+]
