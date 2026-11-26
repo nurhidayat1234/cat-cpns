@@ -155,8 +155,15 @@ const Auth = (() => {
   }
 
   // ---------- riwayat ----------
+  // Riwayat: mode tersimpan sebagai "full"/"TWK"/... dengan akhiran "-<paket>"
+  // (mis. "full-B"); tanpa akhiran berarti data lama (Paket A).
   function modeLabel(mode) {
-    return mode === "full" ? "SKD Penuh" : mode;
+    const m = String(mode || "");
+    const dash = m.lastIndexOf("-");
+    const base = dash > 0 ? m.slice(0, dash) : m;
+    const paket = dash > 0 ? m.slice(dash + 1) : "";
+    const label = base === "full" ? "SKD Penuh" : base;
+    return paket ? label + " • Paket " + paket : label;
   }
 
   function fmtDate(iso) {
@@ -231,7 +238,9 @@ const Auth = (() => {
       const per = result.perCat || {};
       const r = await api("saveResult", {
         token: user.token,
-        mode: result.mode,
+        // Mode disimpan dengan akhiran paket (mis. "full-B") agar riwayat
+        // menunjukkan paket yang dikerjakan; server menyimpan apa adanya.
+        mode: result.mode + "-" + (result.paket || "A"),
         twk: per.TWK ? per.TWK.score : 0,
         tiu: per.TIU ? per.TIU.score : 0,
         tkp: per.TKP ? per.TKP.score : 0,

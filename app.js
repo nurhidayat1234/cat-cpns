@@ -1,5 +1,7 @@
 // Simulasi CAT CPNS — SKD (latihan). Static, no backend.
-// Data: data/questions.json (110 soal original: TWK 30, TIU 35, TKP 45).
+// Data: data/questions-<paket>.json, satu file per paket (A-E), masing-masing
+// 110 soal original: TWK 30, TIU 35, TKP 45. Paket A = bank soal awal.
+// data/pakets.json memuat daftar paket yang tersedia (dibaca situs).
 // Format resmi (KepmenPANRB 674/2026, TA 2026): TWK 30 soal PG 65, TIU 35
 // soal PG 80, TKP 45 soal PG 166, total 110 soal / 100 menit / maks 550.
 // TWK & TIU: benar 5, salah/kosong 0. TKP: tiap opsi 1-5, kosong 0.
@@ -23,10 +25,15 @@ const PG_CATS = {
 };
 const STORE_SESSION = "catcpns-session-v1";
 const STORE_RESULT = "catcpns-result-v1";
+const STORE_PAKET = "catcpns-paket-v1";
 const LETTERS = ["A", "B", "C", "D", "E"];
 
-let QUESTIONS = []; // all 110, ordered TWK -> TIU -> TKP
-let session = null; // { mode, ids, answers, doubtful, current, remaining, startedAt }
+let QUESTIONS = []; // 110 soal paket yang aktif, urutan TWK -> TIU -> TKP
+let QUESTIONS_BY_PAKET = {}; // cache per paket: { A: [...], B: [...] }
+let currentPaket = "A";
+try { currentPaket = localStorage.getItem(STORE_PAKET) || "A"; } catch (e) {}
+let AVAILABLE_PAKETS = ["A"]; // diisi dari data/pakets.json saat init
+let session = null; // { mode, paket, ids, answers, doubtful, current, remaining, startedAt }
 let timerId = null;
 let lastResult = null;
 
@@ -54,13 +61,68 @@ function maxOf(q) {
   return Math.max(...q.scores);
 }
 
-// ---------- data ----------
-async function loadQuestions() {
-  if (QUESTIONS.length) return QUESTIONS;
-  const res = await fetch("data/questions.json");
-  if (!res.ok) throw new Error("Gagal memuat data/questions.json (HTTP " + res.status + "). Jalankan lewat HTTP server, mis. python3 -m http.server.");
-  QUESTIONS = await res.json();
+// ---------- data (per paket) ----------
+async function loadPaketsManifest() {
+  try {
+    const res = await fetch("data/pakets.json");
+    if (!res.ok) return;
+    const m = await res.json();
+    if (Array.isArray(m.pakets) && m.pakets.length) AVAILABLE_PAKETS = m.pakets;
+  } catch (e) { /* pakets.json tidak ada — tetap Paket A */ }
+  if (!AVAILABLE_PAKETS.includes(currentPaket)) currentPaket = AVAILABLE_PAKETS[0];
+}
+
+async function loadQuestions(paket) {
+  paket = paket || currentPaket;
+  if (QUESTIONS_BY_PAKET[paket]) {
+    QUESTIONS = QUESTIONS_BY_PAKET[paket];
+    currentPaket = paket;
+    return QUESTIONS;
+  }
+  const file = "data/questions-" + paket.toLowerCase() + ".json";
+  const res = await fetch(file);
+  if (!res.ok) throw new Error("Gagal memuat " + file + " (HTTP " + res.status + "). Jalankan lewat HTTP server, mis. python3 -m http.server.");
+  const list = await res.json();
+  QUESTIONS_BY_PAKET[paket] = list;
+  QUESTIONS = list;
+  currentPaket = paket;
   return QUESTIONS;
+}
+
+// Pemilih paket di beranda: tombol A-E, yang belum tersedia dinonaktifkan.
+function renderPaketPicker() {
+  const box = $("paketPicker");
+  if (!box) return;
+  box.innerHTML = "";
+  ["A", "B", "C", "D", "E"].forEach((p) => {
+    const b = document.createElement("button");
+    b.type = "button";
+    b.className = "paket-btn" + (p === currentPaket ? " active" : "");
+    b.dataset.paket = p;
+    const ready = AVAILABLE_PAKETS.includes(p);
+    b.disabled = !ready;
+    b.innerHTML = "<strong>Paket " + p + "</strong><span>" + (ready ? "110 soal original" : "Segera hadir") + "</span>";
+    b.addEventListener("click", () => selectPaket(p));
+    box.appendChild(b);
+  });
+}
+
+async function selectPaket(p) {
+  if (p === currentPaket || !AVAILABLE_PAKETS.includes(p)) return;
+  const s = loadStoredSession();
+  if (s && s.paket && s.paket !== p) {
+    if (!confirm("Ada simulasi tersimpan di Paket " + s.paket + ".\nGanti ke Paket " + p + " akan menghapus simulasi tersimpan itu.")) return;
+    localStorage.removeItem(STORE_SESSION);
+    session = null;
+  }
+  try {
+    await loadQuestions(p);
+    try { localStorage.setItem(STORE_PAKET, p); } catch (e) {}
+    renderPaketPicker();
+    refreshResumeCard();
+  } catch (e) {
+    alert("Paket " + p + " belum bisa dimuat: " + e.message);
+  }
 }
 
 function questionsFor(mode) {
@@ -74,6 +136,7 @@ function newSession(mode) {
   const minutes = mode === "full" ? FULL.minutes : CONFIG[mode].minutes;
   session = {
     mode,
+    paket: currentPaket,
     ids: qs.map((q) => q.id),
     answers: qs.map(() => null),
     doubtful: [],
@@ -110,9 +173,10 @@ function requireLogin() {
   return false;
 }
 
-function startExam(mode) {
+async function startExam(mode) {
   if (!requireLogin()) return; // tes hanya untuk yang sudah login
   stopTimer();
+  await loadQuestions(currentPaket);
   newSession(mode);
   renderExamChrome();
   renderQuestion();
@@ -121,11 +185,13 @@ function startExam(mode) {
   startTimer();
 }
 
-function resumeExam() {
+async function resumeExam() {
   if (!requireLogin()) return; // lanjutkan simulasi juga butuh login
   const s = loadStoredSession();
   if (!s) return;
   stopTimer();
+  await loadQuestions(s.paket || "A");
+  renderPaketPicker();
   session = s;
   renderExamChrome();
   renderQuestion();
@@ -136,8 +202,9 @@ function resumeExam() {
 
 function renderExamChrome() {
   const modeLabel = session.mode === "full" ? "SKD Penuh — 110 soal" : CONFIG[session.mode].label;
-  $("examModeLabel").textContent = modeLabel;
-  $("examModeLabelTop").textContent = modeLabel;
+  const label = modeLabel + " • Paket " + (session.paket || currentPaket);
+  $("examModeLabel").textContent = label;
+  $("examModeLabelTop").textContent = label;
   updateTimerUI();
 }
 
@@ -289,7 +356,7 @@ function computeResult() {
   const usedSec = Math.round((Date.now() - session.startedAt) / 1000);
   const pass = cats.every((c) => perCat[c].pass);
   return {
-    mode, perCat, total, maxTotal, pass,
+    mode, paket: session.paket || currentPaket, perCat, total, maxTotal, pass,
     usedSec,
     answered: session.answers.filter((a) => a !== null).length,
     totalQ: session.ids.length,
@@ -303,7 +370,8 @@ function computeResult() {
 // ---------- result ----------
 function renderResult(r) {
   const cats = Object.keys(r.perCat);
-  $("resultTitle").textContent = r.mode === "full" ? "Hasil Simulasi SKD" : "Hasil Latihan " + r.mode;
+  $("resultTitle").textContent = (r.mode === "full" ? "Hasil Simulasi SKD" : "Hasil Latihan " + r.mode)
+    + " — Paket " + (r.paket || currentPaket);
   const catKey = ($("pgCatSelect") && $("pgCatSelect").value) || "umum";
   const cat = PG_CATS[catKey] || PG_CATS.umum;
   const special = catKey === "cumlaude" || catKey === "disabilitas";
@@ -395,9 +463,14 @@ function renderResult(r) {
 }
 
 // ---------- review / pembahasan ----------
-function openReview(fromResult) {
+async function openReview(fromResult) {
   // Pembahasan hanya di dalam akun: tamu diarahkan ke halaman login.
   if (window.Auth && !Auth.isLoggedIn()) { Auth.promptLogin(); return; }
+  // Pembahasan mengikuti paket hasil terakhir; bila paketnya berbeda dengan
+  // yang sedang aktif, muat dulu bank soal paket itu.
+  if (lastResult && lastResult.paket && lastResult.paket !== currentPaket) {
+    try { await loadQuestions(lastResult.paket); renderPaketPicker(); } catch (e) { /* tetap tampilkan paket aktif */ }
+  }
   const list = $("reviewList");
   list.innerHTML = "";
   $("reviewResultBtn").style.display = fromResult ? "inline-block" : "none";
@@ -433,8 +506,8 @@ function renderReviewList() {
   });
   $("reviewCount").textContent = items.length + " soal ditampilkan";
   $("reviewNote").textContent = lastResult
-    ? "Menampilkan hasil simulasi terakhir (" + lastResult.mode + ", " + lastResult.total + "/" + lastResult.maxTotal + "). Untuk TKP, tidak ada jawaban salah mutlak — setiap opsi bernilai 1–5, dan pembahasan menjelaskan peringkatnya."
-    : "Mode jelajah: semua 110 soal beserta pembahasannya. Kerjakan dulu simulasi untuk melihat jawaban dan skormu di sini.";
+    ? "Menampilkan hasil simulasi terakhir (Paket " + (lastResult.paket || currentPaket) + ", " + lastResult.mode + ", " + lastResult.total + "/" + lastResult.maxTotal + "). Untuk TKP, tidak ada jawaban salah mutlak — setiap opsi bernilai 1–5, dan pembahasan menjelaskan peringkatnya."
+    : "Mode jelajah: semua 110 soal Paket " + currentPaket + " beserta pembahasannya. Kerjakan dulu simulasi untuk melihat jawaban dan skormu di sini.";
   const list = $("reviewList");
   list.innerHTML = "";
   if (!items.length) {
@@ -490,14 +563,16 @@ function refreshResumeCard() {
   if (!s) { card.style.display = "none"; return; }
   const answered = s.answers.filter((a) => a !== null).length;
   const modeLabel = s.mode === "full" ? "SKD Penuh" : CONFIG[s.mode].label;
-  $("resumeText").textContent = modeLabel + " • Dijawab " + answered + " dari " + s.ids.length
+  $("resumeText").textContent = modeLabel + " • Paket " + (s.paket || "A") + " • Dijawab " + answered + " dari " + s.ids.length
     + " soal • Sisa waktu " + fmtTime(s.remaining) + ".";
   card.style.display = "block";
 }
 
 async function init() {
   try {
-    await loadQuestions();
+    await loadPaketsManifest();
+    renderPaketPicker();
+    await loadQuestions(currentPaket);
   } catch (e) {
     document.querySelector(".hero").insertAdjacentHTML("beforeend",
       '<p class="disclaimer"><strong>Gagal memuat soal:</strong> ' + e.message + '</p>');

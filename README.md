@@ -22,6 +22,11 @@ Harus lewat HTTP server (bukan `file://`) karena soal dimuat dari
 
 ## Isi
 
+- **5 paket soal (A–E)** — masing-masing 110 soal original (TWK 30 + TIU 35 +
+  TKP 45), tanpa soal yang sama di dua paket. Pemilih paket ada di beranda
+  sebelum memilih mode; simulasi, latihan per kategori, dan Pembahasan
+  mengikuti paket yang dipilih. Hasil tersimpan ke akun dengan nama paketnya
+  (mis. "SKD Penuh • Paket B").
 - **Simulasi SKD Penuh** — 110 soal (TWK 30 + TIU 35 + TKP 45), 100 menit.
 - **Latihan per kategori** — TWK (30 soal, 27 menit), TIU (35 soal, 32 menit),
   TKP (45 soal, 41 menit).
@@ -30,6 +35,25 @@ Harus lewat HTTP server (bukan `file://`) karena soal dimuat dari
   tidak dijawab).
 - Progress tersimpan otomatis di browser (localStorage) — simulasi bisa
   dilanjutkan kalau halaman tertutup. Waktu habis = otomatis selesai.
+
+## Bank soal per paket
+
+- Sumber tiap paket: `data/paket-<huruf>/{twk,tiu,tkp}.json` (30/35/45).
+- Build: `node scripts/build-questions.mjs` — menggabungkan tiap paket ke
+  `data/questions-<huruf>.json`, menulis `data/questions.json` (= salinan
+  Paket A, kompatibilitas lama) dan `data/pakets.json` (manifes paket yang
+  tersedia, dibaca situs untuk mengaktifkan tombol paket). Validasi: jumlah,
+  skema, skor, penjelasan ≥40 karakter, sebaran jawaban, sebaran subtopik,
+  dan **duplikat antar paket** (teks pertanyaan ternormalisasi tidak boleh
+  sama di dua paket).
+- Sebaran subtopik tiap paket mengikuti Paket A (kisi-kisi 674/2026): TWK —
+  Empat Konsensus 16, Nasionalisme 5, Integritas 3, Bela Negara 2, Bahasa
+  Indonesia 4; TIU — Silogisme 4, Penalaran Induktif 4, Analitis 4, Deret
+  Angka 4, Berhitung 4, Soal Cerita 4, Perbandingan Kuantitatif 3, Serial 3,
+  Penalaran Matriks 3, Analogi 2; TKP — Pelayanan Publik 9, Jejaring Kerja 7,
+  Anti Radikalisme 7, Profesionalisme 8, Sosial Budaya 7, Adaptasi TIK 7.
+- Tes per paket: `python demo/test-paket.py <huruf>` (simulasi penuh 543
+  LULUS + pembahasan + riwayat + latihan TWK).
 
 ## Tampilan beranda (pedoman ayocpns.com, isi tetap latihan)
 
