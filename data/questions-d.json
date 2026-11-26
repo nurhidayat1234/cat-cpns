@@ -1,0 +1,2422 @@
+[
+  {
+    "answer": 0,
+    "category": "TWK",
+    "explanation": "Sila pertama, Ketuhanan Yang Maha Esa, menuntut pengakuan terhadap Tuhan dan sikap saling menghormati keyakinan antarumat beragama, yang diwujudkan dengan menghargai ibadah dan doa pemeluk agama lain tanpa memaksakan keyakinan sendiri. Pilihan B salah karena sila kedua menyangkut perlakuan adil dan beradab antarmanusia secara umum. Pilihan C salah karena sila ketiga menekankan persatuan bangsa. Pilihan D salah karena sila keempat menyangkut musyawarah. Pilihan E salah karena sila kelima menyangkut pemerataan kesejahteraan.",
+    "id": "TWK-01",
+    "options": [
+      "Ketuhanan Yang Maha Esa",
+      "Kemanusiaan yang Adil dan Beradab",
+      "Persatuan Indonesia",
+      "Kerakyatan yang Dipimpin oleh Hikmat Kebijaksanaan dalam Permusyawaratan/Perwakilan",
+      "Keadilan Sosial bagi Seluruh Rakyat Indonesia"
+    ],
+    "question": "Di sebuah kantor pemerintah, setiap pagi diadakan doa bersama sebelum bekerja. Seorang pegawai yang berbeda agama dengan mayoritas rekan-rekannya tetap hadir dan mengikuti doa itu dengan sikap menghormati, tanpa memaksakan keyakinannya kepada orang lain. Sikap pegawai tersebut merupakan pengamalan sila Pancasila yang berbunyi…",
+    "scores": [
+      5,
+      0,
+      0,
+      0,
+      0
+    ],
+    "subtopic": "Empat Konsensus Kebangsaan"
+  },
+  {
+    "answer": 1,
+    "category": "TWK",
+    "explanation": "Sila kedua, Kemanusiaan yang Adil dan Beradab, menuntut setiap manusia diperlakukan secara adil dan beradab, termasuk menolong sesama yang membutuhkan tanpa membedakan latar belakang. Pilihan A salah karena sila pertama menyangkut ketuhanan dan toleransi beragama. Pilihan C salah karena sila ketiga menekankan persatuan bangsa secara kolektif, bukan pertolongan kemanusiaan terhadap individu. Pilihan D salah karena sila keempat menyangkut musyawarah. Pilihan E salah karena sila kelima menyangkut pemerataan kesejahteraan.",
+    "id": "TWK-02",
+    "options": [
+      "Pertama, Ketuhanan Yang Maha Esa",
+      "Kedua, Kemanusiaan yang Adil dan Beradab",
+      "Ketiga, Persatuan Indonesia",
+      "Keempat, Kerakyatan yang Dipimpin oleh Hikmat Kebijaksanaan dalam Permusyawaratan/Perwakilan",
+      "Kelima, Keadilan Sosial bagi Seluruh Rakyat Indonesia"
+    ],
+    "question": "Ketika terjadi kecelakaan lalu lintas, seorang relawan segera menolong para korban dan mengantar mereka ke rumah sakit tanpa menanyakan suku, agama, atau kemampuan membayar mereka. Sikap tersebut paling mencerminkan pengamalan sila…",
+    "scores": [
+      0,
+      5,
+      0,
+      0,
+      0
+    ],
+    "subtopic": "Empat Konsensus Kebangsaan"
+  },
+  {
+    "answer": 2,
+    "category": "TWK",
+    "explanation": "Sila ketiga, Persatuan Indonesia, menekankan persatuan dan kesatuan bangsa yang diwujudkan melalui kebersamaan dan gotong royong tanpa membedakan suku atau daerah asal. Pilihan A salah karena sila pertama menyangkut ketuhanan. Pilihan B salah karena sila kedua menyangkut perlakuan manusiawi antarindividu. Pilihan D salah karena sila keempat menyangkut musyawarah dalam pengambilan keputusan. Pilihan E salah karena sila kelima menyangkut pemerataan kesejahteraan.",
+    "id": "TWK-03",
+    "options": [
+      "Pertama, Ketuhanan Yang Maha Esa",
+      "Kedua, Kemanusiaan yang Adil dan Beradab",
+      "Ketiga, Persatuan Indonesia",
+      "Keempat, Kerakyatan yang Dipimpin oleh Hikmat Kebijaksanaan dalam Permusyawaratan/Perwakilan",
+      "Kelima, Keadilan Sosial bagi Seluruh Rakyat Indonesia"
+    ],
+    "question": "Warga dari berbagai suku yang tinggal di sebuah desa bekerja sama membangun jembatan penghubung antardusun melalui kerja bakti. Mereka menyumbang tenaga dan bahan bangunan tanpa membedakan asal daerah masing-masing. Kegiatan tersebut merupakan wujud pengamalan sila…",
+    "scores": [
+      0,
+      0,
+      5,
+      0,
+      0
+    ],
+    "subtopic": "Empat Konsensus Kebangsaan"
+  },
+  {
+    "answer": 3,
+    "category": "TWK",
+    "explanation": "Sila keempat menegaskan pengambilan keputusan melalui musyawarah untuk mufakat dengan hikmat kebijaksanaan, bukan pemaksaan kehendak mayoritas atau keputusan sepihak. Pilihan A salah karena sila pertama menyangkut ketuhanan. Pilihan B salah karena sila kedua menyangkut perlakuan manusiawi. Pilihan C salah karena sila ketiga menekankan persatuan, bukan cara pengambilan keputusan. Pilihan E salah karena sila kelima menyangkut pemerataan kesejahteraan.",
+    "id": "TWK-04",
+    "options": [
+      "Ketuhanan Yang Maha Esa",
+      "Kemanusiaan yang Adil dan Beradab",
+      "Persatuan Indonesia",
+      "Kerakyatan yang Dipimpin oleh Hikmat Kebijaksanaan dalam Permusyawaratan/Perwakilan",
+      "Keadilan Sosial bagi Seluruh Rakyat Indonesia"
+    ],
+    "question": "Warga sebuah RT mengadakan musyawarah untuk menentukan jadwal ronda malam dan iuran kebersihan. Setiap warga diberi kesempatan menyampaikan pendapat hingga tercapai kesepakatan bersama yang diterima semua pihak. Praktik tersebut mencerminkan sila Pancasila yang berbunyi…",
+    "scores": [
+      0,
+      0,
+      0,
+      5,
+      0
+    ],
+    "subtopic": "Empat Konsensus Kebangsaan"
+  },
+  {
+    "answer": 4,
+    "category": "TWK",
+    "explanation": "Sila kelima, Keadilan Sosial bagi Seluruh Rakyat Indonesia, menuntut pemerataan kesejahteraan dan keadilan sosial agar seluruh rakyat, termasuk di daerah tertinggal, memperoleh kesempatan dan layanan yang setara. Pilihan A salah karena sila pertama menyangkut ketuhanan. Pilihan B salah karena sila kedua menyangkut perlakuan manusiawi antarindividu. Pilihan C salah karena sila ketiga menekankan persatuan. Pilihan D salah karena sila keempat menyangkut musyawarah.",
+    "id": "TWK-05",
+    "options": [
+      "Pertama, Ketuhanan Yang Maha Esa",
+      "Kedua, Kemanusiaan yang Adil dan Beradab",
+      "Ketiga, Persatuan Indonesia",
+      "Keempat, Kerakyatan yang Dipimpin oleh Hikmat Kebijaksanaan dalam Permusyawaratan/Perwakilan",
+      "Kelima, Keadilan Sosial bagi Seluruh Rakyat Indonesia"
+    ],
+    "question": "Pemerintah membangun jaringan air bersih dan irigasi di desa-desa kering yang selama ini kesulitan memperoleh air, agar petani di sana dapat mengolah lahan seperti petani di daerah lain. Kebijakan tersebut merupakan wujud sila…",
+    "scores": [
+      0,
+      0,
+      0,
+      0,
+      5
+    ],
+    "subtopic": "Empat Konsensus Kebangsaan"
+  },
+  {
+    "answer": 0,
+    "category": "TWK",
+    "explanation": "Alinea keempat Pembukaan UUD 1945 memuat tujuan negara — melindungi segenap bangsa Indonesia, memajukan kesejahteraan umum, mencerdaskan kehidupan bangsa, dan ikut melaksanakan ketertiban dunia — serta rumusan Pancasila sebagai dasar negara. Pilihan A salah karena pernyataan kemerdekaan ialah hak segala bangsa terdapat pada alinea pertama. Pilihan C salah karena susunan lembaga negara diatur dalam Batang Tubuh UUD 1945, bukan Pembukaan. Pilihan D salah karena Mahkamah Konstitusi diatur dalam Pasal 24C, bukan Pembukaan. Pilihan E salah karena hak dan kewajiban warga negara diatur dalam pasal-pasal Batang Tubuh.",
+    "id": "TWK-06",
+    "options": [
+      "Pernyataan bahwa kemerdekaan ialah hak segala bangsa",
+      "Tujuan negara serta rumusan Pancasila sebagai dasar negara",
+      "Susunan dan kedudukan lembaga-lembaga negara",
+      "Pembentukan Mahkamah Konstitusi sebagai pengawal konstitusi",
+      "Hak dan kewajiban warga negara dalam bidang pendidikan"
+    ],
+    "question": "Alinea keempat Pembukaan Undang-Undang Dasar Negara Republik Indonesia Tahun 1945 memuat…",
+    "scores": [
+      5,
+      0,
+      0,
+      0,
+      0
+    ],
+    "subtopic": "Empat Konsensus Kebangsaan"
+  },
+  {
+    "answer": 1,
+    "category": "TWK",
+    "explanation": "Pasal 28B ayat (2) UUD 1945 menyatakan setiap anak berhak atas kelangsungan hidup, tumbuh, dan berkembang serta berhak atas perlindungan dari kekerasan dan diskriminasi. Pilihan A salah karena Pasal 28A mengatur hak untuk hidup dan mempertahankan kehidupan. Pilihan C salah karena Pasal 28D ayat (1) mengatur hak atas pengakuan, jaminan, perlindungan, dan kepastian hukum yang adil. Pilihan D salah karena Pasal 28E ayat (1) mengatur kebebasan memeluk agama dan beribadat. Pilihan E salah karena Pasal 31 ayat (1) mengatur hak mendapat pendidikan.",
+    "id": "TWK-07",
+    "options": [
+      "Pasal 28A",
+      "Pasal 28B ayat (2)",
+      "Pasal 28D ayat (1)",
+      "Pasal 28E ayat (1)",
+      "Pasal 31 ayat (1)"
+    ],
+    "question": "Seorang anak yang menjadi korban kekerasan dalam rumah tangga mendapat perlindungan dari negara dan berhak tumbuh serta berkembang dengan aman. Hak anak atas kelangsungan hidup, tumbuh, dan berkembang serta berhak atas perlindungan dari kekerasan dan diskriminasi dijamin dalam Pasal…",
+    "scores": [
+      0,
+      5,
+      0,
+      0,
+      0
+    ],
+    "subtopic": "Empat Konsensus Kebangsaan"
+  },
+  {
+    "answer": 2,
+    "category": "TWK",
+    "explanation": "Pasal 28I ayat (1) UUD 1945 menyatakan hak untuk hidup, hak untuk tidak disiksa, hak kemerdekaan pikiran dan hati nurani, hak beragama, hak untuk tidak diperbudak, hak untuk diakui sebagai pribadi di hadapan hukum, dan hak untuk tidak dituntut atas dasar hukum yang berlaku surut adalah hak asasi manusia yang tidak dapat dikurangi dalam keadaan apa pun. Pilihan A salah karena Pasal 28G ayat (1) mengatur hak atas perlindungan diri pribadi, keluarga, kehormatan, dan martabat. Pilihan B salah karena Pasal 28H ayat (1) mengatur hak hidup sejahtera lahir dan batin serta memperoleh pelayanan kesehatan. Pilihan D salah karena Pasal 28J ayat (1) mengatur kewajiban menghormati hak asasi manusia orang lain. Pilihan E salah karena Pasal 29 ayat (1) menegaskan negara berdasar atas Ketuhanan Yang Maha Esa.",
+    "id": "TWK-08",
+    "options": [
+      "Pasal 28G ayat (1)",
+      "Pasal 28H ayat (1)",
+      "Pasal 28I ayat (1)",
+      "Pasal 28J ayat (1)",
+      "Pasal 29 ayat (1)"
+    ],
+    "question": "UUD 1945 menegaskan bahwa ada hak asasi manusia yang tidak dapat dikurangi dalam keadaan apa pun, antara lain hak untuk hidup, hak untuk tidak disiksa, hak kemerdekaan pikiran dan hati nurani, serta hak beragama. Hak-hak tersebut diatur dalam Pasal…",
+    "scores": [
+      0,
+      0,
+      5,
+      0,
+      0
+    ],
+    "subtopic": "Empat Konsensus Kebangsaan"
+  },
+  {
+    "answer": 3,
+    "category": "TWK",
+    "explanation": "Pasal 28J ayat (2) UUD 1945 mengatur pembatasan pelaksanaan hak dan kebebasan seseorang dengan undang-undang demi menjamin pengakuan dan penghormatan atas hak orang lain serta memenuhi tuntutan moral, nilai agama, keamanan, dan ketertiban umum dalam masyarakat demokratis. Pilihan A salah karena Pasal 28E ayat (3) mengatur kebebasan berserikat, berkumpul, dan mengeluarkan pendapat. Pilihan B salah karena Pasal 28G ayat (2) mengatur hak untuk bebas dari penyiksaan dan perlakuan yang merendahkan derajat martabat manusia. Pilihan C salah karena Pasal 28H ayat (2) mengatur hak mendapat kemudahan dan perlakuan khusus untuk memperoleh kesempatan yang sama. Pilihan E salah karena Pasal 30 ayat (1) mengatur hak dan kewajiban ikut serta dalam usaha pertahanan dan keamanan negara.",
+    "id": "TWK-09",
+    "options": [
+      "Pasal 28E ayat (3)",
+      "Pasal 28G ayat (2)",
+      "Pasal 28H ayat (2)",
+      "Pasal 28J ayat (2)",
+      "Pasal 30 ayat (1)"
+    ],
+    "question": "Dalam menjalankan hak dan kebebasannya, setiap orang wajib tunduk kepada pembatasan yang ditetapkan dengan undang-undang dengan maksud untuk menjamin pengakuan serta penghormatan atas hak dan kebebasan orang lain dan untuk memenuhi tuntutan yang adil sesuai dengan pertimbangan moral, nilai-nilai agama, keamanan, dan ketertiban umum. Ketentuan tersebut diatur dalam Pasal…",
+    "scores": [
+      0,
+      0,
+      0,
+      5,
+      0
+    ],
+    "subtopic": "Empat Konsensus Kebangsaan"
+  },
+  {
+    "answer": 4,
+    "category": "TWK",
+    "explanation": "Pasal 33 ayat (3) UUD 1945 menyatakan bumi dan air dan kekayaan alam yang terkandung di dalamnya dikuasai oleh negara dan dipergunakan untuk sebesar-besar kemakmuran rakyat. Pilihan A salah karena Pasal 31 ayat (1) mengatur hak mendapat pendidikan. Pilihan B salah karena Pasal 32 ayat (1) mengatur pemajuan kebudayaan nasional. Pilihan C salah karena Pasal 33 ayat (1) mengatur perekonomian yang disusun sebagai usaha bersama berdasar atas asas kekeluargaan. Pilihan D salah karena Pasal 33 ayat (2) mengatur cabang-cabang produksi yang penting bagi negara dan menguasai hajat hidup orang banyak.",
+    "id": "TWK-10",
+    "options": [
+      "Pasal 31 ayat (1)",
+      "Pasal 32 ayat (1)",
+      "Pasal 33 ayat (1)",
+      "Pasal 33 ayat (2)",
+      "Pasal 33 ayat (3)"
+    ],
+    "question": "Bumi dan air dan kekayaan alam yang terkandung di dalamnya dikuasai oleh negara dan dipergunakan untuk sebesar-besar kemakmuran rakyat. Ketentuan tersebut diatur dalam Pasal…",
+    "scores": [
+      0,
+      0,
+      0,
+      0,
+      5
+    ],
+    "subtopic": "Empat Konsensus Kebangsaan"
+  },
+  {
+    "answer": 0,
+    "category": "TWK",
+    "explanation": "Pasal 36B UUD 1945 menyatakan: 'Lagu kebangsaan ialah Indonesia Raya.' Pilihan B salah karena Pasal 35 mengatur bendera negara Sang Merah Putih. Pilihan C salah karena Pasal 36 mengatur bahasa negara. Pilihan D salah karena Pasal 36A mengatur lambang negara Garuda Pancasila. Pilihan E salah karena Pasal 37 mengatur perubahan Undang-Undang Dasar.",
+    "id": "TWK-11",
+    "options": [
+      "Pasal 36B",
+      "Pasal 35",
+      "Pasal 36",
+      "Pasal 36A",
+      "Pasal 37"
+    ],
+    "question": "Lagu kebangsaan Indonesia Raya ditetapkan sebagai lagu kebangsaan negara dalam UUD 1945. Ketentuan tentang lagu kebangsaan tersebut diatur dalam Pasal…",
+    "scores": [
+      5,
+      0,
+      0,
+      0,
+      0
+    ],
+    "subtopic": "Empat Konsensus Kebangsaan"
+  },
+  {
+    "answer": 1,
+    "category": "TWK",
+    "explanation": "Pasal 28F UUD 1945 menyatakan setiap orang berhak untuk berkomunikasi dan memperoleh informasi untuk mengembangkan pribadi dan lingkungan sosialnya, serta berhak untuk mencari, memperoleh, memiliki, menyimpan, mengolah, dan menyampaikan informasi dengan menggunakan segala jenis saluran yang tersedia. Pilihan A salah karena Pasal 28C ayat (1) mengatur hak mengembangkan diri melalui pemenuhan kebutuhan dasar dan memperoleh manfaat ilmu pengetahuan. Pilihan C salah karena Pasal 28H ayat (1) mengatur hak hidup sejahtera lahir dan batin serta memperoleh pelayanan kesehatan. Pilihan D salah karena Pasal 28I ayat (2) mengatur hak untuk bebas dari perlakuan yang bersifat diskriminatif. Pilihan E salah karena Pasal 29 ayat (2) mengatur jaminan kemerdekaan beragama.",
+    "id": "TWK-12",
+    "options": [
+      "Pasal 28C ayat (1)",
+      "Pasal 28F",
+      "Pasal 28H ayat (1)",
+      "Pasal 28I ayat (2)",
+      "Pasal 29 ayat (2)"
+    ],
+    "question": "Setiap orang berhak untuk berkomunikasi dan memperoleh informasi untuk mengembangkan pribadi dan lingkungan sosialnya, serta berhak untuk mencari, memperoleh, memiliki, menyimpan, mengolah, dan menyampaikan informasi dengan menggunakan segala jenis saluran yang tersedia. Hak tersebut dijamin dalam Pasal…",
+    "scores": [
+      0,
+      5,
+      0,
+      0,
+      0
+    ],
+    "subtopic": "Empat Konsensus Kebangsaan"
+  },
+  {
+    "answer": 2,
+    "category": "TWK",
+    "explanation": "Pasal 22E UUD 1945 mengatur bahwa pemilihan umum dilaksanakan secara langsung, umum, bebas, rahasia, jujur, dan adil setiap lima tahun sekali. Pilihan A salah karena Pasal 19 mengatur susunan dan kedudukan DPR. Pilihan B salah karena Pasal 20 mengatur pembentukan undang-undang. Pilihan D salah karena Pasal 23 mengatur anggaran pendapatan dan belanja negara. Pilihan E salah karena Pasal 24 mengatur kekuasaan kehakiman.",
+    "id": "TWK-13",
+    "options": [
+      "Pasal 19",
+      "Pasal 20",
+      "Pasal 22E",
+      "Pasal 23",
+      "Pasal 24"
+    ],
+    "question": "Pemilihan umum dilaksanakan secara langsung, umum, bebas, rahasia, jujur, dan adil setiap lima tahun sekali untuk memilih anggota DPR, DPD, presiden dan wakil presiden, serta anggota DPRD. Ketentuan tentang pemilihan umum tersebut diatur dalam Pasal…",
+    "scores": [
+      0,
+      0,
+      5,
+      0,
+      0
+    ],
+    "subtopic": "Empat Konsensus Kebangsaan"
+  },
+  {
+    "answer": 3,
+    "category": "TWK",
+    "explanation": "Pohon beringin adalah lambang sila ketiga, Persatuan Indonesia, yang melambangkan pengayoman dan tempat berlindung bagi seluruh rakyat Indonesia. Pilihan A salah karena cahaya ketuhanan dilambangkan oleh bintang, lambang sila pertama. Pilihan B salah karena kekuatan rakyat dalam bermusyawarah dilambangkan oleh kepala banteng, lambang sila keempat. Pilihan C salah karena keadilan sosial dilambangkan oleh padi dan kapas, lambang sila kelima. Pilihan E salah karena persaudaraan antarmanusia dilambangkan oleh rantai, lambang sila kedua.",
+    "id": "TWK-14",
+    "options": [
+      "cahaya ketuhanan yang menerangi kehidupan bangsa",
+      "kekuatan rakyat dalam bermusyawarah",
+      "keadilan sosial bagi seluruh rakyat Indonesia",
+      "persatuan dan pengayoman bagi seluruh rakyat Indonesia",
+      "persaudaraan antarmanusia tanpa membedakan latar belakang"
+    ],
+    "question": "Pohon beringin pada perisai Garuda Pancasila melambangkan…",
+    "scores": [
+      0,
+      0,
+      0,
+      5,
+      0
+    ],
+    "subtopic": "Empat Konsensus Kebangsaan"
+  },
+  {
+    "answer": 4,
+    "category": "TWK",
+    "explanation": "Kepala banteng adalah lambang sila keempat, Kerakyatan yang Dipimpin oleh Hikmat Kebijaksanaan dalam Permusyawaratan/Perwakilan, yang melambangkan demokrasi dan kekuatan rakyat dalam bermusyawarah. Pilihan A salah karena lambang sila pertama adalah bintang. Pilihan B salah karena lambang sila kedua adalah rantai. Pilihan C salah karena lambang sila ketiga adalah pohon beringin. Pilihan E salah karena lambang sila kelima adalah padi dan kapas.",
+    "id": "TWK-15",
+    "options": [
+      "Ketuhanan Yang Maha Esa",
+      "Kemanusiaan yang Adil dan Beradab",
+      "Persatuan Indonesia",
+      "Kerakyatan yang Dipimpin oleh Hikmat Kebijaksanaan dalam Permusyawaratan/Perwakilan",
+      "Keadilan Sosial bagi Seluruh Rakyat Indonesia"
+    ],
+    "question": "Kepala banteng yang terdapat pada perisai Garuda Pancasila merupakan lambang dari sila Pancasila yang berbunyi…",
+    "scores": [
+      0,
+      0,
+      0,
+      0,
+      5
+    ],
+    "subtopic": "Empat Konsensus Kebangsaan"
+  },
+  {
+    "answer": 0,
+    "category": "TWK",
+    "explanation": "Pasal 28A UUD 1945 menyatakan: 'Setiap orang berhak untuk hidup serta berhak mempertahankan hidup dan kehidupannya.' Pilihan B salah karena Pasal 28B ayat (1) mengatur hak membentuk keluarga dan melanjutkan keturunan melalui perkawinan yang sah. Pilihan C salah karena Pasal 28C ayat (2) mengatur hak setiap orang untuk memajukan dirinya dalam memperjuangkan haknya secara kolektif. Pilihan D salah karena Pasal 28D ayat (2) mengatur hak setiap orang untuk bekerja serta mendapat imbalan dan perlakuan yang adil dalam hubungan kerja. Pilihan E salah karena Pasal 28E ayat (2) mengatur hak setiap orang atas kebebasan meyakini kepercayaan, menyatakan pikiran dan sikap, sesuai dengan hati nuraninya.",
+    "id": "TWK-16",
+    "options": [
+      "Pasal 28A",
+      "Pasal 28B ayat (1)",
+      "Pasal 28C ayat (2)",
+      "Pasal 28D ayat (2)",
+      "Pasal 28E ayat (2)"
+    ],
+    "question": "Setiap orang berhak untuk hidup serta berhak mempertahankan hidup dan kehidupannya. Hak untuk hidup tersebut dijamin dalam Pasal…",
+    "scores": [
+      5,
+      0,
+      0,
+      0,
+      0
+    ],
+    "subtopic": "Empat Konsensus Kebangsaan"
+  },
+  {
+    "answer": 1,
+    "category": "TWK",
+    "explanation": "Serangan Umum 1 Maret 1949 adalah serangan TNI yang dipimpin Letnan Kolonel Soeharto terhadap Belanda di Yogyakarta dan berhasil menguasai kota selama enam jam, yang menunjukkan kepada dunia bahwa Republik Indonesia masih ada. Pilihan A salah karena Pertempuran Surabaya terjadi pada 10 November 1945. Pilihan C salah karena Peristiwa Rengasdengklok terjadi pada 16 Agustus 1945. Pilihan D salah karena Bandung Lautan Api terjadi pada 23 Maret 1946. Pilihan E salah karena Agresi Militer Belanda I terjadi pada Juli 1947.",
+    "id": "TWK-17",
+    "options": [
+      "Pertempuran Surabaya",
+      "Serangan Umum 1 Maret",
+      "Peristiwa Rengasdengklok",
+      "Bandung Lautan Api",
+      "Agresi Militer Belanda I"
+    ],
+    "question": "Pada 1 Maret 1949, TNI di bawah pimpinan Letnan Kolonel Soeharto melancarkan serangan besar-besaran terhadap Belanda di Yogyakarta dan berhasil menguasai kota selama enam jam. Peristiwa tersebut dikenal dengan nama…",
+    "scores": [
+      0,
+      5,
+      0,
+      0,
+      0
+    ],
+    "subtopic": "Nasionalisme"
+  },
+  {
+    "answer": 2,
+    "category": "TWK",
+    "explanation": "Perjanjian Linggarjati berisi pengakuan Belanda secara de facto atas Republik Indonesia yang meliputi Jawa, Madura, dan Sumatra, serta pembentukan Uni Indonesia-Belanda dan negara Indonesia Serikat. Pilihan A salah karena pengakuan kedaulatan penuh baru terjadi pada 27 Desember 1949 melalui Konferensi Meja Bundar. Pilihan B salah karena Republik Indonesia Serikat adalah hasil Konferensi Meja Bundar, bukan Linggarjati. Pilihan D salah karena Belanda tidak menarik pasukannya setelah Linggarjati; Agresi Militer Belanda I justru terjadi beberapa bulan kemudian. Pilihan E salah karena Indonesia tidak bergabung menjadi bagian Kerajaan Belanda.",
+    "id": "TWK-18",
+    "options": [
+      "Belanda mengakui kedaulatan penuh atas seluruh wilayah Indonesia",
+      "Indonesia menjadi negara bagian dalam Republik Indonesia Serikat",
+      "Belanda mengakui secara de facto Republik Indonesia atas Jawa, Madura, dan Sumatra",
+      "Belanda menarik seluruh pasukannya dari wilayah Indonesia",
+      "Indonesia bergabung menjadi bagian dari Kerajaan Belanda"
+    ],
+    "question": "Perjanjian Linggarjati yang ditandatangani pada 25 Maret 1947 merupakan hasil perundingan antara Indonesia dan Belanda. Salah satu isi penting perjanjian tersebut adalah…",
+    "scores": [
+      0,
+      0,
+      5,
+      0,
+      0
+    ],
+    "subtopic": "Nasionalisme"
+  },
+  {
+    "answer": 3,
+    "category": "TWK",
+    "explanation": "Teks Proklamasi dibacakan Soekarno di kediamannya, Jalan Pegangsaan Timur Nomor 56, Jakarta, pada 17 Agustus 1945 pukul 10.00 WIB. Pilihan A salah karena Gedung Merdeka di Bandung adalah tempat Konferensi Asia Afrika 1955. Pilihan B salah karena Lapangan Ikada adalah tempat rapat raksasa 19 September 1945. Pilihan C salah karena Istana Merdeka adalah kantor presiden yang digunakan setelah kemerdekaan. Pilihan E salah karena tidak ada peristiwa proklamasi di Bandung.",
+    "id": "TWK-19",
+    "options": [
+      "Gedung Merdeka, Bandung",
+      "Lapangan Ikada, Jakarta",
+      "Istana Merdeka, Jakarta",
+      "Jalan Pegangsaan Timur Nomor 56, Jakarta",
+      "Kantor Gubernur Jawa Barat, Bandung"
+    ],
+    "question": "Teks Proklamasi Kemerdekaan Indonesia dibacakan oleh Soekarno pada 17 Agustus 1945 pukul 10.00 WIB. Pembacaan teks proklamasi tersebut berlangsung di…",
+    "scores": [
+      0,
+      0,
+      0,
+      5,
+      0
+    ],
+    "subtopic": "Nasionalisme"
+  },
+  {
+    "answer": 4,
+    "category": "TWK",
+    "explanation": "Kongres Pemuda II pada 27–28 Oktober 1928 menghasilkan Ikrar Sumpah Pemuda dan lagu Indonesia Raya pertama kali diperdengarkan sebagai lagu kebangsaan. Pilihan A salah karena Budi Utomo dibentuk pada 20 Mei 1908. Pilihan B salah karena UUD 1945 disahkan PPKI pada 18 Agustus 1945. Pilihan C salah karena TNI dibentuk pada 5 Oktober 1945. Pilihan D salah karena dasar negara dirumuskan dalam sidang BPUPKI pada 1945.",
+    "id": "TWK-20",
+    "options": [
+      "Pembentukan Budi Utomo sebagai organisasi pergerakan pertama",
+      "Pengesahan Undang-Undang Dasar 1945",
+      "Pembentukan Tentara Nasional Indonesia",
+      "Perumusan dasar negara Indonesia",
+      "Ikrar Sumpah Pemuda dan penetapan lagu Indonesia Raya sebagai lagu kebangsaan"
+    ],
+    "question": "Kongres Pemuda II yang berlangsung pada 27–28 Oktober 1928 di Jakarta menghasilkan keputusan penting bagi perjuangan bangsa Indonesia. Keputusan tersebut adalah…",
+    "scores": [
+      0,
+      0,
+      0,
+      0,
+      5
+    ],
+    "subtopic": "Nasionalisme"
+  },
+  {
+    "answer": 0,
+    "category": "TWK",
+    "explanation": "Kumpulan surat R.A. Kartini diterbitkan dengan judul 'Habis Gelap Terbitlah Terang', yang memuat gagasannya tentang pendidikan dan emansipasi perempuan. Pilihan B salah karena 'Di Bawah Bendera Revolusi' adalah kumpulan tulisan Soekarno. Pilihan C salah karena 'Madilog' adalah karya Tan Malaka. Pilihan D salah karena 'Dari Penjara ke Penjara' adalah otobiografi Tan Malaka. Pilihan E salah karena 'Ke Arah Indonesia Merdeka' juga karya Tan Malaka.",
+    "id": "TWK-21",
+    "options": [
+      "Habis Gelap Terbitlah Terang",
+      "Di Bawah Bendera Revolusi",
+      "Madilog",
+      "Dari Penjara ke Penjara",
+      "Ke Arah Indonesia Merdeka"
+    ],
+    "question": "R.A. Kartini dikenal sebagai pelopor emansipasi perempuan Indonesia. Gagasan-gagasannya tentang pendidikan bagi perempuan tertuang dalam kumpulan surat yang kemudian diterbitkan dengan judul…",
+    "scores": [
+      5,
+      0,
+      0,
+      0,
+      0
+    ],
+    "subtopic": "Nasionalisme"
+  },
+  {
+    "answer": 1,
+    "category": "TWK",
+    "explanation": "Integritas menuntut ASN berani melaporkan pelanggaran melalui saluran yang resmi agar dapat ditindaklanjuti sesuai aturan, bukan membiarkan atau ikut serta dalam pungutan liar. Pilihan A salah karena membiarkan pelanggaran berarti ikut menoleransi korupsi. Pilihan C salah karena ikut memungut adalah korupsi. Pilihan D salah karena menyuruh warga membayar pungli merugikan masyarakat. Pilihan E salah karena menyebarkan kabar tanpa bukti dapat menimbulkan fitnah; laporan harus disertai bukti melalui saluran resmi.",
+    "id": "TWK-22",
+    "options": [
+      "Membiarkan pungutan itu karena dilakukan oleh atasan",
+      "Melaporkan pungutan liar tersebut melalui saluran pengaduan resmi atau kepada atasan yang lebih tinggi",
+      "Ikut memungut biaya tambahan agar mendapat bagian",
+      "Menyuruh warga membayar pungutan itu agar urusannya cepat selesai",
+      "Menyebarkan kabar pungutan itu ke media sosial tanpa bukti"
+    ],
+    "question": "Seorang ASN menemukan bahwa atasannya melakukan pungutan liar terhadap warga yang mengurus perizinan. Tindakan yang paling sesuai dengan nilai integritas ASN adalah…",
+    "scores": [
+      0,
+      5,
+      0,
+      0,
+      0
+    ],
+    "subtopic": "Integritas"
+  },
+  {
+    "answer": 2,
+    "category": "TWK",
+    "explanation": "Nilai Loyal dalam BerAKHLAK berarti setia kepada Pancasila, UUD 1945, NKRI, dan pemerintah yang sah, serta menjaga nama baik dan rahasia jabatan instansi dan negara. Pilihan A salah karena Akuntabel berarti mempertanggungjawabkan kinerja dan pengelolaan anggaran secara transparan. Pilihan B salah karena Kompeten berarti terus belajar dan mengembangkan kemampuan diri. Pilihan D salah karena Adaptif berarti cepat menyesuaikan diri dengan perubahan. Pilihan E salah karena Kolaboratif berarti membangun kerja sama yang sinergis dengan rekan kerja.",
+    "id": "TWK-23",
+    "options": [
+      "Akuntabel",
+      "Kompeten",
+      "Loyal",
+      "Adaptif",
+      "Kolaboratif"
+    ],
+    "question": "Seorang ASN menolak ajakan rekan-rekannya untuk menyebarkan informasi rahasia instansi ke media sosial. Ia menjelaskan bahwa sebagai ASN ia wajib menjaga rahasia jabatan serta nama baik instansi dan negara. Sikap tersebut mencerminkan nilai dasar ASN BerAKHLAK…",
+    "scores": [
+      0,
+      0,
+      5,
+      0,
+      0
+    ],
+    "subtopic": "Integritas"
+  },
+  {
+    "answer": 3,
+    "category": "TWK",
+    "explanation": "Integritas menuntut kejujuran dalam setiap laporan; data kinerja harus dilaporkan sesuai fakta, dan perintah atasan yang bertentangan dengan kejujuran tidak boleh ditaati. Pilihan A salah karena perintah atasan tidak membenarkan pemalsuan data. Pilihan B salah karena mengubah sebagian angka tetap merupakan pemalsuan. Pilihan C salah karena menunda laporan adalah penghindaran tanggung jawab. Pilihan E salah karena menyuruh orang lain memalsukan data sama saja dengan melakukannya sendiri.",
+    "id": "TWK-24",
+    "options": [
+      "Mengubah angka tersebut karena perintah atasan harus ditaati",
+      "Mengubah sebagian angka agar tidak terlalu mencolok",
+      "Menunda penyusunan laporan sampai atasan menarik permintaannya",
+      "Menolak mengubah angka dan melaporkan data yang sebenarnya sesuai fakta",
+      "Meminta rekan kerja lain yang mengubah angka tersebut"
+    ],
+    "question": "Seorang pegawai diminta atasannya untuk mengubah angka dalam laporan kinerja agar target instansi tampak tercapai, padahal angka sebenarnya tidak mencapai target. Tindakan yang paling sesuai dengan nilai integritas adalah…",
+    "scores": [
+      0,
+      0,
+      0,
+      5,
+      0
+    ],
+    "subtopic": "Integritas"
+  },
+  {
+    "answer": 4,
+    "category": "TWK",
+    "explanation": "Komponen cadangan adalah warga negara yang secara sukarela menyiapkan diri sebagai kekuatan pendukung pertahanan negara; mereka tetap berprofesi sebagai warga sipil dan hanya dikerahkan saat negara membutuhkan. Pilihan A salah karena anggota Komcad tidak memperoleh gaji tetap seperti prajurit aktif. Pilihan B salah karena Komcad justru berasal dari warga sipil, bukan TNI aktif. Pilihan C salah karena Komcad adalah pendukung, bukan pengganti TNI. Pilihan D salah karena keanggotaan Komcad tidak membebaskan seseorang dari kewajiban pajak.",
+    "id": "TWK-25",
+    "options": [
+      "Warga tersebut memperoleh gaji tetap dari negara selama menjadi anggota",
+      "Keikutsertaan dalam Komcad hanya berlaku bagi anggota TNI aktif",
+      "Komcad dibentuk untuk menggantikan seluruh tugas TNI",
+      "Warga yang bergabung Komcad dibebaskan dari kewajiban membayar pajak",
+      "Warga secara sadar menyiapkan diri sebagai kekuatan pendukung pertahanan negara sesuai kemampuan dan profesinya"
+    ],
+    "question": "Seorang warga negara secara sukarela mendaftarkan diri sebagai anggota komponen cadangan (Komcad) pertahanan negara. Ia menjalani pelatihan militer dasar dan siap dikerahkan saat negara membutuhkan. Keikutsertaan warga dalam Komcad merupakan wujud bela negara karena…",
+    "scores": [
+      0,
+      0,
+      0,
+      0,
+      5
+    ],
+    "subtopic": "Bela Negara"
+  },
+  {
+    "answer": 0,
+    "category": "TWK",
+    "explanation": "Melaporkan pelanggaran di wilayah perairan Indonesia adalah wujud bela negara karena turut menjaga kedaulatan negara dan kekayaan alam di wilayah perbatasan. Pilihan B salah karena motif bela negara adalah kesadaran berbangsa, bukan imbalan uang. Pilihan C salah karena melaporkan kapal asing bukan karena takut ditangkap aparat. Pilihan D salah karena pekerjaan tidak ada hubungannya dengan tindakan menjaga kedaulatan. Pilihan E salah karena alasan bela negara adalah menjaga kedaulatan, bukan ketakutan pribadi.",
+    "id": "TWK-26",
+    "options": [
+      "Ia turut menjaga kedaulatan dan kekayaan alam Indonesia di wilayah perbatasan",
+      "Ia memperoleh imbalan uang dari aparat atas laporannya",
+      "Ia ingin kapalnya sendiri tidak ditangkap oleh aparat",
+      "Ia tidak memiliki pekerjaan lain selain menjadi nelayan",
+      "Ia takut kapalnya dirampas oleh kapal asing tersebut"
+    ],
+    "question": "Seorang nelayan di perbatasan melihat kapal asing menangkap ikan secara ilegal di perairan Indonesia. Ia segera melaporkan kejadian tersebut kepada aparat penegak hukum dan tidak ikut membantu kapal asing itu. Sikap nelayan tersebut merupakan wujud bela negara karena…",
+    "scores": [
+      5,
+      0,
+      0,
+      0,
+      0
+    ],
+    "subtopic": "Bela Negara"
+  },
+  {
+    "answer": 1,
+    "category": "TWK",
+    "explanation": "Kalimat tersebut tidak efektif karena kata 'adalah' dan 'merupakan' memiliki fungsi yang sama sehingga terjadi pengulangan yang mubazir; salah satunya harus dihilangkan. Pilihan A salah karena tanda baca dalam kalimat itu sudah benar. Pilihan C salah karena kalimat itu memiliki subjek yang jelas, yaitu 'tujuan dari penelitian ini'. Pilihan D salah karena kalimat itu memiliki predikat, yaitu 'adalah merupakan upaya…'. Pilihan E salah karena semua kata dalam kalimat itu sudah baku.",
+    "id": "TWK-27",
+    "options": [
+      "menggunakan tanda baca yang salah",
+      "mengandung pengulangan kata yang bermakna sama",
+      "tidak memiliki subjek yang jelas",
+      "tidak memiliki predikat yang jelas",
+      "menggunakan kata tidak baku"
+    ],
+    "question": "Kalimat 'Tujuan dari penelitian ini adalah merupakan upaya untuk meningkatkan mutu pendidikan' tidak efektif karena…",
+    "scores": [
+      0,
+      5,
+      0,
+      0,
+      0
+    ],
+    "subtopic": "Bahasa Indonesia"
+  },
+  {
+    "answer": 2,
+    "category": "TWK",
+    "explanation": "Kalimat C benar karena singkatan nama badan atau lembaga seperti PT, SMA, dan KTP ditulis tanpa tanda titik. Pilihan A salah karena 'PT.' seharusnya ditulis 'PT'. Pilihan B salah karena 'K.T.P.' seharusnya ditulis 'KTP'. Pilihan D salah karena 'S.M.A.' seharusnya ditulis 'SMA'. Pilihan E salah karena 'K.T.P.' seharusnya ditulis 'KTP'.",
+    "id": "TWK-28",
+    "options": [
+      "PT. Maju Bersama membuka lowongan kerja.",
+      "Dia membawa K.T.P. saat mengurus surat.",
+      "PT Maju Bersama membuka lowongan kerja.",
+      "Ia bersekolah di S.M.A. Negeri 1.",
+      "Nomor K.T.P. itu sudah tidak berlaku."
+    ],
+    "question": "Singkatan nama badan atau lembaga, seperti PT, SMA, dan KTP, ditulis tanpa tanda titik. Manakah kalimat berikut yang penulisan singkatannya sudah benar?",
+    "scores": [
+      0,
+      0,
+      5,
+      0,
+      0
+    ],
+    "subtopic": "Bahasa Indonesia"
+  },
+  {
+    "answer": 3,
+    "category": "TWK",
+    "explanation": "Kalimat D benar karena bilangan di awal kalimat harus ditulis dengan huruf, bukan angka: 'Dua puluh lima siswa mengikuti ujian susulan hari ini.' Pilihan A dan B salah karena bilangan di awal kalimat ditulis dengan angka. Pilihan C salah karena 'siswa-siswa' sudah bermakna jamak sehingga tidak perlu didahului bilangan yang juga menandai jumlah. Pilihan E salah karena bilangan di awal kalimat ditulis dengan angka dan 'siswa-siswa' mengandung pengulangan yang mubazir.",
+    "id": "TWK-29",
+    "options": [
+      "25 siswa mengikuti ujian susulan hari ini.",
+      "25 orang siswa mengikuti ujian susulan hari ini.",
+      "Dua puluh lima siswa-siswa mengikuti ujian susulan hari ini.",
+      "Dua puluh lima siswa mengikuti ujian susulan hari ini.",
+      "25 orang siswa-siswa mengikuti ujian susulan hari ini."
+    ],
+    "question": "Menurut kaidah bahasa Indonesia, bilangan yang terletak di awal kalimat harus ditulis dengan huruf, bukan angka. Manakah kalimat berikut yang penulisannya sudah benar?",
+    "scores": [
+      0,
+      0,
+      0,
+      5,
+      0
+    ],
+    "subtopic": "Bahasa Indonesia"
+  },
+  {
+    "answer": 4,
+    "category": "TWK",
+    "explanation": "Bentuk baku dari ketiga kata tersebut adalah 'sistem' (bukan 'sistim'), 'jadwal' (bukan 'jadual'), dan 'komplet' (bukan 'komplit'). Pilihan A salah karena ketiganya tidak baku. Pilihan B salah karena 'jadual' tidak baku. Pilihan C salah karena 'sistim' dan 'komplit' tidak baku. Pilihan D salah karena 'komplit' tidak baku.",
+    "id": "TWK-30",
+    "options": [
+      "sistim, jadual, komplit",
+      "sistem, jadual, komplet",
+      "sistim, jadwal, komplit",
+      "sistem, jadwal, komplit",
+      "sistem, jadwal, komplet"
+    ],
+    "question": "Bentuk baku dari kata 'sistim', 'jadual', dan 'komplit' secara berurutan adalah…",
+    "scores": [
+      0,
+      0,
+      0,
+      0,
+      5
+    ],
+    "subtopic": "Bahasa Indonesia"
+  },
+  {
+    "id": "TIU-01",
+    "category": "TIU",
+    "subtopic": "Verbal — Silogisme",
+    "question": "Semua dosen adalah pegawai negeri. Semua pegawai negeri adalah warga negara Indonesia. Kesimpulan yang pasti benar adalah ...",
+    "options": [
+      "Semua dosen adalah warga negara Indonesia.",
+      "Semua warga negara Indonesia adalah dosen.",
+      "Sebagian pegawai negeri bukan warga negara Indonesia.",
+      "Tidak ada dosen yang menjadi warga negara Indonesia.",
+      "Sebagian dosen bukan pegawai negeri."
+    ],
+    "answer": 0,
+    "scores": [
+      5,
+      0,
+      0,
+      0,
+      0
+    ],
+    "explanation": "Benar karena semua dosen termasuk pegawai negeri, dan semua pegawai negeri adalah warga negara Indonesia, sehingga semua dosen pasti warga negara Indonesia. Opsi B membalik premis kedua, opsi C dan E bertentangan dengan premis, dan opsi D bertentangan dengan kesimpulan yang sudah pasti."
+  },
+  {
+    "id": "TIU-02",
+    "category": "TIU",
+    "subtopic": "Verbal — Silogisme",
+    "question": "Sebagian anggota pramuka adalah siswa kelas X. Tidak ada siswa kelas X yang menjadi anggota klub renang. Kesimpulan yang pasti benar adalah ...",
+    "options": [
+      "Semua anggota pramuka adalah siswa kelas X.",
+      "Tidak ada anggota pramuka yang menjadi anggota klub renang.",
+      "Semua siswa kelas X adalah anggota pramuka.",
+      "Sebagian anggota pramuka bukan anggota klub renang.",
+      "Sebagian anggota klub renang adalah siswa kelas X."
+    ],
+    "answer": 3,
+    "scores": [
+      0,
+      0,
+      0,
+      5,
+      0
+    ],
+    "explanation": "Benar karena sebagian anggota pramuka adalah siswa kelas X, sedangkan tidak satu pun siswa kelas X menjadi anggota klub renang, sehingga sebagian anggota pramuka itu pasti bukan anggota klub renang. Opsi A mengubah 'sebagian' menjadi 'semua', opsi B terlalu mutlak karena hanya sebagian anggota pramuka yang dipastikan, opsi C membalik premis pertama, dan opsi E bertentangan dengan premis kedua."
+  },
+  {
+    "id": "TIU-03",
+    "category": "TIU",
+    "subtopic": "Verbal — Silogisme",
+    "question": "Semua karyawan tetap mendapat tunjangan transportasi. Sebagian peserta pelatihan adalah karyawan tetap. Kesimpulan yang pasti benar adalah ...",
+    "options": [
+      "Semua peserta pelatihan adalah karyawan tetap.",
+      "Sebagian peserta pelatihan mendapat tunjangan transportasi.",
+      "Semua karyawan tetap mengikuti pelatihan.",
+      "Tidak ada peserta pelatihan yang mendapat tunjangan transportasi.",
+      "Sebagian karyawan tetap bukan peserta pelatihan."
+    ],
+    "answer": 1,
+    "scores": [
+      0,
+      5,
+      0,
+      0,
+      0
+    ],
+    "explanation": "Benar karena sebagian peserta pelatihan adalah karyawan tetap, dan semua karyawan tetap mendapat tunjangan transportasi, sehingga sebagian peserta pelatihan itu pasti mendapat tunjangan transportasi. Opsi A mengubah 'sebagian' menjadi 'semua', opsi C membalik premis pertama, opsi D bertentangan dengan kesimpulan yang pasti, dan opsi E tidak dapat dipastikan dari kedua premis."
+  },
+  {
+    "id": "TIU-04",
+    "category": "TIU",
+    "subtopic": "Verbal — Silogisme",
+    "question": "Tidak ada kendaraan listrik yang mengeluarkan asap. Sebagian kendaraan di parkir kantor adalah kendaraan listrik. Kesimpulan yang pasti benar adalah ...",
+    "options": [
+      "Semua kendaraan di parkir kantor adalah kendaraan listrik.",
+      "Tidak ada kendaraan di parkir kantor yang mengeluarkan asap.",
+      "Sebagian kendaraan di parkir kantor tidak mengeluarkan asap.",
+      "Semua kendaraan listrik berada di parkir kantor.",
+      "Sebagian kendaraan listrik mengeluarkan asap."
+    ],
+    "answer": 2,
+    "scores": [
+      0,
+      0,
+      5,
+      0,
+      0
+    ],
+    "explanation": "Benar karena sebagian kendaraan di parkir kantor adalah kendaraan listrik, sedangkan tidak ada kendaraan listrik yang mengeluarkan asap, sehingga sebagian kendaraan di parkir kantor itu pasti tidak mengeluarkan asap. Opsi A mengubah 'sebagian' menjadi 'semua', opsi B terlalu mutlak karena hanya sebagian kendaraan yang dipastikan, opsi D membalik premis kedua, dan opsi E bertentangan dengan premis pertama."
+  },
+  {
+    "id": "TIU-05",
+    "category": "TIU",
+    "subtopic": "Verbal — Penalaran Induktif",
+    "question": "Siswa yang tidur delapan jam setiap malam lebih mudah mengingat pelajaran. Sebuah kantor yang mengadakan edukasi tidur cukup mencatat lebih sedikit pegawai yang mengantuk saat bekerja. Para atlet yang menjaga pola tidur mengaku pemulihan fisiknya lebih cepat. Generalisasi yang paling mungkin benar berdasarkan fakta-fakta tersebut adalah ...",
+    "options": [
+      "Semua orang yang tidur delapan jam pasti menjadi juara kelas.",
+      "Tidur adalah satu-satunya penentu prestasi belajar.",
+      "Hanya atlet yang merasakan manfaat tidur cukup.",
+      "Semua kantor harus menyediakan tempat tidur bagi pegawainya.",
+      "Kebiasaan tidur yang cukup cenderung berkaitan dengan daya ingat, kewaspadaan, dan pemulihan yang lebih baik."
+    ],
+    "answer": 4,
+    "scores": [
+      0,
+      0,
+      0,
+      0,
+      5
+    ],
+    "explanation": "Benar karena ketiga fakta menunjukkan pola yang sama, yaitu tidur yang cukup sejalan dengan daya ingat, kewaspadaan, dan pemulihan yang lebih baik, sehingga generalisasi yang hati-hati dan tidak mutlak inilah yang paling mungkin. Opsi A dan B terlalu mutlak dengan kata 'semua' dan 'satu-satunya', opsi C menyempitkan manfaat hanya untuk atlet, dan opsi D adalah anjuran yang tidak didukung oleh fakta."
+  },
+  {
+    "id": "TIU-06",
+    "category": "TIU",
+    "subtopic": "Verbal — Penalaran Induktif",
+    "question": "Keluarga yang menyisihkan sebagian penghasilannya untuk ditabung lebih jarang berutang saat ada kebutuhan mendesak. Sebuah koperasi yang mengadakan pelatihan menabung mencatat lebih banyak anggotanya memiliki dana darurat. Para pelajar yang menabung dari uang sakunya lebih mudah membeli kebutuhan sekolah sendiri. Generalisasi yang paling mungkin benar berdasarkan fakta-fakta tersebut adalah ...",
+    "options": [
+      "Kebiasaan menabung cenderung membuat seseorang lebih siap menghadapi kebutuhan mendesak.",
+      "Semua orang yang menabung pasti menjadi kaya.",
+      "Menabung adalah satu-satunya cara menghindari utang.",
+      "Hanya pegawai koperasi yang perlu menabung.",
+      "Semua pelajar harus menabung seluruh uang sakunya."
+    ],
+    "answer": 0,
+    "scores": [
+      5,
+      0,
+      0,
+      0,
+      0
+    ],
+    "explanation": "Benar karena ketiga fakta menunjukkan pola yang sama, yaitu kebiasaan menabung sejalan dengan kesiapan menghadapi kebutuhan mendesak, sehingga generalisasi yang tidak mutlak ini paling mungkin. Opsi B dan C terlalu mutlak dengan kata 'semua' dan 'satu-satunya', opsi D menyempitkan manfaat hanya untuk pegawai koperasi, dan opsi E adalah anjuran yang tidak didukung oleh fakta."
+  },
+  {
+    "id": "TIU-07",
+    "category": "TIU",
+    "subtopic": "Verbal — Penalaran Induktif",
+    "question": "Siswa yang belajar kelompok dua kali seminggu memperoleh nilai ujian yang lebih baik. Sebuah kelas yang mengadakan diskusi kelompok mencatat lebih banyak siswa yang berani bertanya. Para mahasiswa yang belajar bersama sebelum ujian mengaku lebih cepat memahami materi sulit. Generalisasi yang paling mungkin benar berdasarkan fakta-fakta tersebut adalah ...",
+    "options": [
+      "Semua siswa yang belajar sendiri pasti gagal ujian.",
+      "Kelompok belajar adalah satu-satunya cara memahami materi.",
+      "Hanya mahasiswa yang merasakan manfaat belajar kelompok.",
+      "Belajar bersama dalam kelompok cenderung meningkatkan pemahaman dan keberanian bertanya.",
+      "Semua sekolah harus menghapus belajar mandiri."
+    ],
+    "answer": 3,
+    "scores": [
+      0,
+      0,
+      0,
+      5,
+      0
+    ],
+    "explanation": "Benar karena ketiga fakta menunjukkan pola yang sama, yaitu belajar bersama dalam kelompok sejalan dengan pemahaman yang lebih baik dan keberanian bertanya, sehingga generalisasi umum yang tidak mutlak ini paling mungkin. Opsi A terlalu mutlak dengan kata 'semua' dan 'pasti', opsi B memakai kata 'satu-satunya' yang terlalu mutlak, opsi C menyempitkan manfaat hanya untuk mahasiswa, dan opsi E adalah anjuran yang tidak didukung oleh fakta."
+  },
+  {
+    "id": "TIU-08",
+    "category": "TIU",
+    "subtopic": "Verbal — Penalaran Induktif",
+    "question": "Warga yang aktif menjadi relawan mengaku lebih mengenal tetangganya. Sebuah desa yang rutin mengadakan bakti sosial mencatat lebih sedikit konflik antarwarga. Para pelajar yang mengikuti kegiatan sosial di sekolah lebih mudah bekerja sama dalam tim. Generalisasi yang paling mungkin benar berdasarkan fakta-fakta tersebut adalah ...",
+    "options": [
+      "Semua konflik antarwarga pasti hilang jika ada bakti sosial.",
+      "Kegiatan sosial dan kerelawanan cenderung memperkuat hubungan antarwarga dan kemampuan bekerja sama.",
+      "Kegiatan sosial hanya bermanfaat bagi pelajar.",
+      "Relawan adalah satu-satunya cara mengenal tetangga.",
+      "Semua desa harus mewajibkan warganya menjadi relawan."
+    ],
+    "answer": 1,
+    "scores": [
+      0,
+      5,
+      0,
+      0,
+      0
+    ],
+    "explanation": "Benar karena ketiga fakta menunjukkan pola yang sama, yaitu kegiatan sosial dan kerelawanan sejalan dengan hubungan antarwarga yang lebih kuat dan kerja sama yang lebih baik, sehingga generalisasi yang merangkum ketiganya dan tidak mutlak inilah yang paling mungkin. Opsi A terlalu mutlak dengan kata 'semua' dan 'pasti', opsi C menyempitkan manfaat hanya untuk pelajar, opsi D mengklaim 'satu-satunya cara' tanpa bukti, dan opsi E adalah anjuran yang tidak didukung oleh fakta."
+  },
+  {
+    "id": "TIU-09",
+    "category": "TIU",
+    "subtopic": "Verbal — Analitis",
+    "question": "Enam mahasiswa, yaitu Ayu, Bimo, Candra, Dina, Eko, dan Fitri, dibagi ke tiga kelompok (K1, K2, K3) dengan masing-masing kelompok beranggotakan dua orang. Syaratnya: Ayu harus satu kelompok dengan Bimo, Candra tidak boleh satu kelompok dengan Dina, dan Eko tidak boleh satu kelompok dengan Fitri. Pembagian manakah yang mungkin?",
+    "options": [
+      "K1: Ayu, Bimo; K2: Candra, Dina; K3: Eko, Fitri",
+      "K1: Ayu, Candra; K2: Bimo, Dina; K3: Eko, Fitri",
+      "K1: Ayu, Bimo; K2: Candra, Eko; K3: Dina, Fitri",
+      "K1: Ayu, Eko; K2: Bimo, Candra; K3: Dina, Fitri",
+      "K1: Ayu, Dina; K2: Bimo, Candra; K3: Eko, Fitri"
+    ],
+    "answer": 2,
+    "scores": [
+      0,
+      0,
+      5,
+      0,
+      0
+    ],
+    "explanation": "Benar karena pembagian pada opsi C memenuhi semua syarat: Ayu satu kelompok dengan Bimo, Candra tidak satu kelompok dengan Dina, dan Eko tidak satu kelompok dengan Fitri. Opsi A menempatkan Candra satu kelompok dengan Dina sekaligus Eko satu kelompok dengan Fitri, opsi B dan E memisahkan Ayu dari Bimo, dan opsi D memisahkan Ayu dari Bimo."
+  },
+  {
+    "id": "TIU-10",
+    "category": "TIU",
+    "subtopic": "Verbal — Analitis",
+    "question": "Lima warga, yaitu Gilang, Hana, Intan, Joko, dan Kirana, mengantre di loket pelayanan pada posisi 1 sampai 5 dari depan. Syaratnya: Gilang berada di posisi 5 (paling belakang), Hana tepat di depan Intan, Joko tidak berada di posisi 3, dan Kirana berada di posisi 2. Pernyataan manakah yang pasti benar?",
+    "options": [
+      "Joko berada di posisi 3.",
+      "Hana berada di posisi 4.",
+      "Kirana berada di posisi 1.",
+      "Intan berada di posisi 5.",
+      "Hana berada di posisi 3."
+    ],
+    "answer": 4,
+    "scores": [
+      0,
+      0,
+      0,
+      0,
+      5
+    ],
+    "explanation": "Benar karena satu-satunya susunan yang memenuhi semua syarat adalah Joko, Kirana, Hana, Intan, Gilang: Gilang di posisi 5 (paling belakang), Kirana di posisi 2, Hana tepat di depan Intan, dan Joko bukan di posisi 3, sehingga Hana pasti di posisi 3. Opsi A bertentangan dengan syarat bahwa Joko tidak di posisi 3, opsi B dan C salah karena Hana di posisi 3 dan Kirana di posisi 2, dan opsi D bertentangan dengan syarat bahwa Gilang di posisi 5."
+  },
+  {
+    "id": "TIU-11",
+    "category": "TIU",
+    "subtopic": "Verbal — Analitis",
+    "question": "Empat pegawai, yaitu Andi, Budi, Candra, dan Dedi, bertugas piket pada hari Senin sampai Kamis, satu orang per hari. Syaratnya: Andi tidak piket pada hari Senin, Budi piket tepat sehari sebelum Candra, dan Dedi piket pada hari Kamis. Pernyataan manakah yang pasti benar?",
+    "options": [
+      "Budi piket pada hari Senin.",
+      "Andi piket pada hari Senin.",
+      "Candra piket pada hari Rabu.",
+      "Dedi piket pada hari Rabu.",
+      "Budi piket pada hari Selasa."
+    ],
+    "answer": 0,
+    "scores": [
+      5,
+      0,
+      0,
+      0,
+      0
+    ],
+    "explanation": "Benar karena satu-satunya susunan yang memenuhi semua syarat adalah Budi, Candra, Andi, Dedi: Dedi piket hari Kamis, Budi tepat sehari sebelum Candra, dan Andi bukan hari Senin, sehingga Budi pasti piket hari Senin. Opsi B bertentangan dengan syarat bahwa Andi tidak piket hari Senin, opsi C salah karena Candra piket hari Selasa, opsi D salah karena Dedi piket hari Kamis, dan opsi E salah karena Budi piket hari Senin."
+  },
+  {
+    "id": "TIU-12",
+    "category": "TIU",
+    "subtopic": "Verbal — Analitis",
+    "question": "Empat pegawai, yaitu Rudi, Sari, Tono, dan Wulan, menempati empat meja (Meja 1 sampai Meja 4) yang berjajar dari kiri ke kanan. Syaratnya: Rudi duduk tepat di sebelah kiri Sari, Tono tidak duduk di meja 4, dan Wulan duduk di meja 1. Susunan manakah yang mungkin?",
+    "options": [
+      "Wulan, Rudi, Sari, Tono",
+      "Wulan, Tono, Rudi, Sari",
+      "Sari, Wulan, Rudi, Tono",
+      "Wulan, Sari, Rudi, Tono",
+      "Tono, Wulan, Rudi, Sari"
+    ],
+    "answer": 1,
+    "scores": [
+      0,
+      5,
+      0,
+      0,
+      0
+    ],
+    "explanation": "Benar karena susunan Wulan, Tono, Rudi, Sari memenuhi semua syarat: Wulan di meja 1, Rudi tepat di kiri Sari, dan Tono di meja 2 bukan meja 4. Opsi A menempatkan Tono di meja 4, opsi C dan E menempatkan Wulan bukan di meja 1, dan opsi D menempatkan Sari di kiri Rudi, bukan sebaliknya."
+  },
+  {
+    "id": "TIU-13",
+    "category": "TIU",
+    "subtopic": "Numerik — Berhitung",
+    "question": "Seseorang menabung Rp2.400.000,00 di bank dengan bunga sederhana 6% per tahun. Setelah 2 tahun, jumlah tabungannya menjadi ...",
+    "options": [
+      "Rp2.544.000,00",
+      "Rp2.592.000,00",
+      "Rp2.640.000,00",
+      "Rp2.688.000,00",
+      "Rp2.880.000,00"
+    ],
+    "answer": 3,
+    "scores": [
+      0,
+      0,
+      0,
+      5,
+      0
+    ],
+    "explanation": "Bunga selama 2 tahun = 6% × 2 × Rp2.400.000,00 = Rp288.000,00. Jumlah tabungan = Rp2.400.000,00 + Rp288.000,00 = Rp2.688.000,00. Opsi lain bukan hasil penjumlahan pokok tabungan dengan bunga dua tahun."
+  },
+  {
+    "id": "TIU-14",
+    "category": "TIU",
+    "subtopic": "Numerik — Berhitung",
+    "question": "Perbandingan jumlah siswa laki-laki dan perempuan di sebuah kelas adalah 3 : 4. Jika jumlah siswa di kelas itu 35 orang, banyak siswa perempuan adalah ...",
+    "options": [
+      "15 orang",
+      "18 orang",
+      "20 orang",
+      "22 orang",
+      "25 orang"
+    ],
+    "answer": 2,
+    "scores": [
+      0,
+      0,
+      5,
+      0,
+      0
+    ],
+    "explanation": "Jumlah bagian = 3 + 4 = 7 bagian. Satu bagian = 35 ÷ 7 = 5 orang. Banyak siswa perempuan = 4 × 5 = 20 orang. Opsi lain bukan hasil perkalian bagian perempuan dengan nilai satu bagian."
+  },
+  {
+    "id": "TIU-15",
+    "category": "TIU",
+    "subtopic": "Numerik — Berhitung",
+    "question": "Harga sebuah buku naik dari Rp40.000,00 menjadi Rp50.000,00. Kenaikan harga tersebut adalah ...",
+    "options": [
+      "10%",
+      "15%",
+      "20%",
+      "30%",
+      "25%"
+    ],
+    "answer": 4,
+    "scores": [
+      0,
+      0,
+      0,
+      0,
+      5
+    ],
+    "explanation": "Kenaikan harga = Rp50.000,00 − Rp40.000,00 = Rp10.000,00. Persentase kenaikan = Rp10.000,00 ÷ Rp40.000,00 × 100% = 25%. Opsi lain bukan hasil pembagian kenaikan harga dengan harga awal."
+  },
+  {
+    "id": "TIU-16",
+    "category": "TIU",
+    "subtopic": "Numerik — Berhitung",
+    "question": "Rata-rata nilai 10 siswa adalah 75. Rata-rata nilai 15 siswa lainnya adalah 85. Rata-rata nilai ke-25 siswa tersebut adalah ...",
+    "options": [
+      "81",
+      "80",
+      "82",
+      "79",
+      "83"
+    ],
+    "answer": 0,
+    "scores": [
+      5,
+      0,
+      0,
+      0,
+      0
+    ],
+    "explanation": "Jumlah nilai 10 siswa = 10 × 75 = 750 dan jumlah nilai 15 siswa = 15 × 85 = 1.275. Rata-rata gabungan = (750 + 1.275) ÷ 25 = 2.025 ÷ 25 = 81. Opsi lain bukan hasil pembagian jumlah nilai gabungan dengan 25 siswa."
+  },
+  {
+    "id": "TIU-17",
+    "category": "TIU",
+    "subtopic": "Numerik — Deret Angka",
+    "question": "3, 5, 9, 17, 33, … Suku berikutnya adalah ...",
+    "options": [
+      "63",
+      "65",
+      "67",
+      "61",
+      "69"
+    ],
+    "answer": 1,
+    "scores": [
+      0,
+      5,
+      0,
+      0,
+      0
+    ],
+    "explanation": "Polanya adalah dikali 2 lalu dikurangi 1: 3×2−1=5, 5×2−1=9, 9×2−1=17, 17×2−1=33. Suku berikutnya adalah 33×2−1=65. Pola ini juga sama dengan selisih yang berlipat dua: 2, 4, 8, 16, lalu 32."
+  },
+  {
+    "id": "TIU-18",
+    "category": "TIU",
+    "subtopic": "Numerik — Deret Angka",
+    "question": "2, 3, 5, 8, 13, … Suku berikutnya adalah ...",
+    "options": [
+      "18",
+      "19",
+      "20",
+      "22",
+      "21"
+    ],
+    "answer": 4,
+    "scores": [
+      0,
+      0,
+      0,
+      0,
+      5
+    ],
+    "explanation": "Setiap suku adalah jumlah dua suku sebelumnya: 2+3=5, 3+5=8, 5+8=13. Suku berikutnya adalah 8+13=21."
+  },
+  {
+    "id": "TIU-19",
+    "category": "TIU",
+    "subtopic": "Numerik — Deret Angka",
+    "question": "3, 8, 15, 24, 35, … Suku berikutnya adalah ...",
+    "options": [
+      "44",
+      "45",
+      "46",
+      "48",
+      "50"
+    ],
+    "answer": 3,
+    "scores": [
+      0,
+      0,
+      0,
+      5,
+      0
+    ],
+    "explanation": "Setiap suku adalah kuadrat bilangan berurutan dikurangi 1: 2²−1=3, 3²−1=8, 4²−1=15, 5²−1=24, 6²−1=35. Suku berikutnya adalah 7²−1=48."
+  },
+  {
+    "id": "TIU-20",
+    "category": "TIU",
+    "subtopic": "Numerik — Deret Angka",
+    "question": "2, 10, 4, 15, 8, 20, 16, … Suku berikutnya adalah ...",
+    "options": [
+      "24",
+      "26",
+      "25",
+      "32",
+      "30"
+    ],
+    "answer": 2,
+    "scores": [
+      0,
+      0,
+      5,
+      0,
+      0
+    ],
+    "explanation": "Ada dua deret yang berselang-seling: deret posisi ganjil 2, 4, 8, 16, … (dikalikan 2) dan deret posisi genap 10, 15, 20, … (bertambah 5). Suku ke-8 mengikuti deret genap: 20+5=25."
+  },
+  {
+    "id": "TIU-21",
+    "category": "TIU",
+    "subtopic": "Numerik — Perbandingan Kuantitatif",
+    "question": "Bandingkan kedua kuantitas berikut. Kuantitas A adalah 3/5 dari 250. Kuantitas B adalah 3/4 dari 200. Hubungan yang benar antara kedua kuantitas adalah ...",
+    "options": [
+      "Kuantitas A lebih besar",
+      "Kuantitas B lebih besar",
+      "Keduanya sama",
+      "Hubungan tidak dapat ditentukan",
+      "Kuantitas A adalah 120"
+    ],
+    "answer": 2,
+    "scores": [
+      0,
+      0,
+      5,
+      0,
+      0
+    ],
+    "explanation": "Benar karena 3/5 dari 250 adalah 150, sama dengan 3/4 dari 200 yang juga 150, sehingga keduanya sama. Opsi A dan B salah karena kedua kuantitas bernilai sama, opsi D salah karena kedua kuantitas dapat dihitung dengan pasti, dan opsi E salah karena nilai A adalah 150, bukan 120."
+  },
+  {
+    "id": "TIU-22",
+    "category": "TIU",
+    "subtopic": "Numerik — Perbandingan Kuantitatif",
+    "question": "Bandingkan Kuantitas A dan Kuantitas B berikut. Kuantitas A adalah 16% dari 350. Kuantitas B adalah 20% dari 300. Hubungan yang benar antara kedua kuantitas adalah ...",
+    "options": [
+      "Kuantitas A lebih besar",
+      "Kuantitas B lebih besar",
+      "Keduanya sama",
+      "Hubungan tidak dapat ditentukan",
+      "Kuantitas B adalah 70"
+    ],
+    "answer": 1,
+    "scores": [
+      0,
+      5,
+      0,
+      0,
+      0
+    ],
+    "explanation": "Benar karena 16% dari 350 adalah 56, sedangkan 20% dari 300 adalah 60, sehingga Kuantitas B lebih besar. Opsi A dan C salah karena hasil hitung menunjukkan B lebih besar dari A, opsi D salah karena kedua kuantitas dapat dihitung dengan pasti, dan opsi E salah karena nilai B adalah 60, bukan 70."
+  },
+  {
+    "id": "TIU-23",
+    "category": "TIU",
+    "subtopic": "Numerik — Perbandingan Kuantitatif",
+    "question": "Bandingkan Kuantitas A dan Kuantitas B berikut. Kuantitas A adalah 2,5 jam yang dinyatakan dalam menit. Kuantitas B adalah 2 jam 20 menit yang dinyatakan dalam menit. Hubungan yang benar antara kedua kuantitas adalah ...",
+    "options": [
+      "Kuantitas A lebih besar",
+      "Kuantitas B lebih besar",
+      "Keduanya sama",
+      "Hubungan tidak dapat ditentukan",
+      "Kuantitas A adalah 120"
+    ],
+    "answer": 0,
+    "scores": [
+      5,
+      0,
+      0,
+      0,
+      0
+    ],
+    "explanation": "Benar karena 2,5 jam = 150 menit, sedangkan 2 jam 20 menit = 140 menit, sehingga Kuantitas A lebih besar. Opsi B dan C salah karena hasil hitung menunjukkan A lebih besar dari B, opsi D salah karena kedua kuantitas dapat dihitung dengan pasti, dan opsi E salah karena nilai A adalah 150, bukan 120."
+  },
+  {
+    "id": "TIU-24",
+    "category": "TIU",
+    "subtopic": "Numerik — Soal Cerita",
+    "question": "Andi dapat mengecat sebuah pagar sendirian dalam 8 jam, sedangkan Budi dapat mengecat pagar yang sama sendirian dalam 4 jam. Jika keduanya mengecat pagar itu bersama-sama, pagar selesai dalam ...",
+    "options": [
+      "2 jam",
+      "2 jam 30 menit",
+      "3 jam",
+      "4 jam",
+      "2 jam 40 menit"
+    ],
+    "answer": 4,
+    "scores": [
+      0,
+      0,
+      0,
+      0,
+      5
+    ],
+    "explanation": "Dalam 1 jam Andi mengecat 1/8 pagar dan Budi mengecat 1/4 pagar. Bersama-sama keduanya mengecat 1/8 + 1/4 = 3/8 pagar per jam, sehingga pagar selesai dalam 8/3 jam = 2 jam 40 menit. Opsi lain bukan hasil penjumlahan laju kerja keduanya."
+  },
+  {
+    "id": "TIU-25",
+    "category": "TIU",
+    "subtopic": "Numerik — Soal Cerita",
+    "question": "Dua mobil berangkat pada saat yang sama dari kota P dan kota Q yang berjarak 300 km. Mobil pertama melaju dengan kecepatan 60 km/jam menuju Q dan mobil kedua melaju dengan kecepatan 40 km/jam menuju P. Kedua mobil bertemu setelah ...",
+    "options": [
+      "2 jam",
+      "2,5 jam",
+      "4 jam",
+      "3 jam",
+      "3,5 jam"
+    ],
+    "answer": 3,
+    "scores": [
+      0,
+      0,
+      0,
+      5,
+      0
+    ],
+    "explanation": "Kecepatan gabungan kedua mobil = 60 + 40 = 100 km/jam. Waktu bertemu = jarak ÷ kecepatan gabungan = 300 km ÷ 100 km/jam = 3 jam. Opsi lain bukan hasil pembagian 300 dengan 100."
+  },
+  {
+    "id": "TIU-26",
+    "category": "TIU",
+    "subtopic": "Numerik — Soal Cerita",
+    "question": "Seorang pedagang membeli 40 kg gula pasir seharga Rp480.000,00. Ia menjual seluruh gula itu dengan harga Rp13.500,00 per kilogram. Keuntungan pedagang tersebut adalah ...",
+    "options": [
+      "Rp60.000,00",
+      "Rp50.000,00",
+      "Rp70.000,00",
+      "Rp55.000,00",
+      "Rp65.000,00"
+    ],
+    "answer": 0,
+    "scores": [
+      5,
+      0,
+      0,
+      0,
+      0
+    ],
+    "explanation": "Hasil penjualan = 40 × Rp13.500,00 = Rp540.000,00. Keuntungan = Rp540.000,00 − Rp480.000,00 = Rp60.000,00. Opsi lain bukan selisih hasil penjualan dengan harga beli."
+  },
+  {
+    "id": "TIU-27",
+    "category": "TIU",
+    "subtopic": "Numerik — Soal Cerita",
+    "question": "Umur kakak 3 kali umur adiknya. Empat tahun lagi, jumlah umur mereka adalah 40 tahun. Umur adik sekarang adalah ...",
+    "options": [
+      "7 tahun",
+      "8 tahun",
+      "9 tahun",
+      "10 tahun",
+      "6 tahun"
+    ],
+    "answer": 1,
+    "scores": [
+      0,
+      5,
+      0,
+      0,
+      0
+    ],
+    "explanation": "Misalkan umur adik sekarang = x, maka umur kakak = 3x. Empat tahun lagi: (x + 4) + (3x + 4) = 40, sehingga 4x + 8 = 40, 4x = 32, x = 8 tahun. Periksa: adik 8 dan kakak 24; empat tahun lagi 12 dan 28, jumlahnya 40."
+  },
+  {
+    "id": "TIU-28",
+    "category": "TIU",
+    "subtopic": "Figural — Serial",
+    "question": "K, M, L, N, M, O, N, … Huruf berikutnya adalah ...",
+    "options": [
+      "O",
+      "P",
+      "Q",
+      "R",
+      "N"
+    ],
+    "answer": 3,
+    "scores": [
+      0,
+      0,
+      0,
+      5,
+      0
+    ],
+    "explanation": "Polanya berselang-seling naik 2 lalu turun 1: K(11) → M(13) → L(12) → N(14) → M(13) → O(15) → N(14). Huruf berikutnya naik 2 lagi: 14 + 2 = 16, yaitu P."
+  },
+  {
+    "id": "TIU-29",
+    "category": "TIU",
+    "subtopic": "Figural — Serial",
+    "question": "W, S, O, K, G, … Huruf berikutnya adalah ...",
+    "options": [
+      "B",
+      "D",
+      "C",
+      "E",
+      "A"
+    ],
+    "answer": 2,
+    "scores": [
+      0,
+      0,
+      5,
+      0,
+      0
+    ],
+    "explanation": "Setiap huruf mundur 4 langkah dalam alfabet: W(23) → S(19) → O(15) → K(11) → G(7). Huruf berikutnya mundur 4 langkah lagi: 7 − 4 = 3, yaitu C."
+  },
+  {
+    "id": "TIU-30",
+    "category": "TIU",
+    "subtopic": "Figural — Serial",
+    "question": "Y, B, W, D, U, F, S, … Huruf berikutnya adalah ...",
+    "options": [
+      "F",
+      "G",
+      "I",
+      "J",
+      "H"
+    ],
+    "answer": 4,
+    "scores": [
+      0,
+      0,
+      0,
+      0,
+      5
+    ],
+    "explanation": "Ada dua deret yang berselang-seling: deret posisi ganjil Y, W, U, S, … (mundur 2) dan deret posisi genap B, D, F, … (maju 2). Setelah S (posisi ke-7), posisi ke-8 mengikuti deret genap: F(6) + 2 = 8, yaitu H."
+  },
+  {
+    "id": "TIU-31",
+    "category": "TIU",
+    "subtopic": "Figural — Analogi",
+    "question": "Perhatikan perubahan berikut. Sebuah segitiga berisi 2 titik diubah menjadi segitiga yang diputar 90 derajat dan berisi 3 titik. Aturan perubahannya: bangun diputar 90 derajat dan jumlah titik di dalam bertambah satu. Jika sebuah segilima berisi 1 titik diubah dengan aturan yang sama, hasil akhirnya adalah ...",
+    "options": [
+      "Segilima tanpa diputar dengan 2 titik di dalam.",
+      "Segilima yang diputar 90 derajat dengan 2 titik di dalam.",
+      "Segilima yang diputar 90 derajat dengan 1 titik di dalam.",
+      "Segienam yang diputar 90 derajat dengan 2 titik di dalam.",
+      "Segilima yang diputar 180 derajat dengan 2 titik di dalam."
+    ],
+    "answer": 1,
+    "scores": [
+      0,
+      5,
+      0,
+      0,
+      0
+    ],
+    "explanation": "Benar karena aturan yang sama diterapkan pada segilima: bangun diputar 90 derajat dan jumlah titik bertambah satu menjadi dua, sehingga hasilnya adalah segilima yang diputar 90 derajat dengan 2 titik di dalam. Opsi A tidak memutar bangun, opsi C tidak menambah jumlah titik, opsi D menambah jumlah sisi, dan opsi E memutar 180 derajat, bukan 90 derajat."
+  },
+  {
+    "id": "TIU-32",
+    "category": "TIU",
+    "subtopic": "Figural — Analogi",
+    "question": "Gambar pertama menunjukkan sebuah segienam putih. Gambar kedua menunjukkan sebuah segiempat hitam. Perubahannya mengikuti aturan: jumlah sisi berkurang dua dan warna bangun berubah dari putih menjadi hitam. Gambar ketiga menunjukkan sebuah segilima putih. Gambar keempat yang mengikuti aturan yang sama harus berupa ...",
+    "options": [
+      "Segitiga hitam.",
+      "Segitiga putih.",
+      "Segiempat hitam.",
+      "Segilima hitam.",
+      "Segienam hitam."
+    ],
+    "answer": 0,
+    "scores": [
+      5,
+      0,
+      0,
+      0,
+      0
+    ],
+    "explanation": "Benar karena aturan yang sama diterapkan pada segilima: jumlah sisi berkurang dua menjadi tiga dan warnanya berubah dari putih menjadi hitam, sehingga hasilnya adalah segitiga hitam. Opsi B tidak mengubah warna, opsi C hanya mengurangi satu sisi, opsi D tidak mengurangi jumlah sisi, dan opsi E tidak mengurangi jumlah sisi."
+  },
+  {
+    "id": "TIU-33",
+    "category": "TIU",
+    "subtopic": "Figural — Penalaran Matriks",
+    "question": "Sebuah tabel angka memiliki tiga baris. Baris 1: 8, 4, 6. Baris 2: 10, 6, 8. Baris 3: 14, 2, ?. Berapakah nilai ?",
+    "options": [
+      "6",
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "answer": 2,
+    "scores": [
+      0,
+      0,
+      5,
+      0,
+      0
+    ],
+    "explanation": "Benar karena pada setiap baris, angka ketiga adalah jumlah dua angka sebelumnya dibagi 2: baris 1 adalah (8 + 4) ÷ 2 = 6 dan baris 2 adalah (10 + 6) ÷ 2 = 8, sehingga baris 3 harus (14 + 2) ÷ 2 = 8. Opsi lain bukan hasil dari (14 + 2) ÷ 2, sehingga semuanya melanggar pola per baris."
+  },
+  {
+    "id": "TIU-34",
+    "category": "TIU",
+    "subtopic": "Figural — Penalaran Matriks",
+    "question": "Perhatikan tiga baris angka berikut. Baris pertama: 5, 3, 16. Baris kedua: 4, 2, 12. Baris ketiga: 6, 4, ?. Berapakah nilai ?",
+    "options": [
+      "18",
+      "19",
+      "21",
+      "20",
+      "22"
+    ],
+    "answer": 3,
+    "scores": [
+      0,
+      0,
+      0,
+      5,
+      0
+    ],
+    "explanation": "Benar karena pada setiap baris, angka ketiga adalah selisih kuadrat dua angka sebelumnya: baris 1 adalah 5² − 3² = 25 − 9 = 16 dan baris 2 adalah 4² − 2² = 16 − 4 = 12, sehingga baris 3 harus 6² − 4² = 36 − 16 = 20. Opsi lain bukan hasil dari 6² − 4², sehingga semuanya melanggar pola per baris."
+  },
+  {
+    "id": "TIU-35",
+    "category": "TIU",
+    "subtopic": "Figural — Penalaran Matriks",
+    "question": "Lihat susunan angka tiga kolom di bawah ini. Kolom 1: 3, 4, 13. Kolom 2: 5, 1, 26. Kolom 3: 2, 5, ?. Berapakah nilai ?",
+    "options": [
+      "7",
+      "8",
+      "10",
+      "11",
+      "9"
+    ],
+    "answer": 4,
+    "scores": [
+      0,
+      0,
+      0,
+      0,
+      5
+    ],
+    "explanation": "Benar karena pada setiap kolom, angka ketiga adalah kuadrat angka pertama ditambah angka kedua: kolom 1 adalah 3² + 4 = 13 dan kolom 2 adalah 5² + 1 = 26, sehingga kolom 3 harus 2² + 5 = 9. Opsi lain bukan hasil dari 2² + 5, sehingga semuanya melanggar pola per kolom."
+  },
+  {
+    "answer": 0,
+    "category": "TKP",
+    "explanation": "Pilihan A (5) paling tepat: kesalahan dari pihak kantor diperbaiki tanpa biaya disertai permintaan maaf dan kepastian waktu penyelesaian. Pilihan B (4) sudah benar memperbaiki tanpa biaya, tetapi tanpa penjelasan warga tidak tahu prosesnya. Pilihan C (3) hanya mengikuti prosedur biasa tanpa mengakui kesalahan kantor. Pilihan D (2) menunda perbaikan yang seharusnya segera dilakukan. Pilihan E (1) paling buruk karena menyalahkan warga atas kesalahan petugas.",
+    "id": "TKP-01",
+    "options": [
+      "Meminta maaf atas kesalahan itu, memperbaiki nama di Kartu Keluarga tanpa biaya, dan memastikan kartu yang baru selesai secepatnya.",
+      "Memperbaiki nama di Kartu Keluarga tanpa biaya, tetapi tanpa penjelasan dan tanpa permintaan maaf.",
+      "Memintanya mengisi formulir perbaikan seperti biasa dan menunggu sesuai antrean tanpa prioritas.",
+      "Memintanya kembali lain hari karena perbaikan bukan urusan loket hari ini.",
+      "Menyalahkannya karena tidak memeriksa Kartu Keluarga saat pertama kali diterima."
+    ],
+    "question": "Seorang warga datang mengeluh karena namanya di Kartu Keluarga salah ketik oleh petugas pada pengurusan sebelumnya. Ia meminta nama itu diperbaiki. Apa yang Anda lakukan?",
+    "scores": [
+      5,
+      4,
+      3,
+      2,
+      1
+    ],
+    "subtopic": "Pelayanan Publik"
+  },
+  {
+    "answer": 1,
+    "category": "TKP",
+    "explanation": "Pilihan B (5) paling tepat: warga diberi penjelasan tentang syarat terjemahan tersumpah, daftar penerjemah, dan langkah berikutnya sehingga ia tahu apa yang harus dilakukan. Pilihan A (4) sudah benar mengarahkan ke penerjemah tersumpah, tetapi tidak memberi daftar dan langkah lanjutan. Pilihan C (3) hanya menyuruh kembali tanpa bantuan yang jelas. Pilihan D (2) berisiko karena terjemahan sendiri tidak sah untuk legalisasi. Pilihan E (1) paling buruk karena menolak tanpa penjelasan.",
+    "id": "TKP-02",
+    "options": [
+      "Mengarahkannya ke penerjemah tersumpah dan menjelaskan syarat legalisasi dokumen asing.",
+      "Menjelaskan bahwa dokumen berbahasa asing harus diterjemahkan oleh penerjemah tersumpah, memberikan daftar penerjemah tersumpah terdekat, dan menjelaskan langkah legalisasi berikutnya.",
+      "Memintanya kembali setelah dokumen diterjemahkan tanpa memberi daftar penerjemah.",
+      "Menerima dokumen itu dan mencoba menerjemahkannya sendiri dengan aplikasi penerjemah daring.",
+      "Menolaknya mentah-mentah tanpa penjelasan karena dokumennya berbahasa asing."
+    ],
+    "question": "Seorang warga membawa surat nikah dari luar negeri yang seluruh isinya berbahasa asing dan meminta surat itu dilegalisasi. Apa yang Anda lakukan?",
+    "scores": [
+      4,
+      5,
+      3,
+      2,
+      1
+    ],
+    "subtopic": "Pelayanan Publik"
+  },
+  {
+    "answer": 2,
+    "category": "TKP",
+    "explanation": "Pilihan C (5) paling tepat: nomor pribadi tidak diberikan, jam layanan dijelaskan, dan warga tetap mendapat jalur layanan resmi. Pilihan B (4) sudah benar menolak dan mengarahkan ke kanal resmi, tetapi tidak menjelaskan jam layanan. Pilihan D (3) hanya mengabaikan tanpa solusi. Pilihan A (2) melanggar batas profesional dengan memberikan nomor pribadi. Pilihan E (1) paling buruk karena memberikan nomor pribadi dan menawarkan pelayanan berbayar di luar jam kerja.",
+    "id": "TKP-03",
+    "options": [
+      "Memberikan nomor pribadi Anda agar warga bisa menghubungi kapan saja.",
+      "Menolak memberi nomor pribadi tetapi mengarahkan ke kanal layanan resmi kantor.",
+      "Menolak dengan sopan, menjelaskan jam layanan, dan memberikan nomor layanan resmi serta alamat pengaduan daring kantor.",
+      "Mengabaikan permintaan itu tanpa penjelasan.",
+      "Memberikan nomor pribadi dan menawarkan pelayanan di luar jam kerja dengan imbalan."
+    ],
+    "question": "Seorang warga meminta nomor WhatsApp pribadi Anda agar ia bisa dilayani di luar jam kerja. Apa yang Anda lakukan?",
+    "scores": [
+      2,
+      4,
+      5,
+      3,
+      1
+    ],
+    "subtopic": "Pelayanan Publik"
+  },
+  {
+    "answer": 3,
+    "category": "TKP",
+    "explanation": "Pilihan D (5) paling tepat: surat dibacakan dengan jelas dan sabar, dijelaskan maksudnya dengan bahasa sederhana, dan pemahamannya dipastikan. Pilihan E (4) sudah membacakan dengan jelas, tetapi tanpa penjelasan warga belum tentu memahami isinya. Pilihan A (3) hanya mengalihkan ke keluarga tanpa membantu langsung. Pilihan B (2) membacakan tidak tuntas sehingga warga tidak mendapat informasi penuh. Pilihan C (1) paling buruk karena menolak membantu warga yang membutuhkan.",
+    "id": "TKP-04",
+    "options": [
+      "Menyuruhnya meminta bantuan keluarga untuk membacakan surat itu.",
+      "Membacakan sebagian saja karena Anda sedang sibuk melayani warga lain.",
+      "Menolak membacakan karena itu bukan tugas Anda.",
+      "Membacakan surat itu dengan jelas dan sabar, lalu menjelaskan maksudnya dengan bahasa sederhana dan memastikan ia memahaminya.",
+      "Membacakan surat itu dengan jelas tetapi tidak menjelaskan maksudnya."
+    ],
+    "question": "Seorang warga yang tidak bisa membaca meminta Anda membacakan isi surat keputusan yang baru ia terima dari kantor. Apa yang Anda lakukan?",
+    "scores": [
+      3,
+      2,
+      1,
+      5,
+      4
+    ],
+    "subtopic": "Pelayanan Publik"
+  },
+  {
+    "answer": 4,
+    "category": "TKP",
+    "explanation": "Pilihan E (5) paling tepat: ibu hamil didahulukan melalui jalur prioritas, dilayani dengan ramah, dan tidak dibiarkan menunggu lama. Pilihan C (4) sudah baik dengan kursi prioritas dan pemanggilan lebih cepat, tetapi tidak mendahulukannya secara penuh. Pilihan A (3) netral tetapi mengabaikan kondisi fisiknya. Pilihan B (2) hanya memberinya tempat duduk tanpa mempercepat pelayanan. Pilihan D (1) paling buruk karena menyuruhnya pulang tanpa dilayani.",
+    "id": "TKP-05",
+    "options": [
+      "Membiarkannya tetap mengantre seperti warga lain demi keadilan antrean.",
+      "Memintanya duduk di kursi tunggu tetapi tetap mengantre sesuai nomornya.",
+      "Menyiapkan kursi prioritas dan memanggilnya lebih cepat setelah warga yang sedang dilayani selesai.",
+      "Memintanya pulang dan kembali besok pagi agar lebih segar.",
+      "Mendahulukannya melalui jalur prioritas ibu hamil, melayaninya dengan ramah, dan memastikan ia tidak menunggu terlalu lama."
+    ],
+    "question": "Seorang ibu hamil besar sudah lama mengantre dan tampak kelelahan di ruang tunggu. Antrean masih cukup panjang. Apa yang Anda lakukan?",
+    "scores": [
+      3,
+      2,
+      4,
+      1,
+      5
+    ],
+    "subtopic": "Pelayanan Publik"
+  },
+  {
+    "answer": 0,
+    "category": "TKP",
+    "explanation": "Pilihan A (5) paling tepat: status permohonan diperiksa dan dijelaskan, pengajuan ganda dibatalkan agar tidak menghambat sistem. Pilihan B (4) sudah memeriksa dan menjelaskan, tetapi pengajuan ganda yang dibiarkan tetap membebani sistem. Pilihan C (3) hanya menyuruh menunggu tanpa kepastian. Pilihan D (2) memproses dua permohonan yang sama sehingga membuang sumber daya. Pilihan E (1) paling buruk karena memarahi warga dan menolak melayaninya.",
+    "id": "TKP-06",
+    "options": [
+      "Memeriksa status permohonan pertamanya, menjelaskan bahwa permohonan sedang diproses, dan membatalkan pengajuan ganda agar tidak menghambat sistem.",
+      "Memeriksa status permohonan pertamanya dan menjelaskannya, tetapi membiarkan pengajuan ganda tetap berjalan.",
+      "Memintanya menunggu tanpa memeriksa status permohonannya.",
+      "Memproses kedua permohonan itu sekaligus agar cepat selesai.",
+      "Memarahinya karena mengajukan permohonan ganda dan menolak melayaninya."
+    ],
+    "question": "Seorang warga mengajukan permohonan yang sama dua kali karena ia tidak sabar menunggu proses permohonan pertamanya selesai. Apa yang Anda lakukan?",
+    "scores": [
+      5,
+      4,
+      3,
+      2,
+      1
+    ],
+    "subtopic": "Pelayanan Publik"
+  },
+  {
+    "answer": 1,
+    "category": "TKP",
+    "explanation": "Pilihan B (5) paling tepat: ditawarkan layanan antar atau layanan daring dengan jaminan dokumen sampai dengan aman. Pilihan C (4) sudah memberi solusi melalui keluarga, tetapi tidak menawarkan layanan antar. Pilihan A (3) hanya mengarahkan ke keluarga tanpa alternatif lain. Pilihan D (2) memberi janji tanpa kepastian dan tanpa pencatatan. Pilihan E (1) paling buruk karena menolak tanpa solusi.",
+    "id": "TKP-07",
+    "options": [
+      "Memintanya mengutus anggota keluarga untuk mengambil dokumen itu.",
+      "Menawarkan layanan antar dokumen bila tersedia, atau membantunya melalui layanan daring dan memastikan dokumen sampai dengan aman.",
+      "Menyarankan ia mengutus keluarga dan menjelaskan cara mengambil dokumen.",
+      "Berjanji mengantar tetapi tanpa kepastian waktu dan tanpa mencatat permintaannya.",
+      "Menolak karena pengantaran bukan tugas Anda."
+    ],
+    "question": "Seorang warga yang sedang sakit meminta dokumennya yang sudah selesai diantarkan ke rumahnya karena ia tidak bisa datang ke kantor. Apa yang Anda lakukan?",
+    "scores": [
+      3,
+      5,
+      4,
+      2,
+      1
+    ],
+    "subtopic": "Pelayanan Publik"
+  },
+  {
+    "answer": 2,
+    "category": "TKP",
+    "explanation": "Pilihan C (5) paling tepat: warga diberi penjelasan lengkap tentang kantor imigrasi, alamat, syarat, dan prosedur pendaftarannya. Pilihan B (4) sudah menjelaskan dan memberi alamat, tetapi tidak menyampaikan syarat dan prosedurnya. Pilihan D (3) hanya mengalihkan ke petugas lain. Pilihan A (2) memberi jawaban yang tidak lengkap. Pilihan E (1) paling buruk karena menyuruh warga mencari sendiri.",
+    "id": "TKP-08",
+    "options": [
+      "Menjawab bahwa paspor tidak bisa dibuat di sini tanpa memberi tahu ke mana ia harus pergi.",
+      "Menjelaskan bahwa paspor diterbitkan oleh kantor imigrasi dan memberikan alamat kantor imigrasi terdekat.",
+      "Menjelaskan dengan ramah bahwa paspor diterbitkan oleh kantor imigrasi, memberikan alamat dan syarat-syaratnya, serta menawarkan bantuan menjelaskan prosedur pendaftarannya.",
+      "Mengarahkannya bertanya ke petugas lain karena Anda tidak tahu.",
+      "Menyuruhnya mencari sendiri informasinya di internet."
+    ],
+    "question": "Seorang warga bertanya kepada Anda tentang pembuatan paspor di kantor kecamatan tempat Anda bertugas. Apa yang Anda lakukan?",
+    "scores": [
+      2,
+      4,
+      5,
+      3,
+      1
+    ],
+    "subtopic": "Pelayanan Publik"
+  },
+  {
+    "answer": 3,
+    "category": "TKP",
+    "explanation": "Pilihan D (5) paling tepat: ada permintaan maaf, warga yang sudah mengantre tetap dilayani, dan perubahan jadwal dilaporkan agar diumumkan dengan benar. Pilihan E (4) sudah meminta maaf dan memberi antrean prioritas, tetapi warga tetap tidak dilayani hari itu. Pilihan B (3) hanya menyuruh kembali tanpa penjelasan. Pilihan A (2) menyalahkan warga atas masalah jadwal kantor. Pilihan C (1) paling buruk karena mengabaikan keluhan dan tetap menutup loket.",
+    "id": "TKP-09",
+    "options": [
+      "Menyalahkan warga karena datang terlalu siang.",
+      "Memintanya kembali besok tanpa penjelasan.",
+      "Mengabaikan keluhannya dan tetap menutup loket.",
+      "Meminta maaf atas perubahan jadwal, melayani warga yang sudah mengantre hingga selesai, dan melaporkan perubahan jadwal itu kepada atasan agar diumumkan dengan benar.",
+      "Meminta maaf dan memintanya kembali besok dengan nomor antrean prioritas."
+    ],
+    "question": "Seorang warga yang sudah mengantre sejak pagi marah karena loket tutup lebih awal dari jadwal yang diumumkan. Apa yang Anda lakukan?",
+    "scores": [
+      2,
+      3,
+      1,
+      5,
+      4
+    ],
+    "subtopic": "Pelayanan Publik"
+  },
+  {
+    "answer": 0,
+    "category": "TKP",
+    "explanation": "Pilihan A (5) paling tepat: cara baru dipelajari bersama, diuji, dan diusulkan bila terbukti lebih baik. Pilihan B (4) sudah mengakui kelebihannya, tetapi tidak ada tindak lanjut. Pilihan C (3) membiarkan perbedaan tanpa menyatukan cara kerja tim. Pilihan D (2) menolak perbaikan hanya karena kebiasaan lama. Pilihan E (1) paling buruk karena mengejek rekan di depan tim.",
+    "id": "TKP-10",
+    "options": [
+      "Mempelajari cara kerja itu bersama tim, mengujinya, dan mengusulkan penerapannya bila terbukti lebih baik.",
+      "Mengakui cara itu bagus tetapi tidak mengusulkan perubahan apa pun.",
+      "Membiarkan rekan itu memakai caranya sendiri tanpa melibatkan tim.",
+      "Menolak cara itu karena tim sudah terbiasa dengan cara lama.",
+      "Mengejek cara kerja rekan itu di depan tim karena berbeda dengan kebiasaan."
+    ],
+    "question": "Seorang rekan kerja baru dari daerah lain membawa cara kerja yang berbeda dengan cara kerja tim Anda, tetapi cara itu tampak lebih cepat. Apa yang Anda lakukan?",
+    "scores": [
+      5,
+      4,
+      3,
+      2,
+      1
+    ],
+    "subtopic": "Jejaring Kerja"
+  },
+  {
+    "answer": 1,
+    "category": "TKP",
+    "explanation": "Pilihan B (5) paling tepat: rapat tetap berjalan dengan catatan, keputusan yang perlu persetujuannya dicatat, dan ia dihubungi setelah rapat untuk diberi tahu hasilnya serta ditanyakan kabarnya. Pilihan A (4) sudah melanjutkan rapat dan memberitahukannya, tetapi tidak mencatat keputusan yang perlu persetujuannya. Pilihan C (3) menunda rapat sehingga waktu tim terbuang. Pilihan D (2) membuat keputusan tanpa dasar yang jelas. Pilihan E (1) paling buruk karena menggunjing dan melapor tanpa menanyakan alasannya.",
+    "id": "TKP-11",
+    "options": [
+      "Melanjutkan rapat dengan membahas bagiannya berdasarkan catatan yang ada, lalu memberitahukannya setelah rapat.",
+      "Melanjutkan rapat dengan catatan yang ada, mencatat keputusan yang perlu persetujuannya, dan menghubunginya setelah rapat untuk menyampaikan hasil dan menanyakan kabarnya.",
+      "Menunda rapat hingga ia datang.",
+      "Membahas bagiannya tanpa catatan dan membuat keputusan tanpa dasar yang jelas.",
+      "Menggunjingkan ketidakhadirannya di depan anggota tim lain dan melaporkannya ke atasan tanpa menanyakan alasannya."
+    ],
+    "question": "Seorang anggota tim tidak hadir dalam rapat penting tanpa kabar, padahal bagiannya akan dibahas dalam rapat itu. Apa yang Anda lakukan?",
+    "scores": [
+      4,
+      5,
+      3,
+      2,
+      1
+    ],
+    "subtopic": "Jejaring Kerja"
+  },
+  {
+    "answer": 1,
+    "category": "TKP",
+    "explanation": "Pilihan B (5) paling tepat: kedua usulan dibandingkan berdasarkan data dalam diskusi, lalu diputuskan bersama. Pilihan C (4) sudah mendengar alasan kedua pihak, tetapi keputusan diambil tanpa pembahasan mendalam. Pilihan A (3) mengalihkan keputusan ke atasan tanpa musyawarah. Pilihan D (2) memaksakan kehendak berdasarkan senioritas. Pilihan E (1) paling buruk karena membiarkan tim terpecah.",
+    "id": "TKP-12",
+    "options": [
+      "Meminta atasan memutuskan tanpa musyawarah lebih lanjut.",
+      "Memfasilitasi diskusi untuk membandingkan kelebihan dan kekurangan kedua usulan berdasarkan data, lalu mengambil keputusan bersama yang disepakati tim.",
+      "Meminta masing-masing pihak menyampaikan alasannya, tetapi keputusan diambil dengan pemungutan suara tanpa pembahasan mendalam.",
+      "Memaksakan usulan yang Anda sukai karena Anda anggota paling senior.",
+      "Membiarkan tim terpecah dan masing-masing bekerja dengan usulan sendiri."
+    ],
+    "question": "Tim Anda diminta memilih satu dari dua usulan proyek, dan suara tim terbelah dua sama kuat. Tenggat pemilihan sudah dekat. Apa yang Anda lakukan?",
+    "scores": [
+      3,
+      5,
+      4,
+      2,
+      1
+    ],
+    "subtopic": "Jejaring Kerja"
+  },
+  {
+    "answer": 2,
+    "category": "TKP",
+    "explanation": "Pilihan C (5) paling tepat: Anda bersedia menggantikan, mempelajari catatan dan agenda dengan cepat, dan menjelaskan keadaan darurat kepada peserta rapat. Pilihan B (4) sudah bersedia menggantikan dengan catatan yang ada, tetapi tanpa persiapan yang matang. Pilihan D (3) menunda rapat sehingga koordinasi tertunda. Pilihan A (2) membatalkan rapat tanpa usaha menggantikan. Pilihan E (1) paling buruk karena memimpin rapat dengan asal-asalan.",
+    "id": "TKP-13",
+    "options": [
+      "Membiarkan rapat itu batal karena pemimpinnya pulang.",
+      "Bersedia memimpin rapat itu dengan catatan yang ditinggalkan rekan Anda.",
+      "Bersedia memimpin rapat itu, mempelajari catatan dan agendanya dengan cepat, dan menyampaikan kepada peserta bahwa Anda menggantikan rekan yang sedang menghadapi keadaan darurat keluarga.",
+      "Meminta atasan menunda rapat hingga rekan Anda kembali.",
+      "Memimpin rapat itu tetapi menyampaikan agenda dengan asal-asalan."
+    ],
+    "question": "Seorang rekan kerja tiba-tiba harus pulang karena anggota keluarganya mengalami kecelakaan, padahal ia dijadwalkan memimpin rapat koordinasi dengan unit lain sore ini. Ia meminta Anda menggantikannya. Apa yang Anda lakukan?",
+    "scores": [
+      2,
+      4,
+      5,
+      3,
+      1
+    ],
+    "subtopic": "Jejaring Kerja"
+  },
+  {
+    "answer": 3,
+    "category": "TKP",
+    "explanation": "Pilihan D (5) paling tepat: evaluasi jujur berdasarkan data, kekurangan tim diakui termasuk peran sendiri, dan diusulkan langkah perbaikan. Pilihan E (4) sudah jujur tentang kekurangan tim, tetapi tidak mengusulkan perbaikan. Pilihan B (3) hanya menyampaikan evaluasi umum tanpa penyebab sebenarnya. Pilihan A (2) menyalahkan satu orang tanpa melihat penyebab menyeluruh. Pilihan C (1) paling buruk karena menyembunyikan kegagalan dan melaporkan target seolah tercapai.",
+    "id": "TKP-14",
+    "options": [
+      "Menyalahkan satu anggota tim yang paling sering terlambat.",
+      "Menyampaikan evaluasi secara umum tanpa menyebut penyebab yang sebenarnya.",
+      "Menyembunyikan kegagalan itu dan melaporkan target seolah-olah tercapai.",
+      "Menyampaikan evaluasi secara jujur berdasarkan data, mengakui kekurangan tim termasuk peran Anda sendiri, dan mengusulkan langkah perbaikan bersama.",
+      "Menyampaikan evaluasi jujur tentang kekurangan tim, tetapi tidak mengusulkan langkah perbaikan."
+    ],
+    "question": "Tim Anda gagal mencapai target dan atasan meminta evaluasi penyebab kegagalan itu. Apa yang Anda lakukan?",
+    "scores": [
+      2,
+      3,
+      1,
+      5,
+      4
+    ],
+    "subtopic": "Jejaring Kerja"
+  },
+  {
+    "answer": 3,
+    "category": "TKP",
+    "explanation": "Pilihan D (5) paling tepat: ajakan ditolak dengan sopan, dijelaskan bahwa kerja tim membutuhkan keterbukaan, dan semua anggota diajak terlibat. Pilihan E (4) sudah menolak bergabung, tetapi tanpa penjelasan. Pilihan A (3) hanya diam tanpa menegur. Pilihan B (2) bergabung dengan kelompok yang mengecualikan anggota lain. Pilihan C (1) paling buruk karena bergabung dan ikut membicarakan anggota yang dikecualikan.",
+    "id": "TKP-15",
+    "options": [
+      "Diam saja dan tidak bergabung, tetapi tidak menegur ajakan itu.",
+      "Bergabung karena Anda merasa lebih nyaman dengan kelompok kecil itu.",
+      "Bergabung dan ikut membicarakan anggota tim yang dikecualikan.",
+      "Menolak bergabung dengan sopan, menjelaskan bahwa kerja tim membutuhkan keterbukaan, dan mengajaknya melibatkan semua anggota tim.",
+      "Menolak bergabung tetapi tidak menjelaskan alasannya."
+    ],
+    "question": "Seorang rekan kerja mengajak Anda membentuk kelompok kecil yang mengecualikan anggota tim lain dari pembahasan pekerjaan. Apa yang Anda lakukan?",
+    "scores": [
+      3,
+      2,
+      1,
+      5,
+      4
+    ],
+    "subtopic": "Jejaring Kerja"
+  },
+  {
+    "answer": 4,
+    "category": "TKP",
+    "explanation": "Pilihan E (5) paling tepat: rekan diingatkan dengan sopan, dijelaskan risiko kehilangan berkas, dan dibantu memindahkannya ke folder bersama. Pilihan C (4) sudah mengingatkan, tetapi tanpa penjelasan risiko dan tanpa bantuan. Pilihan A (3) membiarkan risiko itu tanpa tindakan. Pilihan B (2) menyalin berkas orang lain tanpa izin. Pilihan D (1) paling buruk karena menghapus berkas dari laptop rekan tanpa izin.",
+    "id": "TKP-16",
+    "options": [
+      "Membiarkannya karena itu urusan rekan Anda.",
+      "Menyalin berkas itu diam-diam ke folder bersama tanpa memberi tahu pemiliknya.",
+      "Mengingatkannya agar menyimpan berkas penting di folder bersama.",
+      "Menghapus berkas itu dari laptopnya agar ia terpaksa memakai folder bersama.",
+      "Mengingatkannya dengan sopan, menjelaskan risiko bila laptopnya rusak atau hilang, dan membantunya memindahkan berkas itu ke folder bersama."
+    ],
+    "question": "Anda menemukan seorang rekan kerja menyimpan berkas penting tim hanya di laptop pribadinya, tidak di folder bersama tim. Apa yang Anda lakukan?",
+    "scores": [
+      3,
+      2,
+      4,
+      1,
+      5
+    ],
+    "subtopic": "Jejaring Kerja"
+  },
+  {
+    "answer": 0,
+    "category": "TKP",
+    "explanation": "Pilihan A (5) paling tepat: video tidak disebarkan, dijelaskan bahwa Pancasila sejalan dengan nilai agama dan merupakan dasar negara, dan anggota grup diingatkan agar tidak mudah percaya pada ceramah yang memecah belah. Pilihan B (4) sudah benar tidak menyebarkan, tetapi diam tanpa memberi penjelasan. Pilihan C (3) hanya mengabaikan tanpa menanggapi. Pilihan D (2) menonton hingga selesai tetapi tidak menyebarkannya. Pilihan E (1) paling buruk karena meneruskan video itu ke grup lain.",
+    "id": "TKP-17",
+    "options": [
+      "Menolak menyebarkannya, menjelaskan bahwa Pancasila sejalan dengan nilai agama dan merupakan dasar negara, serta mengingatkan anggota grup agar tidak mudah percaya pada ceramah yang memecah belah.",
+      "Tidak menyebarkannya dan diam saja.",
+      "Mengabaikan video itu tanpa menanggapi.",
+      "Menonton video itu sampai selesai tetapi tidak menyebarkannya.",
+      "Meneruskan video itu ke grup lain agar banyak orang menontonnya."
+    ],
+    "question": "Seorang rekan kerja membagikan video ceramah di grup keluarga Anda yang mengajarkan bahwa Pancasila bertentangan dengan agama. Apa yang Anda lakukan?",
+    "scores": [
+      5,
+      4,
+      3,
+      2,
+      1
+    ],
+    "subtopic": "Anti Radikalisme"
+  },
+  {
+    "answer": 0,
+    "category": "TKP",
+    "explanation": "Pilihan A (5) paling tepat: permintaan ditolak dengan sopan, dijelaskan bahwa bendera Merah Putih adalah simbol negara yang wajib dihormati, dan bendera tetap dipasang sesuai ketentuan. Pilihan B (4) sudah menolak, tetapi tanpa penjelasan. Pilihan C (3) hanya menunda pemasangan untuk menghindari perdebatan. Pilihan D (2) memasang bendera di tempat yang tidak terlihat. Pilihan E (1) paling buruk karena mengikuti permintaan warga itu dan tidak memasang bendera.",
+    "id": "TKP-18",
+    "options": [
+      "Menolak permintaan itu dengan sopan, menjelaskan bahwa bendera Merah Putih adalah simbol negara yang wajib dihormati, dan tetap memasangnya sesuai ketentuan.",
+      "Menolak permintaan itu tetapi tidak menjelaskan alasannya.",
+      "Menunda pemasangan bendera untuk menghindari perdebatan.",
+      "Memasang bendera di tempat yang tidak terlihat agar tidak menimbulkan masalah.",
+      "Mengikuti permintaan warga itu dan tidak memasang bendera."
+    ],
+    "question": "Seorang warga meminta Anda menolak memasang bendera Merah Putih di balai desa dengan alasan keyakinannya. Apa yang Anda lakukan?",
+    "scores": [
+      5,
+      4,
+      3,
+      2,
+      1
+    ],
+    "subtopic": "Anti Radikalisme"
+  },
+  {
+    "answer": 1,
+    "category": "TKP",
+    "explanation": "Pilihan B (5) paling tepat: permintaan ditolak dengan sopan, dijelaskan bahwa kesenian daerah adalah bagian dari budaya bangsa yang dilindungi, dan kegiatan tetap difasilitasi dengan menjaga ketertiban. Pilihan C (4) sudah menjelaskan nilai budaya, tetapi tetap mengurangi bagian kegiatan. Pilihan A (3) hanya menunda kegiatan untuk menghindari konflik. Pilihan D (2) melarang kegiatan agar tidak ada protes. Pilihan E (1) paling buruk karena membantu menyebarkan larangan kegiatan kesenian daerah.",
+    "id": "TKP-19",
+    "options": [
+      "Menunda kegiatan itu untuk menghindari konflik.",
+      "Menolak permintaan itu dengan sopan, menjelaskan bahwa kesenian daerah adalah bagian dari budaya bangsa yang dilindungi, dan tetap memfasilitasi kegiatan itu dengan menjaga ketertiban.",
+      "Menjelaskan bahwa kesenian daerah adalah budaya bangsa, tetapi tetap meminta panitia mengurangi bagian yang dipermasalahkan.",
+      "Melarang kegiatan itu agar tidak ada protes.",
+      "Membantu tokoh itu menyebarkan larangan kegiatan kesenian daerah."
+    ],
+    "question": "Seorang tokoh masyarakat meminta Anda melarang kegiatan kesenian daerah karena dianggap bertentangan dengan keyakinan tertentu. Apa yang Anda lakukan?",
+    "scores": [
+      3,
+      5,
+      4,
+      2,
+      1
+    ],
+    "subtopic": "Anti Radikalisme"
+  },
+  {
+    "answer": 2,
+    "category": "TKP",
+    "explanation": "Pilihan C (5) paling tepat: Anda menolak menandatangani dengan sopan, menjelaskan bahwa perbedaan mazhab adalah hal yang wajar dan harus dihormati, serta mengajaknya menjaga kerukunan. Pilihan D (4) sudah menolak, tetapi tanpa penjelasan. Pilihan A (3) hanya diam tanpa menegur. Pilihan B (2) menandatangani karena tidak ingin berselisih. Pilihan E (1) paling buruk karena menandatangani dan ikut menyebarkannya.",
+    "id": "TKP-20",
+    "options": [
+      "Diam saja dan tidak menandatangani, tetapi tidak menegurnya.",
+      "Menandatanganinya karena tidak ingin berselisih dengan rekan itu.",
+      "Menolak menandatangani dengan sopan, menjelaskan bahwa perbedaan mazhab adalah hal yang wajar dan harus dihormati, serta mengajaknya menjaga kerukunan.",
+      "Menolak menandatangani tetapi tidak menjelaskan alasannya.",
+      "Menandatangani pernyataan itu dan ikut menyebarkannya."
+    ],
+    "question": "Seorang rekan kerja mengajak Anda menandatangani pernyataan bahwa hanya satu mazhab yang benar dan mazhab lain sesat. Apa yang Anda lakukan?",
+    "scores": [
+      3,
+      2,
+      5,
+      4,
+      1
+    ],
+    "subtopic": "Anti Radikalisme"
+  },
+  {
+    "answer": 2,
+    "category": "TKP",
+    "explanation": "Pilihan C (5) paling tepat: ajakan ditolak, dijelaskan bahwa pemisahan berdasarkan suku bertentangan dengan nilai persatuan, dan keberatan disampaikan kepada pihak sekolah agar kebijakannya tetap inklusif. Pilihan B (4) sudah menolak dan menyampaikan keberatan, tetapi tanpa penjelasan tentang nilai persatuan. Pilihan A (3) hanya diam karena menganggap itu urusan sekolah. Pilihan D (2) mengikuti ajakan agar anak sekelas dengan suku yang sama. Pilihan E (1) paling buruk karena membantu menyebarkan ajakan pemisahan itu.",
+    "id": "TKP-21",
+    "options": [
+      "Diam saja karena itu urusan sekolah.",
+      "Menolak ajakan itu dan menyampaikan keberatan kepada pihak sekolah.",
+      "Menolak ajakan itu, menjelaskan bahwa pemisahan berdasarkan suku bertentangan dengan nilai persatuan, dan menyampaikan keberatan kepada pihak sekolah agar kebijakan sekolah tetap inklusif.",
+      "Mengikuti ajakan itu agar anak Anda sekelas dengan anak dari suku yang sama.",
+      "Membantu menyebarkan ajakan pemisahan kelas itu kepada orang tua lain."
+    ],
+    "question": "Di sekolah tempat anak Anda belajar, ada orang tua yang mengajak memisahkan kelas berdasarkan suku. Apa yang Anda lakukan?",
+    "scores": [
+      3,
+      4,
+      5,
+      2,
+      1
+    ],
+    "subtopic": "Anti Radikalisme"
+  },
+  {
+    "answer": 3,
+    "category": "TKP",
+    "explanation": "Pilihan D (5) paling tepat: ajakan ditolak dengan sopan, dijelaskan bahwa cinta tanah air diwujudkan dengan mendukung produk dalam negeri, dan rekan diajak tetap menghormati negara. Pilihan E (4) sudah menolak mengikuti ajakan, tetapi tanpa penjelasan. Pilihan A (3) hanya diam tanpa mengikuti ajakan. Pilihan B (2) mengikuti ajakan boikot karena tidak ingin berbeda pendapat. Pilihan C (1) paling buruk karena ikut menyebarkan ajakan boikot itu di media sosial.",
+    "id": "TKP-22",
+    "options": [
+      "Diam saja dan tidak mengikuti ajakan itu.",
+      "Mengikuti ajakan boikot itu karena tidak ingin berbeda pendapat.",
+      "Ikut menyebarkan ajakan boikot itu di media sosial.",
+      "Menolak ajakan itu dengan sopan, menjelaskan bahwa cinta tanah air diwujudkan dengan mendukung produk dalam negeri, dan mengajaknya tetap menghormati negara.",
+      "Menolak mengikuti ajakan itu tetapi tidak menjelaskan alasannya."
+    ],
+    "question": "Seorang rekan menolak memakai produk dalam negeri dan mengajak pegawai lain memboikotnya karena menganggap negara tidak sesuai dengan keyakinannya. Apa yang Anda lakukan?",
+    "scores": [
+      3,
+      2,
+      1,
+      5,
+      4
+    ],
+    "subtopic": "Anti Radikalisme"
+  },
+  {
+    "answer": 4,
+    "category": "TKP",
+    "explanation": "Pilihan E (5) paling tepat: Anda menolak membantu, menjelaskan bahwa peringatan kemerdekaan adalah wujud rasa syukur dan persatuan bangsa, dan mengajak warga tetap ikut serta. Pilihan C (4) sudah menolak membantu, tetapi tanpa penjelasan dan tanpa ajakan. Pilihan B (3) hanya diam tanpa menegur. Pilihan A (2) membantu menyebarkan undangan itu karena diminta warga. Pilihan D (1) paling buruk karena membantu menyebarkan undangan itu dan ikut mengajak warga lain menolak peringatan 17 Agustus.",
+    "id": "TKP-23",
+    "options": [
+      "Membantu menyebarkan undangan itu karena Anda diminta warga.",
+      "Diam saja dan tidak membantu, tetapi tidak menegur.",
+      "Menolak membantu menyebarkan undangan itu.",
+      "Membantu menyebarkan undangan itu dan ikut mengajak warga lain menolak peringatan 17 Agustus.",
+      "Menolak membantu, menjelaskan bahwa peringatan kemerdekaan adalah wujud rasa syukur dan persatuan bangsa, dan mengajak warga tetap ikut serta."
+    ],
+    "question": "Seorang warga meminta Anda membantu menyebarkan undangan pengajian yang isinya mengajak warga menolak ikut serta dalam peringatan 17 Agustus. Apa yang Anda lakukan?",
+    "scores": [
+      2,
+      3,
+      4,
+      1,
+      5
+    ],
+    "subtopic": "Anti Radikalisme"
+  },
+  {
+    "answer": 0,
+    "category": "TKP",
+    "explanation": "Pilihan A (5) paling tepat: atasan diberi tahu dengan sopan disertai bukti, dan diusulkan laporan diperbaiki sebelum diserahkan. Pilihan B (4) sudah memberi tahu atasan, tetapi tidak mengusulkan perbaikan. Pilihan C (3) membiarkan kesalahan karena laporan sudah ditandatangani. Pilihan D (2) memperbaiki sendiri tanpa memberi tahu atasan sehingga tidak ada pencatatan yang jelas. Pilihan E (1) paling buruk karena menyebarkan kesalahan itu sebagai bahan gunjingan.",
+    "id": "TKP-24",
+    "options": [
+      "Memberi tahu atasan dengan sopan disertai bukti, dan mengusulkan laporan itu diperbaiki sebelum diserahkan.",
+      "Memberi tahu atasan tentang kesalahan itu tetapi tidak mengusulkan perbaikan.",
+      "Membiarkannya karena laporan sudah ditandatangani atasan.",
+      "Memperbaiki angka itu sendiri tanpa memberi tahu atasan.",
+      "Menyebarkan kesalahan itu kepada rekan lain sebagai bahan gunjingan."
+    ],
+    "question": "Anda menemukan atasan Anda salah menulis angka dalam laporan resmi yang sudah ditandatanganinya. Apa yang Anda lakukan?",
+    "scores": [
+      5,
+      4,
+      3,
+      2,
+      1
+    ],
+    "subtopic": "Profesionalisme"
+  },
+  {
+    "answer": 1,
+    "category": "TKP",
+    "explanation": "Pilihan B (5) paling tepat: permintaan ditolak, kinerja dinilai objektif berdasarkan bukti, dan dijelaskan bahwa penilaian jujur membantunya memperbaiki diri. Pilihan C (4) sudah menolak memberi nilai bagus, tetapi menilainya tanpa bukti yang jelas. Pilihan A (3) memberi nilai sedang agar tidak ada yang tersinggung. Pilihan D (2) memberi nilai bagus karena ia rekan kerja Anda. Pilihan E (1) paling buruk karena memberi nilai bagus dan meminta imbalan.",
+    "id": "TKP-25",
+    "options": [
+      "Memberinya nilai sedang agar tidak ada yang tersinggung.",
+      "Menolak permintaan itu, menilai kinerjanya secara objektif berdasarkan bukti, dan menjelaskan bahwa penilaian yang jujur membantunya memperbaiki diri.",
+      "Menolak memberikan nilai bagus tetapi menilainya tanpa bukti yang jelas.",
+      "Memberinya nilai bagus karena ia rekan kerja Anda.",
+      "Memberinya nilai bagus dan meminta imbalan atas penilaian itu."
+    ],
+    "question": "Seorang rekan kerja meminta Anda memberikan nilai bagus dalam penilaian kinerja padahal kinerjanya buruk. Apa yang Anda lakukan?",
+    "scores": [
+      3,
+      5,
+      4,
+      2,
+      1
+    ],
+    "subtopic": "Profesionalisme"
+  },
+  {
+    "answer": 1,
+    "category": "TKP",
+    "explanation": "Pilihan B (5) paling tepat: tawaran pada jam kerja ditolak, atau dijadwalkan di luar jam kerja dengan izin atasan terlebih dahulu. Pilihan C (4) sudah menolak, tetapi tanpa penjelasan. Pilihan A (3) menerima tetapi merahasiakannya dari atasan. Pilihan D (2) menerima dan meninggalkan tugas kantor. Pilihan E (1) paling buruk karena menerima dan meminta panitia merahasiakannya dari atasan.",
+    "id": "TKP-26",
+    "options": [
+      "Menerima tawaran itu tetapi merahasiakannya dari atasan.",
+      "Menolak tawaran pada jam kerja itu, atau memintanya dijadwalkan di luar jam kerja dengan izin atasan terlebih dahulu.",
+      "Menolak tawaran itu tetapi tidak menjelaskan alasannya.",
+      "Menerima tawaran itu dan meninggalkan tugas kantor selama acara berlangsung.",
+      "Menerima tawaran itu dan meminta panitia merahasiakannya dari atasan."
+    ],
+    "question": "Anda ditawari menjadi narasumber di acara berbayar pada jam kerja tanpa izin atasan. Apa yang Anda lakukan?",
+    "scores": [
+      3,
+      5,
+      4,
+      2,
+      1
+    ],
+    "subtopic": "Profesionalisme"
+  },
+  {
+    "answer": 2,
+    "category": "TKP",
+    "explanation": "Pilihan C (5) paling tepat: tawaran ditolak dengan tegas, dijelaskan bahwa pengurusan dokumen harus melalui prosedur resmi tanpa perantara, dan dilaporkan bila perlu. Pilihan B (4) sudah menolak dengan sopan, tetapi tanpa penjelasan prosedur dan tanpa laporan. Pilihan D (3) hanya diam tanpa menanggapi. Pilihan A (2) menerima tawaran karena warga yang menawari. Pilihan E (1) paling buruk karena menerima tawaran dan mulai menawarkan jasa calo kepada warga lain.",
+    "id": "TKP-27",
+    "options": [
+      "Menerima tawaran itu karena warga yang menawari.",
+      "Menolak tawaran itu dengan sopan.",
+      "Menolak tawaran itu dengan tegas, menjelaskan bahwa pengurusan dokumen harus melalui prosedur resmi tanpa perantara, dan melaporkan tawaran itu bila perlu.",
+      "Diam saja dan tidak menanggapi tawaran itu.",
+      "Menerima tawaran itu dan mulai menawarkan jasa calo kepada warga lain."
+    ],
+    "question": "Seorang warga menawarkan Anda menjadi calo pengurusan dokumen dengan imbalan. Apa yang Anda lakukan?",
+    "scores": [
+      2,
+      4,
+      5,
+      3,
+      1
+    ],
+    "subtopic": "Profesionalisme"
+  },
+  {
+    "answer": 3,
+    "category": "TKP",
+    "explanation": "Pilihan D (5) paling tepat: rekan ditegur dan pemalsuan dilaporkan kepada atasan agar dokumen diperbaiki dan ditindaklanjuti sesuai ketentuan. Pilihan E (4) sudah melaporkan kepada atasan, tetapi tanpa menegur rekan terlebih dahulu. Pilihan A (3) hanya diam karena bukan Anda yang memalsukan. Pilihan B (2) menegur tetapi membiarkan dokumen itu tetap dipakai. Pilihan C (1) paling buruk karena membantu menutupi pemalsuan itu.",
+    "id": "TKP-28",
+    "options": [
+      "Diam saja karena bukan Anda yang memalsukan.",
+      "Menegur rekan itu secara pribadi tetapi membiarkan dokumen itu tetap dipakai.",
+      "Membantu rekan itu menutupi pemalsuan itu.",
+      "Menegur rekan itu dan melaporkan pemalsuan itu kepada atasan agar dokumen diperbaiki dan ditindaklanjuti sesuai ketentuan.",
+      "Melaporkan pemalsuan itu kepada atasan tanpa menegur rekan itu terlebih dahulu."
+    ],
+    "question": "Anda menemukan seorang rekan kerja memalsukan tanda tangan warga pada sebuah dokumen. Apa yang Anda lakukan?",
+    "scores": [
+      3,
+      2,
+      1,
+      5,
+      4
+    ],
+    "subtopic": "Profesionalisme"
+  },
+  {
+    "answer": 4,
+    "category": "TKP",
+    "explanation": "Pilihan E (5) paling tepat: Anda menolak mengubah data dengan sopan, menjelaskan bahwa data harus sesuai fakta, dan mengusulkan cara yang benar untuk mencapai target. Pilihan C (4) sudah menolak mengubah data, tetapi tanpa penjelasan. Pilihan B (3) hanya diam tanpa menyampaikan keberatan. Pilihan A (2) mengubah data karena perintah atasan. Pilihan D (1) paling buruk karena mengubah data dan membantu atasan menutupi perubahan tersebut.",
+    "id": "TKP-29",
+    "options": [
+      "Mengubah data itu karena perintah atasan.",
+      "Diam saja dan tidak mengubah data, tetapi tidak menyampaikan keberatan.",
+      "Menolak mengubah data tetapi tidak menjelaskan alasannya.",
+      "Mengubah data itu dan membantu atasan menutupi perubahan tersebut.",
+      "Menolak mengubah data dengan sopan, menjelaskan bahwa data harus sesuai fakta, dan mengusulkan cara yang benar untuk mencapai target."
+    ],
+    "question": "Atasan meminta Anda mengubah data laporan agar target unit tercapai. Apa yang Anda lakukan?",
+    "scores": [
+      2,
+      3,
+      4,
+      1,
+      5
+    ],
+    "subtopic": "Profesionalisme"
+  },
+  {
+    "answer": 4,
+    "category": "TKP",
+    "explanation": "Pilihan E (5) paling tepat: rekan ditegur dengan sopan, diminta mengembalikan barang itu, dan dilaporkan bila ia mengulanginya. Pilihan C (4) sudah menegur agar barang dikembalikan, tetapi tanpa tindak lanjut bila diulangi. Pilihan A (3) hanya diam karena barang itu kecil nilainya. Pilihan B (2) ikut mengambil barang inventaris karena rekan Anda melakukannya. Pilihan D (1) paling buruk karena membantu rekan itu membawa barang inventaris itu keluar kantor.",
+    "id": "TKP-30",
+    "options": [
+      "Diam saja karena barang itu kecil nilainya.",
+      "Mengambil juga barang inventaris karena rekan Anda melakukannya.",
+      "Menegur rekan itu secara pribadi agar mengembalikan barang itu.",
+      "Membantu rekan itu membawa barang inventaris itu keluar kantor.",
+      "Menegur rekan itu dengan sopan, memintanya mengembalikan barang itu, dan melaporkan kejadian itu bila ia mengulanginya."
+    ],
+    "question": "Anda melihat seorang rekan kerja mengambil barang inventaris kantor untuk keperluan pribadi. Apa yang Anda lakukan?",
+    "scores": [
+      3,
+      2,
+      4,
+      1,
+      5
+    ],
+    "subtopic": "Profesionalisme"
+  },
+  {
+    "answer": 4,
+    "category": "TKP",
+    "explanation": "Pilihan E (5) paling tepat: Anda meminta dibuatkan berita acara serah terima dana dan pencatatan yang jelas terlebih dahulu, lalu menerima tugas itu dengan penuh tanggung jawab. Pilihan C (4) sudah menerima dengan syarat berita acara dibuat, tetapi tanpa pencatatan yang jelas. Pilihan B (3) menerima tetapi tidak mencatat pemasukan dan pengeluaran dengan rapi. Pilihan A (2) menerima begitu saja tanpa meminta kejelasan dana. Pilihan D (1) paling buruk karena menolak tugas tanpa penjelasan.",
+    "id": "TKP-31",
+    "options": [
+      "Menerima tugas itu begitu saja tanpa meminta kejelasan dana.",
+      "Menerima tugas itu tetapi tidak mencatat pemasukan dan pengeluaran dengan rapi.",
+      "Menerima tugas itu dengan syarat dibuatkan berita acara serah terima dana terlebih dahulu.",
+      "Menolak tugas itu tanpa penjelasan.",
+      "Meminta dibuatkan berita acara serah terima dana dan pencatatan yang jelas terlebih dahulu, lalu menerima tugas itu dengan penuh tanggung jawab."
+    ],
+    "question": "Anda diminta menjadi bendahara kegiatan kantor tanpa ada berita acara serah terima dana dari bendahara sebelumnya. Apa yang Anda lakukan?",
+    "scores": [
+      2,
+      3,
+      4,
+      1,
+      5
+    ],
+    "subtopic": "Profesionalisme"
+  },
+  {
+    "answer": 0,
+    "category": "TKP",
+    "explanation": "Pilihan A (5) paling tepat: Anda meminta maaf dengan sopan, mempelajari sebutan kehormatan yang berlaku, dan memanggil warga itu dengan sebutan tersebut. Pilihan B (4) sudah meminta maaf, tetapi tetap memanggilnya dengan nama biasa. Pilihan C (3) mengabaikan ketersinggungannya dan melanjutkan pelayanan seperti biasa. Pilihan D (2) bersikeras memakai nama biasa tanpa menghormati adat setempat. Pilihan E (1) paling buruk karena mengejek sebutan kehormatan adat itu di depan warga lain.",
+    "id": "TKP-32",
+    "options": [
+      "Meminta maaf dengan sopan, mempelajari sebutan kehormatan yang berlaku, dan memanggil warga itu dengan sebutan tersebut dalam pelayanan berikutnya.",
+      "Meminta maaf tetapi tetap memanggilnya dengan nama biasa.",
+      "Mengabaikan ketersinggungannya dan melanjutkan pelayanan seperti biasa.",
+      "Menjelaskan bahwa di kantor semua warga dipanggil dengan nama biasa tanpa kecuali.",
+      "Mengejek sebutan kehormatan adat itu di depan warga lain."
+    ],
+    "question": "Seorang warga tersinggung karena Anda memanggilnya dengan nama biasa, padahal di daerah itu orang yang dituakan biasa dipanggil dengan sebutan kehormatan adat. Apa yang Anda lakukan?",
+    "scores": [
+      5,
+      4,
+      3,
+      2,
+      1
+    ],
+    "subtopic": "Sosial Budaya"
+  },
+  {
+    "answer": 0,
+    "category": "TKP",
+    "explanation": "Pilihan A (5) paling tepat: Anda mengajaknya makan bersama dengan sopan, menjelaskan bahwa makanan daerah adalah kekayaan budaya bangsa, dan menghormati pilihannya bila ia tetap tidak mau. Pilihan B (4) membiarkannya tidak makan bersama tanpa menegur, tetapi tidak ada upaya merangkul. Pilihan C (3) hanya diam tanpa menanggapi penolakannya. Pilihan D (2) ikut menolak makanan itu agar ia tidak merasa sendiri. Pilihan E (1) paling buruk karena mengejeknya karena menolak makanan daerah.",
+    "id": "TKP-33",
+    "options": [
+      "Mengajaknya makan bersama dengan sopan, menjelaskan bahwa makanan daerah adalah kekayaan budaya bangsa, dan menghormati pilihannya bila ia tetap tidak mau.",
+      "Membiarkannya tidak makan bersama tanpa menegur.",
+      "Diam saja dan tidak menanggapi penolakannya.",
+      "Ikut menolak makanan itu agar ia tidak merasa sendiri.",
+      "Mengejeknya karena menolak makanan daerah."
+    ],
+    "question": "Seorang rekan kerja menolak makan bersama karena makanan yang disajikan berasal dari daerah tertentu. Apa yang Anda lakukan?",
+    "scores": [
+      5,
+      4,
+      3,
+      2,
+      1
+    ],
+    "subtopic": "Sosial Budaya"
+  },
+  {
+    "answer": 1,
+    "category": "TKP",
+    "explanation": "Pilihan B (5) paling tepat: rekan yang berkomentar sinis ditegur dengan sopan, dijelaskan bahwa pakaian keagamaan adalah hak setiap orang, dan ia diajak menghormati perbedaan. Pilihan C (4) sudah menenangkan rekan yang dikomentari, tetapi tidak menegur yang berkomentar. Pilihan A (3) hanya diam karena tidak ingin ikut campur. Pilihan D (2) ikut tertawa mendengar komentar sinis itu. Pilihan E (1) paling buruk karena ikut berkomentar sinis tentang pakaian keagamaan rekan itu.",
+    "id": "TKP-34",
+    "options": [
+      "Diam saja karena Anda tidak ingin ikut campur.",
+      "Menegur rekan yang berkomentar sinis dengan sopan, menjelaskan bahwa pakaian keagamaan adalah hak setiap orang, dan mengajaknya menghormati perbedaan.",
+      "Menenangkan rekan yang dikomentari tetapi tidak menegur yang berkomentar.",
+      "Ikut tertawa mendengar komentar sinis itu.",
+      "Ikut berkomentar sinis tentang pakaian keagamaan rekan itu."
+    ],
+    "question": "Di kantor, ada rekan yang memakai pakaian keagamaan tertentu dan rekan lain mengomentarinya dengan sinis. Apa yang Anda lakukan?",
+    "scores": [
+      3,
+      5,
+      4,
+      2,
+      1
+    ],
+    "subtopic": "Sosial Budaya"
+  },
+  {
+    "answer": 2,
+    "category": "TKP",
+    "explanation": "Pilihan C (5) paling tepat: dijelaskan dengan sopan bahwa perubahan nama harus mengikuti prosedur resmi, kepercayaan adatnya dihormati, dan warga dibantu mengurus perubahan nama sesuai ketentuan. Pilihan B (4) sudah menjelaskan prosedur dan syaratnya, tetapi tanpa penghormatan pada kepercayaan adatnya. Pilihan D (3) menolak permintaan itu tanpa penjelasan. Pilihan A (2) mengubah nama tanpa prosedur. Pilihan E (1) paling buruk karena mengejek kepercayaan adat warga itu.",
+    "id": "TKP-35",
+    "options": [
+      "Mengubah nama itu sesuai permintaan warga tanpa prosedur.",
+      "Menjelaskan prosedur perubahan nama secara resmi dan syarat-syaratnya.",
+      "Menjelaskan dengan sopan bahwa perubahan nama harus mengikuti prosedur resmi, menghormati kepercayaan adatnya, dan membantunya mengurus perubahan nama sesuai ketentuan.",
+      "Menolak permintaan itu tanpa penjelasan.",
+      "Mengejek kepercayaan adat warga itu."
+    ],
+    "question": "Seorang warga meminta Anda mengubah nama anaknya karena nama itu dianggap membawa sial menurut adat setempat. Apa yang Anda lakukan?",
+    "scores": [
+      2,
+      4,
+      5,
+      3,
+      1
+    ],
+    "subtopic": "Sosial Budaya"
+  },
+  {
+    "answer": 3,
+    "category": "TKP",
+    "explanation": "Pilihan D (5) paling tepat: upacara adat dihormati, lalu lintas diatur dengan jalur alternatif, dan penutupan jalan diumumkan kepada warga jauh hari. Pilihan E (4) sudah menghormati upacara itu, tetapi tidak membantu mengatur lalu lintas. Pilihan A (3) mengabaikan permintaan dan tetap membuka jalan seperti biasa. Pilihan B (2) menolak permintaan karena jalan adalah fasilitas umum. Pilihan C (1) paling buruk karena melarang upacara adat itu dilaksanakan.",
+    "id": "TKP-36",
+    "options": [
+      "Mengabaikan permintaan itu dan tetap membuka jalan seperti biasa.",
+      "Menolak permintaan itu karena jalan adalah fasilitas umum.",
+      "Melarang upacara adat itu dilaksanakan.",
+      "Menghormati upacara adat itu, membantu mengatur lalu lintas dan jalur alternatif, serta mengumumkan penutupan jalan itu kepada warga jauh hari.",
+      "Menghormati upacara itu tetapi tidak membantu mengatur lalu lintas."
+    ],
+    "question": "Masyarakat desa meminta kantor menghormati upacara adat yang menutup jalan utama selama sehari. Apa yang Anda lakukan?",
+    "scores": [
+      3,
+      2,
+      1,
+      5,
+      4
+    ],
+    "subtopic": "Sosial Budaya"
+  },
+  {
+    "answer": 4,
+    "category": "TKP",
+    "explanation": "Pilihan E (5) paling tepat: Anda memanggilnya dengan gelar adat itu dengan hormat dan mempelajari cara pengucapannya yang benar. Pilihan C (4) sudah mencoba memanggilnya dengan gelar itu, tetapi masih sering salah. Pilihan B (3) memanggilnya dengan nama biasa dan mengabaikan permintaannya. Pilihan A (2) menolak karena gelar itu sulit diucapkan. Pilihan D (1) paling buruk karena mengejek gelar adat itu di depan rekan lain.",
+    "id": "TKP-37",
+    "options": [
+      "Menolak karena gelar itu sulit diucapkan.",
+      "Memanggilnya dengan nama biasa dan mengabaikan permintaannya.",
+      "Mencoba memanggilnya dengan gelar adat itu meski kadang salah.",
+      "Mengejek gelar adat itu di depan rekan lain.",
+      "Memanggilnya dengan gelar adat itu dengan hormat dan mempelajari cara pengucapannya yang benar."
+    ],
+    "question": "Seorang rekan kerja dari suku lain meminta Anda memanggilnya dengan gelar adatnya, bukan nama biasa. Apa yang Anda lakukan?",
+    "scores": [
+      2,
+      3,
+      4,
+      1,
+      5
+    ],
+    "subtopic": "Sosial Budaya"
+  },
+  {
+    "answer": 4,
+    "category": "TKP",
+    "explanation": "Pilihan E (5) paling tepat: Anda ikut serta dengan sikap hormat, bekerja sama dengan warga secara ramah, dan menjaga sikap toleran selama kegiatan. Pilihan C (4) sudah ikut serta sebentar sebagai bentuk penghormatan, tetapi tidak terlibat penuh. Pilihan B (3) mengabaikan ajakan itu tanpa jawaban. Pilihan A (2) menolak ikut karena tempat ibadah itu bukan keyakinan Anda. Pilihan D (1) paling buruk karena ikut serta lalu mengkritik keyakinan warga di depan mereka.",
+    "id": "TKP-38",
+    "options": [
+      "Menolak ikut karena tempat ibadah itu bukan keyakinan Anda.",
+      "Mengabaikan ajakan itu tanpa jawaban.",
+      "Ikut serta sebentar sebagai bentuk penghormatan.",
+      "Ikut serta lalu mengkritik keyakinan mereka di depan warga.",
+      "Ikut serta dengan sikap hormat, bekerja sama dengan warga secara ramah, dan menjaga sikap toleran selama kegiatan."
+    ],
+    "question": "Warga di daerah tugas Anda memiliki kebiasaan gotong royong membersihkan tempat ibadah semua agama secara bergiliran, dan Anda diminta ikut serta dalam kegiatan itu. Apa yang Anda lakukan?",
+    "scores": [
+      2,
+      3,
+      4,
+      1,
+      5
+    ],
+    "subtopic": "Sosial Budaya"
+  },
+  {
+    "answer": 0,
+    "category": "TKP",
+    "explanation": "Pilihan A (5) paling tepat: pengiriman lewat media sosial ditolak, dijelaskan risiko kebocoran data, dan warga diarahkan ke kanal resmi kantor yang aman. Pilihan B (4) sudah menolak, tetapi tanpa menjelaskan alasannya. Pilihan C (3) hanya menyuruh datang langsung tanpa penjelasan. Pilihan D (2) mengirim dokumen itu lewat media sosial karena warga memintanya. Pilihan E (1) paling buruk karena mengirim dokumen itu lewat media sosial dan meminta warga merahasiakannya.",
+    "id": "TKP-39",
+    "options": [
+      "Menolak mengirim dokumen resmi lewat media sosial, menjelaskan risiko kebocoran data, dan mengarahkan warga ke kanal resmi kantor yang aman.",
+      "Menolak mengirim lewat media sosial tetapi tidak menjelaskan alasannya.",
+      "Memintanya datang langsung ke kantor tanpa penjelasan.",
+      "Mengirim dokumen itu lewat media sosial karena warga memintanya.",
+      "Mengirim dokumen itu lewat media sosial dan meminta warga merahasiakannya."
+    ],
+    "question": "Seorang warga meminta Anda mengirimkan dokumen resmi melalui pesan pribadi media sosial karena lebih cepat. Apa yang Anda lakukan?",
+    "scores": [
+      5,
+      4,
+      3,
+      2,
+      1
+    ],
+    "subtopic": "Adaptasi TIK"
+  },
+  {
+    "answer": 1,
+    "category": "TKP",
+    "explanation": "Pilihan B (5) paling tepat: kesalahan data dilaporkan kepada pengelola sistem, data yang benar dicatat, dan dipastikan data warga diperbaiki sebelum dipakai untuk pelayanan. Pilihan C (4) sudah melaporkan, tetapi tetap memakai data yang salah untuk pelayanan. Pilihan A (3) membiarkannya karena kesalahan berasal dari sistem. Pilihan D (2) memperbaiki data sendiri tanpa memberi tahu pengelola sistem. Pilihan E (1) paling buruk karena menyebarkan data yang salah itu sebagai bahan candaan.",
+    "id": "TKP-40",
+    "options": [
+      "Membiarkannya karena kesalahan itu berasal dari sistem.",
+      "Melaporkan kesalahan data itu kepada pengelola sistem, mencatat data yang benar, dan memastikan data warga diperbaiki sebelum dipakai untuk pelayanan.",
+      "Melaporkan kesalahan itu kepada pengelola sistem tetapi tetap memakai data yang salah untuk pelayanan.",
+      "Memperbaiki data itu sendiri tanpa memberi tahu pengelola sistem.",
+      "Menyebarkan data yang salah itu kepada rekan lain sebagai bahan candaan."
+    ],
+    "question": "Anda menemukan aplikasi kantor menampilkan data warga yang salah karena nama tertukar dengan warga lain. Apa yang Anda lakukan?",
+    "scores": [
+      3,
+      5,
+      4,
+      2,
+      1
+    ],
+    "subtopic": "Adaptasi TIK"
+  },
+  {
+    "answer": 2,
+    "category": "TKP",
+    "explanation": "Pilihan C (5) paling tepat: Anda menolak memakai aplikasi bajakan, menjelaskan risiko keamanan dan pelanggaran hukumnya, dan mengusulkan aplikasi resmi atau alternatif gratis yang legal. Pilihan B (4) sudah menolak dan tetap memakai aplikasi resmi, tetapi tanpa penjelasan dan tanpa alternatif. Pilihan D (3) hanya diam tanpa menegur rekan Anda. Pilihan A (2) memakai aplikasi bajakan itu karena tidak ada biaya. Pilihan E (1) paling buruk karena memakai aplikasi bajakan itu dan menyebarkannya ke rekan lain.",
+    "id": "TKP-41",
+    "options": [
+      "Memakai aplikasi bajakan itu karena tidak ada biaya.",
+      "Menolak memakai aplikasi bajakan dan tetap memakai aplikasi resmi yang disediakan kantor.",
+      "Menolak memakai aplikasi bajakan, menjelaskan risiko keamanan dan pelanggaran hukumnya, dan mengusulkan aplikasi resmi atau alternatif gratis yang legal.",
+      "Diam saja dan tidak memakai aplikasi itu, tetapi tidak menegur rekan Anda.",
+      "Memakai aplikasi bajakan itu dan menyebarkannya ke rekan lain."
+    ],
+    "question": "Seorang rekan kerja mengajak Anda memakai aplikasi bajakan untuk mengolah data kantor karena gratis. Apa yang Anda lakukan?",
+    "scores": [
+      2,
+      4,
+      5,
+      3,
+      1
+    ],
+    "subtopic": "Adaptasi TIK"
+  },
+  {
+    "answer": 2,
+    "category": "TKP",
+    "explanation": "Pilihan C (5) paling tepat: kejadian segera dilaporkan kepada petugas teknologi informasi dan atasan, layanan daring dihentikan sementara bila perlu, dan warga diinformasikan agar tidak mengakses tautan yang mencurigakan. Pilihan B (4) sudah melaporkan kepada petugas teknologi informasi, tetapi tanpa pemberitahuan kepada warga dan atasan. Pilihan D (3) hanya menunggu hingga sistem pulih sendiri. Pilihan A (2) membiarkannya karena Anda bukan petugas teknologi informasi. Pilihan E (1) paling buruk karena menyebarkan tangkapan layar halaman yang diretas itu di media sosial.",
+    "id": "TKP-42",
+    "options": [
+      "Membiarkannya karena Anda bukan petugas teknologi informasi.",
+      "Melaporkan kejadian itu kepada petugas teknologi informasi.",
+      "Segera melaporkan kejadian itu kepada petugas teknologi informasi dan atasan, menghentikan sementara layanan daring bila perlu, dan menginformasikan kepada warga agar tidak mengakses tautan yang mencurigakan.",
+      "Menunggu hingga sistem pulih sendiri.",
+      "Menyebarkan tangkapan layar halaman yang diretas itu di media sosial."
+    ],
+    "question": "Sistem pelayanan daring kantor diretas dan menampilkan pesan aneh di halaman utama. Apa yang Anda lakukan?",
+    "scores": [
+      2,
+      4,
+      5,
+      3,
+      1
+    ],
+    "subtopic": "Adaptasi TIK"
+  },
+  {
+    "answer": 3,
+    "category": "TKP",
+    "explanation": "Pilihan D (5) paling tepat: dijelaskan risiko pengiriman data pribadi tanpa perlindungan, warga diminta mengirim ulang melalui kanal resmi yang aman, dan salinan foto dihapus dari surel setelah diproses sesuai ketentuan. Pilihan E (4) sudah memproses dan mengingatkan, tetapi tetap memakai kanal yang tidak aman. Pilihan B (3) meminta kirim ulang melalui kanal resmi tanpa menjelaskan alasannya. Pilihan A (2) memproses foto itu begitu saja. Pilihan C (1) paling buruk karena meneruskan foto KTP itu ke grup kerja.",
+    "id": "TKP-43",
+    "options": [
+      "Memproses foto KTP itu begitu saja.",
+      "Memintanya mengirim ulang melalui kanal resmi tanpa menjelaskan alasannya.",
+      "Meneruskan foto KTP itu ke grup kerja agar cepat diproses.",
+      "Menjelaskan risiko pengiriman data pribadi tanpa perlindungan, memintanya mengirim ulang melalui kanal resmi yang aman, dan menghapus salinan foto itu dari surel setelah diproses sesuai ketentuan.",
+      "Memproses foto itu tetapi mengingatkannya agar lain kali memakai kanal resmi."
+    ],
+    "question": "Seorang warga mengirimkan foto KTP melalui surel tanpa enkripsi dan meminta Anda memprosesnya. Apa yang Anda lakukan?",
+    "scores": [
+      2,
+      3,
+      1,
+      5,
+      4
+    ],
+    "subtopic": "Adaptasi TIK"
+  },
+  {
+    "answer": 3,
+    "category": "TKP",
+    "explanation": "Pilihan D (5) paling tepat: Anda mengusulkan penyusunan pedoman pengelolaan akun terlebih dahulu, lalu membuat akun resmi dengan akses yang tercatat dan dikelola bersama. Pilihan E (4) sudah membuat akun resmi dan mencatat aksesnya, tetapi tanpa pedoman pengelolaan. Pilihan B (3) menunda pembuatan akun tanpa memberi tahu atasan. Pilihan A (2) membuat akun dan mengelolanya sendiri tanpa pedoman. Pilihan C (1) paling buruk karena membuat akun itu dengan nama dan kata sandi pribadi Anda.",
+    "id": "TKP-44",
+    "options": [
+      "Membuat akun itu dan mengelolanya sendiri tanpa pedoman.",
+      "Menunda pembuatan akun itu tanpa memberi tahu atasan.",
+      "Membuat akun itu dengan nama dan kata sandi pribadi Anda.",
+      "Mengusulkan penyusunan pedoman pengelolaan akun terlebih dahulu, lalu membuat akun resmi dengan akses yang tercatat dan dikelola bersama.",
+      "Membuat akun resmi itu dan mencatat aksesnya, tetapi tanpa pedoman pengelolaan."
+    ],
+    "question": "Anda diminta membuat akun media sosial baru untuk kantor tetapi tidak ada pedoman pengelolaannya. Apa yang Anda lakukan?",
+    "scores": [
+      2,
+      3,
+      1,
+      5,
+      4
+    ],
+    "subtopic": "Adaptasi TIK"
+  },
+  {
+    "answer": 4,
+    "category": "TKP",
+    "explanation": "Pilihan E (5) paling tepat: rekan ditegur dengan sopan, dijelaskan bahwa jaringan kantor untuk pelayanan, dan diminta berhenti; bila ia mengulangi, laporkan sesuai ketentuan. Pilihan C (4) sudah menegur agar berhenti mengunduh, tetapi tanpa penjelasan dan tanpa tindak lanjut. Pilihan B (3) hanya diam karena itu urusan rekan Anda. Pilihan A (2) ikut mengunduh film karena jaringan kantor gratis. Pilihan D (1) paling buruk karena memutuskan koneksi rekan itu secara sepihak dan menghapus berkas unduhannya tanpa izin.",
+    "id": "TKP-45",
+    "options": [
+      "Ikut mengunduh film karena jaringan kantor gratis.",
+      "Diam saja karena itu urusan rekan Anda.",
+      "Menegur rekan itu agar berhenti mengunduh film.",
+      "Memutuskan koneksi rekan itu secara sepihak dan menghapus berkas unduhannya tanpa izin.",
+      "Menegur rekan itu dengan sopan, menjelaskan bahwa jaringan kantor untuk pelayanan, dan memintanya berhenti; bila ia mengulangi, laporkan sesuai ketentuan."
+    ],
+    "question": "Seorang rekan kerja menggunakan jaringan Wi-Fi kantor untuk mengunduh film bajakan sehingga jaringan menjadi lambat dan pelayanan daring terganggu. Apa yang Anda lakukan?",
+    "scores": [
+      2,
+      3,
+      4,
+      1,
+      5
+    ],
+    "subtopic": "Adaptasi TIK"
+  }
+]
