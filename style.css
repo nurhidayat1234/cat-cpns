@@ -1026,3 +1026,6 @@ body.is-logged-in #screen-home #alurChev1 { display: none; }
 .formasi-detail { margin-top: 10px; padding-top: 10px; border-top: 1px dashed var(--border); display: grid; gap: 6px; font-size: .88rem; }
 .formasi-detail div { display: flex; justify-content: space-between; gap: 12px; }
 .formasi-detail div span { color: var(--muted); }
+.formasi-pager { align-items: center; justify-content: space-between; gap: 8px; }
+.formasi-pageinfo { flex: 1; text-align: center; }
+.formasi-pager button:disabled { opacity: .45; cursor: default; }

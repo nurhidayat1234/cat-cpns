@@ -673,8 +673,8 @@ function refreshResumeCard() {
 const SSCASN_FORMASI = "https://sscasn.bkn.go.id/daftar-formasi/";
 let formasiData = null;
 let formasiLoadStarted = false;
-let formasiShown = 0;
-const FORMASI_PAGE = 20;
+let formasiPage = 1;
+const FORMASI_PAGE = 10;
 
 function escHtml(s) {
   return String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
@@ -769,15 +769,21 @@ function formasiRowHtml(r) {
 
 function renderFormasiList(reset = true) {
   if (!formasiData) return;
-  if (reset) formasiShown = FORMASI_PAGE;
   const rows = formasiFiltered();
-  formasiShown = Math.min(formasiShown, rows.length);
-  $("formasiList").innerHTML = rows.slice(0, formasiShown).map(formasiRowHtml).join("");
+  const totalPages = Math.max(1, Math.ceil(rows.length / FORMASI_PAGE));
+  if (reset) formasiPage = 1;
+  formasiPage = Math.min(Math.max(1, formasiPage), totalPages);
+  const start = (formasiPage - 1) * FORMASI_PAGE;
+  const pageRows = rows.slice(start, start + FORMASI_PAGE);
+  $("formasiList").innerHTML = pageRows.map(formasiRowHtml).join("");
   $("formasiStatus").textContent = rows.length === 0
     ? "Tidak ada formasi yang cocok dengan pencarian. Coba ubah kata kunci atau reset filter."
-    : "Menampilkan " + fmtNum(formasiShown) + " dari " + fmtNum(rows.length) + " formasi"
+    : "Menampilkan " + fmtNum(pageRows.length ? start + 1 : 0) + "–" + fmtNum(start + pageRows.length) + " dari " + fmtNum(rows.length) + " formasi"
       + (rows.length !== formasiData.totalRows ? " (difilter dari " + fmtNum(formasiData.totalRows) + ")" : "");
-  $("formasiMoreWrap").style.display = rows.length > formasiShown ? "flex" : "none";
+  $("formasiPageInfo").textContent = "Halaman " + formasiPage + " dari " + fmtNum(totalPages);
+  $("formasiPrev").disabled = formasiPage <= 1;
+  $("formasiNext").disabled = formasiPage >= totalPages;
+  $("formasiPager").style.display = rows.length > 0 ? "flex" : "none";
 }
 
 function initFormasi() {
@@ -790,9 +796,11 @@ function initFormasi() {
     $("formasiJenis").value = "";
     renderFormasiList();
   });
-  $("formasiMore").addEventListener("click", () => {
-    formasiShown += FORMASI_PAGE;
-    renderFormasiList(false);
+  $("formasiPrev").addEventListener("click", () => {
+    if (formasiPage > 1) { formasiPage--; renderFormasiList(false); }
+  });
+  $("formasiNext").addEventListener("click", () => {
+    formasiPage++; renderFormasiList(false);
   });
   $("formasiList").addEventListener("click", (ev) => {
     const head = ev.target.closest(".formasi-head");

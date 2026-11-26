@@ -6,7 +6,9 @@ Menjalankan server lokal port 8140 bila belum hidup, lalu memeriksa:
 2. Catatan jujur "Formasi CPNS belum tersedia" muncul karena API BKN
    saat ini belum memuat satu pun formasi CPNS (baru PPPK Sekolah Rakyat).
 3. Pencarian (instansi/jabatan/lokasi) + filter jenis pengadaan bekerja.
-4. Klik item membuka rincian; "Muat lebih banyak" menambah daftar.
+4. Klik item membuka rincian; paginasi 10/halaman dengan tombol
+   Sebelumnya/Berikutnya + info "Halaman X dari Y" (cari/filter reset ke
+   halaman 1).
 5. Tombol "Daftar CPNS di SSCASN" mengarah ke https://sscasn.bkn.go.id/
    (target _blank) dan tautan "Lihat di SSCASN" ke /daftar-formasi/.
 6. Tanpa console error.
@@ -85,37 +87,68 @@ def main():
             assert note_visible == (not has_cpns), "catatan CPNS tidak sesuai isi data"
             print("OK catatan CPNS:", "tampil (belum ada CPNS)" if note_visible else "tidak tampil (CPNS ada)")
 
-            # Daftar awal 20 item.
-            assert page.locator(".formasi-item").count() == 20, "bukan 20 item awal"
-            assert "20 dari" in page.locator("#formasiStatus").inner_text()
+            # Daftar awal: paginasi 10 per halaman.
+            import math
+            exp_pages = math.ceil(exp_rows / 10)
+            assert page.locator(".formasi-item").count() == 10, "bukan 10 item awal"
+            assert "1–10 dari" in page.locator("#formasiStatus").inner_text()
+            assert page.locator("#formasiPageInfo").inner_text() == f"Halaman 1 dari {exp_pages}", \
+                page.locator("#formasiPageInfo").inner_text()
+            assert page.locator("#formasiPrev").is_disabled(), "Sebelumnya harus nonaktif di hal. 1"
+            assert page.locator("#formasiNext").is_enabled(), "Berikutnya harus aktif di hal. 1"
             first_need = page.locator(".formasi-item .formasi-need strong").first.inner_text()
             assert first_need, "angka kebutuhan kosong"
-            print(f"OK daftar awal 20 item, kebutuhan pertama: {first_need}")
+            first_title_p1 = page.locator(".formasi-item .formasi-main strong").first.inner_text()
+            print(f"OK daftar awal 10 item, halaman 1 dari {exp_pages}, kebutuhan pertama: {first_need}")
 
-            # Filter jenis pengadaan.
+            # Paginasi: Berikutnya -> halaman 2 (item berbeda), Sebelumnya -> kembali.
+            page.locator("#formasiNext").click()
+            page.wait_for_timeout(300)
+            assert page.locator("#formasiPageInfo").inner_text() == f"Halaman 2 dari {exp_pages}"
+            assert page.locator(".formasi-item").count() == 10
+            assert page.locator("#formasiPrev").is_enabled(), "Sebelumnya harus aktif di hal. 2"
+            assert "11–20 dari" in page.locator("#formasiStatus").inner_text()
+            page.locator("#formasiPrev").click()
+            page.wait_for_timeout(300)
+            assert page.locator("#formasiPageInfo").inner_text() == f"Halaman 1 dari {exp_pages}"
+            assert page.locator(".formasi-item .formasi-main strong").first.inner_text() == first_title_p1
+            print("OK paginasi Berikutnya/Sebelumnya + info halaman")
+
+            # Filter jenis pengadaan: reset ke halaman 1, paginasi ikut hasil filter.
             opts = [o.inner_text() for o in page.locator("#formasiJenis option").all()[1:]]
             assert opts == exp_jenis, f"opsi jenis {opts} != {exp_jenis}"
             page.locator("#formasiJenis").select_option(label=exp_jenis[0])
             page.wait_for_timeout(300)
             n_jenis = sum(1 for r in data["rows"] if r["jenis_pengadaan"] == exp_jenis[0])
             shown = page.locator(".formasi-item").count()
-            assert shown == min(20, n_jenis), f"filter jenis: {shown} != {min(20, n_jenis)}"
-            print(f"OK filter jenis '{exp_jenis[0]}': {n_jenis} formasi")
+            assert shown == min(10, n_jenis), f"filter jenis: {shown} != {min(10, n_jenis)}"
+            assert page.locator("#formasiPageInfo").inner_text() == \
+                f"Halaman 1 dari {math.ceil(n_jenis / 10)}", "filter harus reset ke halaman 1"
+            print(f"OK filter jenis '{exp_jenis[0]}': {n_jenis} formasi, halaman 1 dari {math.ceil(n_jenis / 10)}")
+            # Pindah ke halaman 2 dulu, lalu ganti filter -> harus kembali ke halaman 1.
+            page.locator("#formasiNext").click()
+            page.wait_for_timeout(300)
+            assert "Halaman 2 dari" in page.locator("#formasiPageInfo").inner_text()
             page.locator("#formasiReset").click()
             page.wait_for_timeout(300)
-            assert page.locator(".formasi-item").count() == 20, "reset tidak mengembalikan 20 item"
+            assert page.locator(".formasi-item").count() == 10, "reset tidak mengembalikan 10 item"
+            assert page.locator("#formasiPageInfo").inner_text() == f"Halaman 1 dari {exp_pages}", \
+                "reset harus kembali ke halaman 1"
 
-            # Pencarian teks.
+            # Pencarian teks: reset ke halaman 1, paginasi ikut hasil cari.
             page.locator("#formasiSearch").fill("Kementerian Sosial")
             page.wait_for_timeout(300)
             n_cari = sum(1 for r in data["rows"] if "kementerian sosial" in (r["instansi"] or "").lower())
-            assert page.locator(".formasi-item").count() == min(20, n_cari), "pencarian instansi salah"
+            assert page.locator(".formasi-item").count() == min(10, n_cari), "pencarian instansi salah"
             assert "Kementerian Sosial" in page.locator(".formasi-item").first.inner_text()
-            print(f"OK pencarian 'Kementerian Sosial': {n_cari} formasi")
+            assert page.locator("#formasiPageInfo").inner_text() == \
+                f"Halaman 1 dari {math.ceil(n_cari / 10)}"
+            print(f"OK pencarian 'Kementerian Sosial': {n_cari} formasi, halaman 1")
             page.locator("#formasiSearch").fill("zzzz-tidak-ada")
             page.wait_for_timeout(300)
             assert page.locator(".formasi-item").count() == 0, "pencarian kosong harus 0 item"
             assert "Tidak ada formasi" in page.locator("#formasiStatus").inner_text()
+            assert page.locator("#formasiPager").is_hidden(), "pager harus hilang saat 0 hasil"
             page.locator("#formasiReset").click()
             page.wait_for_timeout(300)
 
@@ -124,12 +157,6 @@ def main():
             page.wait_for_timeout(200)
             assert page.locator(".formasi-item .formasi-detail").first.is_visible(), "rincian tidak terbuka"
             print("OK klik item membuka rincian")
-
-            # Muat lebih banyak.
-            page.locator("#formasiMore").click()
-            page.wait_for_timeout(300)
-            assert page.locator(".formasi-item").count() == 40, "muat lebih banyak bukan 40"
-            print("OK muat lebih banyak -> 40 item")
 
             # Tautan resmi.
             daftar = page.locator(".formasi-cta a.btn-primary")
