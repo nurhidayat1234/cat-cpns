@@ -1,1 +1,772 @@
-[{"answer":1,"category":"TIU","explanation":"‘Eksplisit’ berarti dinyatakan secara jelas dan tegas, tidak terselubung. ‘Jelas’ memiliki makna yang sama. ‘Tersirat’, ‘Tersembunyi’, dan ‘Samar’ justru bermakna sebaliknya (tidak dinyatakan langsung), sedangkan ‘Ragu’ berarti tidak yakin.","id":"TIU-01","options":["Tersirat","Jelas","Tersembunyi","Samar","Ragu"],"question":"Sinonim dari kata EKSPLISIT adalah ...","scores":[0,5,0,0,0],"subtopic":"Verbal — Sinonim"},{"answer":4,"category":"TIU","explanation":"‘Dinamis’ berarti selalu bergerak, berubah, dan penuh semangat. ‘Statis’, ‘Kaku’, dan ‘Diam’ adalah lawan katanya, sedangkan ‘Lamban’ berarti lambat.","id":"TIU-02","options":["Statis","Lamban","Kaku","Diam","Bergerak"],"question":"Sinonim dari kata DINAMIS adalah ...","scores":[0,0,0,0,5],"subtopic":"Verbal — Sinonim"},{"answer":0,"category":"TIU","explanation":"‘Residu’ berarti sisa atau ampas dari suatu proses. ‘Awal’ berarti permulaan, ‘Inti’ berarti bagian terdalam atau pokok, sedangkan ‘Penuh’ dan ‘Utuh’ berarti lengkap — semuanya tidak semakna dengan residu.","id":"TIU-03","options":["Sisa","Awal","Inti","Penuh","Utuh"],"question":"Sinonim dari kata RESIDU adalah ...","scores":[5,0,0,0,0],"subtopic":"Verbal — Sinonim"},{"answer":4,"category":"TIU","explanation":"‘Pragmatis’ berarti bersikap praktis, mengutamakan kegunaan dan hasil nyata. ‘Idealis’ dan ‘Teoretis’ justru menekankan gagasan atau konsep, ‘Khayal’ berarti angan-angan, dan ‘Abstrak’ berarti tidak berwujud.","id":"TIU-04","options":["Idealis","Teoretis","Khayal","Abstrak","Praktis"],"question":"Sinonim dari kata PRAGMATIS adalah ...","scores":[0,0,0,0,5],"subtopic":"Verbal — Sinonim"},{"answer":3,"category":"TIU","explanation":"‘Permanen’ berarti tetap untuk selamanya. Lawannya adalah ‘Sementara’ (hanya untuk jangka waktu tertentu). ‘Tetap’, ‘Kekal’, ‘Abadi’, dan ‘Langgeng’ justru bersinonim dengan permanen.","id":"TIU-05","options":["Tetap","Kekal","Abadi","Sementara","Langgeng"],"question":"Antonim dari kata PERMANEN adalah ...","scores":[0,0,0,5,0],"subtopic":"Verbal — Antonim"},{"answer":3,"category":"TIU","explanation":"‘Akurat’ berarti tepat dan teliti. Lawannya adalah ‘Keliru’ (salah atau tidak tepat). ‘Tepat’, ‘Cermat’, ‘Saksama’, dan ‘Jitu’ semuanya bersinonim dengan akurat.","id":"TIU-06","options":["Tepat","Cermat","Saksama","Keliru","Jitu"],"question":"Antonim dari kata AKURAT adalah ...","scores":[0,0,0,5,0],"subtopic":"Verbal — Antonim"},{"answer":4,"category":"TIU","explanation":"‘Eksklusif’ berarti khusus dan terbatas hanya untuk kalangan tertentu. Lawannya adalah ‘Umum’ (terbuka untuk semua orang). ‘Khusus’, ‘Terbatas’, ‘Istimewa’, dan ‘Tertutup’ justru semakna dengan eksklusif.","id":"TIU-07","options":["Khusus","Terbatas","Istimewa","Tertutup","Umum"],"question":"Antonim dari kata EKSKLUSIF adalah ...","scores":[0,0,0,0,5],"subtopic":"Verbal — Antonim"},{"answer":2,"category":"TIU","explanation":"‘Konvergen’ berarti mengarah dan berkumpul ke satu titik. Lawannya adalah ‘Menyebar’ (menuju ke berbagai arah). ‘Menyatu’, ‘Bertemu’, ‘Terpusat’, dan ‘Berhimpun’ justru semakna dengan konvergen.","id":"TIU-08","options":["Menyatu","Bertemu","Menyebar","Terpusat","Berhimpun"],"question":"Antonim dari kata KONVERGEN adalah ...","scores":[0,0,5,0,0],"subtopic":"Verbal — Antonim"},{"answer":0,"category":"TIU","explanation":"Pena adalah alat yang digunakan untuk menulis; kuas adalah alat yang digunakan untuk melukis. Hubungannya adalah alat : kegiatan yang dilakukan dengan alat itu. ‘Gunting : Kertas’ adalah alat : bahan yang dipotong, ‘Meja : Kayu’ adalah benda : bahan pembuatnya, ‘Buku : Membaca’ adalah benda : kegiatan yang dilakukan terhadapnya (buku bukan alat), dan ‘Pisau : Tajam’ adalah alat : sifatnya.","id":"TIU-09","options":["Kuas : Melukis","Gunting : Kertas","Meja : Kayu","Buku : Membaca","Pisau : Tajam"],"question":"PENA : MENULIS = ...","scores":[5,0,0,0,0],"subtopic":"Verbal — Analogi"},{"answer":1,"category":"TIU","explanation":"Air menghilangkan rasa haus; makanan menghilangkan rasa lapar. Hubungannya adalah sesuatu yang menghilangkan atau mengatasi suatu kondisi. Pilihan lain justru menunjukkan hubungan sebab-akibat yang menimbulkan kondisi: api menimbulkan panas, hujan menimbulkan basah, matahari menimbulkan terang, es menimbulkan dingin.","id":"TIU-10","options":["Api : Panas","Makanan : Lapar","Hujan : Basah","Matahari : Terang","Es : Dingin"],"question":"AIR : HAUS = ...","scores":[0,5,0,0,0],"subtopic":"Verbal — Analogi"},{"answer":4,"category":"TIU","explanation":"Sayap adalah organ gerak burung untuk terbang; sirip adalah organ gerak ikan untuk berenang. Hubungannya adalah anggota tubuh untuk bergerak : hewan pemiliknya. ‘Tanduk : Kuda’ memang anggota tubuh hewan, tetapi tanduk bukan organ gerak. ‘Kaki : Meja’ bukan hewan, ‘Daun : Pohon’ adalah bagian tumbuhan, dan ‘Akar : Tanah’ adalah bagian tumbuhan : tempat tumbuhnya.","id":"TIU-11","options":["Kaki : Meja","Daun : Pohon","Akar : Tanah","Tanduk : Kuda","Sirip : Ikan"],"question":"SAYAP : BURUNG = ...","scores":[0,0,0,0,5],"subtopic":"Verbal — Analogi"},{"answer":4,"category":"TIU","explanation":"Kamera adalah alat perekam yang menyimpan foto; perekam adalah alat perekam yang menyimpan suara. Hubungannya adalah alat perekam : hasil rekaman. Pena menghasilkan tulisan (bukan rekaman), oven memasak roti, radio menyiarkan siaran secara langsung (bukan merekam), dan televisi menampilkan gambar.","id":"TIU-12","options":["Pena : Tulisan","Oven : Roti","Radio : Siaran","Televisi : Gambar","Perekam : Suara"],"question":"KAMERA : FOTO = ...","scores":[0,0,0,0,5],"subtopic":"Verbal — Analogi"},{"answer":1,"category":"TIU","explanation":"Selisih antar suku bertambah 2 setiap langkah: 6−2=4, 12−6=6, 20−12=8, 30−20=10. Selisih berikutnya adalah 12, jadi 30+12=42.","id":"TIU-13","options":["40","42","44","36","48"],"question":"2, 6, 12, 20, 30, … Suku berikutnya adalah ...","scores":[0,5,0,0,0],"subtopic":"Numerik — Deret Angka"},{"answer":3,"category":"TIU","explanation":"Setiap suku dikalikan 3: 3×3=9, 9×3=27, 27×3=81. Suku berikutnya adalah 81×3=243.","id":"TIU-14","options":["162","189","216","243","324"],"question":"3, 9, 27, 81, … Suku berikutnya adalah ...","scores":[0,0,0,5,0],"subtopic":"Numerik — Deret Angka"},{"answer":1,"category":"TIU","explanation":"Pengurangan antar suku berkurang 2 setiap langkah: 100−10=90, 90−8=82, 82−6=76, 76−4=72. Pengurangan berikutnya adalah 2, jadi 72−2=70.","id":"TIU-15","options":["68","70","66","72","64"],"question":"100, 90, 82, 76, 72, … Suku berikutnya adalah ...","scores":[0,5,0,0,0],"subtopic":"Numerik — Deret Angka"},{"answer":2,"category":"TIU","explanation":"Polanya adalah dikali 2 lalu ditambah 1: 5×2+1=11, 11×2+1=23, 23×2+1=47, 47×2+1=95. Suku berikutnya adalah 95×2+1=191.","id":"TIU-16","options":["185","189","191","193","199"],"question":"5, 11, 23, 47, 95, … Suku berikutnya adalah ...","scores":[0,0,5,0,0],"subtopic":"Numerik — Deret Angka"},{"answer":3,"category":"TIU","explanation":"Deret bilangan kuadrat: 1²=1, 2²=4, 3²=9, 4²=16, 5²=25, 6²=36. Suku berikutnya adalah 7²=49.","id":"TIU-17","options":["42","45","47","49","52"],"question":"1, 4, 9, 16, 25, 36, … Suku berikutnya adalah ...","scores":[0,0,0,5,0],"subtopic":"Numerik — Deret Angka"},{"answer":2,"category":"TIU","explanation":"15% × 240 = (15/100) × 240 = 3.600/100 = 36.","id":"TIU-18","options":["30","32","36","38","40"],"question":"15% dari 240 adalah ...","scores":[0,0,5,0,0],"subtopic":"Numerik — Aritmetika"},{"answer":3,"category":"TIU","explanation":"Jumlah bagian = 3+5 = 8 bagian. Satu bagian = Rp320.000,00 ÷ 8 = Rp40.000,00. Uang Budi = 5 × Rp40.000,00 = Rp200.000,00.","id":"TIU-19","options":["Rp120.000,00","Rp160.000,00","Rp180.000,00","Rp200.000,00","Rp240.000,00"],"question":"Perbandingan uang Andi dan Budi adalah 3 : 5. Jika jumlah uang mereka Rp320.000,00, uang Budi adalah ...","scores":[0,0,0,5,0],"subtopic":"Numerik — Aritmetika"},{"answer":0,"category":"TIU","explanation":"Besar diskon = 20% × Rp250.000,00 = Rp50.000,00. Harga setelah diskon = Rp250.000,00 − Rp50.000,00 = Rp200.000,00.","id":"TIU-20","options":["Rp200.000,00","Rp180.000,00","Rp190.000,00","Rp210.000,00","Rp220.000,00"],"question":"Sebuah toko memberikan diskon 20% untuk barang seharga Rp250.000,00. Harga barang setelah diskon adalah ...","scores":[5,0,0,0,0],"subtopic":"Numerik — Aritmetika"},{"answer":2,"category":"TIU","explanation":"3x + 7 = 22 → 3x = 22 − 7 = 15 → x = 15 ÷ 3 = 5.","id":"TIU-21","options":["3","4","5","6","7"],"question":"Jika 3x + 7 = 22, nilai x adalah ...","scores":[0,0,5,0,0],"subtopic":"Numerik — Aritmetika"},{"answer":1,"category":"TIU","explanation":"Jumlah 4 bilangan = 4 × 15 = 60. Setelah ditambah 20, jumlahnya = 80. Rata-rata 5 bilangan = 80 ÷ 5 = 16.","id":"TIU-22","options":["15","16","17","18","20"],"question":"Rata-rata 4 bilangan adalah 15. Jika ditambah satu bilangan 20, rata-rata 5 bilangan tersebut adalah ...","scores":[0,5,0,0,0],"subtopic":"Numerik — Aritmetika"},{"answer":0,"category":"TIU","explanation":"Kecepatan = jarak ÷ waktu = 240 km ÷ 3 jam = 80 km/jam.","id":"TIU-23","options":["80 km/jam","70 km/jam","75 km/jam","85 km/jam","90 km/jam"],"question":"Sebuah kereta menempuh jarak 240 km dalam waktu 3 jam. Kecepatan rata-rata kereta tersebut adalah ...","scores":[5,0,0,0,0],"subtopic":"Numerik — Soal Cerita"},{"answer":3,"category":"TIU","explanation":"Harga 1 kg = Rp60.000,00 ÷ 5 = Rp12.000,00. Harga 8 kg = 8 × Rp12.000,00 = Rp96.000,00.","id":"TIU-24","options":["Rp84.000,00","Rp90.000,00","Rp92.000,00","Rp96.000,00","Rp100.000,00"],"question":"Harga 5 kg beras adalah Rp60.000,00. Harga 8 kg beras adalah ...","scores":[0,0,0,5,0],"subtopic":"Numerik — Soal Cerita"},{"answer":1,"category":"TIU","explanation":"Jumlah pekerja berbanding terbalik dengan waktu: 1 pekerja × 12 hari = 3 pekerja × t hari → t = 12 ÷ 3 = 4 hari.","id":"TIU-25","options":["3 hari","4 hari","5 hari","6 hari","8 hari"],"question":"Seorang pekerja dapat menyelesaikan suatu pekerjaan dalam 12 hari. Jika pekerjaan yang sama dikerjakan oleh 3 pekerja dengan kecepatan yang sama, pekerjaan itu selesai dalam ...","scores":[0,5,0,0,0],"subtopic":"Numerik — Soal Cerita"},{"answer":2,"category":"TIU","explanation":"Air yang dipakai = 1/3 × 240 = 80 liter. Sisa air = 240 − 80 = 160 liter.","id":"TIU-26","options":["120 liter","140 liter","160 liter","180 liter","200 liter"],"question":"Sebuah tangki berisi 240 liter air. Sepertiga dari air itu dipakai. Sisa air dalam tangki adalah ...","scores":[0,0,5,0,0],"subtopic":"Numerik — Soal Cerita"},{"answer":1,"category":"TIU","explanation":"Misalkan umur anak = x, maka umur ayah = 4x. Jumlahnya x + 4x = 5x = 50 → x = 10 tahun.","id":"TIU-27","options":["8 tahun","10 tahun","12 tahun","15 tahun","20 tahun"],"question":"Umur ayah 4 kali umur anaknya. Jika jumlah umur mereka 50 tahun, umur anak adalah ...","scores":[0,5,0,0,0],"subtopic":"Numerik — Soal Cerita"},{"answer":4,"category":"TIU","explanation":"Lompatan antar huruf bertambah 1 setiap langkah: A→C (+2), C→F (+3), F→J (+4), J→O (+5). Lompatan berikutnya +6: O (huruf ke-15) + 6 = huruf ke-21, yaitu U.","id":"TIU-28","options":["S","T","V","W","U"],"question":"A, C, F, J, O, … Huruf berikutnya adalah ...","scores":[0,0,0,0,5],"subtopic":"Figural — Deret Huruf"},{"answer":0,"category":"TIU","explanation":"Setiap huruf mundur 2 langkah dalam alfabet: Z(26) → X(24) → V(22) → T(20) → R(18). Huruf berikutnya adalah P(16).","id":"TIU-29","options":["P","Q","O","S","N"],"question":"Z, X, V, T, R, … Huruf berikutnya adalah ...","scores":[5,0,0,0,0],"subtopic":"Figural — Deret Huruf"},{"answer":1,"category":"TIU","explanation":"Jumlah lingkaran membentuk deret bilangan ganjil: 1, 3, 5, … bertambah 2 setiap langkah. Kelompok berikutnya berisi 7 lingkaran.","id":"TIU-30","options":["6","7","8","9","10"],"question":"Perhatikan jumlah lingkaran berikut: 1, 3, 5, … Berapa jumlah lingkaran pada kelompok berikutnya?","scores":[0,5,0,0,0],"subtopic":"Figural — Pola Jumlah"},{"answer":0,"category":"TIU","explanation":"Setiap baris adalah n, 2n, 3n: baris pertama 2, 4, 6 (2×1, 2×2, 2×3); baris kedua 3, 6, 9. Baris ketiga: 4, 8, dan 4×3 = 12.","id":"TIU-31","options":["12","10","11","14","16"],"question":"Perhatikan susunan angka berikut:\n2  4  6\n3  6  9\n4  8  ?\nBaris ketiga mengikuti pola yang sama dengan dua baris di atasnya. Nilai ? adalah ...","scores":[5,0,0,0,0],"subtopic":"Figural — Pola Angka dalam Susunan"},{"answer":2,"category":"TIU","explanation":"Putaran pertama 90° searah jarum jam mengubah ↑ menjadi → (kanan). Putaran kedua 90° searah jarum jam mengubah → menjadi ↓ (bawah). Total putaran 180°, jadi panah menunjuk ke bawah.","id":"TIU-32","options":["Atas","Kanan","Bawah","Kiri","Serong"],"question":"Sebuah panah menunjuk ke atas (↑). Panah itu diputar 90° searah jarum jam, lalu diputar lagi 90° searah jarum jam. Ke arah mana panah menunjuk sekarang?","scores":[0,0,5,0,0],"subtopic":"Figural — Rotasi"},{"answer":0,"category":"TIU","explanation":"Jumlah segitiga dan lingkaran sama-sama bertambah 1 setiap kelompok: kelompok 1 berisi 1+1=2 simbol, kelompok 2 berisi 2+2=4, kelompok 3 berisi 3+3=6. Kelompok ke-4 berisi 4+4=8 simbol.","id":"TIU-33","options":["8","6","7","9","10"],"question":"Perhatikan kelompok simbol berikut:\nKelompok 1: ▲●\nKelompok 2: ▲▲●●\nKelompok 3: ▲▲▲●●●\nBerapa total simbol pada kelompok ke-4?","scores":[5,0,0,0,0],"subtopic":"Figural — Pola Simbol"},{"answer":0,"category":"TIU","explanation":"Ada dua deret yang berselang-seling: deret posisi ganjil A, B, C, … (maju 1) dan deret posisi genap Z, Y, X, … (mundur 1). Setelah C (posisi ke-5) dan X (posisi ke-6), posisi ke-7 mengikuti deret pertama: D.","id":"TIU-34","options":["D","W","E","V","F"],"question":"A, Z, B, Y, C, X, … Huruf berikutnya adalah ...","scores":[5,0,0,0,0],"subtopic":"Figural — Deret Huruf Ganda"},{"answer":4,"category":"TIU","explanation":"Setiap suku adalah jumlah dua suku sebelumnya (pola Fibonacci): 2+3=5, 3+5=8, 5+8=13, 8+13=21. Suku berikutnya adalah 13+21=34.","id":"TIU-35","options":["30","32","36","40","34"],"question":"2, 3, 5, 8, 13, 21, … Suku berikutnya adalah ...","scores":[0,0,0,0,5],"subtopic":"Figural — Pola Bilangan"}]
+[
+  {
+    "answer": 0,
+    "category": "TIU",
+    "explanation": "Benar karena karyawan bagian keuangan yang mengikuti pelatihan pajak juga merupakan lulusan akuntansi, sehingga sebagian lulusan akuntansi pasti mengikuti pelatihan pajak. Opsi B membalik premis pertama, opsi C mengubah 'sebagian' menjadi 'semua', opsi D bertentangan dengan premis pertama, dan opsi E bertentangan dengan kesimpulan yang sudah pasti.",
+    "id": "TIU-01",
+    "options": [
+      "Sebagian lulusan akuntansi mengikuti pelatihan pajak.",
+      "Semua lulusan akuntansi adalah karyawan bagian keuangan.",
+      "Semua karyawan bagian keuangan mengikuti pelatihan pajak.",
+      "Sebagian karyawan bagian keuangan bukan lulusan akuntansi.",
+      "Tidak ada lulusan akuntansi yang mengikuti pelatihan pajak."
+    ],
+    "question": "Semua karyawan bagian keuangan adalah lulusan akuntansi. Sebagian karyawan bagian keuangan mengikuti pelatihan pajak. Kesimpulan yang pasti benar adalah ...",
+    "scores": [
+      5,
+      0,
+      0,
+      0,
+      0
+    ],
+    "subtopic": "Verbal — Silogisme"
+  },
+  {
+    "answer": 1,
+    "category": "TIU",
+    "explanation": "Benar karena semua buku di rak atas berbahasa Inggris, sedangkan tidak ada buku berbahasa Inggris yang ditulis sebelum tahun 2000, sehingga tidak satu pun buku di rak atas yang ditulis sebelum tahun 2000. Opsi A membalik premis pertama, opsi C dan E bertentangan langsung dengan premis kedua, dan opsi D tidak dapat disimpulkan dari kedua premis.",
+    "id": "TIU-02",
+    "options": [
+      "Semua buku berbahasa Inggris ada di rak atas.",
+      "Tidak ada buku di rak atas yang ditulis sebelum tahun 2000.",
+      "Sebagian buku di rak atas ditulis sebelum tahun 2000.",
+      "Semua buku yang ditulis sebelum tahun 2000 berbahasa Inggris.",
+      "Sebagian buku berbahasa Inggris ditulis sebelum tahun 2000."
+    ],
+    "question": "Semua buku di rak atas adalah buku berbahasa Inggris. Tidak ada buku berbahasa Inggris yang ditulis sebelum tahun 2000. Kesimpulan yang pasti benar adalah ...",
+    "scores": [
+      0,
+      5,
+      0,
+      0,
+      0
+    ],
+    "subtopic": "Verbal — Silogisme"
+  },
+  {
+    "answer": 2,
+    "category": "TIU",
+    "explanation": "Benar karena sebagian siswa kelas XII yang mengikuti bimbingan belajar pasti lulus, sebab semua peserta bimbingan belajar lulus ujian. Opsi A mengubah 'sebagian' menjadi 'semua', opsi B membalik premis kedua, opsi D bertentangan dengan kesimpulan yang pasti, dan opsi E tidak dapat dipastikan dari kedua premis.",
+    "id": "TIU-03",
+    "options": [
+      "Semua siswa kelas XII mengikuti bimbingan belajar.",
+      "Semua siswa yang lulus ujian mengikuti bimbingan belajar.",
+      "Sebagian siswa kelas XII lulus ujian masuk perguruan tinggi.",
+      "Tidak ada siswa kelas XII yang lulus ujian masuk perguruan tinggi.",
+      "Sebagian siswa yang lulus ujian bukan siswa kelas XII."
+    ],
+    "question": "Sebagian siswa kelas XII mengikuti bimbingan belajar. Semua siswa yang mengikuti bimbingan belajar lulus ujian masuk perguruan tinggi. Kesimpulan yang pasti benar adalah ...",
+    "scores": [
+      0,
+      0,
+      5,
+      0,
+      0
+    ],
+    "subtopic": "Verbal — Silogisme"
+  },
+  {
+    "answer": 3,
+    "category": "TIU",
+    "explanation": "Benar karena kendaraan dinas yang sedang dalam perbaikan tetap termasuk kendaraan dinas, sehingga sebagian kendaraan yang diperbaiki pasti wajib memiliki surat izin penggunaan. Opsi A membalik hubungan premis, opsi B memperluas kewajiban ke semua kendaraan, opsi C bertentangan dengan premis kedua, dan opsi E menghubungkan dua hal yang tidak berkaitan dalam premis.",
+    "id": "TIU-04",
+    "options": [
+      "Semua kendaraan yang sedang dalam perbaikan adalah kendaraan dinas.",
+      "Semua kendaraan harus memiliki surat izin penggunaan.",
+      "Tidak ada kendaraan dinas yang sedang dalam perbaikan.",
+      "Sebagian kendaraan yang sedang dalam perbaikan harus memiliki surat izin penggunaan.",
+      "Kendaraan yang tidak memiliki surat izin pasti sedang dalam perbaikan."
+    ],
+    "question": "Semua kendaraan dinas harus memiliki surat izin penggunaan. Sebagian kendaraan dinas sedang dalam perbaikan. Kesimpulan yang pasti benar adalah ...",
+    "scores": [
+      0,
+      0,
+      0,
+      5,
+      0
+    ],
+    "subtopic": "Verbal — Silogisme"
+  },
+  {
+    "answer": 1,
+    "category": "TIU",
+    "explanation": "Benar karena ketiga fakta menunjukkan hubungan yang sama, yaitu lingkungan yang bersih sejalan dengan berkurangnya masalah kesehatan, sehingga generalisasi yang hati-hati dan tidak mutlak inilah yang paling mungkin. Opsi A dan D terlalu mutlak dengan kata 'semua' dan 'hanya', opsi C menyempitkan manfaat hanya untuk anak sekolah, dan opsi E adalah anjuran yang tidak didukung oleh fakta.",
+    "id": "TIU-05",
+    "options": [
+      "Semua penyakit menular pasti hilang jika lingkungan bersih.",
+      "Kebiasaan menjaga kebersihan lingkungan berkaitan dengan menurunnya risiko penyakit di masyarakat.",
+      "Kegiatan bersih-bersih hanya bermanfaat bagi anak sekolah.",
+      "Penyakit demam berdarah hanya terjadi di lingkungan yang kotor.",
+      "Semua warga desa harus mengikuti kerja bakti setiap hari."
+    ],
+    "question": "Di sebuah desa, rumah tangga yang memilah sampah memiliki halaman yang lebih bersih. Survei kesehatan menemukan kasus demam berdarah lebih sedikit di lingkungan yang rutin mengadakan kerja bakti. Sebuah sekolah yang menjalankan Jumat bersih setiap pekan mencatat lebih sedikit siswa yang absen karena sakit. Generalisasi yang paling mungkin benar berdasarkan fakta-fakta tersebut adalah ...",
+    "scores": [
+      0,
+      5,
+      0,
+      0,
+      0
+    ],
+    "subtopic": "Verbal — Penalaran Induktif"
+  },
+  {
+    "answer": 2,
+    "category": "TIU",
+    "explanation": "Benar karena ketiga fakta menunjukkan pola yang sama, yaitu bimbingan dan umpan balik yang teratur sejalan dengan adaptasi yang lebih cepat dan kinerja yang lebih baik, sehingga generalisasi yang tidak mutlak ini paling mungkin. Opsi A terlalu mutlak dengan kata 'pasti gagal', opsi B mengklaim 'satu-satunya cara' tanpa bukti, opsi D tidak didukung fakta apa pun, dan opsi E menyempitkan kesimpulan hanya pada pegawai magang.",
+    "id": "TIU-06",
+    "options": [
+      "Semua pegawai baru pasti gagal tanpa pendampingan.",
+      "Rapat mingguan adalah satu-satunya cara meningkatkan kinerja.",
+      "Pendampingan dan umpan balik yang rutin cenderung mempercepat adaptasi dan meningkatkan kinerja pegawai baru.",
+      "Pegawai lama tidak membutuhkan umpan balik lagi.",
+      "Proyek hanya bisa selesai lebih cepat oleh pegawai magang."
+    ],
+    "question": "Tiga pegawai baru yang didampingi mentor pada bulan pertama beradaptasi lebih cepat dengan pekerjaannya. Sebuah divisi yang mengadakan sesi berbagi setiap pekan mencatat lebih sedikit kesalahan yang berulang. Seorang pegawai magang yang menerima umpan balik rutin menyelesaikan proyeknya lebih awal. Generalisasi yang paling mungkin benar berdasarkan fakta-fakta tersebut adalah ...",
+    "scores": [
+      0,
+      0,
+      5,
+      0,
+      0
+    ],
+    "subtopic": "Verbal — Penalaran Induktif"
+  },
+  {
+    "answer": 3,
+    "category": "TIU",
+    "explanation": "Benar karena ketiga fakta menunjukkan pola yang sama, yaitu setiap penyesuaian layanan dengan kebutuhan pengunjung diikuti meningkatnya kunjungan, sehingga generalisasi umum yang tidak mutlak ini paling mungkin. Opsi A adalah anjuran berlebihan yang tidak didukung fakta, opsi B dan C memakai kata 'satu-satunya' dan 'hanya' yang terlalu mutlak, dan opsi E menarik kesimpulan terbalik tanpa bukti.",
+    "id": "TIU-07",
+    "options": [
+      "Semua perpustakaan harus buka 24 jam.",
+      "Wi-Fi gratis adalah penyebab satu-satunya kunjungan pelajar.",
+      "Anak-anak hanya datang ke perpustakaan karena sudut baca.",
+      "Layanan perpustakaan yang menyesuaikan kebutuhan pengunjung cenderung meningkatkan jumlah kunjungan.",
+      "Perpustakaan yang sepi pasti tidak memiliki Wi-Fi."
+    ],
+    "question": "Sebuah perpustakaan yang memperpanjang jam buka mencatat kunjungan yang lebih banyak. Perpustakaan lain yang menambah sudut baca anak mencatat lebih banyak kunjungan keluarga. Perpustakaan yang menyediakan Wi-Fi gratis mencatat lebih banyak kunjungan pelajar. Generalisasi yang paling mungkin benar berdasarkan fakta-fakta tersebut adalah ...",
+    "scores": [
+      0,
+      0,
+      0,
+      5,
+      0
+    ],
+    "subtopic": "Verbal — Penalaran Induktif"
+  },
+  {
+    "answer": 4,
+    "category": "TIU",
+    "explanation": "Benar karena ketiga fakta menunjukkan pola yang sama, yaitu fasilitas dan edukasi pengelolaan sampah sejalan dengan pasar yang lebih bersih, sehingga generalisasi yang merangkum ketiganya dan tidak mutlak inilah yang paling mungkin. Opsi A terlalu mutlak dengan kata 'semua' dan 'pasti', opsi B mengklaim 'satu-satunya solusi', opsi C bertentangan dengan fakta tentang jadwal pengangkutan, dan opsi D menyempitkan manfaat pelatihan tanpa dasar.",
+    "id": "TIU-08",
+    "options": [
+      "Semua pedagang pasar pasti membuang sampah sembarangan tanpa pelatihan.",
+      "Tong sampah organik adalah satu-satunya solusi kebersihan pasar.",
+      "Pasar yang bersih tidak membutuhkan jadwal pengangkutan sampah.",
+      "Pelatihan pengelolaan sampah hanya berguna bagi pedagang besar.",
+      "Fasilitas dan edukasi pengelolaan sampah yang memadai cenderung membuat pasar lebih bersih."
+    ],
+    "question": "Sebuah pasar yang menyediakan tempat sampah terpisah untuk sampah organik dan non-organik mencatat berkurangnya sampah yang berserakan. Pasar dengan jadwal pengangkutan sampah yang teratur memiliki lorong yang lebih bersih. Para pedagang yang mendapat pelatihan pemilahan sampah lebih jarang membuang sampah sembarangan. Generalisasi yang paling mungkin benar berdasarkan fakta-fakta tersebut adalah ...",
+    "scores": [
+      0,
+      0,
+      0,
+      0,
+      5
+    ],
+    "subtopic": "Verbal — Penalaran Induktif"
+  },
+  {
+    "answer": 0,
+    "category": "TIU",
+    "explanation": "Benar karena susunan ini memenuhi semua syarat: Andi dan Budi terpisah, Citra bersama Dewi, dan Eko bersama Andi, dengan setiap ruangan terisi. Opsi B memisahkan Eko dari Andi, opsi C menempatkan Andi bersama Budi, opsi D menempatkan Andi bersama Budi sekaligus memisahkan Citra dari Dewi, dan opsi E memisahkan Eko dari Andi serta memisahkan Citra dari Dewi.",
+    "id": "TIU-09",
+    "options": [
+      "R1: Citra, Dewi; R2: Andi, Eko; R3: Budi.",
+      "R1: Citra, Dewi, Budi; R2: Andi; R3: Eko.",
+      "R1: Andi, Budi; R2: Citra, Dewi; R3: Eko.",
+      "R1: Andi, Eko, Budi; R2: Citra; R3: Dewi.",
+      "R1: Budi, Eko; R2: Andi, Citra; R3: Dewi."
+    ],
+    "question": "Lima pegawai, yaitu Andi, Budi, Citra, Dewi, dan Eko, dibagi ke tiga ruangan pelatihan (R1, R2, R3) dan setiap ruangan diisi sekurang-kurangnya satu orang. Syaratnya: Andi tidak boleh satu ruangan dengan Budi, Citra harus satu ruangan dengan Dewi, dan Eko harus satu ruangan dengan Andi. Susunan manakah yang mungkin?",
+    "scores": [
+      5,
+      0,
+      0,
+      0,
+      0
+    ],
+    "subtopic": "Verbal — Analitis"
+  },
+  {
+    "answer": 1,
+    "category": "TIU",
+    "explanation": "Benar karena susunan P, R, S, Q memenuhi semua syarat: P sebelum Q, R bukan di slot pertama, S tepat setelah R, dan Q di slot terakhir. Opsi A dan E menempatkan R pada slot pertama, opsi C menempatkan Q bukan pada slot terakhir, dan opsi D menempatkan Q pada slot pertama sehingga P tidak mungkin tampil sebelum Q.",
+    "id": "TIU-10",
+    "options": [
+      "R, S, P, Q",
+      "P, R, S, Q",
+      "P, Q, R, S",
+      "Q, P, R, S",
+      "R, P, S, Q"
+    ],
+    "question": "Empat presentasi, yaitu P, Q, R, dan S, dijadwalkan dalam satu hari pada slot 1 sampai 4 secara berurutan. Syaratnya: P harus tampil sebelum Q, R tidak boleh tampil pada slot pertama, S harus tampil tepat setelah R, dan Q harus tampil pada slot terakhir. Susunan manakah yang mungkin?",
+    "scores": [
+      0,
+      5,
+      0,
+      0,
+      0
+    ],
+    "subtopic": "Verbal — Analitis"
+  },
+  {
+    "answer": 2,
+    "category": "TIU",
+    "explanation": "Benar karena satu-satunya susunan yang memenuhi semua syarat adalah Biru, Hijau, Merah, Kuning: Biru tepat di kiri Hijau, Merah tidak di posisi 1, dan Kuning di posisi 4, sehingga Hijau pasti di posisi 2. Opsi A dan B salah karena Merah di posisi 3 dan Biru di posisi 1, sedangkan opsi D dan E bertentangan dengan syarat bahwa Kuning di posisi 4.",
+    "id": "TIU-11",
+    "options": [
+      "Buku Merah berada di posisi 2.",
+      "Buku Biru berada di posisi 2.",
+      "Buku Hijau berada di posisi 2.",
+      "Buku Merah berada di posisi 4.",
+      "Buku Kuning berada di posisi 1."
+    ],
+    "question": "Empat buku, yaitu Merah, Biru, Hijau, dan Kuning, disusun di rak dari kiri ke kanan pada posisi 1 sampai 4. Syaratnya: buku Merah tidak berada di posisi 1, buku Biru berada tepat di sebelah kiri buku Hijau, dan buku Kuning berada di posisi 4. Pernyataan manakah yang pasti benar?",
+    "scores": [
+      0,
+      0,
+      5,
+      0,
+      0
+    ],
+    "subtopic": "Verbal — Analitis"
+  },
+  {
+    "answer": 4,
+    "category": "TIU",
+    "explanation": "Benar karena susunan Fajar, Hadi, Joko, Intan, Gita memenuhi semua syarat: Fajar di kursi 1, Gita dan Hadi tidak bersebelahan, Intan tepat di kanan Joko, dan Hadi bukan di kursi 5. Opsi A dan D menempatkan Hadi di kursi 5, opsi B menempatkan Intan di kiri Joko, dan opsi C menempatkan Fajar bukan di kursi 1 sekaligus Hadi di kursi 5.",
+    "id": "TIU-12",
+    "options": [
+      "Fajar, Gita, Joko, Intan, Hadi",
+      "Fajar, Hadi, Intan, Joko, Gita",
+      "Gita, Fajar, Joko, Intan, Hadi",
+      "Fajar, Joko, Intan, Gita, Hadi",
+      "Fajar, Hadi, Joko, Intan, Gita"
+    ],
+    "question": "Lima siswa, yaitu Fajar, Gita, Hadi, Intan, dan Joko, duduk pada lima kursi bernomor 1 sampai 5 dari kiri ke kanan. Syaratnya: Fajar duduk di kursi nomor 1, Gita tidak boleh bersebelahan dengan Hadi, Intan duduk tepat di sebelah kanan Joko, dan Hadi tidak duduk di kursi nomor 5. Susunan manakah yang mungkin?",
+    "scores": [
+      0,
+      0,
+      0,
+      0,
+      5
+    ],
+    "subtopic": "Verbal — Analitis"
+  },
+  {
+    "answer": 1,
+    "category": "TIU",
+    "explanation": "Selisih antar suku bertambah 2 setiap langkah: 6−2=4, 12−6=6, 20−12=8, 30−20=10. Selisih berikutnya adalah 12, jadi 30+12=42.",
+    "id": "TIU-13",
+    "options": [
+      "40",
+      "42",
+      "44",
+      "36",
+      "48"
+    ],
+    "question": "2, 6, 12, 20, 30, … Suku berikutnya adalah ...",
+    "scores": [
+      0,
+      5,
+      0,
+      0,
+      0
+    ],
+    "subtopic": "Numerik — Deret Angka"
+  },
+  {
+    "answer": 3,
+    "category": "TIU",
+    "explanation": "Setiap suku dikalikan 3: 3×3=9, 9×3=27, 27×3=81. Suku berikutnya adalah 81×3=243.",
+    "id": "TIU-14",
+    "options": [
+      "162",
+      "189",
+      "216",
+      "243",
+      "324"
+    ],
+    "question": "3, 9, 27, 81, … Suku berikutnya adalah ...",
+    "scores": [
+      0,
+      0,
+      0,
+      5,
+      0
+    ],
+    "subtopic": "Numerik — Deret Angka"
+  },
+  {
+    "answer": 1,
+    "category": "TIU",
+    "explanation": "Pengurangan antar suku berkurang 2 setiap langkah: 100−10=90, 90−8=82, 82−6=76, 76−4=72. Pengurangan berikutnya adalah 2, jadi 72−2=70.",
+    "id": "TIU-15",
+    "options": [
+      "68",
+      "70",
+      "66",
+      "72",
+      "64"
+    ],
+    "question": "100, 90, 82, 76, 72, … Suku berikutnya adalah ...",
+    "scores": [
+      0,
+      5,
+      0,
+      0,
+      0
+    ],
+    "subtopic": "Numerik — Deret Angka"
+  },
+  {
+    "answer": 2,
+    "category": "TIU",
+    "explanation": "Polanya adalah dikali 2 lalu ditambah 1: 5×2+1=11, 11×2+1=23, 23×2+1=47, 47×2+1=95. Suku berikutnya adalah 95×2+1=191.",
+    "id": "TIU-16",
+    "options": [
+      "185",
+      "189",
+      "191",
+      "193",
+      "199"
+    ],
+    "question": "5, 11, 23, 47, 95, … Suku berikutnya adalah ...",
+    "scores": [
+      0,
+      0,
+      5,
+      0,
+      0
+    ],
+    "subtopic": "Numerik — Deret Angka"
+  },
+  {
+    "answer": 0,
+    "category": "TIU",
+    "explanation": "Benar karena 25% dari 240 adalah 60, sedangkan Kuantitas B adalah 50, sehingga Kuantitas A lebih besar. Opsi B dan C salah karena hasil hitung menunjukkan A lebih besar dari B, opsi D salah karena kedua kuantitas dapat dihitung dengan pasti, dan opsi E salah karena nilai A adalah 60, bukan 40.",
+    "id": "TIU-17",
+    "options": [
+      "Kuantitas A lebih besar",
+      "Kuantitas B lebih besar",
+      "Keduanya sama",
+      "Hubungan tidak dapat ditentukan",
+      "Kuantitas A adalah 40"
+    ],
+    "question": "Kuantitas A adalah 25% dari 240. Kuantitas B adalah 50. Manakah hubungan yang benar antara Kuantitas A dan Kuantitas B?",
+    "scores": [
+      5,
+      0,
+      0,
+      0,
+      0
+    ],
+    "subtopic": "Numerik — Perbandingan Kuantitatif"
+  },
+  {
+    "answer": 2,
+    "category": "TIU",
+    "explanation": "15% × 240 = (15/100) × 240 = 3.600/100 = 36.",
+    "id": "TIU-18",
+    "options": [
+      "30",
+      "32",
+      "36",
+      "38",
+      "40"
+    ],
+    "question": "15% dari 240 adalah ...",
+    "scores": [
+      0,
+      0,
+      5,
+      0,
+      0
+    ],
+    "subtopic": "Numerik — Berhitung"
+  },
+  {
+    "answer": 3,
+    "category": "TIU",
+    "explanation": "Jumlah bagian = 3+5 = 8 bagian. Satu bagian = Rp320.000,00 ÷ 8 = Rp40.000,00. Uang Budi = 5 × Rp40.000,00 = Rp200.000,00.",
+    "id": "TIU-19",
+    "options": [
+      "Rp120.000,00",
+      "Rp160.000,00",
+      "Rp180.000,00",
+      "Rp200.000,00",
+      "Rp240.000,00"
+    ],
+    "question": "Perbandingan uang Andi dan Budi adalah 3 : 5. Jika jumlah uang mereka Rp320.000,00, uang Budi adalah ...",
+    "scores": [
+      0,
+      0,
+      0,
+      5,
+      0
+    ],
+    "subtopic": "Numerik — Berhitung"
+  },
+  {
+    "answer": 0,
+    "category": "TIU",
+    "explanation": "Besar diskon = 20% × Rp250.000,00 = Rp50.000,00. Harga setelah diskon = Rp250.000,00 − Rp50.000,00 = Rp200.000,00.",
+    "id": "TIU-20",
+    "options": [
+      "Rp200.000,00",
+      "Rp180.000,00",
+      "Rp190.000,00",
+      "Rp210.000,00",
+      "Rp220.000,00"
+    ],
+    "question": "Sebuah toko memberikan diskon 20% untuk barang seharga Rp250.000,00. Harga barang setelah diskon adalah ...",
+    "scores": [
+      5,
+      0,
+      0,
+      0,
+      0
+    ],
+    "subtopic": "Numerik — Berhitung"
+  },
+  {
+    "answer": 1,
+    "category": "TIU",
+    "explanation": "Benar karena 2/5 dari 150 adalah 60, sedangkan 3/4 dari 120 adalah 90, sehingga Kuantitas B lebih besar. Opsi A dan C salah karena hasil hitung menunjukkan B lebih besar dari A, opsi D salah karena kedua kuantitas dapat dihitung dengan pasti, dan opsi E salah karena nilai B adalah 90, bukan 80.",
+    "id": "TIU-21",
+    "options": [
+      "Kuantitas A lebih besar",
+      "Kuantitas B lebih besar",
+      "Keduanya sama",
+      "Hubungan tidak dapat ditentukan",
+      "Kuantitas B adalah 80"
+    ],
+    "question": "Kuantitas A adalah 2/5 dari 150. Kuantitas B adalah 3/4 dari 120. Manakah hubungan yang benar antara Kuantitas A dan Kuantitas B?",
+    "scores": [
+      0,
+      5,
+      0,
+      0,
+      0
+    ],
+    "subtopic": "Numerik — Perbandingan Kuantitatif"
+  },
+  {
+    "answer": 1,
+    "category": "TIU",
+    "explanation": "Jumlah 4 bilangan = 4 × 15 = 60. Setelah ditambah 20, jumlahnya = 80. Rata-rata 5 bilangan = 80 ÷ 5 = 16.",
+    "id": "TIU-22",
+    "options": [
+      "15",
+      "16",
+      "17",
+      "18",
+      "20"
+    ],
+    "question": "Rata-rata 4 bilangan adalah 15. Jika ditambah satu bilangan 20, rata-rata 5 bilangan tersebut adalah ...",
+    "scores": [
+      0,
+      5,
+      0,
+      0,
+      0
+    ],
+    "subtopic": "Numerik — Berhitung"
+  },
+  {
+    "answer": 0,
+    "category": "TIU",
+    "explanation": "Kecepatan = jarak ÷ waktu = 240 km ÷ 3 jam = 80 km/jam.",
+    "id": "TIU-23",
+    "options": [
+      "80 km/jam",
+      "70 km/jam",
+      "75 km/jam",
+      "85 km/jam",
+      "90 km/jam"
+    ],
+    "question": "Sebuah kereta menempuh jarak 240 km dalam waktu 3 jam. Kecepatan rata-rata kereta tersebut adalah ...",
+    "scores": [
+      5,
+      0,
+      0,
+      0,
+      0
+    ],
+    "subtopic": "Numerik — Soal Cerita"
+  },
+  {
+    "answer": 3,
+    "category": "TIU",
+    "explanation": "Harga 1 kg = Rp60.000,00 ÷ 5 = Rp12.000,00. Harga 8 kg = 8 × Rp12.000,00 = Rp96.000,00.",
+    "id": "TIU-24",
+    "options": [
+      "Rp84.000,00",
+      "Rp90.000,00",
+      "Rp92.000,00",
+      "Rp96.000,00",
+      "Rp100.000,00"
+    ],
+    "question": "Harga 5 kg beras adalah Rp60.000,00. Harga 8 kg beras adalah ...",
+    "scores": [
+      0,
+      0,
+      0,
+      5,
+      0
+    ],
+    "subtopic": "Numerik — Soal Cerita"
+  },
+  {
+    "answer": 1,
+    "category": "TIU",
+    "explanation": "Jumlah pekerja berbanding terbalik dengan waktu: 1 pekerja × 12 hari = 3 pekerja × t hari → t = 12 ÷ 3 = 4 hari.",
+    "id": "TIU-25",
+    "options": [
+      "3 hari",
+      "4 hari",
+      "5 hari",
+      "6 hari",
+      "8 hari"
+    ],
+    "question": "Seorang pekerja dapat menyelesaikan suatu pekerjaan dalam 12 hari. Jika pekerjaan yang sama dikerjakan oleh 3 pekerja dengan kecepatan yang sama, pekerjaan itu selesai dalam ...",
+    "scores": [
+      0,
+      5,
+      0,
+      0,
+      0
+    ],
+    "subtopic": "Numerik — Soal Cerita"
+  },
+  {
+    "answer": 2,
+    "category": "TIU",
+    "explanation": "Benar karena 12% dari 250 adalah 30, sama dengan Kuantitas B yang bernilai 30, sehingga keduanya sama. Opsi A dan B salah karena kedua kuantitas bernilai sama, opsi D salah karena kedua kuantitas dapat dihitung dengan pasti, dan opsi E salah karena nilai A adalah 30, bukan 25.",
+    "id": "TIU-26",
+    "options": [
+      "Kuantitas A lebih besar",
+      "Kuantitas B lebih besar",
+      "Keduanya sama",
+      "Hubungan tidak dapat ditentukan",
+      "Kuantitas A adalah 25"
+    ],
+    "question": "Kuantitas A adalah 12% dari 250. Kuantitas B adalah 30. Manakah hubungan yang benar antara Kuantitas A dan Kuantitas B?",
+    "scores": [
+      0,
+      0,
+      5,
+      0,
+      0
+    ],
+    "subtopic": "Numerik — Perbandingan Kuantitatif"
+  },
+  {
+    "answer": 1,
+    "category": "TIU",
+    "explanation": "Misalkan umur anak = x, maka umur ayah = 4x. Jumlahnya x + 4x = 5x = 50 → x = 10 tahun.",
+    "id": "TIU-27",
+    "options": [
+      "8 tahun",
+      "10 tahun",
+      "12 tahun",
+      "15 tahun",
+      "20 tahun"
+    ],
+    "question": "Umur ayah 4 kali umur anaknya. Jika jumlah umur mereka 50 tahun, umur anak adalah ...",
+    "scores": [
+      0,
+      5,
+      0,
+      0,
+      0
+    ],
+    "subtopic": "Numerik — Soal Cerita"
+  },
+  {
+    "answer": 4,
+    "category": "TIU",
+    "explanation": "Lompatan antar huruf bertambah 1 setiap langkah: A→C (+2), C→F (+3), F→J (+4), J→O (+5). Lompatan berikutnya +6: O (huruf ke-15) + 6 = huruf ke-21, yaitu U.",
+    "id": "TIU-28",
+    "options": [
+      "S",
+      "T",
+      "V",
+      "W",
+      "U"
+    ],
+    "question": "A, C, F, J, O, … Huruf berikutnya adalah ...",
+    "scores": [
+      0,
+      0,
+      0,
+      0,
+      5
+    ],
+    "subtopic": "Figural — Serial"
+  },
+  {
+    "answer": 0,
+    "category": "TIU",
+    "explanation": "Setiap huruf mundur 2 langkah dalam alfabet: Z(26) → X(24) → V(22) → T(20) → R(18). Huruf berikutnya adalah P(16).",
+    "id": "TIU-29",
+    "options": [
+      "P",
+      "Q",
+      "O",
+      "S",
+      "N"
+    ],
+    "question": "Z, X, V, T, R, … Huruf berikutnya adalah ...",
+    "scores": [
+      5,
+      0,
+      0,
+      0,
+      0
+    ],
+    "subtopic": "Figural — Serial"
+  },
+  {
+    "answer": 2,
+    "category": "TIU",
+    "explanation": "Benar karena jumlah angka pada setiap baris adalah 15: baris 1 adalah 4 + 5 + 6 = 15 dan baris 2 adalah 7 + 2 + 6 = 15, sehingga baris 3 harus 3 + 8 + 4 = 15. Opsi A menghasilkan jumlah 14, opsi B menghasilkan 16, opsi D menghasilkan 17, dan opsi E menghasilkan 18, sehingga semuanya melanggar pola jumlah per baris.",
+    "id": "TIU-30",
+    "options": [
+      "3",
+      "5",
+      "4",
+      "6",
+      "7"
+    ],
+    "question": "Perhatikan susunan angka 3x3 berikut. Baris 1: 4, 5, 6. Baris 2: 7, 2, 6. Baris 3: 3, 8, ?. Angka manakah yang melengkapi kotak kosong agar pola pada setiap baris terpenuhi?",
+    "scores": [
+      0,
+      0,
+      5,
+      0,
+      0
+    ],
+    "subtopic": "Figural — Penalaran Matriks"
+  },
+  {
+    "answer": 0,
+    "category": "TIU",
+    "explanation": "Setiap baris adalah n, 2n, 3n: baris pertama 2, 4, 6 (2×1, 2×2, 2×3); baris kedua 3, 6, 9. Baris ketiga: 4, 8, dan 4×3 = 12.",
+    "id": "TIU-31",
+    "options": [
+      "12",
+      "10",
+      "11",
+      "14",
+      "16"
+    ],
+    "question": "Perhatikan susunan angka berikut:\n2  4  6\n3  6  9\n4  8  ?\nBaris ketiga mengikuti pola yang sama dengan dua baris di atasnya. Nilai ? adalah ...",
+    "scores": [
+      5,
+      0,
+      0,
+      0,
+      0
+    ],
+    "subtopic": "Figural — Penalaran Matriks"
+  },
+  {
+    "answer": 3,
+    "category": "TIU",
+    "explanation": "Benar karena aturan yang sama harus diterapkan pada segilima: bangun dibalik dan ditambah satu titik di dalam, sehingga hasilnya adalah segilima terbalik dengan satu titik. Opsi A tidak menambahkan titik, opsi B tidak membalik bangun, opsi C memakai bangun yang salah, dan opsi E menambahkan dua titik, bukan satu.",
+    "id": "TIU-32",
+    "options": [
+      "Segilima terbalik tanpa titik di dalam.",
+      "Segilima biasa dengan satu titik di dalam.",
+      "Segitiga terbalik dengan satu titik di dalam.",
+      "Segilima terbalik dengan satu titik di dalam.",
+      "Segilima terbalik dengan dua titik di dalam."
+    ],
+    "question": "Gambar 1 adalah sebuah segitiga. Gambar 2 adalah segitiga yang sama tetapi dibalik sehingga puncaknya menghadap ke bawah, dan di dalamnya terdapat sebuah titik. Aturannya: bangun dibalik dan ditambah satu titik di dalam. Gambar 3 adalah sebuah segilima dengan satu sisi menghadap ke atas. Gambar 4 yang mengikuti aturan yang sama harus berupa ...",
+    "scores": [
+      0,
+      0,
+      0,
+      5,
+      0
+    ],
+    "subtopic": "Figural — Analogi"
+  },
+  {
+    "answer": 4,
+    "category": "TIU",
+    "explanation": "Benar karena pada setiap baris, angka ketiga adalah hasil kali dua angka sebelumnya: baris 1 adalah 2 x 4 = 8 dan baris 2 adalah 3 x 3 = 9, sehingga baris 3 harus 5 x 2 = 10. Opsi A, B, C, dan D tidak sama dengan hasil kali 5 dan 2, sehingga semuanya melanggar pola perkalian per baris.",
+    "id": "TIU-33",
+    "options": [
+      "8",
+      "9",
+      "12",
+      "11",
+      "10"
+    ],
+    "question": "Perhatikan susunan angka 3x3 berikut. Baris 1: 2, 4, 8. Baris 2: 3, 3, 9. Baris 3: 5, 2, ?. Angka manakah yang melengkapi kotak kosong agar pola pada setiap baris terpenuhi?",
+    "scores": [
+      0,
+      0,
+      0,
+      0,
+      5
+    ],
+    "subtopic": "Figural — Penalaran Matriks"
+  },
+  {
+    "answer": 0,
+    "category": "TIU",
+    "explanation": "Ada dua deret yang berselang-seling: deret posisi ganjil A, B, C, … (maju 1) dan deret posisi genap Z, Y, X, … (mundur 1). Setelah C (posisi ke-5) dan X (posisi ke-6), posisi ke-7 mengikuti deret pertama: D.",
+    "id": "TIU-34",
+    "options": [
+      "D",
+      "W",
+      "E",
+      "V",
+      "F"
+    ],
+    "question": "A, Z, B, Y, C, X, … Huruf berikutnya adalah ...",
+    "scores": [
+      5,
+      0,
+      0,
+      0,
+      0
+    ],
+    "subtopic": "Figural — Serial"
+  },
+  {
+    "answer": 1,
+    "category": "TIU",
+    "explanation": "Benar karena aturan yang sama diterapkan pada segilima: jumlah sisi bertambah satu menjadi enam dan bangun diarsir, sehingga hasilnya adalah segienam yang diarsir. Opsi A tidak mengarsir bangun, opsi C tidak menambah jumlah sisi, opsi D menambah dua sisi, dan opsi E mengurangi jumlah sisi.",
+    "id": "TIU-35",
+    "options": [
+      "Segienam putih.",
+      "Segienam yang diarsir.",
+      "Segilima yang diarsir.",
+      "Segitujuh yang diarsir.",
+      "Segiempat yang diarsir."
+    ],
+    "question": "Gambar 1 adalah sebuah segitiga putih yang memiliki 3 sisi. Gambar 2 adalah sebuah segiempat yang diarsir dan memiliki 4 sisi. Aturannya: jumlah sisi bertambah satu dan bangun diarsir. Gambar 3 adalah sebuah segilima putih yang memiliki 5 sisi. Gambar 4 yang mengikuti aturan yang sama harus berupa ...",
+    "scores": [
+      0,
+      5,
+      0,
+      0,
+      0
+    ],
+    "subtopic": "Figural — Analogi"
+  }
+]

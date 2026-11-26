@@ -1,6 +1,6 @@
 // Simulasi CAT CPNS — SKD (latihan). Static, no backend.
 // Data: data/questions.json (110 soal original: TWK 30, TIU 35, TKP 45).
-// Format resmi (KepmenPANRB 321/2024, TA 2024): TWK 30 soal PG 65, TIU 35
+// Format resmi (KepmenPANRB 674/2026, TA 2026): TWK 30 soal PG 65, TIU 35
 // soal PG 80, TKP 45 soal PG 166, total 110 soal / 100 menit / maks 550.
 // TWK & TIU: benar 5, salah/kosong 0. TKP: tiap opsi 1-5, kosong 0.
 const CONFIG = {
@@ -9,6 +9,18 @@ const CONFIG = {
   TKP: { label: "TKP — Tes Karakteristik Pribadi", count: 45, max: 225, pg: 166, minutes: 41 },
 };
 const FULL = { label: "SKD Penuh", count: 110, max: 550, minutes: 100 };
+// Ambang batas kebutuhan khusus (KepmenPANRB 674/2026, Lampiran II).
+// Umum: per subtes TWK 65 / TIU 80 / TKP 166 (kumulatif minimal 311).
+// Cumlaude & diaspora: kumulatif >= 311 dan TIU >= 85.
+// Disabilitas & Papua: kumulatif >= 286 dan TIU >= 60.
+// Olahragawan berprestasi: ambang = nilai terendah pelamar (perankingan,
+// tanpa angka tetap) — tidak bisa dinilai LULUS/TIDAK dari skor saja.
+const PG_CATS = {
+  umum: { label: "Kebutuhan Umum", tiu: 80, total: 311 },
+  cumlaude: { label: "Cumlaude & Diaspora", tiu: 85, total: 311 },
+  disabilitas: { label: "Disabilitas & Papua", tiu: 60, total: 286 },
+  atlet: { label: "Olahragawan Berprestasi", tiu: null, total: null },
+};
 const STORE_SESSION = "catcpns-session-v1";
 const STORE_RESULT = "catcpns-result-v1";
 const LETTERS = ["A", "B", "C", "D", "E"];
@@ -292,9 +304,38 @@ function computeResult() {
 function renderResult(r) {
   const cats = Object.keys(r.perCat);
   $("resultTitle").textContent = r.mode === "full" ? "Hasil Simulasi SKD" : "Hasil Latihan " + r.mode;
+  const catKey = ($("pgCatSelect") && $("pgCatSelect").value) || "umum";
+  const cat = PG_CATS[catKey] || PG_CATS.umum;
+  const special = catKey === "cumlaude" || catKey === "disabilitas";
   const v = $("resultVerdict");
+  // Evaluasi per subtes sesuai jenis kebutuhan yang dipilih.
+  // Ambang khusus hanya mengenal kumulatif + TIU; TWK/TKP tidak punya
+  // ambang per subtes (KepmenPANRB 674/2026, Lampiran II).
+  function rowEval(c) {
+    const d = r.perCat[c];
+    if (catKey === "umum") return { pg: d.pg, pass: d.pass };
+    if (catKey === "atlet") return { pg: "—", pass: null };
+    if (c === "TIU") return { pg: cat.tiu, pass: d.score >= cat.tiu };
+    return { pg: "—", pass: null };
+  }
   if (r.mode === "full") {
-    if (r.pass) {
+    if (catKey === "atlet") {
+      v.textContent = "TIDAK ADA AMBANG TETAP — kelulusan olahragawan berprestasi berdasarkan nilai terendah pelamar (perankingan).";
+      v.className = "verdict";
+    } else if (special) {
+      const tiuOk = r.perCat.TIU.score >= cat.tiu;
+      const totalOk = r.total >= cat.total;
+      if (tiuOk && totalOk) {
+        v.textContent = "LULUS — memenuhi ambang " + cat.label + " (kumulatif ≥ " + cat.total + ", TIU ≥ " + cat.tiu + ")";
+        v.className = "verdict pass";
+      } else {
+        const kurang = [];
+        if (!totalOk) kurang.push("kumulatif kurang " + (cat.total - r.total) + " poin (butuh ≥ " + cat.total + ")");
+        if (!tiuOk) kurang.push("TIU kurang " + (cat.tiu - r.perCat.TIU.score) + " poin (butuh ≥ " + cat.tiu + ")");
+        v.textContent = "TIDAK LULUS — " + kurang.join("; ");
+        v.className = "verdict fail";
+      }
+    } else if (r.pass) {
       v.textContent = "LULUS — semua passing grade terpenuhi";
       v.className = "verdict pass";
     } else {
@@ -304,13 +345,23 @@ function renderResult(r) {
     }
   } else {
     const c = cats[0];
-    if (r.perCat[c].pass) {
-      v.textContent = "LULUS — " + c + " mencapai passing grade";
+    const ev = rowEval(c);
+    if (ev.pass === null) {
+      v.textContent = "SKOR " + c + " — ambang khusus tidak menetapkan nilai per subtes untuk " + c + " (hanya kumulatif + TIU).";
+      v.className = "verdict";
+    } else if (ev.pass) {
+      v.textContent = "LULUS — " + c + " mencapai passing grade (" + cat.label + ")";
       v.className = "verdict pass";
     } else {
-      v.textContent = "TIDAK LULUS — " + c + " di bawah passing grade";
+      v.textContent = "TIDAK LULUS — " + c + " di bawah passing grade (" + cat.label + ")";
       v.className = "verdict fail";
     }
+  }
+  const cumNote = $("resultCumNote");
+  if (cumNote) {
+    cumNote.textContent = r.mode === "full"
+      ? ("Kumulatif: " + r.total + " / 550 • Ambang " + cat.label + ": " + (cat.total === null ? "perankingan (nilai terendah pelamar)" : "≥ " + cat.total))
+      : "";
   }
   $("resultMeta").textContent = "Dijawab " + r.answered + " dari " + r.totalQ + " soal • Waktu dipakai "
     + Math.floor(r.usedSec / 60) + " menit " + (r.usedSec % 60) + " detik";
@@ -320,16 +371,24 @@ function renderResult(r) {
   box.innerHTML = "";
   cats.forEach((c) => {
     const d = r.perCat[c];
+    const ev = rowEval(c);
     const row = document.createElement("div");
     row.className = "cat-row";
     const pct = Math.round((d.score / d.max) * 100);
+    const pill = ev.pass === null
+      ? '<span class="pill">—</span>'
+      : '<span class="pill ' + (ev.pass ? "pass" : "fail") + '">' + (ev.pass ? "LULUS" : "BELUM LULUS") + '</span>';
+    const barCls = ev.pass === null ? "fill-pass" : (ev.pass ? "fill-pass" : "fill-fail");
+    const note = ev.pass === null
+      ? "Tidak ada ambang per subtes untuk kategori ini."
+      : (ev.pass ? "Di atas passing grade." : "Kurang " + (ev.pg - d.score) + " poin lagi dari passing grade.");
     row.innerHTML =
       '<div class="cat-head"><span>' + CONFIG[c].label + '</span>' +
-      '<span>' + d.score + ' / ' + d.max + ' &nbsp;•&nbsp; PG ' + d.pg +
-      ' &nbsp;<span class="pill ' + (d.pass ? "pass" : "fail") + '">' + (d.pass ? "LULUS" : "BELUM LULUS") + '</span></span></div>' +
-      '<div class="bar"><div class="' + (d.pass ? "fill-pass" : "fill-fail") + '" style="width:' + pct + '%"></div></div>' +
+      '<span>' + d.score + ' / ' + d.max + ' &nbsp;•&nbsp; PG ' + ev.pg +
+      ' &nbsp;' + pill + '</span></div>' +
+      '<div class="bar"><div class="' + barCls + '" style="width:' + pct + '%"></div></div>' +
       '<div class="muted small">Jawaban terbaik: ' + d.correct + ' dari ' + d.count + ' soal • Dijawab: ' + d.answered + ' • '
-      + (d.pass ? "Di atas passing grade." : "Kurang " + (d.pg - d.score) + " poin lagi dari passing grade.") + '</div>';
+      + note + '</div>';
     box.appendChild(row);
   });
   $("reviewBtn").onclick = () => openReview(true);
@@ -470,6 +529,10 @@ async function init() {
   $("homeBtn").addEventListener("click", () => { showScreen("home"); refreshResumeCard(); });
   $("reviewHomeBtn").addEventListener("click", () => { showScreen("home"); refreshResumeCard(); });
   $("reviewResultBtn").addEventListener("click", () => { if (lastResult) { renderResult(lastResult); showScreen("result"); } });
+  // Pilih jenis kebutuhan di layar hasil: nilai ulang hasil yang sama
+  // terhadap ambang kategori itu (tanpa mengubah hasil yang tersimpan).
+  const pgSel = $("pgCatSelect");
+  if (pgSel) pgSel.addEventListener("change", () => { if (lastResult) renderResult(lastResult); });
   $("filterCat").addEventListener("change", renderReviewList);
   $("filterShow").addEventListener("change", renderReviewList);
 

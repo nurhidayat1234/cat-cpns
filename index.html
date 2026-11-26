@@ -88,7 +88,7 @@
         <div class="feat-card">
           <span class="feat-icon icon-check"></span>
           <strong>Format Resmi Terverifikasi</strong>
-          <span>Mengacu KepmenPANRB 321/2024 (TA 2024), diverifikasi 25 Nov 2026.</span>
+          <span>Mengacu KepmenPANRB 674/2026 (TA 2026), diverifikasi 26 Nov 2026.</span>
         </div>
       </div>
     </div>
@@ -205,13 +205,34 @@
         </tbody>
       </table>
       </div>
+      <h3>Nilai ambang batas kebutuhan khusus</h3>
+      <div class="table-scroll">
+      <table class="fmt">
+        <thead><tr><th>Jenis kebutuhan</th><th>Kumulatif minimal</th><th>TIU minimal</th><th>Keterangan</th></tr></thead>
+        <tbody>
+          <tr><td>Kebutuhan umum</td><td>311</td><td>80</td><td>Per subtes: TWK 65, TIU 80, TKP 166</td></tr>
+          <tr><td>Cumlaude &amp; diaspora</td><td>311</td><td>85</td><td>Tanpa ambang per subtes TWK/TKP</td></tr>
+          <tr><td>Disabilitas &amp; putra/putri Papua</td><td>286</td><td>60</td><td>Tanpa ambang per subtes TWK/TKP</td></tr>
+          <tr><td>Olahragawan berprestasi</td><td>—</td><td>—</td><td>Ambang = nilai terendah pelamar (perankingan)</td></tr>
+        </tbody>
+      </table>
+      </div>
       <p class="muted small">Durasi 100 menit (130 menit untuk disabilitas sensorik netra).
-      Dasar: Keputusan Menteri PANRB Nomor 321 Tahun 2024 (nilai ambang batas SKD
-      pengadaan PNS TA 2024). <strong>Catatan:</strong> per pengecekan 25 November 2026,
-      passing grade untuk seleksi CPNS 2026 belum ditetapkan pemerintah — angka di atas
-      adalah acuan terakhir yang berlaku dan dapat berubah. Situs ini tidak menampilkan
-      tanggal pendaftaran, kuota formasi, atau jadwal seleksi (tidak ada yang resmi
-      saat ini). Detail sumber: <a href="SUMBER.md">SUMBER.md</a>.</p>
+      Dasar: Keputusan Menteri PANRB Nomor 674 Tahun 2026 tentang Mekanisme
+      Seleksi Pengadaan PNS dan Nilai Ambang Batas SKD TA 2026 (ditetapkan
+      20 November 2026, Menteri Rini Widyantini) — passing grade CPNS 2026
+      <strong>sudah resmi</strong>. Di layar hasil, pilih jenis kebutuhanmu
+      untuk menilai hasilmu terhadap ambang kategori itu. Detail sumber:
+      <a href="SUMBER.md">SUMBER.md</a>.</p>
+      <p class="muted small"><strong>Nilai SKD 2024 bisa dipakai:</strong> pelamar CPNS 2026 boleh memakai
+      nilai SKD TA 2024 bila NIK dan jenjang pendidikan sama, memenuhi ambang
+      batas 2026, dan lulus seleksi administrasi — tapi yang memakainya tidak
+      boleh ikut SKD 2026 (harus memilih salah satu). <strong>Bonus SKB:</strong>
+      peserta seleksi SDM Koperasi Desa/Kelurahan Merah Putih (KDKMP) dan
+      Kampung Nelayan Merah Putih (KNMP) dengan nilai Tes Potensi Kognitif
+      (TPK) ≥ 120 mendapat tambahan 10% dari nilai maksimal SKB. Situs ini
+      tidak menampilkan tanggal pendaftaran, kuota formasi, atau jadwal
+      seleksi — pantau pengumuman resmi di SSCASN/BKN.</p>
     </div>
 
     <div class="card" id="howtoCard">
@@ -331,6 +352,17 @@
       <p class="muted" id="resultMeta"></p>
       <p class="muted small" id="resultSaveNote"></p>
       <div class="score-total"><span id="resultTotal">0</span><small>/ 550</small></div>
+      <p class="muted small" id="resultCumNote"></p>
+      <div class="pg-cat">
+        <label for="pgCatSelect">Jenis kebutuhan:</label>
+        <select id="pgCatSelect">
+          <option value="umum">Kebutuhan Umum</option>
+          <option value="cumlaude">Cumlaude &amp; Diaspora</option>
+          <option value="disabilitas">Disabilitas &amp; Papua</option>
+          <option value="atlet">Olahragawan Berprestasi</option>
+        </select>
+        <p class="muted small">Ambang khusus berlaku untuk nilai kumulatif (simulasi penuh) dan TIU. Dasar: KepmenPANRB 674/2026, Lampiran II.</p>
+      </div>
       <div class="row">
         <button class="btn-primary" id="reviewBtn">Lihat Pembahasan</button>
         <button class="btn-ghost" id="retryBtn">Ulangi Simulasi</button>
@@ -342,7 +374,8 @@
       <div id="resultCats"></div>
       <p class="muted small">Lulus SKD (kebutuhan umum) = TWK ≥ 65 DAN TIU ≥ 80 DAN TKP ≥ 166.
       Ketiganya wajib terpenuhi sendiri-sendiri — total tinggi saja tidak cukup.
-      Acuan: KepmenPANRB 321/2024 (TA 2024); passing grade CPNS 2026 belum ditetapkan.</p>
+      Pilih jenis kebutuhan di atas untuk menilai hasilmu terhadap ambang
+      kategori itu. Acuan: KepmenPANRB 674/2026 (TA 2026), Lampiran II.</p>
     </div>
   </section>
 
@@ -398,11 +431,19 @@
       </details>
       <details>
         <summary>Berapa soal dan berapa waktunya?</summary>
-        <p>110 soal dalam 100 menit: TWK 30 soal, TIU 35 soal, TKP 45 soal. Format mengacu KepmenPANRB 321/2024 (TA 2024).</p>
+        <p>110 soal dalam 100 menit: TWK 30 soal, TIU 35 soal, TKP 45 soal. Format mengacu KepmenPANRB 674/2026 (TA 2026).</p>
       </details>
       <details>
         <summary>Berapa passing grade-nya?</summary>
-        <p>Acuan terakhir (TA 2024): TWK 65, TIU 80, TKP 166 — total 311. Ketiganya wajib terpenuhi sendiri-sendiri. Passing grade CPNS 2026 belum ditetapkan pemerintah per pengecekan 25 Nov 2026.</p>
+        <p>Sudah resmi lewat KepmenPANRB 674/2026: kebutuhan umum TWK 65, TIU 80, TKP 166 (total 311) — ketiganya wajib terpenuhi sendiri-sendiri. Kebutuhan khusus: cumlaude &amp; diaspora kumulatif ≥ 311 dan TIU ≥ 85; disabilitas &amp; Papua kumulatif ≥ 286 dan TIU ≥ 60; olahragawan berprestasi memakai nilai terendah pelamar. Di layar hasil, pilih jenis kebutuhanmu untuk menilai hasilmu terhadap ambang kategori itu.</p>
+      </details>
+      <details>
+        <summary>Apakah nilai SKD 2024 bisa dipakai?</summary>
+        <p>Bisa, dengan syarat: NIK dan jenjang pendidikan sama dengan saat seleksi 2024, nilai memenuhi ambang batas 2026, dan lulus seleksi administrasi 2026. Yang memakai nilai 2024 tidak boleh ikut SKD 2026 — harus memilih salah satu (KepmenPANRB 674/2026).</p>
+      </details>
+      <details>
+        <summary>Apa bonus SKB untuk peserta KDKMP/KNMP?</summary>
+        <p>Peserta seleksi SDM Koperasi Desa/Kelurahan Merah Putih (KDKMP) dan Kampung Nelayan Merah Putih (KNMP) dengan nilai Tes Potensi Kognitif (TPK) ≥ 120 mendapat tambahan 10% dari nilai maksimal SKB, paling tinggi sebesar nilai maksimal SKB (KepmenPANRB 674/2026).</p>
       </details>
     </div>
 
@@ -411,7 +452,7 @@
 <footer class="foot">
   <p>Simulasi CAT CPNS — latihan mandiri. Soal original mengikuti kisi-kisi resmi.
   Bukan soal resmi BKN dan bukan bocoran. Tidak berafiliasi dengan BKN, KemenPANRB,
-  atau panitia seleksi. Format mengacu KepmenPANRB 321/2024 (TA 2024) — diverifikasi 25 Nov 2026.</p>
+  atau panitia seleksi. Format mengacu KepmenPANRB 674/2026 (TA 2026) — diverifikasi 26 Nov 2026.</p>
 </footer>
 
 <script src="auth.js"></script>

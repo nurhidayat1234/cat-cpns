@@ -85,7 +85,18 @@ disimpan di Sheet hanya hash-nya. Login memakai token acak yang kedaluwarsa
 7 hari. Ini bukan keamanan tingkat produksi (tanpa rate limiting dan tanpa
 verifikasi email) — jangan pakai ulang password akun penting di sini.
 
-## Penilaian (format resmi, KepmenPANRB 321/2024 — TA 2024)
+## Kisi-kisi materi (KepmenPANRB 674/2026, TA 2026)
+
+- **TWK (5 aspek):** nasionalisme; integritas; bela negara; empat konsensus
+  kebangsaan (Pancasila, UUD 1945, NKRI, Bhinneka Tunggal Ika); Bahasa
+  Indonesia.
+- **TIU (10 sub-materi):** verbal — silogisme, penalaran induktif, analitis;
+  numerik — berhitung, deret angka, perbandingan kuantitatif, soal cerita;
+  figural — serial, analogi, penalaran matriks.
+- **TKP (6 aspek):** pelayanan publik; jejaring kerja; sosial budaya;
+  adaptasi TIK; profesionalisme; anti radikalisme.
+
+## Penilaian (format resmi, KepmenPANRB 674/2026 — TA 2026)
 
 | Komponen | Soal | Penilaian | Maks | Passing grade |
 |---|---|---|---|---|
@@ -94,9 +105,12 @@ verifikasi email) — jangan pakai ulang password akun penting di sini.
 | TKP | 45 | Setiap opsi 1–5, kosong 0 | 225 | 166 |
 | Total | 110 | | 550 | 311 |
 
-Lulus = ketiga passing grade terpenuhi sendiri-sendiri. Catatan: per
-pengecekan 25 Nov 2026, passing grade CPNS 2026 belum ditetapkan pemerintah —
-angka di atas adalah acuan terakhir (TA 2024). Detail dan sumber: `SUMBER.md`.
+Lulus (kebutuhan umum) = ketiga passing grade terpenuhi sendiri-sendiri.
+Kebutuhan khusus (Lampiran II KepmenPANRB 674/2026): cumlaude &amp; diaspora —
+kumulatif ≥ 311 dan TIU ≥ 85; disabilitas &amp; Papua — kumulatif ≥ 286 dan
+TIU ≥ 60; olahragawan berprestasi — ambang berdasarkan nilai terendah
+pelamar. Di layar hasil ada pemilih jenis kebutuhan untuk menilai hasil
+terhadap ambang kategori itu. Detail dan sumber: `SUMBER.md`.
 
 ## File
 

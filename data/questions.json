@@ -19,7 +19,7 @@
       0,
       0
     ],
-    "subtopic": "Pancasila"
+    "subtopic": "Empat Konsensus Kebangsaan"
   },
   {
     "answer": 3,
@@ -41,7 +41,7 @@
       5,
       0
     ],
-    "subtopic": "Pancasila"
+    "subtopic": "Empat Konsensus Kebangsaan"
   },
   {
     "answer": 0,
@@ -63,29 +63,29 @@
       0,
       0
     ],
-    "subtopic": "Pancasila"
+    "subtopic": "Empat Konsensus Kebangsaan"
   },
   {
-    "answer": 0,
-    "category": "TWK",
-    "explanation": "Pada 1 Juni 1945 Soekarno menyampaikan pidato dalam sidang BPUPKI yang mengusulkan Pancasila sebagai dasar negara; tanggal itu kemudian ditetapkan sebagai Hari Lahir Pancasila. Pilihan B salah karena pengesahan UUD 1945 terjadi pada 18 Agustus 1945. Pilihan C salah karena Proklamasi dibacakan 17 Agustus 1945. Pilihan D salah karena Sumpah Pemuda diikrarkan 28 Oktober 1928. Pilihan E salah karena Panitia Sembilan dibentuk setelah pidato tersebut, pada 22 Juni 1945, untuk merumuskan Piagam Jakarta.",
     "id": "TWK-04",
+    "category": "TWK",
+    "subtopic": "Bela Negara",
+    "question": "Nilai-nilai dasar bela negara meliputi cinta tanah air, kesadaran berbangsa dan bernegara, setia pada Pancasila, rela berkorban, dan kemampuan awal bela negara. Berikut ini yang BUKAN merupakan wujud bela negara dalam kehidupan sehari-hari adalah ...",
     "options": [
-      "Pidato Soekarno tentang dasar negara dalam sidang BPUPKI",
-      "Pengesahan UUD 1945 oleh PPKI",
-      "Pembacaan teks Proklamasi Kemerdekaan",
-      "Ikrar Sumpah Pemuda",
-      "Pembentukan Panitia Sembilan"
+      "Mengikuti upacara bendera dengan khidmat dan tertib.",
+      "Menjaga kerukunan dengan tetangga yang berbeda suku dan agama.",
+      "Menyebarkan ujaran kebencian terhadap kelompok masyarakat tertentu.",
+      "Mengikuti kerja bakti membersihkan lingkungan tempat tinggal.",
+      "Mempelajari sejarah perjuangan bangsa Indonesia."
     ],
-    "question": "Hari Lahir Pancasila diperingati setiap tanggal 1 Juni. Penetapan tanggal tersebut berkaitan dengan peristiwa…",
+    "answer": 2,
     "scores": [
+      0,
+      0,
       5,
-      0,
-      0,
       0,
       0
     ],
-    "subtopic": "Pancasila"
+    "explanation": "Benar karena menyebarkan ujaran kebencian justru merusak persatuan dan bertentangan dengan nilai bela negara, sedangkan keempat opsi lain — upacara bendera, kerukunan, kerja bakti, dan mempelajari sejarah perjuangan — adalah wujud nyata cinta tanah air dan kesadaran berbangsa dalam kehidupan sehari-hari."
   },
   {
     "answer": 4,
@@ -107,7 +107,7 @@
       0,
       5
     ],
-    "subtopic": "Pancasila"
+    "subtopic": "Empat Konsensus Kebangsaan"
   },
   {
     "answer": 2,
@@ -129,7 +129,7 @@
       0,
       0
     ],
-    "subtopic": "Pancasila"
+    "subtopic": "Empat Konsensus Kebangsaan"
   },
   {
     "answer": 2,
@@ -151,7 +151,7 @@
       0,
       0
     ],
-    "subtopic": "UUD 1945"
+    "subtopic": "Empat Konsensus Kebangsaan"
   },
   {
     "answer": 3,
@@ -173,7 +173,7 @@
       5,
       0
     ],
-    "subtopic": "UUD 1945"
+    "subtopic": "Empat Konsensus Kebangsaan"
   },
   {
     "answer": 3,
@@ -195,7 +195,7 @@
       5,
       0
     ],
-    "subtopic": "UUD 1945"
+    "subtopic": "Empat Konsensus Kebangsaan"
   },
   {
     "answer": 2,
@@ -217,7 +217,7 @@
       0,
       0
     ],
-    "subtopic": "UUD 1945"
+    "subtopic": "Empat Konsensus Kebangsaan"
   },
   {
     "answer": 3,
@@ -239,7 +239,7 @@
       5,
       0
     ],
-    "subtopic": "UUD 1945"
+    "subtopic": "Empat Konsensus Kebangsaan"
   },
   {
     "answer": 3,
@@ -261,7 +261,7 @@
       5,
       0
     ],
-    "subtopic": "UUD 1945"
+    "subtopic": "Empat Konsensus Kebangsaan"
   },
   {
     "answer": 3,
@@ -283,7 +283,7 @@
       5,
       0
     ],
-    "subtopic": "NKRI & Bhinneka Tunggal Ika"
+    "subtopic": "Empat Konsensus Kebangsaan"
   },
   {
     "answer": 4,
@@ -305,7 +305,7 @@
       0,
       5
     ],
-    "subtopic": "NKRI & Bhinneka Tunggal Ika"
+    "subtopic": "Empat Konsensus Kebangsaan"
   },
   {
     "answer": 0,
@@ -327,7 +327,7 @@
       0,
       0
     ],
-    "subtopic": "NKRI & Bhinneka Tunggal Ika"
+    "subtopic": "Empat Konsensus Kebangsaan"
   },
   {
     "answer": 2,
@@ -349,7 +349,7 @@
       0,
       0
     ],
-    "subtopic": "NKRI & Bhinneka Tunggal Ika"
+    "subtopic": "Empat Konsensus Kebangsaan"
   },
   {
     "answer": 4,
@@ -371,7 +371,7 @@
       0,
       5
     ],
-    "subtopic": "NKRI & Bhinneka Tunggal Ika"
+    "subtopic": "Empat Konsensus Kebangsaan"
   },
   {
     "answer": 0,
@@ -393,7 +393,7 @@
       0,
       0
     ],
-    "subtopic": "Sejarah & nasionalisme"
+    "subtopic": "Nasionalisme"
   },
   {
     "answer": 4,
@@ -415,7 +415,7 @@
       0,
       5
     ],
-    "subtopic": "Sejarah & nasionalisme"
+    "subtopic": "Nasionalisme"
   },
   {
     "answer": 4,
@@ -437,7 +437,7 @@
       0,
       5
     ],
-    "subtopic": "Sejarah & nasionalisme"
+    "subtopic": "Nasionalisme"
   },
   {
     "answer": 4,
@@ -459,7 +459,7 @@
       0,
       5
     ],
-    "subtopic": "Sejarah & nasionalisme"
+    "subtopic": "Nasionalisme"
   },
   {
     "answer": 0,
@@ -481,7 +481,7 @@
       0,
       0
     ],
-    "subtopic": "Sejarah & nasionalisme"
+    "subtopic": "Nasionalisme"
   },
   {
     "answer": 1,
@@ -503,7 +503,7 @@
       0,
       0
     ],
-    "subtopic": "Integritas & bela negara"
+    "subtopic": "Integritas"
   },
   {
     "answer": 1,
@@ -525,7 +525,7 @@
       0,
       0
     ],
-    "subtopic": "Integritas & bela negara"
+    "subtopic": "Integritas"
   },
   {
     "answer": 1,
@@ -547,7 +547,7 @@
       0,
       0
     ],
-    "subtopic": "Integritas & bela negara"
+    "subtopic": "Bela Negara"
   },
   {
     "answer": 1,
@@ -569,7 +569,7 @@
       0,
       0
     ],
-    "subtopic": "Integritas & bela negara"
+    "subtopic": "Integritas"
   },
   {
     "answer": 2,
@@ -660,62 +660,18 @@
     "subtopic": "Bahasa Indonesia"
   },
   {
-    "answer": 1,
-    "category": "TIU",
-    "explanation": "‘Eksplisit’ berarti dinyatakan secara jelas dan tegas, tidak terselubung. ‘Jelas’ memiliki makna yang sama. ‘Tersirat’, ‘Tersembunyi’, dan ‘Samar’ justru bermakna sebaliknya (tidak dinyatakan langsung), sedangkan ‘Ragu’ berarti tidak yakin.",
-    "id": "TIU-01",
-    "options": [
-      "Tersirat",
-      "Jelas",
-      "Tersembunyi",
-      "Samar",
-      "Ragu"
-    ],
-    "question": "Sinonim dari kata EKSPLISIT adalah ...",
-    "scores": [
-      0,
-      5,
-      0,
-      0,
-      0
-    ],
-    "subtopic": "Verbal — Sinonim"
-  },
-  {
-    "answer": 4,
-    "category": "TIU",
-    "explanation": "‘Dinamis’ berarti selalu bergerak, berubah, dan penuh semangat. ‘Statis’, ‘Kaku’, dan ‘Diam’ adalah lawan katanya, sedangkan ‘Lamban’ berarti lambat.",
-    "id": "TIU-02",
-    "options": [
-      "Statis",
-      "Lamban",
-      "Kaku",
-      "Diam",
-      "Bergerak"
-    ],
-    "question": "Sinonim dari kata DINAMIS adalah ...",
-    "scores": [
-      0,
-      0,
-      0,
-      0,
-      5
-    ],
-    "subtopic": "Verbal — Sinonim"
-  },
-  {
     "answer": 0,
     "category": "TIU",
-    "explanation": "‘Residu’ berarti sisa atau ampas dari suatu proses. ‘Awal’ berarti permulaan, ‘Inti’ berarti bagian terdalam atau pokok, sedangkan ‘Penuh’ dan ‘Utuh’ berarti lengkap — semuanya tidak semakna dengan residu.",
-    "id": "TIU-03",
+    "explanation": "Benar karena karyawan bagian keuangan yang mengikuti pelatihan pajak juga merupakan lulusan akuntansi, sehingga sebagian lulusan akuntansi pasti mengikuti pelatihan pajak. Opsi B membalik premis pertama, opsi C mengubah 'sebagian' menjadi 'semua', opsi D bertentangan dengan premis pertama, dan opsi E bertentangan dengan kesimpulan yang sudah pasti.",
+    "id": "TIU-01",
     "options": [
-      "Sisa",
-      "Awal",
-      "Inti",
-      "Penuh",
-      "Utuh"
+      "Sebagian lulusan akuntansi mengikuti pelatihan pajak.",
+      "Semua lulusan akuntansi adalah karyawan bagian keuangan.",
+      "Semua karyawan bagian keuangan mengikuti pelatihan pajak.",
+      "Sebagian karyawan bagian keuangan bukan lulusan akuntansi.",
+      "Tidak ada lulusan akuntansi yang mengikuti pelatihan pajak."
     ],
-    "question": "Sinonim dari kata RESIDU adalah ...",
+    "question": "Semua karyawan bagian keuangan adalah lulusan akuntansi. Sebagian karyawan bagian keuangan mengikuti pelatihan pajak. Kesimpulan yang pasti benar adalah ...",
     "scores": [
       5,
       0,
@@ -723,109 +679,43 @@
       0,
       0
     ],
-    "subtopic": "Verbal — Sinonim"
+    "subtopic": "Verbal — Silogisme"
   },
   {
-    "answer": 4,
+    "answer": 1,
     "category": "TIU",
-    "explanation": "‘Pragmatis’ berarti bersikap praktis, mengutamakan kegunaan dan hasil nyata. ‘Idealis’ dan ‘Teoretis’ justru menekankan gagasan atau konsep, ‘Khayal’ berarti angan-angan, dan ‘Abstrak’ berarti tidak berwujud.",
-    "id": "TIU-04",
+    "explanation": "Benar karena semua buku di rak atas berbahasa Inggris, sedangkan tidak ada buku berbahasa Inggris yang ditulis sebelum tahun 2000, sehingga tidak satu pun buku di rak atas yang ditulis sebelum tahun 2000. Opsi A membalik premis pertama, opsi C dan E bertentangan langsung dengan premis kedua, dan opsi D tidak dapat disimpulkan dari kedua premis.",
+    "id": "TIU-02",
     "options": [
-      "Idealis",
-      "Teoretis",
-      "Khayal",
-      "Abstrak",
-      "Praktis"
+      "Semua buku berbahasa Inggris ada di rak atas.",
+      "Tidak ada buku di rak atas yang ditulis sebelum tahun 2000.",
+      "Sebagian buku di rak atas ditulis sebelum tahun 2000.",
+      "Semua buku yang ditulis sebelum tahun 2000 berbahasa Inggris.",
+      "Sebagian buku berbahasa Inggris ditulis sebelum tahun 2000."
     ],
-    "question": "Sinonim dari kata PRAGMATIS adalah ...",
+    "question": "Semua buku di rak atas adalah buku berbahasa Inggris. Tidak ada buku berbahasa Inggris yang ditulis sebelum tahun 2000. Kesimpulan yang pasti benar adalah ...",
     "scores": [
-      0,
-      0,
-      0,
-      0,
-      5
-    ],
-    "subtopic": "Verbal — Sinonim"
-  },
-  {
-    "answer": 3,
-    "category": "TIU",
-    "explanation": "‘Permanen’ berarti tetap untuk selamanya. Lawannya adalah ‘Sementara’ (hanya untuk jangka waktu tertentu). ‘Tetap’, ‘Kekal’, ‘Abadi’, dan ‘Langgeng’ justru bersinonim dengan permanen.",
-    "id": "TIU-05",
-    "options": [
-      "Tetap",
-      "Kekal",
-      "Abadi",
-      "Sementara",
-      "Langgeng"
-    ],
-    "question": "Antonim dari kata PERMANEN adalah ...",
-    "scores": [
-      0,
-      0,
       0,
       5,
+      0,
+      0,
       0
     ],
-    "subtopic": "Verbal — Antonim"
-  },
-  {
-    "answer": 3,
-    "category": "TIU",
-    "explanation": "‘Akurat’ berarti tepat dan teliti. Lawannya adalah ‘Keliru’ (salah atau tidak tepat). ‘Tepat’, ‘Cermat’, ‘Saksama’, dan ‘Jitu’ semuanya bersinonim dengan akurat.",
-    "id": "TIU-06",
-    "options": [
-      "Tepat",
-      "Cermat",
-      "Saksama",
-      "Keliru",
-      "Jitu"
-    ],
-    "question": "Antonim dari kata AKURAT adalah ...",
-    "scores": [
-      0,
-      0,
-      0,
-      5,
-      0
-    ],
-    "subtopic": "Verbal — Antonim"
-  },
-  {
-    "answer": 4,
-    "category": "TIU",
-    "explanation": "‘Eksklusif’ berarti khusus dan terbatas hanya untuk kalangan tertentu. Lawannya adalah ‘Umum’ (terbuka untuk semua orang). ‘Khusus’, ‘Terbatas’, ‘Istimewa’, dan ‘Tertutup’ justru semakna dengan eksklusif.",
-    "id": "TIU-07",
-    "options": [
-      "Khusus",
-      "Terbatas",
-      "Istimewa",
-      "Tertutup",
-      "Umum"
-    ],
-    "question": "Antonim dari kata EKSKLUSIF adalah ...",
-    "scores": [
-      0,
-      0,
-      0,
-      0,
-      5
-    ],
-    "subtopic": "Verbal — Antonim"
+    "subtopic": "Verbal — Silogisme"
   },
   {
     "answer": 2,
     "category": "TIU",
-    "explanation": "‘Konvergen’ berarti mengarah dan berkumpul ke satu titik. Lawannya adalah ‘Menyebar’ (menuju ke berbagai arah). ‘Menyatu’, ‘Bertemu’, ‘Terpusat’, dan ‘Berhimpun’ justru semakna dengan konvergen.",
-    "id": "TIU-08",
+    "explanation": "Benar karena sebagian siswa kelas XII yang mengikuti bimbingan belajar pasti lulus, sebab semua peserta bimbingan belajar lulus ujian. Opsi A mengubah 'sebagian' menjadi 'semua', opsi B membalik premis kedua, opsi D bertentangan dengan kesimpulan yang pasti, dan opsi E tidak dapat dipastikan dari kedua premis.",
+    "id": "TIU-03",
     "options": [
-      "Menyatu",
-      "Bertemu",
-      "Menyebar",
-      "Terpusat",
-      "Berhimpun"
+      "Semua siswa kelas XII mengikuti bimbingan belajar.",
+      "Semua siswa yang lulus ujian mengikuti bimbingan belajar.",
+      "Sebagian siswa kelas XII lulus ujian masuk perguruan tinggi.",
+      "Tidak ada siswa kelas XII yang lulus ujian masuk perguruan tinggi.",
+      "Sebagian siswa yang lulus ujian bukan siswa kelas XII."
     ],
-    "question": "Antonim dari kata KONVERGEN adalah ...",
+    "question": "Sebagian siswa kelas XII mengikuti bimbingan belajar. Semua siswa yang mengikuti bimbingan belajar lulus ujian masuk perguruan tinggi. Kesimpulan yang pasti benar adalah ...",
     "scores": [
       0,
       0,
@@ -833,43 +723,43 @@
       0,
       0
     ],
-    "subtopic": "Verbal — Antonim"
+    "subtopic": "Verbal — Silogisme"
   },
   {
-    "answer": 0,
+    "answer": 3,
     "category": "TIU",
-    "explanation": "Pena adalah alat yang digunakan untuk menulis; kuas adalah alat yang digunakan untuk melukis. Hubungannya adalah alat : kegiatan yang dilakukan dengan alat itu. ‘Gunting : Kertas’ adalah alat : bahan yang dipotong, ‘Meja : Kayu’ adalah benda : bahan pembuatnya, ‘Buku : Membaca’ adalah benda : kegiatan yang dilakukan terhadapnya (buku bukan alat), dan ‘Pisau : Tajam’ adalah alat : sifatnya.",
-    "id": "TIU-09",
+    "explanation": "Benar karena kendaraan dinas yang sedang dalam perbaikan tetap termasuk kendaraan dinas, sehingga sebagian kendaraan yang diperbaiki pasti wajib memiliki surat izin penggunaan. Opsi A membalik hubungan premis, opsi B memperluas kewajiban ke semua kendaraan, opsi C bertentangan dengan premis kedua, dan opsi E menghubungkan dua hal yang tidak berkaitan dalam premis.",
+    "id": "TIU-04",
     "options": [
-      "Kuas : Melukis",
-      "Gunting : Kertas",
-      "Meja : Kayu",
-      "Buku : Membaca",
-      "Pisau : Tajam"
+      "Semua kendaraan yang sedang dalam perbaikan adalah kendaraan dinas.",
+      "Semua kendaraan harus memiliki surat izin penggunaan.",
+      "Tidak ada kendaraan dinas yang sedang dalam perbaikan.",
+      "Sebagian kendaraan yang sedang dalam perbaikan harus memiliki surat izin penggunaan.",
+      "Kendaraan yang tidak memiliki surat izin pasti sedang dalam perbaikan."
     ],
-    "question": "PENA : MENULIS = ...",
+    "question": "Semua kendaraan dinas harus memiliki surat izin penggunaan. Sebagian kendaraan dinas sedang dalam perbaikan. Kesimpulan yang pasti benar adalah ...",
     "scores": [
+      0,
+      0,
+      0,
       5,
-      0,
-      0,
-      0,
       0
     ],
-    "subtopic": "Verbal — Analogi"
+    "subtopic": "Verbal — Silogisme"
   },
   {
     "answer": 1,
     "category": "TIU",
-    "explanation": "Air menghilangkan rasa haus; makanan menghilangkan rasa lapar. Hubungannya adalah sesuatu yang menghilangkan atau mengatasi suatu kondisi. Pilihan lain justru menunjukkan hubungan sebab-akibat yang menimbulkan kondisi: api menimbulkan panas, hujan menimbulkan basah, matahari menimbulkan terang, es menimbulkan dingin.",
-    "id": "TIU-10",
+    "explanation": "Benar karena ketiga fakta menunjukkan hubungan yang sama, yaitu lingkungan yang bersih sejalan dengan berkurangnya masalah kesehatan, sehingga generalisasi yang hati-hati dan tidak mutlak inilah yang paling mungkin. Opsi A dan D terlalu mutlak dengan kata 'semua' dan 'hanya', opsi C menyempitkan manfaat hanya untuk anak sekolah, dan opsi E adalah anjuran yang tidak didukung oleh fakta.",
+    "id": "TIU-05",
     "options": [
-      "Api : Panas",
-      "Makanan : Lapar",
-      "Hujan : Basah",
-      "Matahari : Terang",
-      "Es : Dingin"
+      "Semua penyakit menular pasti hilang jika lingkungan bersih.",
+      "Kebiasaan menjaga kebersihan lingkungan berkaitan dengan menurunnya risiko penyakit di masyarakat.",
+      "Kegiatan bersih-bersih hanya bermanfaat bagi anak sekolah.",
+      "Penyakit demam berdarah hanya terjadi di lingkungan yang kotor.",
+      "Semua warga desa harus mengikuti kerja bakti setiap hari."
     ],
-    "question": "AIR : HAUS = ...",
+    "question": "Di sebuah desa, rumah tangga yang memilah sampah memiliki halaman yang lebih bersih. Survei kesehatan menemukan kasus demam berdarah lebih sedikit di lingkungan yang rutin mengadakan kerja bakti. Sebuah sekolah yang menjalankan Jumat bersih setiap pekan mencatat lebih sedikit siswa yang absen karena sakit. Generalisasi yang paling mungkin benar berdasarkan fakta-fakta tersebut adalah ...",
     "scores": [
       0,
       5,
@@ -877,43 +767,153 @@
       0,
       0
     ],
-    "subtopic": "Verbal — Analogi"
+    "subtopic": "Verbal — Penalaran Induktif"
+  },
+  {
+    "answer": 2,
+    "category": "TIU",
+    "explanation": "Benar karena ketiga fakta menunjukkan pola yang sama, yaitu bimbingan dan umpan balik yang teratur sejalan dengan adaptasi yang lebih cepat dan kinerja yang lebih baik, sehingga generalisasi yang tidak mutlak ini paling mungkin. Opsi A terlalu mutlak dengan kata 'pasti gagal', opsi B mengklaim 'satu-satunya cara' tanpa bukti, opsi D tidak didukung fakta apa pun, dan opsi E menyempitkan kesimpulan hanya pada pegawai magang.",
+    "id": "TIU-06",
+    "options": [
+      "Semua pegawai baru pasti gagal tanpa pendampingan.",
+      "Rapat mingguan adalah satu-satunya cara meningkatkan kinerja.",
+      "Pendampingan dan umpan balik yang rutin cenderung mempercepat adaptasi dan meningkatkan kinerja pegawai baru.",
+      "Pegawai lama tidak membutuhkan umpan balik lagi.",
+      "Proyek hanya bisa selesai lebih cepat oleh pegawai magang."
+    ],
+    "question": "Tiga pegawai baru yang didampingi mentor pada bulan pertama beradaptasi lebih cepat dengan pekerjaannya. Sebuah divisi yang mengadakan sesi berbagi setiap pekan mencatat lebih sedikit kesalahan yang berulang. Seorang pegawai magang yang menerima umpan balik rutin menyelesaikan proyeknya lebih awal. Generalisasi yang paling mungkin benar berdasarkan fakta-fakta tersebut adalah ...",
+    "scores": [
+      0,
+      0,
+      5,
+      0,
+      0
+    ],
+    "subtopic": "Verbal — Penalaran Induktif"
+  },
+  {
+    "answer": 3,
+    "category": "TIU",
+    "explanation": "Benar karena ketiga fakta menunjukkan pola yang sama, yaitu setiap penyesuaian layanan dengan kebutuhan pengunjung diikuti meningkatnya kunjungan, sehingga generalisasi umum yang tidak mutlak ini paling mungkin. Opsi A adalah anjuran berlebihan yang tidak didukung fakta, opsi B dan C memakai kata 'satu-satunya' dan 'hanya' yang terlalu mutlak, dan opsi E menarik kesimpulan terbalik tanpa bukti.",
+    "id": "TIU-07",
+    "options": [
+      "Semua perpustakaan harus buka 24 jam.",
+      "Wi-Fi gratis adalah penyebab satu-satunya kunjungan pelajar.",
+      "Anak-anak hanya datang ke perpustakaan karena sudut baca.",
+      "Layanan perpustakaan yang menyesuaikan kebutuhan pengunjung cenderung meningkatkan jumlah kunjungan.",
+      "Perpustakaan yang sepi pasti tidak memiliki Wi-Fi."
+    ],
+    "question": "Sebuah perpustakaan yang memperpanjang jam buka mencatat kunjungan yang lebih banyak. Perpustakaan lain yang menambah sudut baca anak mencatat lebih banyak kunjungan keluarga. Perpustakaan yang menyediakan Wi-Fi gratis mencatat lebih banyak kunjungan pelajar. Generalisasi yang paling mungkin benar berdasarkan fakta-fakta tersebut adalah ...",
+    "scores": [
+      0,
+      0,
+      0,
+      5,
+      0
+    ],
+    "subtopic": "Verbal — Penalaran Induktif"
   },
   {
     "answer": 4,
     "category": "TIU",
-    "explanation": "Sayap adalah organ gerak burung untuk terbang; sirip adalah organ gerak ikan untuk berenang. Hubungannya adalah anggota tubuh untuk bergerak : hewan pemiliknya. ‘Tanduk : Kuda’ memang anggota tubuh hewan, tetapi tanduk bukan organ gerak. ‘Kaki : Meja’ bukan hewan, ‘Daun : Pohon’ adalah bagian tumbuhan, dan ‘Akar : Tanah’ adalah bagian tumbuhan : tempat tumbuhnya.",
+    "explanation": "Benar karena ketiga fakta menunjukkan pola yang sama, yaitu fasilitas dan edukasi pengelolaan sampah sejalan dengan pasar yang lebih bersih, sehingga generalisasi yang merangkum ketiganya dan tidak mutlak inilah yang paling mungkin. Opsi A terlalu mutlak dengan kata 'semua' dan 'pasti', opsi B mengklaim 'satu-satunya solusi', opsi C bertentangan dengan fakta tentang jadwal pengangkutan, dan opsi D menyempitkan manfaat pelatihan tanpa dasar.",
+    "id": "TIU-08",
+    "options": [
+      "Semua pedagang pasar pasti membuang sampah sembarangan tanpa pelatihan.",
+      "Tong sampah organik adalah satu-satunya solusi kebersihan pasar.",
+      "Pasar yang bersih tidak membutuhkan jadwal pengangkutan sampah.",
+      "Pelatihan pengelolaan sampah hanya berguna bagi pedagang besar.",
+      "Fasilitas dan edukasi pengelolaan sampah yang memadai cenderung membuat pasar lebih bersih."
+    ],
+    "question": "Sebuah pasar yang menyediakan tempat sampah terpisah untuk sampah organik dan non-organik mencatat berkurangnya sampah yang berserakan. Pasar dengan jadwal pengangkutan sampah yang teratur memiliki lorong yang lebih bersih. Para pedagang yang mendapat pelatihan pemilahan sampah lebih jarang membuang sampah sembarangan. Generalisasi yang paling mungkin benar berdasarkan fakta-fakta tersebut adalah ...",
+    "scores": [
+      0,
+      0,
+      0,
+      0,
+      5
+    ],
+    "subtopic": "Verbal — Penalaran Induktif"
+  },
+  {
+    "answer": 0,
+    "category": "TIU",
+    "explanation": "Benar karena susunan ini memenuhi semua syarat: Andi dan Budi terpisah, Citra bersama Dewi, dan Eko bersama Andi, dengan setiap ruangan terisi. Opsi B memisahkan Eko dari Andi, opsi C menempatkan Andi bersama Budi, opsi D menempatkan Andi bersama Budi sekaligus memisahkan Citra dari Dewi, dan opsi E memisahkan Eko dari Andi serta memisahkan Citra dari Dewi.",
+    "id": "TIU-09",
+    "options": [
+      "R1: Citra, Dewi; R2: Andi, Eko; R3: Budi.",
+      "R1: Citra, Dewi, Budi; R2: Andi; R3: Eko.",
+      "R1: Andi, Budi; R2: Citra, Dewi; R3: Eko.",
+      "R1: Andi, Eko, Budi; R2: Citra; R3: Dewi.",
+      "R1: Budi, Eko; R2: Andi, Citra; R3: Dewi."
+    ],
+    "question": "Lima pegawai, yaitu Andi, Budi, Citra, Dewi, dan Eko, dibagi ke tiga ruangan pelatihan (R1, R2, R3) dan setiap ruangan diisi sekurang-kurangnya satu orang. Syaratnya: Andi tidak boleh satu ruangan dengan Budi, Citra harus satu ruangan dengan Dewi, dan Eko harus satu ruangan dengan Andi. Susunan manakah yang mungkin?",
+    "scores": [
+      5,
+      0,
+      0,
+      0,
+      0
+    ],
+    "subtopic": "Verbal — Analitis"
+  },
+  {
+    "answer": 1,
+    "category": "TIU",
+    "explanation": "Benar karena susunan P, R, S, Q memenuhi semua syarat: P sebelum Q, R bukan di slot pertama, S tepat setelah R, dan Q di slot terakhir. Opsi A dan E menempatkan R pada slot pertama, opsi C menempatkan Q bukan pada slot terakhir, dan opsi D menempatkan Q pada slot pertama sehingga P tidak mungkin tampil sebelum Q.",
+    "id": "TIU-10",
+    "options": [
+      "R, S, P, Q",
+      "P, R, S, Q",
+      "P, Q, R, S",
+      "Q, P, R, S",
+      "R, P, S, Q"
+    ],
+    "question": "Empat presentasi, yaitu P, Q, R, dan S, dijadwalkan dalam satu hari pada slot 1 sampai 4 secara berurutan. Syaratnya: P harus tampil sebelum Q, R tidak boleh tampil pada slot pertama, S harus tampil tepat setelah R, dan Q harus tampil pada slot terakhir. Susunan manakah yang mungkin?",
+    "scores": [
+      0,
+      5,
+      0,
+      0,
+      0
+    ],
+    "subtopic": "Verbal — Analitis"
+  },
+  {
+    "answer": 2,
+    "category": "TIU",
+    "explanation": "Benar karena satu-satunya susunan yang memenuhi semua syarat adalah Biru, Hijau, Merah, Kuning: Biru tepat di kiri Hijau, Merah tidak di posisi 1, dan Kuning di posisi 4, sehingga Hijau pasti di posisi 2. Opsi A dan B salah karena Merah di posisi 3 dan Biru di posisi 1, sedangkan opsi D dan E bertentangan dengan syarat bahwa Kuning di posisi 4.",
     "id": "TIU-11",
     "options": [
-      "Kaki : Meja",
-      "Daun : Pohon",
-      "Akar : Tanah",
-      "Tanduk : Kuda",
-      "Sirip : Ikan"
+      "Buku Merah berada di posisi 2.",
+      "Buku Biru berada di posisi 2.",
+      "Buku Hijau berada di posisi 2.",
+      "Buku Merah berada di posisi 4.",
+      "Buku Kuning berada di posisi 1."
     ],
-    "question": "SAYAP : BURUNG = ...",
+    "question": "Empat buku, yaitu Merah, Biru, Hijau, dan Kuning, disusun di rak dari kiri ke kanan pada posisi 1 sampai 4. Syaratnya: buku Merah tidak berada di posisi 1, buku Biru berada tepat di sebelah kiri buku Hijau, dan buku Kuning berada di posisi 4. Pernyataan manakah yang pasti benar?",
     "scores": [
       0,
       0,
+      5,
       0,
-      0,
-      5
+      0
     ],
-    "subtopic": "Verbal — Analogi"
+    "subtopic": "Verbal — Analitis"
   },
   {
     "answer": 4,
     "category": "TIU",
-    "explanation": "Kamera adalah alat perekam yang menyimpan foto; perekam adalah alat perekam yang menyimpan suara. Hubungannya adalah alat perekam : hasil rekaman. Pena menghasilkan tulisan (bukan rekaman), oven memasak roti, radio menyiarkan siaran secara langsung (bukan merekam), dan televisi menampilkan gambar.",
+    "explanation": "Benar karena susunan Fajar, Hadi, Joko, Intan, Gita memenuhi semua syarat: Fajar di kursi 1, Gita dan Hadi tidak bersebelahan, Intan tepat di kanan Joko, dan Hadi bukan di kursi 5. Opsi A dan D menempatkan Hadi di kursi 5, opsi B menempatkan Intan di kiri Joko, dan opsi C menempatkan Fajar bukan di kursi 1 sekaligus Hadi di kursi 5.",
     "id": "TIU-12",
     "options": [
-      "Pena : Tulisan",
-      "Oven : Roti",
-      "Radio : Siaran",
-      "Televisi : Gambar",
-      "Perekam : Suara"
+      "Fajar, Gita, Joko, Intan, Hadi",
+      "Fajar, Hadi, Intan, Joko, Gita",
+      "Gita, Fajar, Joko, Intan, Hadi",
+      "Fajar, Joko, Intan, Gita, Hadi",
+      "Fajar, Hadi, Joko, Intan, Gita"
     ],
-    "question": "KAMERA : FOTO = ...",
+    "question": "Lima siswa, yaitu Fajar, Gita, Hadi, Intan, dan Joko, duduk pada lima kursi bernomor 1 sampai 5 dari kiri ke kanan. Syaratnya: Fajar duduk di kursi nomor 1, Gita tidak boleh bersebelahan dengan Hadi, Intan duduk tepat di sebelah kanan Joko, dan Hadi tidak duduk di kursi nomor 5. Susunan manakah yang mungkin?",
     "scores": [
       0,
       0,
@@ -921,7 +921,7 @@
       0,
       5
     ],
-    "subtopic": "Verbal — Analogi"
+    "subtopic": "Verbal — Analitis"
   },
   {
     "answer": 1,
@@ -1012,26 +1012,26 @@
     "subtopic": "Numerik — Deret Angka"
   },
   {
-    "answer": 3,
+    "answer": 0,
     "category": "TIU",
-    "explanation": "Deret bilangan kuadrat: 1²=1, 2²=4, 3²=9, 4²=16, 5²=25, 6²=36. Suku berikutnya adalah 7²=49.",
+    "explanation": "Benar karena 25% dari 240 adalah 60, sedangkan Kuantitas B adalah 50, sehingga Kuantitas A lebih besar. Opsi B dan C salah karena hasil hitung menunjukkan A lebih besar dari B, opsi D salah karena kedua kuantitas dapat dihitung dengan pasti, dan opsi E salah karena nilai A adalah 60, bukan 40.",
     "id": "TIU-17",
     "options": [
-      "42",
-      "45",
-      "47",
-      "49",
-      "52"
+      "Kuantitas A lebih besar",
+      "Kuantitas B lebih besar",
+      "Keduanya sama",
+      "Hubungan tidak dapat ditentukan",
+      "Kuantitas A adalah 40"
     ],
-    "question": "1, 4, 9, 16, 25, 36, … Suku berikutnya adalah ...",
+    "question": "Kuantitas A adalah 25% dari 240. Kuantitas B adalah 50. Manakah hubungan yang benar antara Kuantitas A dan Kuantitas B?",
     "scores": [
-      0,
-      0,
-      0,
       5,
+      0,
+      0,
+      0,
       0
     ],
-    "subtopic": "Numerik — Deret Angka"
+    "subtopic": "Numerik — Perbandingan Kuantitatif"
   },
   {
     "answer": 2,
@@ -1053,7 +1053,7 @@
       0,
       0
     ],
-    "subtopic": "Numerik — Aritmetika"
+    "subtopic": "Numerik — Berhitung"
   },
   {
     "answer": 3,
@@ -1075,7 +1075,7 @@
       5,
       0
     ],
-    "subtopic": "Numerik — Aritmetika"
+    "subtopic": "Numerik — Berhitung"
   },
   {
     "answer": 0,
@@ -1097,29 +1097,29 @@
       0,
       0
     ],
-    "subtopic": "Numerik — Aritmetika"
+    "subtopic": "Numerik — Berhitung"
   },
   {
-    "answer": 2,
+    "answer": 1,
     "category": "TIU",
-    "explanation": "3x + 7 = 22 → 3x = 22 − 7 = 15 → x = 15 ÷ 3 = 5.",
+    "explanation": "Benar karena 2/5 dari 150 adalah 60, sedangkan 3/4 dari 120 adalah 90, sehingga Kuantitas B lebih besar. Opsi A dan C salah karena hasil hitung menunjukkan B lebih besar dari A, opsi D salah karena kedua kuantitas dapat dihitung dengan pasti, dan opsi E salah karena nilai B adalah 90, bukan 80.",
     "id": "TIU-21",
     "options": [
-      "3",
-      "4",
-      "5",
-      "6",
-      "7"
+      "Kuantitas A lebih besar",
+      "Kuantitas B lebih besar",
+      "Keduanya sama",
+      "Hubungan tidak dapat ditentukan",
+      "Kuantitas B adalah 80"
     ],
-    "question": "Jika 3x + 7 = 22, nilai x adalah ...",
+    "question": "Kuantitas A adalah 2/5 dari 150. Kuantitas B adalah 3/4 dari 120. Manakah hubungan yang benar antara Kuantitas A dan Kuantitas B?",
     "scores": [
-      0,
       0,
       5,
       0,
+      0,
       0
     ],
-    "subtopic": "Numerik — Aritmetika"
+    "subtopic": "Numerik — Perbandingan Kuantitatif"
   },
   {
     "answer": 1,
@@ -1141,7 +1141,7 @@
       0,
       0
     ],
-    "subtopic": "Numerik — Aritmetika"
+    "subtopic": "Numerik — Berhitung"
   },
   {
     "answer": 0,
@@ -1212,16 +1212,16 @@
   {
     "answer": 2,
     "category": "TIU",
-    "explanation": "Air yang dipakai = 1/3 × 240 = 80 liter. Sisa air = 240 − 80 = 160 liter.",
+    "explanation": "Benar karena 12% dari 250 adalah 30, sama dengan Kuantitas B yang bernilai 30, sehingga keduanya sama. Opsi A dan B salah karena kedua kuantitas bernilai sama, opsi D salah karena kedua kuantitas dapat dihitung dengan pasti, dan opsi E salah karena nilai A adalah 30, bukan 25.",
     "id": "TIU-26",
     "options": [
-      "120 liter",
-      "140 liter",
-      "160 liter",
-      "180 liter",
-      "200 liter"
+      "Kuantitas A lebih besar",
+      "Kuantitas B lebih besar",
+      "Keduanya sama",
+      "Hubungan tidak dapat ditentukan",
+      "Kuantitas A adalah 25"
     ],
-    "question": "Sebuah tangki berisi 240 liter air. Sepertiga dari air itu dipakai. Sisa air dalam tangki adalah ...",
+    "question": "Kuantitas A adalah 12% dari 250. Kuantitas B adalah 30. Manakah hubungan yang benar antara Kuantitas A dan Kuantitas B?",
     "scores": [
       0,
       0,
@@ -1229,7 +1229,7 @@
       0,
       0
     ],
-    "subtopic": "Numerik — Soal Cerita"
+    "subtopic": "Numerik — Perbandingan Kuantitatif"
   },
   {
     "answer": 1,
@@ -1273,7 +1273,7 @@
       0,
       5
     ],
-    "subtopic": "Figural — Deret Huruf"
+    "subtopic": "Figural — Serial"
   },
   {
     "answer": 0,
@@ -1295,29 +1295,29 @@
       0,
       0
     ],
-    "subtopic": "Figural — Deret Huruf"
+    "subtopic": "Figural — Serial"
   },
   {
-    "answer": 1,
+    "answer": 2,
     "category": "TIU",
-    "explanation": "Jumlah lingkaran membentuk deret bilangan ganjil: 1, 3, 5, … bertambah 2 setiap langkah. Kelompok berikutnya berisi 7 lingkaran.",
+    "explanation": "Benar karena jumlah angka pada setiap baris adalah 15: baris 1 adalah 4 + 5 + 6 = 15 dan baris 2 adalah 7 + 2 + 6 = 15, sehingga baris 3 harus 3 + 8 + 4 = 15. Opsi A menghasilkan jumlah 14, opsi B menghasilkan 16, opsi D menghasilkan 17, dan opsi E menghasilkan 18, sehingga semuanya melanggar pola jumlah per baris.",
     "id": "TIU-30",
     "options": [
+      "3",
+      "5",
+      "4",
       "6",
-      "7",
-      "8",
-      "9",
-      "10"
+      "7"
     ],
-    "question": "Perhatikan jumlah lingkaran berikut: 1, 3, 5, … Berapa jumlah lingkaran pada kelompok berikutnya?",
+    "question": "Perhatikan susunan angka 3x3 berikut. Baris 1: 4, 5, 6. Baris 2: 7, 2, 6. Baris 3: 3, 8, ?. Angka manakah yang melengkapi kotak kosong agar pola pada setiap baris terpenuhi?",
     "scores": [
+      0,
       0,
       5,
       0,
-      0,
       0
     ],
-    "subtopic": "Figural — Pola Jumlah"
+    "subtopic": "Figural — Penalaran Matriks"
   },
   {
     "answer": 0,
@@ -1339,51 +1339,51 @@
       0,
       0
     ],
-    "subtopic": "Figural — Pola Angka dalam Susunan"
+    "subtopic": "Figural — Penalaran Matriks"
   },
   {
-    "answer": 2,
+    "answer": 3,
     "category": "TIU",
-    "explanation": "Putaran pertama 90° searah jarum jam mengubah ↑ menjadi → (kanan). Putaran kedua 90° searah jarum jam mengubah → menjadi ↓ (bawah). Total putaran 180°, jadi panah menunjuk ke bawah.",
+    "explanation": "Benar karena aturan yang sama harus diterapkan pada segilima: bangun dibalik dan ditambah satu titik di dalam, sehingga hasilnya adalah segilima terbalik dengan satu titik. Opsi A tidak menambahkan titik, opsi B tidak membalik bangun, opsi C memakai bangun yang salah, dan opsi E menambahkan dua titik, bukan satu.",
     "id": "TIU-32",
     "options": [
-      "Atas",
-      "Kanan",
-      "Bawah",
-      "Kiri",
-      "Serong"
+      "Segilima terbalik tanpa titik di dalam.",
+      "Segilima biasa dengan satu titik di dalam.",
+      "Segitiga terbalik dengan satu titik di dalam.",
+      "Segilima terbalik dengan satu titik di dalam.",
+      "Segilima terbalik dengan dua titik di dalam."
     ],
-    "question": "Sebuah panah menunjuk ke atas (↑). Panah itu diputar 90° searah jarum jam, lalu diputar lagi 90° searah jarum jam. Ke arah mana panah menunjuk sekarang?",
+    "question": "Gambar 1 adalah sebuah segitiga. Gambar 2 adalah segitiga yang sama tetapi dibalik sehingga puncaknya menghadap ke bawah, dan di dalamnya terdapat sebuah titik. Aturannya: bangun dibalik dan ditambah satu titik di dalam. Gambar 3 adalah sebuah segilima dengan satu sisi menghadap ke atas. Gambar 4 yang mengikuti aturan yang sama harus berupa ...",
     "scores": [
       0,
       0,
-      5,
       0,
+      5,
       0
     ],
-    "subtopic": "Figural — Rotasi"
+    "subtopic": "Figural — Analogi"
   },
   {
-    "answer": 0,
+    "answer": 4,
     "category": "TIU",
-    "explanation": "Jumlah segitiga dan lingkaran sama-sama bertambah 1 setiap kelompok: kelompok 1 berisi 1+1=2 simbol, kelompok 2 berisi 2+2=4, kelompok 3 berisi 3+3=6. Kelompok ke-4 berisi 4+4=8 simbol.",
+    "explanation": "Benar karena pada setiap baris, angka ketiga adalah hasil kali dua angka sebelumnya: baris 1 adalah 2 x 4 = 8 dan baris 2 adalah 3 x 3 = 9, sehingga baris 3 harus 5 x 2 = 10. Opsi A, B, C, dan D tidak sama dengan hasil kali 5 dan 2, sehingga semuanya melanggar pola perkalian per baris.",
     "id": "TIU-33",
     "options": [
       "8",
-      "6",
-      "7",
       "9",
+      "12",
+      "11",
       "10"
     ],
-    "question": "Perhatikan kelompok simbol berikut:\nKelompok 1: ▲●\nKelompok 2: ▲▲●●\nKelompok 3: ▲▲▲●●●\nBerapa total simbol pada kelompok ke-4?",
+    "question": "Perhatikan susunan angka 3x3 berikut. Baris 1: 2, 4, 8. Baris 2: 3, 3, 9. Baris 3: 5, 2, ?. Angka manakah yang melengkapi kotak kosong agar pola pada setiap baris terpenuhi?",
     "scores": [
-      5,
       0,
       0,
       0,
-      0
+      0,
+      5
     ],
-    "subtopic": "Figural — Pola Simbol"
+    "subtopic": "Figural — Penalaran Matriks"
   },
   {
     "answer": 0,
@@ -1405,29 +1405,29 @@
       0,
       0
     ],
-    "subtopic": "Figural — Deret Huruf Ganda"
+    "subtopic": "Figural — Serial"
   },
   {
-    "answer": 4,
+    "answer": 1,
     "category": "TIU",
-    "explanation": "Setiap suku adalah jumlah dua suku sebelumnya (pola Fibonacci): 2+3=5, 3+5=8, 5+8=13, 8+13=21. Suku berikutnya adalah 13+21=34.",
+    "explanation": "Benar karena aturan yang sama diterapkan pada segilima: jumlah sisi bertambah satu menjadi enam dan bangun diarsir, sehingga hasilnya adalah segienam yang diarsir. Opsi A tidak mengarsir bangun, opsi C tidak menambah jumlah sisi, opsi D menambah dua sisi, dan opsi E mengurangi jumlah sisi.",
     "id": "TIU-35",
     "options": [
-      "30",
-      "32",
-      "36",
-      "40",
-      "34"
+      "Segienam putih.",
+      "Segienam yang diarsir.",
+      "Segilima yang diarsir.",
+      "Segitujuh yang diarsir.",
+      "Segiempat yang diarsir."
     ],
-    "question": "2, 3, 5, 8, 13, 21, … Suku berikutnya adalah ...",
+    "question": "Gambar 1 adalah sebuah segitiga putih yang memiliki 3 sisi. Gambar 2 adalah sebuah segiempat yang diarsir dan memiliki 4 sisi. Aturannya: jumlah sisi bertambah satu dan bangun diarsir. Gambar 3 adalah sebuah segilima putih yang memiliki 5 sisi. Gambar 4 yang mengikuti aturan yang sama harus berupa ...",
     "scores": [
       0,
+      5,
       0,
       0,
-      0,
-      5
+      0
     ],
-    "subtopic": "Figural — Pola Bilangan"
+    "subtopic": "Figural — Analogi"
   },
   {
     "id": "TKP-01",
@@ -1630,7 +1630,7 @@
   {
     "id": "TKP-10",
     "category": "TKP",
-    "subtopic": "Kerja Sama Tim",
+    "subtopic": "Jejaring Kerja",
     "question": "Dalam sebuah proyek tim, seorang rekan kerja selalu terlambat mengumpulkan bagiannya, sehingga pekerjaan tim ikut tertunda. Anda adalah anggota tim tersebut. Apa yang Anda lakukan?",
     "options": [
       "Melaporkan rekan tersebut kepada atasan tanpa berbicara dengannya terlebih dahulu.",
@@ -1652,7 +1652,7 @@
   {
     "id": "TKP-11",
     "category": "TKP",
-    "subtopic": "Kerja Sama Tim",
+    "subtopic": "Jejaring Kerja",
     "question": "Tim Anda berbeda pendapat tentang cara menyelesaikan sebuah pekerjaan. Sebagian anggota ingin menggunakan cara lama yang sudah terbukti, sebagian lagi mengusulkan cara baru yang lebih cepat tetapi belum teruji. Apa yang Anda lakukan?",
     "options": [
       "Mengusulkan agar tim mendiskusikan kelebihan dan kekurangan masing-masing cara, mencoba cara baru dalam skala kecil, dan mengevaluasi hasilnya sebelum memutuskan.",
@@ -1674,7 +1674,7 @@
   {
     "id": "TKP-12",
     "category": "TKP",
-    "subtopic": "Kerja Sama Tim",
+    "subtopic": "Jejaring Kerja",
     "question": "Anda menemukan kesalahan dalam pekerjaan rekan satu tim sebelum laporan diserahkan kepada atasan. Rekan tersebut sudah pulang. Apa yang Anda lakukan?",
     "options": [
       "Membiarkannya karena itu bukan tanggung jawab Anda.",
@@ -1696,7 +1696,7 @@
   {
     "id": "TKP-13",
     "category": "TKP",
-    "subtopic": "Kerja Sama Tim",
+    "subtopic": "Jejaring Kerja",
     "question": "Seorang anggota tim baru merasa kesulitan beradaptasi dengan cara kerja tim Anda dan sering bertanya hal-hal mendasar. Beberapa rekan mulai merasa terganggu. Apa yang Anda lakukan?",
     "options": [
       "Menyuruhnya belajar sendiri dari dokumen yang ada.",
@@ -1718,7 +1718,7 @@
   {
     "id": "TKP-14",
     "category": "TKP",
-    "subtopic": "Kerja Sama Tim",
+    "subtopic": "Jejaring Kerja",
     "question": "Dalam rapat tim, ide Anda ditolak oleh sebagian besar anggota. Anda yakin ide tersebut baik untuk pekerjaan tim. Apa yang Anda lakukan?",
     "options": [
       "Menerima keputusan tim, tetapi mencatat ide tersebut untuk diajukan kembali di lain waktu dengan data pendukung.",
@@ -1740,7 +1740,7 @@
   {
     "id": "TKP-15",
     "category": "TKP",
-    "subtopic": "Kerja Sama Tim",
+    "subtopic": "Jejaring Kerja",
     "question": "Rekan satu tim Anda sedang menghadapi masalah pribadi yang berat sehingga kinerjanya menurun dan ia sering tidak masuk kerja. Hal ini memengaruhi beban kerja tim. Apa yang Anda lakukan?",
     "options": [
       "Mengusulkan kepada atasan agar rekan tersebut diberi sanksi.",
@@ -1762,7 +1762,7 @@
   {
     "id": "TKP-16",
     "category": "TKP",
-    "subtopic": "Kerja Sama Tim",
+    "subtopic": "Jejaring Kerja",
     "question": "Tim Anda berhasil menyelesaikan proyek besar tepat waktu. Atasan memuji hasil kerja tim, tetapi hanya menyebut nama ketua tim. Apa yang Anda lakukan?",
     "options": [
       "Tetap mengapresiasi keberhasilan tim dan mengusulkan agar kontribusi seluruh anggota diakui, misalnya dengan menyampaikan hal itu secara sopan kepada atasan atau merayakan keberhasilan bersama tim.",
@@ -1782,163 +1782,163 @@
     "explanation": "Pilihan A (5) paling tepat: tetap mengapresiasi keberhasilan tim dan mengusulkan secara sopan agar kontribusi seluruh anggota diakui — Anda memperjuangkan pengakuan tim tanpa merusak suasana. Pilihan B (4) sudah menunjukkan sikap dewasa dengan mengucapkan selamat dan tidak mempermasalahkan, tetapi tidak ada upaya agar kontribusi anggota lain diakui. Pilihan D (3) mengingatkan atasan bahwa keberhasilan itu hasil kerja seluruh tim, tetapi disampaikan secara langsung dan bisa terdengar seperti protes. Pilihan C (2) hanya mengeluh kepada rekan lain tanpa menyelesaikan apa pun. Pilihan E (1) paling buruk karena menuntut penghargaan pribadi dari atasan, yang mengabaikan sifat kerja tim."
   },
   {
-    "id": "TKP-17",
-    "category": "TKP",
-    "subtopic": "Kepemimpinan & Pengambilan Keputusan",
-    "question": "Anda baru diangkat menjadi ketua tim kecil. Salah satu anggota tim yang lebih senior menolak mengikuti arahan Anda karena merasa lebih berpengalaman. Apa yang Anda lakukan?",
-    "options": [
-      "Menegaskan kewenangan Anda sebagai ketua tim dan meminta anggota tersebut mengikuti arahan.",
-      "Membiarkan anggota senior tersebut bekerja dengan caranya sendiri agar tidak terjadi konflik.",
-      "Mengajaknya berdiskusi, menghargai pengalamannya, menjelaskan tujuan dan rencana tim, serta mengajaknya bekerja sama — sambil tetap memegang tanggung jawab keputusan akhir.",
-      "Mengancam akan melaporkannya kepada atasan bila ia tidak mau mengikuti arahan.",
-      "Menyerahkan kepemimpinan kepada anggota senior tersebut."
-    ],
-    "answer": 2,
-    "scores": [
-      4,
-      3,
-      5,
-      1,
-      2
-    ],
-    "explanation": "Pilihan C (5) paling tepat: mengajak diskusi, menghargai pengalaman seniornya, menjelaskan tujuan dan rencana tim, dan mengajaknya bekerja sama sambil tetap memegang tanggung jawab keputusan akhir — kepemimpinan ditegakkan lewat pengaruh dan rasa hormat, bukan paksaan. Pilihan A (4) menegaskan kewenangan dan meminta anggota mengikuti arahan, tetapi pendekatan yang kaku bisa menimbulkan perlawanan dari anggota senior. Pilihan B (3) menghindari konflik dengan membiarkannya bekerja sendiri, tetapi tim menjadi tidak terarah dan kepemimpinan Anda tidak berjalan. Pilihan E (2) menyerahkan kepemimpinan kepada anggota senior, yang berarti Anda melepaskan tanggung jawab yang diberikan kepada Anda. Pilihan D (1) paling buruk karena mengancam melaporkan ke atasan, yang merusak hubungan kerja dan wibawa Anda sebagai pemimpin."
-  },
-  {
-    "id": "TKP-18",
-    "category": "TKP",
-    "subtopic": "Kepemimpinan & Pengambilan Keputusan",
-    "question": "Anda harus mengambil keputusan penting, tetapi data yang tersedia tidak lengkap dan waktu sangat terbatas. Apa yang Anda lakukan?",
-    "options": [
-      "Menunda keputusan sampai data lengkap, meski tenggat terlewati.",
-      "Mengambil keputusan berdasarkan tebakan semata.",
-      "Mengambil keputusan berdasarkan pengalaman dan intuisi tanpa memeriksa data yang ada.",
-      "Menggunakan data yang ada, mempertimbangkan risiko dari tiap pilihan, dan berkonsultasi cepat dengan pihak terkait sebelum memutuskan.",
-      "Mengumpulkan data kunci yang tersedia secepat mungkin, menganalisis risiko tiap pilihan, memutuskan berdasarkan bukti terbaik yang ada, dan menyiapkan rencana cadangan bila keputusan itu keliru."
-    ],
-    "answer": 4,
-    "scores": [
-      1,
-      2,
-      3,
-      4,
-      5
-    ],
-    "explanation": "Pilihan E (5) paling tepat: mengumpulkan data kunci secepat mungkin, menganalisis risiko tiap pilihan, memutuskan berdasarkan bukti terbaik yang ada, dan menyiapkan rencana cadangan — keputusan diambil tepat waktu dengan dasar yang paling kuat dan risiko yang sudah diantisipasi. Pilihan D (4) sudah baik karena memakai data yang ada, mempertimbangkan risiko, dan berkonsultasi cepat, tetapi tidak menyiapkan rencana cadangan bila keputusan ternyata keliru. Pilihan C (3) mengandalkan pengalaman dan intuisi tanpa memeriksa data yang ada, sehingga keputusan rawan bias. Pilihan B (2) mengambil keputusan berdasarkan tebakan semata, yang tidak dapat dipertanggungjawabkan. Pilihan A (1) paling buruk karena menunda keputusan sampai data lengkap meski tenggat terlewati, sehingga masalah justru membesar."
-  },
-  {
-    "id": "TKP-19",
-    "category": "TKP",
-    "subtopic": "Kepemimpinan & Pengambilan Keputusan",
-    "question": "Sebagai pimpinan, Anda mengetahui ada anggota tim yang melakukan pelanggaran disiplin ringan berulang kali. Apa yang Anda lakukan?",
-    "options": [
-      "Mengabaikannya karena pelanggarannya ringan.",
-      "Memanggilnya secara pribadi, menjelaskan dampak pelanggarannya, mendengarkan alasannya, memberikan peringatan dan kesempatan memperbaiki diri, serta mencatatnya sesuai aturan.",
-      "Memberikan teguran lisan di depan anggota tim lain agar menjadi contoh.",
-      "Langsung memberikan sanksi berat tanpa mendengarkan penjelasannya.",
-      "Meminta anggota tim lain menegurnya agar Anda tidak perlu berkonflik dengannya."
-    ],
-    "answer": 1,
-    "scores": [
-      3,
-      5,
-      4,
-      1,
-      2
-    ],
-    "explanation": "Pilihan B (5) paling tepat: memanggil secara pribadi, menjelaskan dampak pelanggaran, mendengarkan alasannya, memberi peringatan dan kesempatan memperbaiki diri, serta mencatatnya sesuai aturan — pembinaan yang adil, menjaga martabat anggota, dan tetap menegakkan disiplin. Pilihan C (4) memberikan teguran lisan, tetapi di depan anggota tim lain sehingga mempermalukan dan bisa menimbulkan dendam. Pilihan A (3) mengabaikan pelanggaran ringan yang berulang, padahal pelanggaran kecil yang dibiarkan akan menjadi kebiasaan. Pilihan E (2) melempar tugas menegur kepada anggota tim lain, yang berarti Anda menghindar dari tanggung jawab sebagai pimpinan. Pilihan D (1) paling buruk karena langsung memberi sanksi berat tanpa mendengarkan penjelasan, yang tidak adil dan melanggar asas pembinaan."
-  },
-  {
-    "id": "TKP-20",
-    "category": "TKP",
-    "subtopic": "Kepemimpinan & Pengambilan Keputusan",
-    "question": "Anda memimpin tim yang harus menyelesaikan pekerjaan dengan tenggat sangat ketat, sementara dua anggota tim sedang cuti. Apa yang Anda lakukan?",
-    "options": [
-      "Memaksakan tim bekerja lembur setiap hari tanpa memperhatikan kondisi mereka.",
-      "Menyerah dan meminta perpanjangan tenggat tanpa berusaha terlebih dahulu.",
-      "Menyusun ulang prioritas pekerjaan, membagi tugas secara adil, dan meminta dukungan tambahan dari unit lain bila memungkinkan.",
-      "Menyusun ulang prioritas berdasarkan urgensi, membagi tugas sesuai kemampuan anggota, mengomunikasikan rencana dan tenggat secara transparan, serta meminta dukungan tambahan bila perlu — sambil memantau beban kerja agar tidak ada yang kelelahan.",
-      "Mengerjakan sendiri sebagian besar pekerjaan agar tim tidak terbebani."
-    ],
-    "answer": 3,
-    "scores": [
-      2,
-      1,
-      4,
-      5,
-      3
-    ],
-    "explanation": "Pilihan D (5) paling tepat: menyusun ulang prioritas berdasarkan urgensi, membagi tugas sesuai kemampuan, mengomunikasikan rencana dan tenggat secara transparan, meminta dukungan tambahan bila perlu, dan memantau beban kerja agar tidak ada yang kelelahan — target dikejar tanpa mengorbankan anggota tim. Pilihan C (4) sudah baik karena menyusun ulang prioritas, membagi tugas adil, dan meminta dukungan tambahan, tetapi tidak mengomunikasikan rencana secara transparan dan tidak memantau beban kerja anggota. Pilihan E (3) mengerjakan sendiri sebagian besar pekerjaan, yang memang meringankan tim tetapi berisiko membuat Anda kelelahan dan pekerjaan tidak selesai karena kapasitas satu orang terbatas. Pilihan A (2) memaksakan lembur setiap hari tanpa memperhatikan kondisi anggota, yang menurunkan kualitas kerja dan kesehatan tim. Pilihan B (1) paling buruk karena menyerah dan meminta perpanjangan tenggat tanpa berusaha menyelesaikan pekerjaan terlebih dahulu."
-  },
-  {
-    "id": "TKP-21",
-    "category": "TKP",
-    "subtopic": "Kepemimpinan & Pengambilan Keputusan",
-    "question": "Keputusan yang Anda ambil sebagai ketua tim ternyata keliru dan merugikan hasil kerja tim. Apa yang Anda lakukan?",
-    "options": [
-      "Mengakui kesalahan secara terbuka kepada tim, menjelaskan apa yang terjadi, dan mengusulkan langkah perbaikan bersama.",
-      "Segera memperbaiki dampak kesalahan tersebut tanpa membahas penyebabnya.",
-      "Menyalahkan anggota tim yang melaksanakan keputusan tersebut.",
-      "Diam saja dan berharap tidak ada yang menyadari kesalahan itu.",
-      "Menyalahkan keadaan dan keterbatasan data yang tersedia."
-    ],
     "answer": 0,
+    "category": "TKP",
+    "explanation": "Opsi terbaik adalah menolak dengan sopan sambil mengedukasi tentang Pancasila dan melapor sesuai prosedur, karena sikap ini aktif melindungi ideologi bangsa. Menolak tanpa berbuat apa-apa kurang baik karena ancaman dibiarkan berkembang, menghindar hanya bersikap netral tanpa menyelesaikan masalah, mengikuti pertemuan berarti setengah hati terlibat, dan menerima ajakan adalah tindakan yang paling buruk karena mendukung paham yang menolak Pancasila.",
+    "id": "TKP-17",
+    "options": [
+      "Menolak ajakan itu dengan sopan, menjelaskan bahwa Pancasila adalah dasar negara yang harus dijaga, lalu melaporkan kelompok tersebut kepada atasan sesuai prosedur.",
+      "Menolak ajakan itu, tetapi tidak melakukan apa-apa dan tidak memberi tahu siapa pun.",
+      "Tidak menanggapi ajakan itu dan menghindar setiap kali topik tersebut dibahas.",
+      "Mengikuti satu-dua pertemuan sekadar untuk mengetahui isinya, tanpa ikut menyebarkan ajarannya.",
+      "Menerima ajakan itu dan membantu menyebarkan ajarannya kepada rekan lain."
+    ],
+    "question": "Seorang rekan kerja mengajak Anda bergabung ke kelompok kajian tertutup yang mengajarkan bahwa Pancasila harus diganti dengan ideologi lain dan mengajak anggotanya menolak keberagaman. Apa yang Anda lakukan?",
     "scores": [
       5,
       4,
-      1,
       3,
+      2,
+      1
+    ],
+    "subtopic": "Anti Radikalisme"
+  },
+  {
+    "answer": 1,
+    "category": "TKP",
+    "explanation": "Opsi terbaik adalah menegur dengan santun, mengingatkan nilai toleransi, dan melapor kepada atasan, karena sikap ini aktif menghentikan penyebaran ujaran kebencian. Tidak ikut menyebarkan tetapi diam saja kurang baik karena konten dibiarkan beredar, keluar dari grup hanya menghindar tanpa menyelesaikan masalah, menyetujui sebagian isi berarti setengah hati mendukung intoleransi, dan meneruskan konten adalah tindakan paling buruk karena memperluas penyebaran kebencian.",
+    "id": "TKP-18",
+    "options": [
+      "Tidak ikut menyebarkan konten itu, tetapi juga tidak menegur atau melaporkannya.",
+      "Menegur pengirim dengan santun, mengingatkan bahwa konten tersebut melanggar nilai toleransi dan aturan kantor, lalu melaporkannya kepada atasan.",
+      "Keluar dari grup agar tidak melihat konten serupa lagi.",
+      "Meneruskan konten itu ke grup lain agar lebih banyak orang mengetahuinya.",
+      "Memberi komentar yang sebagian menyetujui isi konten itu karena menurut Anda sebagian isinya benar."
+    ],
+    "question": "Di grup WhatsApp kantor, seseorang menyebarkan konten yang menghina keyakinan agama tertentu dan mengajak pegawai lain membenci penganutnya. Apa yang Anda lakukan?",
+    "scores": [
+      4,
+      5,
+      3,
+      1,
       2
     ],
-    "explanation": "Pilihan A (5) paling tepat: mengakui kesalahan secara terbuka, menjelaskan apa yang terjadi, dan mengusulkan langkah perbaikan bersama — pemimpin yang bertanggung jawab membangun kepercayaan tim dan memastikan kesalahan tidak terulang. Pilihan B (4) segera memperbaiki dampak kesalahan, tetapi tidak membahas penyebabnya sehingga tim tidak belajar dari kesalahan itu. Pilihan D (3) diam dan berharap tidak ada yang menyadari, yang membiarkan dampak kesalahan berlarut dan merusak kepercayaan bila akhirnya ketahuan. Pilihan E (2) menyalahkan keadaan dan keterbatasan data, yang berarti menghindar dari tanggung jawab atas keputusan sendiri. Pilihan C (1) paling buruk karena menyalahkan anggota tim yang hanya melaksanakan keputusan Anda."
+    "subtopic": "Anti Radikalisme"
   },
   {
-    "id": "TKP-22",
-    "category": "TKP",
-    "subtopic": "Kepemimpinan & Pengambilan Keputusan",
-    "question": "Dua anggota tim Anda terlibat konflik terbuka karena perbedaan cara kerja, dan konflik itu mulai mengganggu suasana kerja. Apa yang Anda lakukan?",
-    "options": [
-      "Membiarkan mereka menyelesaikan sendiri konflik tersebut.",
-      "Memanggil keduanya secara terpisah untuk mendengarkan masing-masing pihak.",
-      "Mempertemukan keduanya, memfasilitasi diskusi untuk menemukan akar masalah, membantu mereka menyepakati cara kerja bersama, dan memantau tindak lanjutnya.",
-      "Memihak salah satu pihak yang menurut Anda benar.",
-      "Memindahkan salah satu dari mereka ke tim lain agar konflik selesai."
-    ],
     "answer": 2,
-    "scores": [
-      1,
-      4,
-      5,
-      2,
-      3
-    ],
-    "explanation": "Pilihan C (5) paling tepat: mempertemukan keduanya, memfasilitasi diskusi untuk menemukan akar masalah, membantu menyepakati cara kerja bersama, dan memantau tindak lanjutnya — konflik diselesaikan sampai tuntas dengan cara yang adil bagi kedua pihak. Pilihan B (4) sudah baik karena memanggil keduanya secara terpisah untuk mendengarkan masing-masing pihak, tetapi berhenti di situ tanpa mempertemukan dan menyepakati solusi bersama. Pilihan E (3) memindahkan salah satu anggota ke tim lain memang menghentikan konflik di tim itu, tetapi tidak menyelesaikan akar masalah dan hanya memindahkan masalah ke tempat lain. Pilihan D (2) memihak salah satu pihak, yang membuat pihak lain merasa tidak diperlakukan adil dan konflik bisa membesar. Pilihan A (1) paling buruk karena membiarkan konflik terbuka yang sudah mengganggu suasana kerja tanpa tindakan apa pun."
-  },
-  {
-    "id": "TKP-23",
     "category": "TKP",
-    "subtopic": "Kepemimpinan & Pengambilan Keputusan",
-    "question": "Atasan memberikan target kerja baru yang menurut Anda terlalu tinggi untuk tim Anda dalam waktu yang tersedia. Apa yang Anda lakukan?",
+    "explanation": "Opsi terbaik adalah tetap melayani dengan ramah dan profesional sambil menjelaskan bahwa pelayanan tidak membedakan keyakinan, karena sikap ini menegakkan kesetaraan layanan sekaligus mengedukasi warga. Melayani tanpa penjelasan kurang baik karena kesempatan edukasi terlewat, membiarkan warga menunggu tanpa penjelasan bersikap netral dan menghindar, melayani sambil menunjukkan ketidaksukaan berarti setengah hati menerima diskriminasi, dan memenuhi permintaan warga adalah yang paling buruk karena membenarkan diskriminasi dalam pelayanan.",
+    "id": "TKP-19",
     "options": [
-      "Menerima target tersebut tanpa komentar dan membebankannya kepada tim.",
-      "Menolak target tersebut secara mentah-mentah di depan atasan.",
-      "Mengeluh kepada tim bahwa target itu tidak masuk akal.",
-      "Menyampaikan kepada atasan secara objektif kendala yang ada beserta data pendukung, dan mengusulkan target atau tahapan yang lebih realistis.",
-      "Menganalisis kemampuan tim dan kebutuhan target, menyampaikan kendala kepada atasan dengan data, mengusulkan tahapan pencapaian yang realistis, lalu menyusun rencana kerja bersama tim untuk mencapai target sebaik mungkin."
+      "Membiarkan warga itu menunggu pegawai lain tanpa menjelaskan apa pun.",
+      "Memenuhi permintaan warga itu dan menyuruhnya mencari pegawai yang sekeyakinan.",
+      "Tetap melayani warga itu dengan ramah dan profesional, menjelaskan bahwa pelayanan diberikan tanpa membedakan keyakinan, serta mengingatkan bahwa semua warga berhak atas pelayanan yang sama.",
+      "Tetap melayani warga itu, tetapi tidak menjelaskan bahwa pelayanan diberikan tanpa membedakan keyakinan.",
+      "Menyetujui sebagian permintaan warga itu dengan melayani sambil menunjukkan ketidaksukaan."
     ],
-    "answer": 4,
+    "question": "Seorang warga menolak dilayani oleh Anda karena berbeda keyakinan dengan Anda, dan meminta dilayani oleh pegawai lain yang sekeyakinan dengannya. Apa yang Anda lakukan?",
     "scores": [
       3,
-      2,
       1,
+      5,
+      4,
+      2
+    ],
+    "subtopic": "Anti Radikalisme"
+  },
+  {
+    "answer": 3,
+    "category": "TKP",
+    "explanation": "Opsi terbaik adalah menolak dengan sopan sambil menjelaskan jaminan konstitusi atas kebebasan beribadah dan melapor kepada atasan, karena sikap ini aktif membela hak beribadah kelompok minoritas. Menolak tanpa penjelasan kurang baik karena ajakan dibiarkan berlanjut, tidak memberi tanggapan hanya bersikap netral dan menghindar, menandatangani karena takut berbeda berarti setengah hati ikut mendukung pelarangan, dan menandatangani sekaligus menyebarkan adalah yang paling buruk karena aktif memperjuangkan pelarangan ibadah.",
+    "id": "TKP-20",
+    "options": [
+      "Menandatangani petisi itu agar tidak dianggap berbeda dari rekan-rekan lain.",
+      "Menolak menandatangani, tetapi tidak menjelaskan alasan dan tidak melaporkannya.",
+      "Menandatangani dan membantu menyebarkan petisi itu ke grup media sosial lain.",
+      "Menolak menandatangani dengan sopan, menjelaskan bahwa kebebasan beribadah dijamin konstitusi, dan melaporkan ajakan itu kepada atasan.",
+      "Tidak menandatangani dan tidak memberi tanggapan apa pun ketika diajak."
+    ],
+    "question": "Seorang rekan kerja mengajak Anda menyebarkan petisi daring yang menuntut pelarangan kegiatan ibadah kelompok minoritas di lingkungan kantor. Apa yang Anda lakukan?",
+    "scores": [
+      2,
+      4,
+      1,
+      5,
+      3
+    ],
+    "subtopic": "Anti Radikalisme"
+  },
+  {
+    "answer": 4,
+    "category": "TKP",
+    "explanation": "Opsi terbaik adalah mengamankan selebaran, tidak menyebarkannya, dan segera melapor kepada atasan atau petugas keamanan, karena sikap ini aktif mencegah penyebaran hasutan. Tidak menyebarkan tetapi tidak melapor kurang baik karena selebaran tetap beredar, mengabaikan begitu saja hanya bersikap netral, menyimpan karena penasaran berarti setengah hati terlibat dengan materi hasutan, dan membagikan selebaran kepada teman adalah yang paling buruk karena turut menyebarkan kebencian.",
+    "id": "TKP-21",
+    "options": [
+      "Mengambil beberapa selebaran untuk dibagikan kepada teman di luar kantor.",
+      "Mengabaikan selebaran itu dan melanjutkan pekerjaan seperti biasa.",
+      "Membaca selebaran itu lalu menyimpannya karena penasaran dengan isinya.",
+      "Tidak menyebarkan selebaran itu, tetapi tidak melaporkan keberadaannya kepada siapa pun.",
+      "Mengamankan selebaran itu, tidak menyebarkannya, dan segera melaporkannya kepada atasan atau petugas keamanan kantor."
+    ],
+    "question": "Anda menemukan selebaran di lingkungan kantor yang berisi ajakan menolak keberagaman dan menghasut kebencian terhadap kelompok tertentu. Apa yang Anda lakukan?",
+    "scores": [
+      1,
+      3,
+      2,
       4,
       5
     ],
-    "explanation": "Pilihan E (5) paling tepat: menganalisis kemampuan tim, menyampaikan kendala kepada atasan dengan data, mengusulkan tahapan pencapaian yang realistis, lalu menyusun rencana kerja bersama tim — Anda memperjuangkan target yang masuk akal sekaligus tetap berusaha mencapainya sebaik mungkin. Pilihan D (4) sudah baik karena menyampaikan kendala secara objektif dengan data dan mengusulkan target yang lebih realistis, tetapi tidak menyusun rencana kerja bersama tim untuk mencapai target tersebut. Pilihan A (3) menerima target tanpa komentar dan membebankannya kepada tim, yang bisa membuat tim kelelahan dan gagal mencapai target. Pilihan B (2) menolak target secara mentah-mentah di depan atasan, yang terkesan tidak kooperatif. Pilihan C (1) paling buruk karena mengeluh kepada tim bahwa target tidak masuk akal, yang menurunkan semangat tim tanpa menyelesaikan apa pun."
+    "subtopic": "Anti Radikalisme"
+  },
+  {
+    "answer": 0,
+    "category": "TKP",
+    "explanation": "Opsi terbaik adalah menanggapi dengan santun bahwa jabatan didasarkan pada kompetensi dan integritas, bukan keyakinan, serta mengusulkan pengingat nilai toleransi, karena sikap ini aktif membela kesetaraan tanpa menyerang senior. Tidak setuju dalam hati tetapi diam kurang baik karena pandangan diskriminatif dibiarkan, diam karena senior bersikap netral dan menghindar, mendukung sebagian berarti setengah hati membenarkan diskriminasi, dan menyatakan setuju adalah yang paling buruk karena ikut menyebarkan pandangan intoleran.",
+    "id": "TKP-22",
+    "options": [
+      "Menanggapi dengan santun bahwa jabatan didasarkan pada kompetensi dan integritas, bukan keyakinan, serta mengusulkan agar pimpinan mengingatkan nilai toleransi dalam rapat berikutnya.",
+      "Diam saja karena yang berbicara adalah pegawai senior.",
+      "Menyatakan setuju agar tidak bermasalah dengan pegawai senior tersebut.",
+      "Tidak setuju dalam hati, tetapi tidak menyampaikan pendapat apa pun di rapat.",
+      "Mendukung sebagian pendapat itu dengan mengatakan kelompok tertentu memang lebih cocok memimpin."
+    ],
+    "question": "Dalam rapat, seorang pegawai senior menyatakan bahwa hanya kelompok keyakinannya saja yang pantas menjadi pemimpin dan pegawai dari keyakinan lain tidak layak menduduki jabatan. Apa yang Anda lakukan?",
+    "scores": [
+      5,
+      3,
+      1,
+      4,
+      2
+    ],
+    "subtopic": "Anti Radikalisme"
+  },
+  {
+    "answer": 2,
+    "category": "TKP",
+    "explanation": "Opsi terbaik adalah menolak dengan tegas namun santun sambil menjelaskan bahwa keluarga dan perbedaan pandangan harus dihormati serta menyarankan kegiatan yang positif, karena sikap ini melindungi hubungan keluarga sekaligus mengedukasi teman. Menolak tanpa penjelasan kurang baik karena teman tidak memahami alasannya, tidak menjawab dan menghindar hanya bersikap netral, mengikuti sesekali berarti setengah hati terlibat, dan menerima ajakan adalah yang paling buruk karena merusak hubungan keluarga atas dasar perbedaan pandangan.",
+    "id": "TKP-23",
+    "options": [
+      "Menolak ajakan itu secara pribadi tanpa memberi penjelasan kepada teman Anda.",
+      "Mengikuti kegiatan itu sesekali agar persahabatan tetap terjaga.",
+      "Menolak ajakan itu dengan tegas namun santun, menjelaskan bahwa keluarga dan perbedaan pandangan harus dihormati, dan menyarankan teman Anda mengikuti kegiatan yang positif.",
+      "Menerima ajakan itu dan mulai menjauhi anggota keluarga yang berbeda pandangan.",
+      "Tidak menjawab ajakan itu dan menghindari teman Anda untuk sementara waktu."
+    ],
+    "question": "Seorang teman mengajak Anda mengikuti kegiatan kelompok yang mewajibkan anggotanya memutuskan hubungan dengan keluarga yang berbeda pandangan keagamaan. Apa yang Anda lakukan?",
+    "scores": [
+      4,
+      2,
+      5,
+      1,
+      3
+    ],
+    "subtopic": "Anti Radikalisme"
   },
   {
     "id": "TKP-24",
     "category": "TKP",
-    "subtopic": "Profesionalisme & Integritas",
+    "subtopic": "Profesionalisme",
     "question": "Anda menemukan bahwa laporan keuangan kecil di unit Anda memiliki selisih yang tidak dapat dijelaskan. Atasan Anda sedang cuti dan rekan kerja menyarankan untuk membiarkannya saja karena jumlahnya kecil. Apa yang Anda lakukan?",
     "options": [
       "Mencatat selisih tersebut dan menunggu atasan kembali sebelum bertindak.",
@@ -1960,7 +1960,7 @@
   {
     "id": "TKP-25",
     "category": "TKP",
-    "subtopic": "Profesionalisme & Integritas",
+    "subtopic": "Profesionalisme",
     "question": "Seorang rekan kerja menawarkan Anda hadiah berupa barang mahal sebagai ucapan terima kasih karena Anda membantunya menyelesaikan pekerjaannya. Apa yang Anda lakukan?",
     "options": [
       "Menerima hadiah tersebut karena Anda merasa pantas mendapatkannya.",
@@ -1982,7 +1982,7 @@
   {
     "id": "TKP-26",
     "category": "TKP",
-    "subtopic": "Profesionalisme & Integritas",
+    "subtopic": "Profesionalisme",
     "question": "Anda melihat rekan kerja menggunakan jam kerja untuk mengerjakan bisnis pribadinya secara rutin. Hal ini sudah berlangsung lama dan tidak ada yang menegur. Apa yang Anda lakukan?",
     "options": [
       "Menegurnya secara pribadi dengan sopan, mengingatkan dampaknya bagi tim, dan bila tidak ada perubahan, melaporkannya melalui jalur yang benar.",
@@ -2004,7 +2004,7 @@
   {
     "id": "TKP-27",
     "category": "TKP",
-    "subtopic": "Profesionalisme & Integritas",
+    "subtopic": "Profesionalisme",
     "question": "Anda diminta atasan untuk menyelesaikan tugas yang menurut Anda bertentangan dengan peraturan yang berlaku. Atasan bersikeras agar tugas itu tetap dilakukan. Apa yang Anda lakukan?",
     "options": [
       "Melaksanakan tugas tersebut sambil mencatat keberatan Anda secara tertulis.",
@@ -2026,7 +2026,7 @@
   {
     "id": "TKP-28",
     "category": "TKP",
-    "subtopic": "Profesionalisme & Integritas",
+    "subtopic": "Profesionalisme",
     "question": "Anda diberi akses ke data pribadi warga yang bersifat rahasia. Seorang kerabat Anda meminta data tersebut untuk keperluan pribadinya. Apa yang Anda lakukan?",
     "options": [
       "Memberikan data tersebut karena ia kerabat dekat Anda.",
@@ -2048,7 +2048,7 @@
   {
     "id": "TKP-29",
     "category": "TKP",
-    "subtopic": "Profesionalisme & Integritas",
+    "subtopic": "Profesionalisme",
     "question": "Anda berjanji kepada warga bahwa dokumennya akan selesai hari ini, tetapi ternyata ada kendala sistem yang membuat penyelesaian tertunda hingga besok. Apa yang Anda lakukan?",
     "options": [
       "Diam saja dan berharap warga tidak menanyakan.",
@@ -2070,7 +2070,7 @@
   {
     "id": "TKP-30",
     "category": "TKP",
-    "subtopic": "Profesionalisme & Integritas",
+    "subtopic": "Profesionalisme",
     "question": "Dalam sebuah seleksi internal, Anda mengetahui ada peserta yang menggunakan cara tidak jujur. Peserta tersebut adalah teman dekat Anda. Apa yang Anda lakukan?",
     "options": [
       "Diam saja karena tidak ingin merusak persahabatan.",
@@ -2092,7 +2092,7 @@
   {
     "id": "TKP-31",
     "category": "TKP",
-    "subtopic": "Profesionalisme & Integritas",
+    "subtopic": "Profesionalisme",
     "question": "Anda menemukan cara yang lebih efisien untuk menyelesaikan pekerjaan rutin, tetapi cara baru itu membutuhkan perubahan prosedur yang sudah lama dipakai. Apa yang Anda lakukan?",
     "options": [
       "Menguji cara baru tersebut, mendokumentasikan hasilnya, dan mengusulkan perubahan prosedur kepada atasan dengan data perbandingan yang jelas.",
@@ -2268,7 +2268,7 @@
   {
     "id": "TKP-39",
     "category": "TKP",
-    "subtopic": "Teknologi Informasi & Komunikasi",
+    "subtopic": "Adaptasi TIK",
     "question": "Kantor Anda baru menerapkan sistem pelayanan digital. Sebagian warga, terutama yang lanjut usia, kesulitan menggunakan sistem tersebut dan mengeluh. Apa yang Anda lakukan?",
     "options": [
       "Menyarankan warga untuk belajar menggunakan sistem digital sendiri.",
@@ -2290,7 +2290,7 @@
   {
     "id": "TKP-40",
     "category": "TKP",
-    "subtopic": "Teknologi Informasi & Komunikasi",
+    "subtopic": "Adaptasi TIK",
     "question": "Anda menerima pesan berantai di grup kerja yang berisi informasi tentang kebijakan baru, tetapi Anda ragu dengan kebenaran informasi tersebut. Apa yang Anda lakukan?",
     "options": [
       "Meneruskan pesan tersebut ke grup lain agar semua orang tahu.",
@@ -2312,7 +2312,7 @@
   {
     "id": "TKP-41",
     "category": "TKP",
-    "subtopic": "Teknologi Informasi & Komunikasi",
+    "subtopic": "Adaptasi TIK",
     "question": "Sistem komputer di kantor Anda tiba-tiba tidak bisa diakses saat banyak warga sedang mengantre. Anda bertanggung jawab atas pelayanan saat itu. Apa yang Anda lakukan?",
     "options": [
       "Tetap tenang, menginformasikan gangguan kepada warga dengan jelas, beralih ke pelayanan manual sementara, dan segera menghubungi bagian teknologi informasi.",
@@ -2334,7 +2334,7 @@
   {
     "id": "TKP-42",
     "category": "TKP",
-    "subtopic": "Teknologi Informasi & Komunikasi",
+    "subtopic": "Adaptasi TIK",
     "question": "Seorang rekan kerja membagikan kata sandi akun sistem kantor kepada orang lain dengan alasan memudahkan pekerjaan. Anda mengetahuinya. Apa yang Anda lakukan?",
     "options": [
       "Mengingatkan rekan tersebut bahwa berbagi kata sandi melanggar aturan keamanan.",
@@ -2356,7 +2356,7 @@
   {
     "id": "TKP-43",
     "category": "TKP",
-    "subtopic": "Teknologi Informasi & Komunikasi",
+    "subtopic": "Adaptasi TIK",
     "question": "Anda menemukan bahwa data warga yang tersimpan di sistem kantor dapat diakses oleh pihak yang tidak berwenang karena pengaturan hak akses yang longgar. Apa yang Anda lakukan?",
     "options": [
       "Membiarkannya karena Anda bukan bagian teknologi informasi.",
@@ -2378,7 +2378,7 @@
   {
     "id": "TKP-44",
     "category": "TKP",
-    "subtopic": "Teknologi Informasi & Komunikasi",
+    "subtopic": "Adaptasi TIK",
     "question": "Atasan meminta Anda membuat laporan yang membutuhkan data dari beberapa sistem yang berbeda. Anda kurang memahami salah satu sistem tersebut. Apa yang Anda lakukan?",
     "options": [
       "Membuat laporan berdasarkan data yang Anda pahami saja.",
@@ -2400,7 +2400,7 @@
   {
     "id": "TKP-45",
     "category": "TKP",
-    "subtopic": "Teknologi Informasi & Komunikasi",
+    "subtopic": "Adaptasi TIK",
     "question": "Kantor Anda mengadakan pelatihan penggunaan aplikasi baru, tetapi sebagian rekan kerja enggan mengikuti karena merasa sudah nyaman dengan cara lama. Anda ditunjuk menjadi salah satu peserta pelatihan. Apa yang Anda lakukan?",
     "options": [
       "Menolak mengikuti pelatihan karena cara lama sudah cukup baik.",

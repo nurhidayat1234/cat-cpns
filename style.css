@@ -942,3 +942,17 @@ body:not(.is-logged-in) #modeCard { display: none; }
   .hero-inner-center h1 { font-size: 1.7rem; }
   .topbar { top: 0.5rem; width: calc(100% - 1rem); margin-top: 0.5rem; }
 }
+
+/* Pemilih jenis kebutuhan di layar hasil (KepmenPANRB 674/2026) */
+.pg-cat { margin: 0.9rem 0 0.2rem; text-align: left; }
+.pg-cat label { font-weight: 700; margin-right: 0.4rem; }
+.pg-cat select {
+  font: inherit;
+  padding: 0.45rem 0.6rem;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  background: #fff;
+  color: var(--navy);
+  max-width: 100%;
+}
+.pg-cat p { margin-top: 0.4rem; }

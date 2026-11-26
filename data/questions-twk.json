@@ -19,7 +19,7 @@
       0,
       0
     ],
-    "subtopic": "Pancasila"
+    "subtopic": "Empat Konsensus Kebangsaan"
   },
   {
     "answer": 3,
@@ -41,7 +41,7 @@
       5,
       0
     ],
-    "subtopic": "Pancasila"
+    "subtopic": "Empat Konsensus Kebangsaan"
   },
   {
     "answer": 0,
@@ -63,29 +63,29 @@
       0,
       0
     ],
-    "subtopic": "Pancasila"
+    "subtopic": "Empat Konsensus Kebangsaan"
   },
   {
-    "answer": 0,
-    "category": "TWK",
-    "explanation": "Pada 1 Juni 1945 Soekarno menyampaikan pidato dalam sidang BPUPKI yang mengusulkan Pancasila sebagai dasar negara; tanggal itu kemudian ditetapkan sebagai Hari Lahir Pancasila. Pilihan B salah karena pengesahan UUD 1945 terjadi pada 18 Agustus 1945. Pilihan C salah karena Proklamasi dibacakan 17 Agustus 1945. Pilihan D salah karena Sumpah Pemuda diikrarkan 28 Oktober 1928. Pilihan E salah karena Panitia Sembilan dibentuk setelah pidato tersebut, pada 22 Juni 1945, untuk merumuskan Piagam Jakarta.",
     "id": "TWK-04",
+    "category": "TWK",
+    "subtopic": "Bela Negara",
+    "question": "Nilai-nilai dasar bela negara meliputi cinta tanah air, kesadaran berbangsa dan bernegara, setia pada Pancasila, rela berkorban, dan kemampuan awal bela negara. Berikut ini yang BUKAN merupakan wujud bela negara dalam kehidupan sehari-hari adalah ...",
     "options": [
-      "Pidato Soekarno tentang dasar negara dalam sidang BPUPKI",
-      "Pengesahan UUD 1945 oleh PPKI",
-      "Pembacaan teks Proklamasi Kemerdekaan",
-      "Ikrar Sumpah Pemuda",
-      "Pembentukan Panitia Sembilan"
+      "Mengikuti upacara bendera dengan khidmat dan tertib.",
+      "Menjaga kerukunan dengan tetangga yang berbeda suku dan agama.",
+      "Menyebarkan ujaran kebencian terhadap kelompok masyarakat tertentu.",
+      "Mengikuti kerja bakti membersihkan lingkungan tempat tinggal.",
+      "Mempelajari sejarah perjuangan bangsa Indonesia."
     ],
-    "question": "Hari Lahir Pancasila diperingati setiap tanggal 1 Juni. Penetapan tanggal tersebut berkaitan dengan peristiwa…",
+    "answer": 2,
     "scores": [
+      0,
+      0,
       5,
-      0,
-      0,
       0,
       0
     ],
-    "subtopic": "Pancasila"
+    "explanation": "Benar karena menyebarkan ujaran kebencian justru merusak persatuan dan bertentangan dengan nilai bela negara, sedangkan keempat opsi lain — upacara bendera, kerukunan, kerja bakti, dan mempelajari sejarah perjuangan — adalah wujud nyata cinta tanah air dan kesadaran berbangsa dalam kehidupan sehari-hari."
   },
   {
     "answer": 4,
@@ -107,7 +107,7 @@
       0,
       5
     ],
-    "subtopic": "Pancasila"
+    "subtopic": "Empat Konsensus Kebangsaan"
   },
   {
     "answer": 2,
@@ -129,7 +129,7 @@
       0,
       0
     ],
-    "subtopic": "Pancasila"
+    "subtopic": "Empat Konsensus Kebangsaan"
   },
   {
     "answer": 2,
@@ -151,7 +151,7 @@
       0,
       0
     ],
-    "subtopic": "UUD 1945"
+    "subtopic": "Empat Konsensus Kebangsaan"
   },
   {
     "answer": 3,
@@ -173,7 +173,7 @@
       5,
       0
     ],
-    "subtopic": "UUD 1945"
+    "subtopic": "Empat Konsensus Kebangsaan"
   },
   {
     "answer": 3,
@@ -195,7 +195,7 @@
       5,
       0
     ],
-    "subtopic": "UUD 1945"
+    "subtopic": "Empat Konsensus Kebangsaan"
   },
   {
     "answer": 2,
@@ -217,7 +217,7 @@
       0,
       0
     ],
-    "subtopic": "UUD 1945"
+    "subtopic": "Empat Konsensus Kebangsaan"
   },
   {
     "answer": 3,
@@ -239,7 +239,7 @@
       5,
       0
     ],
-    "subtopic": "UUD 1945"
+    "subtopic": "Empat Konsensus Kebangsaan"
   },
   {
     "answer": 3,
@@ -261,7 +261,7 @@
       5,
       0
     ],
-    "subtopic": "UUD 1945"
+    "subtopic": "Empat Konsensus Kebangsaan"
   },
   {
     "answer": 3,
@@ -283,7 +283,7 @@
       5,
       0
     ],
-    "subtopic": "NKRI & Bhinneka Tunggal Ika"
+    "subtopic": "Empat Konsensus Kebangsaan"
   },
   {
     "answer": 4,
@@ -305,7 +305,7 @@
       0,
       5
     ],
-    "subtopic": "NKRI & Bhinneka Tunggal Ika"
+    "subtopic": "Empat Konsensus Kebangsaan"
   },
   {
     "answer": 0,
@@ -327,7 +327,7 @@
       0,
       0
     ],
-    "subtopic": "NKRI & Bhinneka Tunggal Ika"
+    "subtopic": "Empat Konsensus Kebangsaan"
   },
   {
     "answer": 2,
@@ -349,7 +349,7 @@
       0,
       0
     ],
-    "subtopic": "NKRI & Bhinneka Tunggal Ika"
+    "subtopic": "Empat Konsensus Kebangsaan"
   },
   {
     "answer": 4,
@@ -371,7 +371,7 @@
       0,
       5
     ],
-    "subtopic": "NKRI & Bhinneka Tunggal Ika"
+    "subtopic": "Empat Konsensus Kebangsaan"
   },
   {
     "answer": 0,
@@ -393,7 +393,7 @@
       0,
       0
     ],
-    "subtopic": "Sejarah & nasionalisme"
+    "subtopic": "Nasionalisme"
   },
   {
     "answer": 4,
@@ -415,7 +415,7 @@
       0,
       5
     ],
-    "subtopic": "Sejarah & nasionalisme"
+    "subtopic": "Nasionalisme"
   },
   {
     "answer": 4,
@@ -437,7 +437,7 @@
       0,
       5
     ],
-    "subtopic": "Sejarah & nasionalisme"
+    "subtopic": "Nasionalisme"
   },
   {
     "answer": 4,
@@ -459,7 +459,7 @@
       0,
       5
     ],
-    "subtopic": "Sejarah & nasionalisme"
+    "subtopic": "Nasionalisme"
   },
   {
     "answer": 0,
@@ -481,7 +481,7 @@
       0,
       0
     ],
-    "subtopic": "Sejarah & nasionalisme"
+    "subtopic": "Nasionalisme"
   },
   {
     "answer": 1,
@@ -503,7 +503,7 @@
       0,
       0
     ],
-    "subtopic": "Integritas & bela negara"
+    "subtopic": "Integritas"
   },
   {
     "answer": 1,
@@ -525,7 +525,7 @@
       0,
       0
     ],
-    "subtopic": "Integritas & bela negara"
+    "subtopic": "Integritas"
   },
   {
     "answer": 1,
@@ -547,7 +547,7 @@
       0,
       0
     ],
-    "subtopic": "Integritas & bela negara"
+    "subtopic": "Bela Negara"
   },
   {
     "answer": 1,
@@ -569,7 +569,7 @@
       0,
       0
     ],
-    "subtopic": "Integritas & bela negara"
+    "subtopic": "Integritas"
   },
   {
     "answer": 2,

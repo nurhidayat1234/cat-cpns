@@ -88,8 +88,7 @@ with sync_playwright() as p:
     assert _sec(timer2) < _sec(timer1), f"timer tidak jalan: {timer1} -> {timer2}"
     print("5. Timer berjalan:", timer1, "->", timer2)
 
-    # selesai (dialog confirm: terima)
-    page.on("dialog", lambda d: d.accept())
+    # selesai (dialog confirm: terima; handler sudah terdaftar di awal)
     page.locator("#finishBtn").click()
     page.wait_for_selector("#screen-result:visible", timeout=10000)
     total = page.locator("#resultTotal").inner_text()

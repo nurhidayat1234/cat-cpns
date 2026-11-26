@@ -200,7 +200,7 @@
   {
     "id": "TKP-10",
     "category": "TKP",
-    "subtopic": "Kerja Sama Tim",
+    "subtopic": "Jejaring Kerja",
     "question": "Dalam sebuah proyek tim, seorang rekan kerja selalu terlambat mengumpulkan bagiannya, sehingga pekerjaan tim ikut tertunda. Anda adalah anggota tim tersebut. Apa yang Anda lakukan?",
     "options": [
       "Melaporkan rekan tersebut kepada atasan tanpa berbicara dengannya terlebih dahulu.",
@@ -222,7 +222,7 @@
   {
     "id": "TKP-11",
     "category": "TKP",
-    "subtopic": "Kerja Sama Tim",
+    "subtopic": "Jejaring Kerja",
     "question": "Tim Anda berbeda pendapat tentang cara menyelesaikan sebuah pekerjaan. Sebagian anggota ingin menggunakan cara lama yang sudah terbukti, sebagian lagi mengusulkan cara baru yang lebih cepat tetapi belum teruji. Apa yang Anda lakukan?",
     "options": [
       "Mengusulkan agar tim mendiskusikan kelebihan dan kekurangan masing-masing cara, mencoba cara baru dalam skala kecil, dan mengevaluasi hasilnya sebelum memutuskan.",
@@ -244,7 +244,7 @@
   {
     "id": "TKP-12",
     "category": "TKP",
-    "subtopic": "Kerja Sama Tim",
+    "subtopic": "Jejaring Kerja",
     "question": "Anda menemukan kesalahan dalam pekerjaan rekan satu tim sebelum laporan diserahkan kepada atasan. Rekan tersebut sudah pulang. Apa yang Anda lakukan?",
     "options": [
       "Membiarkannya karena itu bukan tanggung jawab Anda.",
@@ -266,7 +266,7 @@
   {
     "id": "TKP-13",
     "category": "TKP",
-    "subtopic": "Kerja Sama Tim",
+    "subtopic": "Jejaring Kerja",
     "question": "Seorang anggota tim baru merasa kesulitan beradaptasi dengan cara kerja tim Anda dan sering bertanya hal-hal mendasar. Beberapa rekan mulai merasa terganggu. Apa yang Anda lakukan?",
     "options": [
       "Menyuruhnya belajar sendiri dari dokumen yang ada.",
@@ -288,7 +288,7 @@
   {
     "id": "TKP-14",
     "category": "TKP",
-    "subtopic": "Kerja Sama Tim",
+    "subtopic": "Jejaring Kerja",
     "question": "Dalam rapat tim, ide Anda ditolak oleh sebagian besar anggota. Anda yakin ide tersebut baik untuk pekerjaan tim. Apa yang Anda lakukan?",
     "options": [
       "Menerima keputusan tim, tetapi mencatat ide tersebut untuk diajukan kembali di lain waktu dengan data pendukung.",
@@ -310,7 +310,7 @@
   {
     "id": "TKP-15",
     "category": "TKP",
-    "subtopic": "Kerja Sama Tim",
+    "subtopic": "Jejaring Kerja",
     "question": "Rekan satu tim Anda sedang menghadapi masalah pribadi yang berat sehingga kinerjanya menurun dan ia sering tidak masuk kerja. Hal ini memengaruhi beban kerja tim. Apa yang Anda lakukan?",
     "options": [
       "Mengusulkan kepada atasan agar rekan tersebut diberi sanksi.",
@@ -332,7 +332,7 @@
   {
     "id": "TKP-16",
     "category": "TKP",
-    "subtopic": "Kerja Sama Tim",
+    "subtopic": "Jejaring Kerja",
     "question": "Tim Anda berhasil menyelesaikan proyek besar tepat waktu. Atasan memuji hasil kerja tim, tetapi hanya menyebut nama ketua tim. Apa yang Anda lakukan?",
     "options": [
       "Tetap mengapresiasi keberhasilan tim dan mengusulkan agar kontribusi seluruh anggota diakui, misalnya dengan menyampaikan hal itu secara sopan kepada atasan atau merayakan keberhasilan bersama tim.",
@@ -352,163 +352,163 @@
     "explanation": "Pilihan A (5) paling tepat: tetap mengapresiasi keberhasilan tim dan mengusulkan secara sopan agar kontribusi seluruh anggota diakui — Anda memperjuangkan pengakuan tim tanpa merusak suasana. Pilihan B (4) sudah menunjukkan sikap dewasa dengan mengucapkan selamat dan tidak mempermasalahkan, tetapi tidak ada upaya agar kontribusi anggota lain diakui. Pilihan D (3) mengingatkan atasan bahwa keberhasilan itu hasil kerja seluruh tim, tetapi disampaikan secara langsung dan bisa terdengar seperti protes. Pilihan C (2) hanya mengeluh kepada rekan lain tanpa menyelesaikan apa pun. Pilihan E (1) paling buruk karena menuntut penghargaan pribadi dari atasan, yang mengabaikan sifat kerja tim."
   },
   {
-    "id": "TKP-17",
-    "category": "TKP",
-    "subtopic": "Kepemimpinan & Pengambilan Keputusan",
-    "question": "Anda baru diangkat menjadi ketua tim kecil. Salah satu anggota tim yang lebih senior menolak mengikuti arahan Anda karena merasa lebih berpengalaman. Apa yang Anda lakukan?",
-    "options": [
-      "Menegaskan kewenangan Anda sebagai ketua tim dan meminta anggota tersebut mengikuti arahan.",
-      "Membiarkan anggota senior tersebut bekerja dengan caranya sendiri agar tidak terjadi konflik.",
-      "Mengajaknya berdiskusi, menghargai pengalamannya, menjelaskan tujuan dan rencana tim, serta mengajaknya bekerja sama — sambil tetap memegang tanggung jawab keputusan akhir.",
-      "Mengancam akan melaporkannya kepada atasan bila ia tidak mau mengikuti arahan.",
-      "Menyerahkan kepemimpinan kepada anggota senior tersebut."
-    ],
-    "answer": 2,
-    "scores": [
-      4,
-      3,
-      5,
-      1,
-      2
-    ],
-    "explanation": "Pilihan C (5) paling tepat: mengajak diskusi, menghargai pengalaman seniornya, menjelaskan tujuan dan rencana tim, dan mengajaknya bekerja sama sambil tetap memegang tanggung jawab keputusan akhir — kepemimpinan ditegakkan lewat pengaruh dan rasa hormat, bukan paksaan. Pilihan A (4) menegaskan kewenangan dan meminta anggota mengikuti arahan, tetapi pendekatan yang kaku bisa menimbulkan perlawanan dari anggota senior. Pilihan B (3) menghindari konflik dengan membiarkannya bekerja sendiri, tetapi tim menjadi tidak terarah dan kepemimpinan Anda tidak berjalan. Pilihan E (2) menyerahkan kepemimpinan kepada anggota senior, yang berarti Anda melepaskan tanggung jawab yang diberikan kepada Anda. Pilihan D (1) paling buruk karena mengancam melaporkan ke atasan, yang merusak hubungan kerja dan wibawa Anda sebagai pemimpin."
-  },
-  {
-    "id": "TKP-18",
-    "category": "TKP",
-    "subtopic": "Kepemimpinan & Pengambilan Keputusan",
-    "question": "Anda harus mengambil keputusan penting, tetapi data yang tersedia tidak lengkap dan waktu sangat terbatas. Apa yang Anda lakukan?",
-    "options": [
-      "Menunda keputusan sampai data lengkap, meski tenggat terlewati.",
-      "Mengambil keputusan berdasarkan tebakan semata.",
-      "Mengambil keputusan berdasarkan pengalaman dan intuisi tanpa memeriksa data yang ada.",
-      "Menggunakan data yang ada, mempertimbangkan risiko dari tiap pilihan, dan berkonsultasi cepat dengan pihak terkait sebelum memutuskan.",
-      "Mengumpulkan data kunci yang tersedia secepat mungkin, menganalisis risiko tiap pilihan, memutuskan berdasarkan bukti terbaik yang ada, dan menyiapkan rencana cadangan bila keputusan itu keliru."
-    ],
-    "answer": 4,
-    "scores": [
-      1,
-      2,
-      3,
-      4,
-      5
-    ],
-    "explanation": "Pilihan E (5) paling tepat: mengumpulkan data kunci secepat mungkin, menganalisis risiko tiap pilihan, memutuskan berdasarkan bukti terbaik yang ada, dan menyiapkan rencana cadangan — keputusan diambil tepat waktu dengan dasar yang paling kuat dan risiko yang sudah diantisipasi. Pilihan D (4) sudah baik karena memakai data yang ada, mempertimbangkan risiko, dan berkonsultasi cepat, tetapi tidak menyiapkan rencana cadangan bila keputusan ternyata keliru. Pilihan C (3) mengandalkan pengalaman dan intuisi tanpa memeriksa data yang ada, sehingga keputusan rawan bias. Pilihan B (2) mengambil keputusan berdasarkan tebakan semata, yang tidak dapat dipertanggungjawabkan. Pilihan A (1) paling buruk karena menunda keputusan sampai data lengkap meski tenggat terlewati, sehingga masalah justru membesar."
-  },
-  {
-    "id": "TKP-19",
-    "category": "TKP",
-    "subtopic": "Kepemimpinan & Pengambilan Keputusan",
-    "question": "Sebagai pimpinan, Anda mengetahui ada anggota tim yang melakukan pelanggaran disiplin ringan berulang kali. Apa yang Anda lakukan?",
-    "options": [
-      "Mengabaikannya karena pelanggarannya ringan.",
-      "Memanggilnya secara pribadi, menjelaskan dampak pelanggarannya, mendengarkan alasannya, memberikan peringatan dan kesempatan memperbaiki diri, serta mencatatnya sesuai aturan.",
-      "Memberikan teguran lisan di depan anggota tim lain agar menjadi contoh.",
-      "Langsung memberikan sanksi berat tanpa mendengarkan penjelasannya.",
-      "Meminta anggota tim lain menegurnya agar Anda tidak perlu berkonflik dengannya."
-    ],
-    "answer": 1,
-    "scores": [
-      3,
-      5,
-      4,
-      1,
-      2
-    ],
-    "explanation": "Pilihan B (5) paling tepat: memanggil secara pribadi, menjelaskan dampak pelanggaran, mendengarkan alasannya, memberi peringatan dan kesempatan memperbaiki diri, serta mencatatnya sesuai aturan — pembinaan yang adil, menjaga martabat anggota, dan tetap menegakkan disiplin. Pilihan C (4) memberikan teguran lisan, tetapi di depan anggota tim lain sehingga mempermalukan dan bisa menimbulkan dendam. Pilihan A (3) mengabaikan pelanggaran ringan yang berulang, padahal pelanggaran kecil yang dibiarkan akan menjadi kebiasaan. Pilihan E (2) melempar tugas menegur kepada anggota tim lain, yang berarti Anda menghindar dari tanggung jawab sebagai pimpinan. Pilihan D (1) paling buruk karena langsung memberi sanksi berat tanpa mendengarkan penjelasan, yang tidak adil dan melanggar asas pembinaan."
-  },
-  {
-    "id": "TKP-20",
-    "category": "TKP",
-    "subtopic": "Kepemimpinan & Pengambilan Keputusan",
-    "question": "Anda memimpin tim yang harus menyelesaikan pekerjaan dengan tenggat sangat ketat, sementara dua anggota tim sedang cuti. Apa yang Anda lakukan?",
-    "options": [
-      "Memaksakan tim bekerja lembur setiap hari tanpa memperhatikan kondisi mereka.",
-      "Menyerah dan meminta perpanjangan tenggat tanpa berusaha terlebih dahulu.",
-      "Menyusun ulang prioritas pekerjaan, membagi tugas secara adil, dan meminta dukungan tambahan dari unit lain bila memungkinkan.",
-      "Menyusun ulang prioritas berdasarkan urgensi, membagi tugas sesuai kemampuan anggota, mengomunikasikan rencana dan tenggat secara transparan, serta meminta dukungan tambahan bila perlu — sambil memantau beban kerja agar tidak ada yang kelelahan.",
-      "Mengerjakan sendiri sebagian besar pekerjaan agar tim tidak terbebani."
-    ],
-    "answer": 3,
-    "scores": [
-      2,
-      1,
-      4,
-      5,
-      3
-    ],
-    "explanation": "Pilihan D (5) paling tepat: menyusun ulang prioritas berdasarkan urgensi, membagi tugas sesuai kemampuan, mengomunikasikan rencana dan tenggat secara transparan, meminta dukungan tambahan bila perlu, dan memantau beban kerja agar tidak ada yang kelelahan — target dikejar tanpa mengorbankan anggota tim. Pilihan C (4) sudah baik karena menyusun ulang prioritas, membagi tugas adil, dan meminta dukungan tambahan, tetapi tidak mengomunikasikan rencana secara transparan dan tidak memantau beban kerja anggota. Pilihan E (3) mengerjakan sendiri sebagian besar pekerjaan, yang memang meringankan tim tetapi berisiko membuat Anda kelelahan dan pekerjaan tidak selesai karena kapasitas satu orang terbatas. Pilihan A (2) memaksakan lembur setiap hari tanpa memperhatikan kondisi anggota, yang menurunkan kualitas kerja dan kesehatan tim. Pilihan B (1) paling buruk karena menyerah dan meminta perpanjangan tenggat tanpa berusaha menyelesaikan pekerjaan terlebih dahulu."
-  },
-  {
-    "id": "TKP-21",
-    "category": "TKP",
-    "subtopic": "Kepemimpinan & Pengambilan Keputusan",
-    "question": "Keputusan yang Anda ambil sebagai ketua tim ternyata keliru dan merugikan hasil kerja tim. Apa yang Anda lakukan?",
-    "options": [
-      "Mengakui kesalahan secara terbuka kepada tim, menjelaskan apa yang terjadi, dan mengusulkan langkah perbaikan bersama.",
-      "Segera memperbaiki dampak kesalahan tersebut tanpa membahas penyebabnya.",
-      "Menyalahkan anggota tim yang melaksanakan keputusan tersebut.",
-      "Diam saja dan berharap tidak ada yang menyadari kesalahan itu.",
-      "Menyalahkan keadaan dan keterbatasan data yang tersedia."
-    ],
     "answer": 0,
+    "category": "TKP",
+    "explanation": "Opsi terbaik adalah menolak dengan sopan sambil mengedukasi tentang Pancasila dan melapor sesuai prosedur, karena sikap ini aktif melindungi ideologi bangsa. Menolak tanpa berbuat apa-apa kurang baik karena ancaman dibiarkan berkembang, menghindar hanya bersikap netral tanpa menyelesaikan masalah, mengikuti pertemuan berarti setengah hati terlibat, dan menerima ajakan adalah tindakan yang paling buruk karena mendukung paham yang menolak Pancasila.",
+    "id": "TKP-17",
+    "options": [
+      "Menolak ajakan itu dengan sopan, menjelaskan bahwa Pancasila adalah dasar negara yang harus dijaga, lalu melaporkan kelompok tersebut kepada atasan sesuai prosedur.",
+      "Menolak ajakan itu, tetapi tidak melakukan apa-apa dan tidak memberi tahu siapa pun.",
+      "Tidak menanggapi ajakan itu dan menghindar setiap kali topik tersebut dibahas.",
+      "Mengikuti satu-dua pertemuan sekadar untuk mengetahui isinya, tanpa ikut menyebarkan ajarannya.",
+      "Menerima ajakan itu dan membantu menyebarkan ajarannya kepada rekan lain."
+    ],
+    "question": "Seorang rekan kerja mengajak Anda bergabung ke kelompok kajian tertutup yang mengajarkan bahwa Pancasila harus diganti dengan ideologi lain dan mengajak anggotanya menolak keberagaman. Apa yang Anda lakukan?",
     "scores": [
       5,
       4,
-      1,
       3,
+      2,
+      1
+    ],
+    "subtopic": "Anti Radikalisme"
+  },
+  {
+    "answer": 1,
+    "category": "TKP",
+    "explanation": "Opsi terbaik adalah menegur dengan santun, mengingatkan nilai toleransi, dan melapor kepada atasan, karena sikap ini aktif menghentikan penyebaran ujaran kebencian. Tidak ikut menyebarkan tetapi diam saja kurang baik karena konten dibiarkan beredar, keluar dari grup hanya menghindar tanpa menyelesaikan masalah, menyetujui sebagian isi berarti setengah hati mendukung intoleransi, dan meneruskan konten adalah tindakan paling buruk karena memperluas penyebaran kebencian.",
+    "id": "TKP-18",
+    "options": [
+      "Tidak ikut menyebarkan konten itu, tetapi juga tidak menegur atau melaporkannya.",
+      "Menegur pengirim dengan santun, mengingatkan bahwa konten tersebut melanggar nilai toleransi dan aturan kantor, lalu melaporkannya kepada atasan.",
+      "Keluar dari grup agar tidak melihat konten serupa lagi.",
+      "Meneruskan konten itu ke grup lain agar lebih banyak orang mengetahuinya.",
+      "Memberi komentar yang sebagian menyetujui isi konten itu karena menurut Anda sebagian isinya benar."
+    ],
+    "question": "Di grup WhatsApp kantor, seseorang menyebarkan konten yang menghina keyakinan agama tertentu dan mengajak pegawai lain membenci penganutnya. Apa yang Anda lakukan?",
+    "scores": [
+      4,
+      5,
+      3,
+      1,
       2
     ],
-    "explanation": "Pilihan A (5) paling tepat: mengakui kesalahan secara terbuka, menjelaskan apa yang terjadi, dan mengusulkan langkah perbaikan bersama — pemimpin yang bertanggung jawab membangun kepercayaan tim dan memastikan kesalahan tidak terulang. Pilihan B (4) segera memperbaiki dampak kesalahan, tetapi tidak membahas penyebabnya sehingga tim tidak belajar dari kesalahan itu. Pilihan D (3) diam dan berharap tidak ada yang menyadari, yang membiarkan dampak kesalahan berlarut dan merusak kepercayaan bila akhirnya ketahuan. Pilihan E (2) menyalahkan keadaan dan keterbatasan data, yang berarti menghindar dari tanggung jawab atas keputusan sendiri. Pilihan C (1) paling buruk karena menyalahkan anggota tim yang hanya melaksanakan keputusan Anda."
+    "subtopic": "Anti Radikalisme"
   },
   {
-    "id": "TKP-22",
-    "category": "TKP",
-    "subtopic": "Kepemimpinan & Pengambilan Keputusan",
-    "question": "Dua anggota tim Anda terlibat konflik terbuka karena perbedaan cara kerja, dan konflik itu mulai mengganggu suasana kerja. Apa yang Anda lakukan?",
-    "options": [
-      "Membiarkan mereka menyelesaikan sendiri konflik tersebut.",
-      "Memanggil keduanya secara terpisah untuk mendengarkan masing-masing pihak.",
-      "Mempertemukan keduanya, memfasilitasi diskusi untuk menemukan akar masalah, membantu mereka menyepakati cara kerja bersama, dan memantau tindak lanjutnya.",
-      "Memihak salah satu pihak yang menurut Anda benar.",
-      "Memindahkan salah satu dari mereka ke tim lain agar konflik selesai."
-    ],
     "answer": 2,
-    "scores": [
-      1,
-      4,
-      5,
-      2,
-      3
-    ],
-    "explanation": "Pilihan C (5) paling tepat: mempertemukan keduanya, memfasilitasi diskusi untuk menemukan akar masalah, membantu menyepakati cara kerja bersama, dan memantau tindak lanjutnya — konflik diselesaikan sampai tuntas dengan cara yang adil bagi kedua pihak. Pilihan B (4) sudah baik karena memanggil keduanya secara terpisah untuk mendengarkan masing-masing pihak, tetapi berhenti di situ tanpa mempertemukan dan menyepakati solusi bersama. Pilihan E (3) memindahkan salah satu anggota ke tim lain memang menghentikan konflik di tim itu, tetapi tidak menyelesaikan akar masalah dan hanya memindahkan masalah ke tempat lain. Pilihan D (2) memihak salah satu pihak, yang membuat pihak lain merasa tidak diperlakukan adil dan konflik bisa membesar. Pilihan A (1) paling buruk karena membiarkan konflik terbuka yang sudah mengganggu suasana kerja tanpa tindakan apa pun."
-  },
-  {
-    "id": "TKP-23",
     "category": "TKP",
-    "subtopic": "Kepemimpinan & Pengambilan Keputusan",
-    "question": "Atasan memberikan target kerja baru yang menurut Anda terlalu tinggi untuk tim Anda dalam waktu yang tersedia. Apa yang Anda lakukan?",
+    "explanation": "Opsi terbaik adalah tetap melayani dengan ramah dan profesional sambil menjelaskan bahwa pelayanan tidak membedakan keyakinan, karena sikap ini menegakkan kesetaraan layanan sekaligus mengedukasi warga. Melayani tanpa penjelasan kurang baik karena kesempatan edukasi terlewat, membiarkan warga menunggu tanpa penjelasan bersikap netral dan menghindar, melayani sambil menunjukkan ketidaksukaan berarti setengah hati menerima diskriminasi, dan memenuhi permintaan warga adalah yang paling buruk karena membenarkan diskriminasi dalam pelayanan.",
+    "id": "TKP-19",
     "options": [
-      "Menerima target tersebut tanpa komentar dan membebankannya kepada tim.",
-      "Menolak target tersebut secara mentah-mentah di depan atasan.",
-      "Mengeluh kepada tim bahwa target itu tidak masuk akal.",
-      "Menyampaikan kepada atasan secara objektif kendala yang ada beserta data pendukung, dan mengusulkan target atau tahapan yang lebih realistis.",
-      "Menganalisis kemampuan tim dan kebutuhan target, menyampaikan kendala kepada atasan dengan data, mengusulkan tahapan pencapaian yang realistis, lalu menyusun rencana kerja bersama tim untuk mencapai target sebaik mungkin."
+      "Membiarkan warga itu menunggu pegawai lain tanpa menjelaskan apa pun.",
+      "Memenuhi permintaan warga itu dan menyuruhnya mencari pegawai yang sekeyakinan.",
+      "Tetap melayani warga itu dengan ramah dan profesional, menjelaskan bahwa pelayanan diberikan tanpa membedakan keyakinan, serta mengingatkan bahwa semua warga berhak atas pelayanan yang sama.",
+      "Tetap melayani warga itu, tetapi tidak menjelaskan bahwa pelayanan diberikan tanpa membedakan keyakinan.",
+      "Menyetujui sebagian permintaan warga itu dengan melayani sambil menunjukkan ketidaksukaan."
     ],
-    "answer": 4,
+    "question": "Seorang warga menolak dilayani oleh Anda karena berbeda keyakinan dengan Anda, dan meminta dilayani oleh pegawai lain yang sekeyakinan dengannya. Apa yang Anda lakukan?",
     "scores": [
       3,
-      2,
       1,
+      5,
+      4,
+      2
+    ],
+    "subtopic": "Anti Radikalisme"
+  },
+  {
+    "answer": 3,
+    "category": "TKP",
+    "explanation": "Opsi terbaik adalah menolak dengan sopan sambil menjelaskan jaminan konstitusi atas kebebasan beribadah dan melapor kepada atasan, karena sikap ini aktif membela hak beribadah kelompok minoritas. Menolak tanpa penjelasan kurang baik karena ajakan dibiarkan berlanjut, tidak memberi tanggapan hanya bersikap netral dan menghindar, menandatangani karena takut berbeda berarti setengah hati ikut mendukung pelarangan, dan menandatangani sekaligus menyebarkan adalah yang paling buruk karena aktif memperjuangkan pelarangan ibadah.",
+    "id": "TKP-20",
+    "options": [
+      "Menandatangani petisi itu agar tidak dianggap berbeda dari rekan-rekan lain.",
+      "Menolak menandatangani, tetapi tidak menjelaskan alasan dan tidak melaporkannya.",
+      "Menandatangani dan membantu menyebarkan petisi itu ke grup media sosial lain.",
+      "Menolak menandatangani dengan sopan, menjelaskan bahwa kebebasan beribadah dijamin konstitusi, dan melaporkan ajakan itu kepada atasan.",
+      "Tidak menandatangani dan tidak memberi tanggapan apa pun ketika diajak."
+    ],
+    "question": "Seorang rekan kerja mengajak Anda menyebarkan petisi daring yang menuntut pelarangan kegiatan ibadah kelompok minoritas di lingkungan kantor. Apa yang Anda lakukan?",
+    "scores": [
+      2,
+      4,
+      1,
+      5,
+      3
+    ],
+    "subtopic": "Anti Radikalisme"
+  },
+  {
+    "answer": 4,
+    "category": "TKP",
+    "explanation": "Opsi terbaik adalah mengamankan selebaran, tidak menyebarkannya, dan segera melapor kepada atasan atau petugas keamanan, karena sikap ini aktif mencegah penyebaran hasutan. Tidak menyebarkan tetapi tidak melapor kurang baik karena selebaran tetap beredar, mengabaikan begitu saja hanya bersikap netral, menyimpan karena penasaran berarti setengah hati terlibat dengan materi hasutan, dan membagikan selebaran kepada teman adalah yang paling buruk karena turut menyebarkan kebencian.",
+    "id": "TKP-21",
+    "options": [
+      "Mengambil beberapa selebaran untuk dibagikan kepada teman di luar kantor.",
+      "Mengabaikan selebaran itu dan melanjutkan pekerjaan seperti biasa.",
+      "Membaca selebaran itu lalu menyimpannya karena penasaran dengan isinya.",
+      "Tidak menyebarkan selebaran itu, tetapi tidak melaporkan keberadaannya kepada siapa pun.",
+      "Mengamankan selebaran itu, tidak menyebarkannya, dan segera melaporkannya kepada atasan atau petugas keamanan kantor."
+    ],
+    "question": "Anda menemukan selebaran di lingkungan kantor yang berisi ajakan menolak keberagaman dan menghasut kebencian terhadap kelompok tertentu. Apa yang Anda lakukan?",
+    "scores": [
+      1,
+      3,
+      2,
       4,
       5
     ],
-    "explanation": "Pilihan E (5) paling tepat: menganalisis kemampuan tim, menyampaikan kendala kepada atasan dengan data, mengusulkan tahapan pencapaian yang realistis, lalu menyusun rencana kerja bersama tim — Anda memperjuangkan target yang masuk akal sekaligus tetap berusaha mencapainya sebaik mungkin. Pilihan D (4) sudah baik karena menyampaikan kendala secara objektif dengan data dan mengusulkan target yang lebih realistis, tetapi tidak menyusun rencana kerja bersama tim untuk mencapai target tersebut. Pilihan A (3) menerima target tanpa komentar dan membebankannya kepada tim, yang bisa membuat tim kelelahan dan gagal mencapai target. Pilihan B (2) menolak target secara mentah-mentah di depan atasan, yang terkesan tidak kooperatif. Pilihan C (1) paling buruk karena mengeluh kepada tim bahwa target tidak masuk akal, yang menurunkan semangat tim tanpa menyelesaikan apa pun."
+    "subtopic": "Anti Radikalisme"
+  },
+  {
+    "answer": 0,
+    "category": "TKP",
+    "explanation": "Opsi terbaik adalah menanggapi dengan santun bahwa jabatan didasarkan pada kompetensi dan integritas, bukan keyakinan, serta mengusulkan pengingat nilai toleransi, karena sikap ini aktif membela kesetaraan tanpa menyerang senior. Tidak setuju dalam hati tetapi diam kurang baik karena pandangan diskriminatif dibiarkan, diam karena senior bersikap netral dan menghindar, mendukung sebagian berarti setengah hati membenarkan diskriminasi, dan menyatakan setuju adalah yang paling buruk karena ikut menyebarkan pandangan intoleran.",
+    "id": "TKP-22",
+    "options": [
+      "Menanggapi dengan santun bahwa jabatan didasarkan pada kompetensi dan integritas, bukan keyakinan, serta mengusulkan agar pimpinan mengingatkan nilai toleransi dalam rapat berikutnya.",
+      "Diam saja karena yang berbicara adalah pegawai senior.",
+      "Menyatakan setuju agar tidak bermasalah dengan pegawai senior tersebut.",
+      "Tidak setuju dalam hati, tetapi tidak menyampaikan pendapat apa pun di rapat.",
+      "Mendukung sebagian pendapat itu dengan mengatakan kelompok tertentu memang lebih cocok memimpin."
+    ],
+    "question": "Dalam rapat, seorang pegawai senior menyatakan bahwa hanya kelompok keyakinannya saja yang pantas menjadi pemimpin dan pegawai dari keyakinan lain tidak layak menduduki jabatan. Apa yang Anda lakukan?",
+    "scores": [
+      5,
+      3,
+      1,
+      4,
+      2
+    ],
+    "subtopic": "Anti Radikalisme"
+  },
+  {
+    "answer": 2,
+    "category": "TKP",
+    "explanation": "Opsi terbaik adalah menolak dengan tegas namun santun sambil menjelaskan bahwa keluarga dan perbedaan pandangan harus dihormati serta menyarankan kegiatan yang positif, karena sikap ini melindungi hubungan keluarga sekaligus mengedukasi teman. Menolak tanpa penjelasan kurang baik karena teman tidak memahami alasannya, tidak menjawab dan menghindar hanya bersikap netral, mengikuti sesekali berarti setengah hati terlibat, dan menerima ajakan adalah yang paling buruk karena merusak hubungan keluarga atas dasar perbedaan pandangan.",
+    "id": "TKP-23",
+    "options": [
+      "Menolak ajakan itu secara pribadi tanpa memberi penjelasan kepada teman Anda.",
+      "Mengikuti kegiatan itu sesekali agar persahabatan tetap terjaga.",
+      "Menolak ajakan itu dengan tegas namun santun, menjelaskan bahwa keluarga dan perbedaan pandangan harus dihormati, dan menyarankan teman Anda mengikuti kegiatan yang positif.",
+      "Menerima ajakan itu dan mulai menjauhi anggota keluarga yang berbeda pandangan.",
+      "Tidak menjawab ajakan itu dan menghindari teman Anda untuk sementara waktu."
+    ],
+    "question": "Seorang teman mengajak Anda mengikuti kegiatan kelompok yang mewajibkan anggotanya memutuskan hubungan dengan keluarga yang berbeda pandangan keagamaan. Apa yang Anda lakukan?",
+    "scores": [
+      4,
+      2,
+      5,
+      1,
+      3
+    ],
+    "subtopic": "Anti Radikalisme"
   },
   {
     "id": "TKP-24",
     "category": "TKP",
-    "subtopic": "Profesionalisme & Integritas",
+    "subtopic": "Profesionalisme",
     "question": "Anda menemukan bahwa laporan keuangan kecil di unit Anda memiliki selisih yang tidak dapat dijelaskan. Atasan Anda sedang cuti dan rekan kerja menyarankan untuk membiarkannya saja karena jumlahnya kecil. Apa yang Anda lakukan?",
     "options": [
       "Mencatat selisih tersebut dan menunggu atasan kembali sebelum bertindak.",
@@ -530,7 +530,7 @@
   {
     "id": "TKP-25",
     "category": "TKP",
-    "subtopic": "Profesionalisme & Integritas",
+    "subtopic": "Profesionalisme",
     "question": "Seorang rekan kerja menawarkan Anda hadiah berupa barang mahal sebagai ucapan terima kasih karena Anda membantunya menyelesaikan pekerjaannya. Apa yang Anda lakukan?",
     "options": [
       "Menerima hadiah tersebut karena Anda merasa pantas mendapatkannya.",
@@ -552,7 +552,7 @@
   {
     "id": "TKP-26",
     "category": "TKP",
-    "subtopic": "Profesionalisme & Integritas",
+    "subtopic": "Profesionalisme",
     "question": "Anda melihat rekan kerja menggunakan jam kerja untuk mengerjakan bisnis pribadinya secara rutin. Hal ini sudah berlangsung lama dan tidak ada yang menegur. Apa yang Anda lakukan?",
     "options": [
       "Menegurnya secara pribadi dengan sopan, mengingatkan dampaknya bagi tim, dan bila tidak ada perubahan, melaporkannya melalui jalur yang benar.",
@@ -574,7 +574,7 @@
   {
     "id": "TKP-27",
     "category": "TKP",
-    "subtopic": "Profesionalisme & Integritas",
+    "subtopic": "Profesionalisme",
     "question": "Anda diminta atasan untuk menyelesaikan tugas yang menurut Anda bertentangan dengan peraturan yang berlaku. Atasan bersikeras agar tugas itu tetap dilakukan. Apa yang Anda lakukan?",
     "options": [
       "Melaksanakan tugas tersebut sambil mencatat keberatan Anda secara tertulis.",
@@ -596,7 +596,7 @@
   {
     "id": "TKP-28",
     "category": "TKP",
-    "subtopic": "Profesionalisme & Integritas",
+    "subtopic": "Profesionalisme",
     "question": "Anda diberi akses ke data pribadi warga yang bersifat rahasia. Seorang kerabat Anda meminta data tersebut untuk keperluan pribadinya. Apa yang Anda lakukan?",
     "options": [
       "Memberikan data tersebut karena ia kerabat dekat Anda.",
@@ -618,7 +618,7 @@
   {
     "id": "TKP-29",
     "category": "TKP",
-    "subtopic": "Profesionalisme & Integritas",
+    "subtopic": "Profesionalisme",
     "question": "Anda berjanji kepada warga bahwa dokumennya akan selesai hari ini, tetapi ternyata ada kendala sistem yang membuat penyelesaian tertunda hingga besok. Apa yang Anda lakukan?",
     "options": [
       "Diam saja dan berharap warga tidak menanyakan.",
@@ -640,7 +640,7 @@
   {
     "id": "TKP-30",
     "category": "TKP",
-    "subtopic": "Profesionalisme & Integritas",
+    "subtopic": "Profesionalisme",
     "question": "Dalam sebuah seleksi internal, Anda mengetahui ada peserta yang menggunakan cara tidak jujur. Peserta tersebut adalah teman dekat Anda. Apa yang Anda lakukan?",
     "options": [
       "Diam saja karena tidak ingin merusak persahabatan.",
@@ -662,7 +662,7 @@
   {
     "id": "TKP-31",
     "category": "TKP",
-    "subtopic": "Profesionalisme & Integritas",
+    "subtopic": "Profesionalisme",
     "question": "Anda menemukan cara yang lebih efisien untuk menyelesaikan pekerjaan rutin, tetapi cara baru itu membutuhkan perubahan prosedur yang sudah lama dipakai. Apa yang Anda lakukan?",
     "options": [
       "Menguji cara baru tersebut, mendokumentasikan hasilnya, dan mengusulkan perubahan prosedur kepada atasan dengan data perbandingan yang jelas.",
@@ -838,7 +838,7 @@
   {
     "id": "TKP-39",
     "category": "TKP",
-    "subtopic": "Teknologi Informasi & Komunikasi",
+    "subtopic": "Adaptasi TIK",
     "question": "Kantor Anda baru menerapkan sistem pelayanan digital. Sebagian warga, terutama yang lanjut usia, kesulitan menggunakan sistem tersebut dan mengeluh. Apa yang Anda lakukan?",
     "options": [
       "Menyarankan warga untuk belajar menggunakan sistem digital sendiri.",
@@ -860,7 +860,7 @@
   {
     "id": "TKP-40",
     "category": "TKP",
-    "subtopic": "Teknologi Informasi & Komunikasi",
+    "subtopic": "Adaptasi TIK",
     "question": "Anda menerima pesan berantai di grup kerja yang berisi informasi tentang kebijakan baru, tetapi Anda ragu dengan kebenaran informasi tersebut. Apa yang Anda lakukan?",
     "options": [
       "Meneruskan pesan tersebut ke grup lain agar semua orang tahu.",
@@ -882,7 +882,7 @@
   {
     "id": "TKP-41",
     "category": "TKP",
-    "subtopic": "Teknologi Informasi & Komunikasi",
+    "subtopic": "Adaptasi TIK",
     "question": "Sistem komputer di kantor Anda tiba-tiba tidak bisa diakses saat banyak warga sedang mengantre. Anda bertanggung jawab atas pelayanan saat itu. Apa yang Anda lakukan?",
     "options": [
       "Tetap tenang, menginformasikan gangguan kepada warga dengan jelas, beralih ke pelayanan manual sementara, dan segera menghubungi bagian teknologi informasi.",
@@ -904,7 +904,7 @@
   {
     "id": "TKP-42",
     "category": "TKP",
-    "subtopic": "Teknologi Informasi & Komunikasi",
+    "subtopic": "Adaptasi TIK",
     "question": "Seorang rekan kerja membagikan kata sandi akun sistem kantor kepada orang lain dengan alasan memudahkan pekerjaan. Anda mengetahuinya. Apa yang Anda lakukan?",
     "options": [
       "Mengingatkan rekan tersebut bahwa berbagi kata sandi melanggar aturan keamanan.",
@@ -926,7 +926,7 @@
   {
     "id": "TKP-43",
     "category": "TKP",
-    "subtopic": "Teknologi Informasi & Komunikasi",
+    "subtopic": "Adaptasi TIK",
     "question": "Anda menemukan bahwa data warga yang tersimpan di sistem kantor dapat diakses oleh pihak yang tidak berwenang karena pengaturan hak akses yang longgar. Apa yang Anda lakukan?",
     "options": [
       "Membiarkannya karena Anda bukan bagian teknologi informasi.",
@@ -948,7 +948,7 @@
   {
     "id": "TKP-44",
     "category": "TKP",
-    "subtopic": "Teknologi Informasi & Komunikasi",
+    "subtopic": "Adaptasi TIK",
     "question": "Atasan meminta Anda membuat laporan yang membutuhkan data dari beberapa sistem yang berbeda. Anda kurang memahami salah satu sistem tersebut. Apa yang Anda lakukan?",
     "options": [
       "Membuat laporan berdasarkan data yang Anda pahami saja.",
@@ -970,7 +970,7 @@
   {
     "id": "TKP-45",
     "category": "TKP",
-    "subtopic": "Teknologi Informasi & Komunikasi",
+    "subtopic": "Adaptasi TIK",
     "question": "Kantor Anda mengadakan pelatihan penggunaan aplikasi baru, tetapi sebagian rekan kerja enggan mengikuti karena merasa sudah nyaman dengan cara lama. Anda ditunjuk menjadi salah satu peserta pelatihan. Apa yang Anda lakukan?",
     "options": [
       "Menolak mengikuti pelatihan karena cara lama sudah cukup baik.",
