@@ -55,19 +55,24 @@ Harus lewat HTTP server (bukan `file://`) karena soal dimuat dari
 - Tes per paket: `python demo/test-paket.py <huruf>` (simulasi penuh 543
   LULUS + pembahasan + riwayat + latihan TWK).
 
-## Tampilan beranda (pedoman ayocpns.com, isi tetap latihan)
+## Tampilan beranda (tema Wix "Atap" / Aegis Vertex Roofing, 26 Nov 2026)
 
-Beranda mengikuti **gaya** ayocpns.com (26 Nov 2026): nav pil putih
-mengambang, hero tengah terang (latar pucat + grid samar, judul navy besar,
-kata kunci biru berputar SKD → TWK → TIU → TKP), pita statistik biru
-(110 soal / 100 menit / 550 skor / 3 kategori), 6 kartu fitur, panel ajakan
-gradasi biru, FAQ accordion (5 pertanyaan), footer navy gelap, dan label
-kecil biru di atas tiap judul seksi. Hanya gayanya yang diadopsi — nama,
-logo, angka, klaim pengguna, harga, dan paket situs pedoman **tidak**
-disalin: semua angka di sini adalah fakta situs ini sendiri, dan situs ini
-gratis (tanpa paket berbayar). Seksi **Alur Latihan** gaya timeline tetap
-ada (Buat Akun → Pilih Mode → Kerjakan Soal → Lihat Hasil → Pelajari
-Pembahasan).
+Beranda memakai **tema template Wix "Atap (Bisnis)" (wh-1201)** — hanya
+gayanya yang diadopsi, isi tetap latihan: hero bidang slate gelap
+(#373A44) dengan judul putih dan kata kunci oranye berputar
+SKD → TWK → TIU → TKP, tombol utama oranye (#FF9500, teks gelap),
+pita statistik putih bersih, panel lavender (#DCE0EC) untuk panel ajakan
+tamu dan statistik formasi, label seksi berbentuk pil berbingkai oranye
+dengan titik oranye, kartu ber-radius besar (24px) dengan jarak antar-
+seksi yang lega, font geometris Poppins, dan footer slate gelap dengan
+wordmark besar "CAT CPNS". Warna biru lama sudah tidak ada lagi di situs
+ini (tombol, tautan, dan aksen ujian pun ikut oranye). Tema ini menggantikan
+gaya ayocpns.com sebelumnya.
+
+**Perbaikan kerapian yang ikut masuk (26 Nov 2026):** rincian tiap formasi
+sebelumnya selalu terbuka semua karena aturan CSS `.formasi-detail`
+menimpa atribut `hidden` — sekarang rincian hanya terbuka saat satu
+formasi diklik (ditambah aturan `.formasi-detail[hidden] { display: none; }`).
 
 **Beranda rapi untuk user sudah login** (26 Nov 2026): sesudah login,
 hero, disclaimer di bawah pita statistik, dan kartu fitur disembunyikan
