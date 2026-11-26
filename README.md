@@ -110,6 +110,18 @@ Yang login mendapat:
   TWK/TIU/TKP, total, status LULUS/TIDAK LULUS).
 - Nama tampil di pojok kanan atas + tombol Keluar.
 
+**Pembahasan milik tiap akun** (26 Nov 2026): hasil terakhir, sesi
+tersimpan, dan paket pilihan disimpan di localStorage dengan kunci per
+akun (sufiks email lowercase) — bukan satu kunci bersama — jadi akun
+lain yang login di browser yang sama tidak bisa membaca riwayat di
+Pembahasan atau melanjutkan simulasi akun lain. State dimuat ulang tiap
+login/logout (`refreshCatcpnsUser`, dipanggil `Auth.render()`); kunci
+lama tanpa sufiks dihapus saat halaman dimuat dan tidak pernah diadopsi.
+Catatan Pembahasan berbunyi "hasil simulasi terakhir akunmu". Uji:
+`demo/test-review-per-account.py` (A → B → A lagi, tanpa console
+error). Timer simulasi juga berhenti sendiri kalau sesinya sudah tidak
+ada (mis. ganti akun di tengah jalan).
+
 Tampilan login: kartu dua panel (panel navy berisi manfaat akun + form
 Masuk/Daftar dengan tab). Backend **sudah di-deploy 25 Nov 2026** sebagai web
 app "CAT CPNS auth v1" dan `AUTH_API_URL` di `auth.js` sudah terisi — login

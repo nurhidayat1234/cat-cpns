@@ -36,6 +36,10 @@ const Auth = (() => {
     return !!(user && user.token);
   }
 
+  function getUser() {
+    return user;
+  }
+
   async function sha256Hex(text) {
     if (!window.crypto || !crypto.subtle) {
       throw new Error("Browser ini tidak mendukung hashing aman (butuh HTTPS).");
@@ -165,6 +169,9 @@ const Auth = (() => {
   function render() {
     renderChip();
     renderHome();
+    // Muat ulang state milik akun yang sedang aktif (hasil, sesi, paket)
+    // agar Pembahasan tidak menampilkan data akun lain.
+    if (window.refreshCatcpnsUser) window.refreshCatcpnsUser();
   }
 
   // ---------- riwayat ----------
@@ -323,7 +330,7 @@ const Auth = (() => {
     render();
   }
 
-  return { init, isLoggedIn, saveResult, render, loadHistory, promptLogin, promptRegister };
+  return { init, isLoggedIn, getUser, saveResult, render, loadHistory, promptLogin, promptRegister };
 })();
 
 // Diekspos ke window agar app.js bisa memanggil Auth.isLoggedIn()/saveResult().

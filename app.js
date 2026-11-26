@@ -26,16 +26,40 @@ const PG_CATS = {
 const STORE_SESSION = "catcpns-session-v1";
 const STORE_RESULT = "catcpns-result-v1";
 const STORE_PAKET = "catcpns-paket-v1";
+// Kunci penyimpanan PER AKUN (sufiks email lowercase) — hasil terakhir,
+// sesi tersimpan, dan paket pilihan milik tiap akun terpisah, jadi
+// Pembahasan tidak pernah menampilkan hasil akun lain di browser yang sama.
+function userKeySuffix() {
+  const u = (window.Auth && Auth.getUser) ? Auth.getUser() : null;
+  return u && u.email ? ":" + String(u.email).trim().toLowerCase() : ":tamu";
+}
+function sessionKey() { return STORE_SESSION + userKeySuffix(); }
+function resultKey() { return STORE_RESULT + userKeySuffix(); }
+function paketKey() { return STORE_PAKET + userKeySuffix(); }
 const LETTERS = ["A", "B", "C", "D", "E"];
 
 let QUESTIONS = []; // 110 soal paket yang aktif, urutan TWK -> TIU -> TKP
 let QUESTIONS_BY_PAKET = {}; // cache per paket: { A: [...], B: [...] }
-let currentPaket = "A";
-try { currentPaket = localStorage.getItem(STORE_PAKET) || "A"; } catch (e) {}
+let currentPaket = "A"; // dibaca dari kunci per akun saat init (auth sudah jalan)
 let AVAILABLE_PAKETS = ["A"]; // diisi dari data/pakets.json saat init
 let session = null; // { mode, paket, ids, answers, doubtful, current, remaining, startedAt }
 let timerId = null;
 let lastResult = null;
+
+// Dipanggil auth.js setiap login/logout: muat ulang state milik akun yang
+// sedang aktif (hasil terakhir, sesi tersimpan, paket pilihan) dan gambar
+// ulang pemilih paket + kartu lanjutkan. (Fungsi top-level = window.)
+function refreshCatcpnsUser() {
+  try {
+    const raw = localStorage.getItem(resultKey());
+    lastResult = raw ? JSON.parse(raw) : null;
+  } catch (e) { lastResult = null; }
+  try { currentPaket = localStorage.getItem(paketKey()) || "A"; } catch (e) { currentPaket = "A"; }
+  if (!AVAILABLE_PAKETS.includes(currentPaket)) currentPaket = AVAILABLE_PAKETS[0] || "A";
+  session = loadStoredSession();
+  renderPaketPicker();
+  refreshResumeCard();
+}
 
 const $ = (id) => document.getElementById(id);
 
@@ -112,12 +136,12 @@ async function selectPaket(p) {
   const s = loadStoredSession();
   if (s && s.paket && s.paket !== p) {
     if (!confirm("Ada simulasi tersimpan di Paket " + s.paket + ".\nGanti ke Paket " + p + " akan menghapus simulasi tersimpan itu.")) return;
-    localStorage.removeItem(STORE_SESSION);
+    localStorage.removeItem(sessionKey());
     session = null;
   }
   try {
     await loadQuestions(p);
-    try { localStorage.setItem(STORE_PAKET, p); } catch (e) {}
+    try { localStorage.setItem(paketKey(), p); } catch (e) {}
     renderPaketPicker();
     refreshResumeCard();
   } catch (e) {
@@ -150,14 +174,14 @@ function newSession(mode) {
 
 function saveSession() {
   try {
-    if (session) localStorage.setItem(STORE_SESSION, JSON.stringify(session));
-    else localStorage.removeItem(STORE_SESSION);
+    if (session) localStorage.setItem(sessionKey(), JSON.stringify(session));
+    else localStorage.removeItem(sessionKey());
   } catch (e) { /* private mode etc. — lanjut tanpa simpan */ }
 }
 
 function loadStoredSession() {
   try {
-    const raw = localStorage.getItem(STORE_SESSION);
+    const raw = localStorage.getItem(sessionKey());
     return raw ? JSON.parse(raw) : null;
   } catch (e) { return null; }
 }
@@ -211,6 +235,7 @@ function renderExamChrome() {
 function startTimer() {
   stopTimer();
   timerId = setInterval(() => {
+    if (!session) { stopTimer(); return; } // sesi sudah tidak ada (mis. ganti akun saat timer jalan) — hentikan timer
     session.remaining -= 1;
     if (session.remaining <= 0) {
       session.remaining = 0;
@@ -313,7 +338,7 @@ function finishExam(timeUp) {
   }
   const result = computeResult();
   lastResult = result;
-  try { localStorage.setItem(STORE_RESULT, JSON.stringify(result)); } catch (e) {}
+  try { localStorage.setItem(resultKey(), JSON.stringify(result)); } catch (e) {}
   session = null;
   saveSession();
   renderResult(result);
@@ -506,7 +531,7 @@ function renderReviewList() {
   });
   $("reviewCount").textContent = items.length + " soal ditampilkan";
   $("reviewNote").textContent = lastResult
-    ? "Menampilkan hasil simulasi terakhir (Paket " + (lastResult.paket || currentPaket) + ", " + lastResult.mode + ", " + lastResult.total + "/" + lastResult.maxTotal + "). Untuk TKP, tidak ada jawaban salah mutlak — setiap opsi bernilai 1–5, dan pembahasan menjelaskan peringkatnya."
+    ? "Menampilkan hasil simulasi terakhir akunmu (Paket " + (lastResult.paket || currentPaket) + ", " + lastResult.mode + ", " + lastResult.total + "/" + lastResult.maxTotal + "). Untuk TKP, tidak ada jawaban salah mutlak — setiap opsi bernilai 1–5, dan pembahasan menjelaskan peringkatnya."
     : "Mode jelajah: semua 110 soal Paket " + currentPaket + " beserta pembahasannya. Kerjakan dulu simulasi untuk melihat jawaban dan skormu di sini.";
   const list = $("reviewList");
   list.innerHTML = "";
@@ -569,6 +594,15 @@ function refreshResumeCard() {
 }
 
 async function init() {
+  // Hapus kunci lama TANPA sufiks akun (data pra-perbaikan yang bisa
+  // dibaca akun lain) — jangan pernah diadopsi ke akun yang sedang login.
+  try {
+    localStorage.removeItem(STORE_SESSION);
+    localStorage.removeItem(STORE_RESULT);
+    localStorage.removeItem(STORE_PAKET);
+    // Paket + hasil terakhir milik akun yang sedang login (auth sudah jalan).
+    currentPaket = localStorage.getItem(paketKey()) || "A";
+  } catch (e) { currentPaket = "A"; }
   try {
     await loadPaketsManifest();
     renderPaketPicker();
@@ -579,7 +613,7 @@ async function init() {
     return;
   }
   try {
-    const raw = localStorage.getItem(STORE_RESULT);
+    const raw = localStorage.getItem(resultKey());
     if (raw) lastResult = JSON.parse(raw);
   } catch (e) {}
   document.querySelectorAll(".mode").forEach((b) => {
@@ -592,7 +626,8 @@ async function init() {
   $("resumeBtn").addEventListener("click", resumeExam);
   $("discardBtn").addEventListener("click", () => {
     if (confirm("Hapus simulasi yang tersimpan?")) {
-      localStorage.removeItem(STORE_SESSION);
+      localStorage.removeItem(sessionKey());
+      session = null;
       refreshResumeCard();
     }
   });
