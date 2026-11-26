@@ -38,6 +38,62 @@ function resultKey() { return STORE_RESULT + userKeySuffix(); }
 function paketKey() { return STORE_PAKET + userKeySuffix(); }
 const LETTERS = ["A", "B", "C", "D", "E"];
 
+// ---- Gambar figural TIU (SVG dari DSL kecil, lihat FIGURAL.md) ----
+// Sel: {s:"circle"|"square"|"triangle"|"diamond"|"star"|"plus"|"arrow",
+//       f:"black"|"white", r:0|45|90|135|180|225|270|315, d:0..3}
+// "?" = kotak kosong yang dicari.
+const FIG_SHAPES = ["circle", "square", "triangle", "diamond", "star", "plus", "arrow"];
+
+function starPoints(cx, cy, rO, rI) {
+  const pts = [];
+  for (let k = 0; k < 10; k++) {
+    const a = (-90 + k * 36) * Math.PI / 180;
+    const r = k % 2 === 0 ? rO : rI;
+    pts.push((cx + r * Math.cos(a)).toFixed(1) + "," + (cy + r * Math.sin(a)).toFixed(1));
+  }
+  return pts.join(" ");
+}
+
+function shapeMarkup(cell) {
+  const s = cell.s || "circle";
+  if (s === "square") return '<rect x="20" y="20" width="60" height="60"/>';
+  if (s === "triangle") return '<polygon points="50,16 84,80 16,80"/>';
+  if (s === "diamond") return '<polygon points="50,14 86,50 50,86 14,50"/>';
+  if (s === "star") return '<polygon points="' + starPoints(50, 50, 36, 15) + '"/>';
+  if (s === "plus") return '<path d="M42 18 h16 v24 h24 v16 h-24 v24 h-16 v-24 h-24 v-16 h24 z"/>';
+  if (s === "arrow") return '<polygon points="50,12 78,52 62,52 62,88 38,88 38,52 22,52"/>';
+  return '<circle cx="50" cy="50" r="32"/>';
+}
+
+function svgCell(cell, size) {
+  size = size || 72;
+  if (cell === "?") {
+    return '<svg class="fig-svg" width="' + size + '" height="' + size + '" viewBox="0 0 100 100" role="img" aria-label="gambar yang dicari"><rect x="6" y="6" width="88" height="88" fill="none" stroke="#94a3b8" stroke-width="3" stroke-dasharray="8 6" rx="8"/><text x="50" y="66" text-anchor="middle" font-size="44" font-weight="700" fill="#64748b">?</text></svg>';
+  }
+  const fill = cell.f === "white" ? "#ffffff" : "#1a1a1a";
+  const dotFill = cell.f === "white" ? "#1a1a1a" : "#ffffff";
+  const dots = cell.d || 0;
+  let dotSvg = "";
+  if (dots === 1) dotSvg = '<circle cx="50" cy="50" r="6" fill="' + dotFill + '"/>';
+  else if (dots === 2) dotSvg = '<circle cx="36" cy="50" r="6" fill="' + dotFill + '"/><circle cx="64" cy="50" r="6" fill="' + dotFill + '"/>';
+  else if (dots === 3) dotSvg = '<circle cx="50" cy="34" r="6" fill="' + dotFill + '"/><circle cx="36" cy="62" r="6" fill="' + dotFill + '"/><circle cx="64" cy="62" r="6" fill="' + dotFill + '"/>';
+  return '<svg class="fig-svg" width="' + size + '" height="' + size + '" viewBox="0 0 100 100" role="img" aria-label="gambar soal"><g transform="rotate(' + (cell.r || 0) + ' 50 50)" fill="' + fill + '" stroke="#1a1a1a" stroke-width="4" stroke-linejoin="round">' + shapeMarkup(cell) + '</g>' + dotSvg + '</svg>';
+}
+
+function renderFigure(fig) {
+  if (!fig) return "";
+  if (fig.kind === "seq") {
+    return '<div class="fig-seq">' + fig.cells.map((c) => '<span class="fig-cell">' + svgCell(c, 72) + '</span>').join('<span class="fig-arrow">&rarr;</span>') + '</div>';
+  }
+  if (fig.kind === "matrix") {
+    return '<div class="fig-matrix">' + fig.cells.flat().map((c) => '<span class="fig-cell">' + svgCell(c, 64) + '</span>').join("") + '</div>';
+  }
+  if (fig.kind === "analogy") {
+    return '<div class="fig-analogy"><span class="fig-cell">' + svgCell(fig.a, 72) + '</span><span class="fig-sep">:</span><span class="fig-cell">' + svgCell(fig.b, 72) + '</span><span class="fig-sep">::</span><span class="fig-cell">' + svgCell(fig.c, 72) + '</span><span class="fig-sep">:</span><span class="fig-cell">' + svgCell("?", 72) + '</span></div>';
+  }
+  return "";
+}
+
 let QUESTIONS = []; // 110 soal paket yang aktif, urutan TWK -> TIU -> TKP
 let QUESTIONS_BY_PAKET = {}; // cache per paket: { A: [...], B: [...] }
 let currentPaket = "A"; // dibaca dari kunci per akun saat init (auth sudah jalan)
@@ -266,13 +322,22 @@ function renderQuestion() {
   $("qNum").textContent = "Soal " + (session.current + 1) + " • " + q.category;
   $("qSubtopic").textContent = q.subtopic || "";
   $("qText").textContent = q.question;
+  const figBox = $("figureBox");
+  const isFig = !!q.figure;
+  figBox.innerHTML = isFig ? renderFigure(q.figure) : "";
+  figBox.style.display = isFig ? "" : "none";
   const box = $("options");
+  box.classList.toggle("fig-options", isFig);
   box.innerHTML = "";
-  q.options.forEach((text, i) => {
+  q.options.forEach((opt, i) => {
     const b = document.createElement("button");
-    b.className = "opt" + (session.answers[session.current] === i ? " selected" : "");
-    b.innerHTML = '<span class="letter">' + LETTERS[i] + '</span><span></span>';
-    b.lastChild.textContent = text;
+    b.className = "opt" + (isFig ? " opt-fig" : "") + (session.answers[session.current] === i ? " selected" : "");
+    if (isFig) {
+      b.innerHTML = '<span class="letter">' + LETTERS[i] + '</span><span class="fig-opt">' + svgCell(opt, 56) + '</span>';
+    } else {
+      b.innerHTML = '<span class="letter">' + LETTERS[i] + '</span><span></span>';
+      b.lastChild.textContent = opt;
+    }
     b.onclick = () => {
       session.answers[session.current] = i;
       saveSession();
@@ -557,12 +622,12 @@ function renderReviewList() {
     card.innerHTML =
       '<div class="q-head"><span class="q-num">Soal ' + (q.id) + '</span>' +
       '<span><span class="tag ' + q.category.toLowerCase() + '">' + q.category + '</span><span class="q-subtopic">' + (q.subtopic || "") + '</span></span></div>' +
-      '<p class="q-text"></p>' + meta + '<div class="opts"></div>' +
+      '<p class="q-text"></p>' + (q.figure ? '<div class="rev-fig">' + renderFigure(q.figure) + '</div>' : '') + meta + '<div class="opts"></div>' +
       '<div class="expl"><strong>Pembahasan:</strong> <span></span></div>';
     card.querySelector(".q-text").textContent = q.question;
     const optsBox = card.querySelector(".opts");
     optsBox.innerHTML = "";
-    q.options.forEach((text, i) => {
+    q.options.forEach((opt, i) => {
       const d = document.createElement("div");
       d.className = "rev-opt"
         + (i === best ? " correct" : "")
@@ -571,7 +636,12 @@ function renderReviewList() {
       letter.className = "letter";
       letter.textContent = LETTERS[i];
       const body = document.createElement("span");
-      body.textContent = text + (q.category === "TKP" ? "  (" + q.scores[i] + " poin)" : "");
+      if (q.figure) {
+        body.className = "fig-opt";
+        body.innerHTML = svgCell(opt, 56);
+      } else {
+        body.textContent = opt + (q.category === "TKP" ? "  (" + q.scores[i] + " poin)" : "");
+      }
       d.appendChild(letter);
       d.appendChild(body);
       optsBox.appendChild(d);

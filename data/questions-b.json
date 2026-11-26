@@ -1257,13 +1257,38 @@
     "id": "TIU-28",
     "category": "TIU",
     "subtopic": "Figural — Serial",
-    "question": "D, G, J, M, P, … Huruf berikutnya adalah ...",
+    "question": "Perhatikan deret gambar berikut. Gambar berikutnya adalah ...",
     "options": [
-      "S",
-      "R",
-      "T",
-      "Q",
-      "U"
+      {
+        "s": "circle",
+        "f": "black",
+        "r": 0,
+        "d": 0
+      },
+      {
+        "s": "circle",
+        "f": "white",
+        "r": 0,
+        "d": 0
+      },
+      {
+        "s": "square",
+        "f": "black",
+        "r": 0,
+        "d": 0
+      },
+      {
+        "s": "diamond",
+        "f": "black",
+        "r": 0,
+        "d": 0
+      },
+      {
+        "s": "triangle",
+        "f": "white",
+        "r": 0,
+        "d": 0
+      }
     ],
     "answer": 0,
     "scores": [
@@ -1273,19 +1298,69 @@
       0,
       0
     ],
-    "explanation": "Setiap huruf maju 3 langkah dalam alfabet: D(4) → G(7) → J(10) → M(13) → P(16). Huruf berikutnya maju 3 langkah lagi: 16 + 3 = 19, yaitu S."
+    "explanation": "Bentuk berubah berurutan lingkaran → kotak → segitiga → belah ketupat, lalu kembali ke lingkaran; isinya bergantian hitam, putih, hitam, putih, sehingga gambar kelima adalah lingkaran hitam. Opsi B salah isinya, opsi C dan E salah bentuknya, opsi D salah bentuk dan isinya.",
+    "figure": {
+      "kind": "seq",
+      "cells": [
+        {
+          "s": "circle",
+          "f": "black",
+          "r": 0,
+          "d": 0
+        },
+        {
+          "s": "square",
+          "f": "white",
+          "r": 0,
+          "d": 0
+        },
+        {
+          "s": "triangle",
+          "f": "black",
+          "r": 0,
+          "d": 0
+        },
+        {
+          "s": "diamond",
+          "f": "white",
+          "r": 0,
+          "d": 0
+        },
+        "?"
+      ]
+    }
   },
   {
     "id": "TIU-29",
     "category": "TIU",
     "subtopic": "Figural — Serial",
-    "question": "A, E, I, M, Q, … Huruf berikutnya adalah ...",
+    "question": "Perhatikan deret gambar berikut. Anak panah berputar berlawanan arah jarum jam. Gambar berikutnya adalah ...",
     "options": [
-      "T",
-      "S",
-      "V",
-      "W",
-      "U"
+      {
+        "s": "arrow",
+        "f": "white",
+        "r": 0
+      },
+      {
+        "s": "arrow",
+        "f": "black",
+        "r": 90
+      },
+      {
+        "s": "arrow",
+        "f": "white",
+        "r": 180
+      },
+      {
+        "s": "arrow",
+        "f": "black",
+        "r": 270
+      },
+      {
+        "s": "arrow",
+        "f": "black",
+        "r": 0
+      }
     ],
     "answer": 4,
     "scores": [
@@ -1295,19 +1370,70 @@
       0,
       5
     ],
-    "explanation": "Setiap huruf maju 4 langkah dalam alfabet: A(1) → E(5) → I(9) → M(13) → Q(17). Huruf berikutnya maju 4 langkah lagi: 17 + 4 = 21, yaitu U."
+    "explanation": "Anak panah berputar 90 derajat berlawanan arah jarum jam setiap langkah (0, 270, 180, 90, lalu kembali ke 0 derajat) dan isinya bergantian hitam-putih (hitam, putih, hitam, putih, hitam). Jadi gambar kelima adalah anak panah hitam menghadap ke atas. Pilihan A salah isi karena putih, B dan D salah arah putar, C salah arah putar dan isi.",
+    "figure": {
+      "kind": "seq",
+      "cells": [
+        {
+          "s": "arrow",
+          "f": "black",
+          "r": 0
+        },
+        {
+          "s": "arrow",
+          "f": "white",
+          "r": 270
+        },
+        {
+          "s": "arrow",
+          "f": "black",
+          "r": 180
+        },
+        {
+          "s": "arrow",
+          "f": "white",
+          "r": 90
+        },
+        "?"
+      ]
+    }
   },
   {
     "id": "TIU-30",
     "category": "TIU",
     "subtopic": "Figural — Serial",
-    "question": "E, G, J, L, O, … Huruf berikutnya adalah ...",
+    "question": "Perhatikan urutan gambar berikut. Gambar selanjutnya adalah ...",
     "options": [
-      "P",
-      "R",
-      "Q",
-      "S",
-      "T"
+      {
+        "s": "circle",
+        "f": "black",
+        "r": 0,
+        "d": 0
+      },
+      {
+        "s": "circle",
+        "f": "black",
+        "r": 0,
+        "d": 2
+      },
+      {
+        "s": "circle",
+        "f": "black",
+        "r": 0,
+        "d": 3
+      },
+      {
+        "s": "square",
+        "f": "black",
+        "r": 0,
+        "d": 3
+      },
+      {
+        "s": "diamond",
+        "f": "black",
+        "r": 0,
+        "d": 3
+      }
     ],
     "answer": 2,
     "scores": [
@@ -1317,19 +1443,74 @@
       0,
       0
     ],
-    "explanation": "Ada dua deret yang berselang-seling: deret posisi ganjil E, J, O, … (maju 5) dan deret posisi genap G, L, … (maju 5). Setelah O (posisi ke-5) dan L (posisi ke-4), posisi ke-6 mengikuti deret genap: L(12) + 5 = 17, yaitu Q."
+    "explanation": "Bentuk berubah berurutan lingkaran → kotak → segitiga → belah ketupat, dan jumlah titik berkurang satu tiap langkah (3, 2, 1, 0). Setelah belah ketupat, bentuk kembali ke lingkaran dan titik kembali ke 3, jadi jawabannya lingkaran bertitik 3. Opsi A dan B salah jumlah titiknya, opsi D dan E salah bentuknya.",
+    "figure": {
+      "kind": "seq",
+      "cells": [
+        {
+          "s": "circle",
+          "f": "black",
+          "r": 0,
+          "d": 3
+        },
+        {
+          "s": "square",
+          "f": "black",
+          "r": 0,
+          "d": 2
+        },
+        {
+          "s": "triangle",
+          "f": "black",
+          "r": 0,
+          "d": 1
+        },
+        {
+          "s": "diamond",
+          "f": "black",
+          "r": 0,
+          "d": 0
+        },
+        "?"
+      ]
+    }
   },
   {
     "id": "TIU-31",
     "category": "TIU",
     "subtopic": "Figural — Analogi",
-    "question": "Pada gambar pertama terlihat sebuah segitiga. Pada gambar kedua terlihat sebuah segilima yang diputar 90 derajat. Aturannya: jumlah sisi bertambah dua dan bangun diputar 90 derajat. Gambar ketiga adalah sebuah segiempat. Gambar keempat yang mengikuti aturan yang sama harus berupa ...",
+    "question": "Gambar pertama berubah menjadi gambar kedua dengan aturan tertentu. Terapkan aturan yang sama pada gambar ketiga. Gambar keempat adalah ...",
     "options": [
-      "Segienam tanpa diputar.",
-      "Segienam yang diputar 90 derajat.",
-      "Segilima yang diputar 90 derajat.",
-      "Segitujuh yang diputar 90 derajat.",
-      "Segienam yang diputar 180 derajat."
+      {
+        "s": "square",
+        "f": "black",
+        "r": 0,
+        "d": 0
+      },
+      {
+        "s": "square",
+        "f": "black",
+        "r": 0,
+        "d": 1
+      },
+      {
+        "s": "square",
+        "f": "black",
+        "r": 0,
+        "d": 2
+      },
+      {
+        "s": "circle",
+        "f": "black",
+        "r": 0,
+        "d": 1
+      },
+      {
+        "s": "triangle",
+        "f": "black",
+        "r": 0,
+        "d": 1
+      }
     ],
     "answer": 1,
     "scores": [
@@ -1339,19 +1520,65 @@
       0,
       0
     ],
-    "explanation": "Benar karena aturan yang sama diterapkan pada segiempat: jumlah sisi bertambah dua menjadi enam dan bangun diputar 90 derajat, sehingga hasilnya adalah segienam yang diputar 90 derajat. Opsi A tidak memutar bangun, opsi C tidak menambah jumlah sisi, opsi D menambah tiga sisi, dan opsi E memutar 180 derajat, bukan 90 derajat."
+    "explanation": "Aturannya: bentuk tetap, jumlah titik bertambah satu. Lingkaran bertitik 1 menjadi lingkaran bertitik 2, maka kotak tanpa titik menjadi kotak bertitik 1. Opsi A tidak menambah titik, opsi C menambah dua titik, opsi D dan E salah bentuknya.",
+    "figure": {
+      "kind": "analogy",
+      "a": {
+        "s": "circle",
+        "f": "black",
+        "r": 0,
+        "d": 1
+      },
+      "b": {
+        "s": "circle",
+        "f": "black",
+        "r": 0,
+        "d": 2
+      },
+      "c": {
+        "s": "square",
+        "f": "black",
+        "r": 0,
+        "d": 0
+      }
+    }
   },
   {
     "id": "TIU-32",
     "category": "TIU",
     "subtopic": "Figural — Analogi",
-    "question": "Gambar pertama menunjukkan segitiga dengan 3 titik di dalamnya. Gambar kedua menunjukkan segiempat dengan 2 titik di dalamnya. Aturannya: jumlah sisi bertambah satu dan jumlah titik berkurang satu. Gambar ketiga menunjukkan segilima dengan 3 titik di dalamnya. Gambar keempat yang mengikuti aturan yang sama harus berupa ...",
+    "question": "Perhatikan pasangan gambar A : B. Aturan yang sama berlaku untuk C. Gambar yang melengkapi C adalah ...",
     "options": [
-      "Segienam dengan 3 titik di dalam.",
-      "Segilima dengan 2 titik di dalam.",
-      "Segitujuh dengan 2 titik di dalam.",
-      "Segienam dengan 2 titik di dalam.",
-      "Segienam dengan 1 titik di dalam."
+      {
+        "s": "arrow",
+        "f": "black",
+        "r": 180,
+        "d": 3
+      },
+      {
+        "s": "arrow",
+        "f": "black",
+        "r": 0,
+        "d": 2
+      },
+      {
+        "s": "arrow",
+        "f": "black",
+        "r": 180,
+        "d": 1
+      },
+      {
+        "s": "arrow",
+        "f": "black",
+        "r": 180,
+        "d": 2
+      },
+      {
+        "s": "square",
+        "f": "black",
+        "r": 180,
+        "d": 2
+      }
     ],
     "answer": 3,
     "scores": [
@@ -1361,19 +1588,65 @@
       5,
       0
     ],
-    "explanation": "Benar karena aturan yang sama diterapkan pada segilima: jumlah sisi bertambah satu menjadi enam dan jumlah titik berkurang satu menjadi dua, sehingga hasilnya adalah segienam dengan 2 titik di dalam. Opsi A tidak mengurangi jumlah titik, opsi B tidak menambah jumlah sisi, opsi C menambah dua sisi, dan opsi E mengurangi dua titik."
+    "explanation": "Aturannya: bangun dicerminkan (segitiga menghadap atas menjadi menghadap bawah) dan jumlah titik berkurang satu. Maka panah ke atas bertitik 3 menjadi panah ke bawah bertitik 2. Opsi A tidak mengurangi titik, opsi B tidak mencerminkan, opsi C mengurangi dua titik, opsi E salah bentuknya.",
+    "figure": {
+      "kind": "analogy",
+      "a": {
+        "s": "triangle",
+        "f": "black",
+        "r": 0,
+        "d": 2
+      },
+      "b": {
+        "s": "triangle",
+        "f": "black",
+        "r": 180,
+        "d": 1
+      },
+      "c": {
+        "s": "arrow",
+        "f": "black",
+        "r": 0,
+        "d": 3
+      }
+    }
   },
   {
     "id": "TIU-33",
     "category": "TIU",
     "subtopic": "Figural — Penalaran Matriks",
-    "question": "Perhatikan tabel angka 3 baris berikut. Baris 1: 6, 3, 9. Baris 2: 8, 2, 10. Baris 3: 5, 7, ?. Angka manakah yang melengkapi kotak kosong agar pola pada setiap baris terpenuhi?",
+    "question": "Perhatikan matriks gambar 3 × 3 berikut. Gambar yang melengkapi kotak kosong adalah ...",
     "options": [
-      "12",
-      "11",
-      "13",
-      "10",
-      "14"
+      {
+        "s": "triangle",
+        "f": "black",
+        "r": 0,
+        "d": 0
+      },
+      {
+        "s": "triangle",
+        "f": "white",
+        "r": 0,
+        "d": 0
+      },
+      {
+        "s": "square",
+        "f": "black",
+        "r": 0,
+        "d": 0
+      },
+      {
+        "s": "circle",
+        "f": "black",
+        "r": 0,
+        "d": 0
+      },
+      {
+        "s": "diamond",
+        "f": "black",
+        "r": 0,
+        "d": 0
+      }
     ],
     "answer": 0,
     "scores": [
@@ -1383,19 +1656,104 @@
       0,
       0
     ],
-    "explanation": "Benar karena pada setiap baris, angka ketiga adalah jumlah dua angka sebelumnya: baris 1 adalah 6 + 3 = 9 dan baris 2 adalah 8 + 2 = 10, sehingga baris 3 harus 5 + 7 = 12. Opsi lain bukan hasil penjumlahan 5 dan 7, sehingga semuanya melanggar pola jumlah per baris."
+    "explanation": "Setiap kolom memakai bentuk yang sama (kolom 1 lingkaran, kolom 2 kotak, kolom 3 segitiga) dan isi berubah per baris: baris 1 hitam, baris 2 putih, baris 3 hitam. Jadi kotak kosong adalah segitiga hitam. Opsi B salah isinya, opsi C, D, dan E salah bentuknya.",
+    "figure": {
+      "kind": "matrix",
+      "cells": [
+        [
+          {
+            "s": "circle",
+            "f": "black",
+            "r": 0,
+            "d": 0
+          },
+          {
+            "s": "square",
+            "f": "black",
+            "r": 0,
+            "d": 0
+          },
+          {
+            "s": "triangle",
+            "f": "black",
+            "r": 0,
+            "d": 0
+          }
+        ],
+        [
+          {
+            "s": "circle",
+            "f": "white",
+            "r": 0,
+            "d": 0
+          },
+          {
+            "s": "square",
+            "f": "white",
+            "r": 0,
+            "d": 0
+          },
+          {
+            "s": "triangle",
+            "f": "white",
+            "r": 0,
+            "d": 0
+          }
+        ],
+        [
+          {
+            "s": "circle",
+            "f": "black",
+            "r": 0,
+            "d": 0
+          },
+          {
+            "s": "square",
+            "f": "black",
+            "r": 0,
+            "d": 0
+          },
+          "?"
+        ]
+      ]
+    }
   },
   {
     "id": "TIU-34",
     "category": "TIU",
     "subtopic": "Figural — Penalaran Matriks",
-    "question": "Pada susunan angka berikut, perhatikan pola tiap kolom. Kolom 1: 9, 4, 5. Kolom 2: 12, 7, 5. Kolom 3: 15, 6, ?. Angka manakah yang melengkapi kotak kosong agar pola pada setiap kolom terpenuhi?",
+    "question": "Amati susunan gambar 3 × 3 di bawah ini. Gambar yang tepat untuk kotak bertanda tanya adalah ...",
     "options": [
-      "7",
-      "8",
-      "9",
-      "10",
-      "11"
+      {
+        "s": "plus",
+        "f": "white",
+        "r": 0,
+        "d": 1
+      },
+      {
+        "s": "plus",
+        "f": "black",
+        "r": 0,
+        "d": 2
+      },
+      {
+        "s": "plus",
+        "f": "white",
+        "r": 0,
+        "d": 2
+      },
+      {
+        "s": "diamond",
+        "f": "white",
+        "r": 0,
+        "d": 2
+      },
+      {
+        "s": "plus",
+        "f": "white",
+        "r": 0,
+        "d": 0
+      }
     ],
     "answer": 2,
     "scores": [
@@ -1405,19 +1763,104 @@
       0,
       0
     ],
-    "explanation": "Benar karena pada setiap kolom, angka ketiga adalah selisih dua angka di atasnya: kolom 1 adalah 9 − 4 = 5 dan kolom 2 adalah 12 − 7 = 5, sehingga kolom 3 harus 15 − 6 = 9. Opsi lain bukan hasil pengurangan 15 dengan 6, sehingga semuanya melanggar pola selisih per kolom."
+    "explanation": "Setiap kolom memakai bentuk yang sama (bintang, belah ketupat, plus) dan isi berubah per baris: putih, hitam, putih. Jumlah titik juga bertambah ke bawah: baris 1 tanpa titik, baris 2 satu titik, baris 3 dua titik. Jadi kotak kosong adalah plus putih bertitik 2. Opsi A dan E salah jumlah titiknya, opsi B salah isinya, opsi D salah bentuknya.",
+    "figure": {
+      "kind": "matrix",
+      "cells": [
+        [
+          {
+            "s": "star",
+            "f": "white",
+            "r": 0,
+            "d": 0
+          },
+          {
+            "s": "diamond",
+            "f": "white",
+            "r": 0,
+            "d": 0
+          },
+          {
+            "s": "plus",
+            "f": "white",
+            "r": 0,
+            "d": 0
+          }
+        ],
+        [
+          {
+            "s": "star",
+            "f": "black",
+            "r": 0,
+            "d": 1
+          },
+          {
+            "s": "diamond",
+            "f": "black",
+            "r": 0,
+            "d": 1
+          },
+          {
+            "s": "plus",
+            "f": "black",
+            "r": 0,
+            "d": 1
+          }
+        ],
+        [
+          {
+            "s": "star",
+            "f": "white",
+            "r": 0,
+            "d": 2
+          },
+          {
+            "s": "diamond",
+            "f": "white",
+            "r": 0,
+            "d": 2
+          },
+          "?"
+        ]
+      ]
+    }
   },
   {
     "id": "TIU-35",
     "category": "TIU",
     "subtopic": "Figural — Penalaran Matriks",
-    "question": "Lihat susunan angka 3x3 di bawah ini. Baris 1: 2, 5, 9. Baris 2: 3, 4, 11. Baris 3: 4, 3, ?. Angka manakah yang melengkapi kotak kosong agar pola pada setiap baris terpenuhi?",
+    "question": "Perhatikan matriks gambar berikut. Gambar yang melengkapi kotak kosong di sudut kanan bawah adalah ...",
     "options": [
-      "10",
-      "12",
-      "13",
-      "9",
-      "11"
+      {
+        "s": "star",
+        "f": "black",
+        "r": 0,
+        "d": 0
+      },
+      {
+        "s": "star",
+        "f": "black",
+        "r": 90,
+        "d": 0
+      },
+      {
+        "s": "star",
+        "f": "white",
+        "r": 180,
+        "d": 0
+      },
+      {
+        "s": "arrow",
+        "f": "black",
+        "r": 180,
+        "d": 0
+      },
+      {
+        "s": "star",
+        "f": "black",
+        "r": 180,
+        "d": 0
+      }
     ],
     "answer": 4,
     "scores": [
@@ -1427,7 +1870,67 @@
       0,
       5
     ],
-    "explanation": "Benar karena pada setiap baris, angka ketiga adalah hasil kali dua angka sebelumnya dikurangi 1: baris 1 adalah 2 × 5 − 1 = 9 dan baris 2 adalah 3 × 4 − 1 = 11, sehingga baris 3 harus 4 × 3 − 1 = 11. Opsi lain bukan hasil dari 4 × 3 − 1, sehingga semuanya melanggar pola perkalian per baris."
+    "explanation": "Setiap kolom memakai bentuk yang sama (segitiga, panah, bintang). Isi berubah per baris (hitam, putih, hitam) dan bangun berputar 90 derajat tiap baris (0°, 90°, 180°). Jadi kotak kosong adalah bintang hitam yang diputar 180°. Opsi A dan B salah putarannya, opsi C salah isinya, opsi D salah bentuknya.",
+    "figure": {
+      "kind": "matrix",
+      "cells": [
+        [
+          {
+            "s": "triangle",
+            "f": "black",
+            "r": 0,
+            "d": 0
+          },
+          {
+            "s": "arrow",
+            "f": "black",
+            "r": 0,
+            "d": 0
+          },
+          {
+            "s": "star",
+            "f": "black",
+            "r": 0,
+            "d": 0
+          }
+        ],
+        [
+          {
+            "s": "triangle",
+            "f": "white",
+            "r": 90,
+            "d": 0
+          },
+          {
+            "s": "arrow",
+            "f": "white",
+            "r": 90,
+            "d": 0
+          },
+          {
+            "s": "star",
+            "f": "white",
+            "r": 90,
+            "d": 0
+          }
+        ],
+        [
+          {
+            "s": "triangle",
+            "f": "black",
+            "r": 180,
+            "d": 0
+          },
+          {
+            "s": "arrow",
+            "f": "black",
+            "r": 180,
+            "d": 0
+          },
+          "?"
+        ]
+      ]
+    }
   },
   {
     "answer": 2,

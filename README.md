@@ -122,6 +122,27 @@ Catatan Pembahasan berbunyi "hasil simulasi terakhir akunmu". Uji:
 error). Timer simulasi juga berhenti sendiri kalau sesinya sudah tidak
 ada (mis. ganti akun di tengah jalan).
 
+**Soal figural TIU bergambar** (26 Nov 2026): 8 soal figural tiap paket
+(Serial 3, Analogi 2, Penalaran Matriks 3) kini tampil sebagai gambar
+SVG yang dibuat langsung dari data soal — tanpa file gambar eksternal.
+Setiap soal punya field `figure` (DSL kecil: bangun lingkaran/kotak/
+segitiga/belah ketupat/bintang/plus/panah, isi hitam/putih, rotasi
+kelipatan 45°, titik 0–3; sel `"?"` = kotak yang dicari) dan 5 opsi
+berupa gambar; pola yang dipakai murni visual (rotasi, isi, titik,
+bentuk, cermin, gabungan). Spesifikasi lengkap di `FIGURAL.md` (dokumen
+pengembangan lokal, tidak ikut terbit). Renderer ada di `app.js`
+(`svgCell`, `renderFigure`) dan dipakai di layar soal (`#figureBox`)
+maupun Pembahasan (`.rev-fig`); `scripts/build-questions.mjs`
+memvalidasi DSL-nya (soal figural wajib punya `figure` + opsi gambar,
+non-figural tidak boleh punya `figure`) dan kunci cek duplikat antar
+paket mencakup teks + figure + opsi. Aturan yang dijaga: rotasi hanya
+dipakai pada bangun yang arahnya terlihat (segitiga/bintang/panah) —
+lingkaran/kotak/belah ketupat/plus tidak berubah wujud saat diputar
+kelipatan 90°, jadi pola rotasi pada bangun itu membuat opsi yang
+tampak identik. Uji: `demo/test-figural.py` (render sampel + E2E
+latihan TIU: Serial/Matriks/Analogi tampil, total 175, Pembahasan
+menampilkan gambar).
+
 Tampilan login: kartu dua panel (panel navy berisi manfaat akun + form
 Masuk/Daftar dengan tab). Backend **sudah di-deploy 25 Nov 2026** sebagai web
 app "CAT CPNS auth v1" dan `AUTH_API_URL` di `auth.js` sudah terisi — login

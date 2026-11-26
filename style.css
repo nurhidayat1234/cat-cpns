@@ -981,3 +981,22 @@ body.is-logged-in #screen-home #featuresCard { display: none; }
 /* Langkah "Buat Akun" di Alur Latihan tidak perlu lagi sesudah login. */
 body.is-logged-in #screen-home #alurStepAkun,
 body.is-logged-in #screen-home #alurChev1 { display: none; }
+
+/* ---- Gambar figural TIU (SVG dari DSL, lihat FIGURAL.md) ---- */
+.figure-box { margin: 0.2rem 0 1rem; }
+.fig-seq, .fig-analogy { display: flex; align-items: center; gap: 0.35rem; flex-wrap: wrap; }
+.fig-matrix { display: grid; grid-template-columns: repeat(3, max-content); gap: 0.35rem; }
+.fig-cell { display: inline-flex; align-items: center; justify-content: center; background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 10px; padding: 6px; }
+.fig-arrow { color: #64748b; font-weight: 700; }
+.fig-sep { color: #334155; font-weight: 700; font-size: 1.2rem; padding: 0 0.2rem; }
+.fig-svg { display: block; }
+.options.fig-options { flex-direction: row; flex-wrap: wrap; }
+.opt-fig { flex: 1 1 90px; flex-direction: column; align-items: center; gap: 0.35rem; padding: 0.7rem 0.4rem; }
+.opt-fig:hover { transform: translateY(-2px); }
+.opt-fig .letter { margin-top: 0; }
+.rev-fig { margin: 0.4rem 0 0.8rem; }
+.rev-opt .fig-opt { display: inline-flex; }
+@media (max-width: 640px) {
+  .fig-seq, .fig-analogy { gap: 0.25rem; }
+  .opt-fig { flex-basis: 70px; }
+}
