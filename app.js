@@ -663,6 +663,155 @@ function refreshResumeCard() {
   card.style.display = "block";
 }
 
+// ---------- Formasi CPNS (data resmi API SSCASN BKN) ----------
+// API BKN (api-rekrutmen.bkn.go.id/portal/api/spf) hanya mengizinkan CORS
+// dari sscasn.bkn.go.id, jadi browser situs ini TIDAK bisa mengambilnya
+// langsung. Datanya ditarik sisi server oleh scripts/fetch-formasi.mjs
+// (dijalankan GitHub Actions tiap 6 jam) ke data/formasi.json, lalu halaman
+// ini memuat file lokal tersebut — malas (lazy): baru diunduh saat kartu
+// formasi terlihat di layar.
+const SSCASN_FORMASI = "https://sscasn.bkn.go.id/daftar-formasi/";
+let formasiData = null;
+let formasiLoadStarted = false;
+let formasiShown = 0;
+const FORMASI_PAGE = 20;
+
+function escHtml(s) {
+  return String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+}
+function fmtNum(n) { return Number(n || 0).toLocaleString("id-ID"); }
+
+async function loadFormasi() {
+  if (formasiLoadStarted) return formasiData;
+  formasiLoadStarted = true;
+  const status = $("formasiStatus");
+  try {
+    const res = await fetch("data/formasi.json");
+    if (!res.ok) throw new Error("HTTP " + res.status);
+    formasiData = await res.json();
+    if (!Array.isArray(formasiData.rows)) throw new Error("bentuk data tidak dikenal");
+  } catch (e) {
+    if (status) status.innerHTML = "Gagal memuat data formasi. Cek langsung di <a href=\"" + SSCASN_FORMASI + "\" target=\"_blank\" rel=\"noopener\">portal SSCASN</a>.";
+    return null;
+  }
+  renderFormasiStats();
+  fillFormasiJenis();
+  renderFormasiList();
+  return formasiData;
+}
+
+function renderFormasiStats() {
+  const d = formasiData;
+  $("formasiStatRows").textContent = fmtNum(d.totalRows);
+  $("formasiStatNeed").textContent = fmtNum(d.totalKebutuhan);
+  $("formasiStatInst").textContent = fmtNum(new Set(d.rows.map((r) => r.instansi)).size);
+  $("formasiStats").style.display = "flex";
+  // Jujur soal CPNS: kalau API BKN belum memuat satu pun formasi CPNS,
+  // katakan begitu — jangan tampilkan daftar PPPK seolah-olah itu CPNS.
+  const note = $("formasiCpnsNote");
+  const hasCpns = d.rows.some((r) => /cpns/i.test(r.jenis_pengadaan || ""));
+  if (!hasCpns) {
+    note.textContent = "Formasi CPNS belum tersedia di data SSCASN saat ini — yang tampil di bawah adalah seleksi lain yang sedang dibuka. Formasi CPNS akan muncul otomatis di sini begitu BKN merilisnya.";
+    note.style.display = "block";
+  } else {
+    note.style.display = "none";
+  }
+  if (d.fetchedAt) {
+    const t = new Date(d.fetchedAt);
+    const fmt = new Intl.DateTimeFormat("id-ID", { timeZone: "Asia/Jakarta", day: "numeric", month: "short", year: "numeric", hour: "2-digit", minute: "2-digit", hour12: false });
+    $("formasiMeta").textContent = "Diperbarui " + fmt.format(t).replace(/\./g, ":") + " WIB · Sumber: SSCASN BKN";
+  }
+}
+
+function fillFormasiJenis() {
+  const sel = $("formasiJenis");
+  const jenis = (formasiData.jenisPengadaan && formasiData.jenisPengadaan.length)
+    ? formasiData.jenisPengadaan
+    : [...new Set(formasiData.rows.map((r) => r.jenis_pengadaan))];
+  for (const j of jenis) {
+    const o = document.createElement("option");
+    o.value = j;
+    o.textContent = j;
+    sel.appendChild(o);
+  }
+}
+
+function formasiFiltered() {
+  const q = ($("formasiSearch").value || "").trim().toLowerCase();
+  const jenis = $("formasiJenis").value;
+  return formasiData.rows.filter((r) => {
+    if (jenis && r.jenis_pengadaan !== jenis) return false;
+    if (!q) return true;
+    return [r.nama_jabatan, r.instansi, r.lokasi_formasi, r.nama_pendidikan, r.nama_event]
+      .some((v) => (v || "").toLowerCase().includes(q));
+  });
+}
+
+function formasiRowHtml(r) {
+  const det = [
+    r.nama_pendidikan ? "<div><span>Pendidikan</span><strong>" + escHtml(r.nama_pendidikan) + "</strong></div>" : "",
+    r.jenis_formasi ? "<div><span>Jenis formasi</span><strong>" + escHtml(r.jenis_formasi) + "</strong></div>" : "",
+    (r.usia_min != null || r.usia_max != null) ? "<div><span>Usia</span><strong>" + escHtml(r.usia_min ?? "–") + "–" + escHtml(r.usia_max ?? "–") + " tahun</strong></div>" : "",
+    r.jabatan_kode ? "<div><span>Kode jabatan</span><strong>" + escHtml(r.jabatan_kode) + "</strong></div>" : "",
+    r.is_disabilitas ? "<div><span>Disabilitas</span><strong>" + escHtml(r.is_disabilitas) + "</strong></div>" : "",
+  ].filter(Boolean).join("");
+  return '<article class="formasi-item">'
+    + '<button type="button" class="formasi-head">'
+    + '<span class="formasi-main"><strong>' + escHtml(r.nama_jabatan) + "</strong>"
+    + "<span>" + escHtml(r.instansi) + "</span>"
+    + '<span class="formasi-loc">' + escHtml(r.lokasi_formasi || "–") + "</span></span>"
+    + '<span class="formasi-need"><strong>' + fmtNum(r.jumlah) + "</strong><span>kebutuhan</span></span>"
+    + "</button>"
+    + '<div class="formasi-tags"><span class="tag">' + escHtml(r.jenis_pengadaan) + '</span><span class="tag tag-soft">' + escHtml(r.nama_event) + "</span></div>"
+    + (det ? '<div class="formasi-detail" hidden>' + det + '<a href="' + SSCASN_FORMASI + '" target="_blank" rel="noopener">Rincian lengkap di SSCASN &rsaquo;</a></div>' : "")
+    + "</article>";
+}
+
+function renderFormasiList(reset = true) {
+  if (!formasiData) return;
+  if (reset) formasiShown = FORMASI_PAGE;
+  const rows = formasiFiltered();
+  formasiShown = Math.min(formasiShown, rows.length);
+  $("formasiList").innerHTML = rows.slice(0, formasiShown).map(formasiRowHtml).join("");
+  $("formasiStatus").textContent = rows.length === 0
+    ? "Tidak ada formasi yang cocok dengan pencarian. Coba ubah kata kunci atau reset filter."
+    : "Menampilkan " + fmtNum(formasiShown) + " dari " + fmtNum(rows.length) + " formasi"
+      + (rows.length !== formasiData.totalRows ? " (difilter dari " + fmtNum(formasiData.totalRows) + ")" : "");
+  $("formasiMoreWrap").style.display = rows.length > formasiShown ? "flex" : "none";
+}
+
+function initFormasi() {
+  const card = $("formasiCard");
+  if (!card) return;
+  $("formasiSearch").addEventListener("input", () => renderFormasiList());
+  $("formasiJenis").addEventListener("change", () => renderFormasiList());
+  $("formasiReset").addEventListener("click", () => {
+    $("formasiSearch").value = "";
+    $("formasiJenis").value = "";
+    renderFormasiList();
+  });
+  $("formasiMore").addEventListener("click", () => {
+    formasiShown += FORMASI_PAGE;
+    renderFormasiList(false);
+  });
+  $("formasiList").addEventListener("click", (ev) => {
+    const head = ev.target.closest(".formasi-head");
+    if (!head) return;
+    const det = head.parentElement.querySelector(".formasi-detail");
+    if (det) det.hidden = !det.hidden;
+  });
+  // Muat data hanya saat kartu terlihat (file ~600 KB) — jangan bebani
+  // kunjungan yang cuma mau latihan.
+  if ("IntersectionObserver" in window) {
+    const io = new IntersectionObserver((entries) => {
+      if (entries.some((e) => e.isIntersecting)) { io.disconnect(); loadFormasi(); }
+    }, { rootMargin: "400px" });
+    io.observe(card);
+  } else {
+    loadFormasi();
+  }
+}
+
 async function init() {
   // Hapus kunci lama TANPA sufiks akun (data pra-perbaikan yang bisa
   // dibaca akun lain) — jangan pernah diadopsi ke akun yang sedang login.
@@ -765,7 +914,7 @@ async function init() {
       if (target === "review") { openReview(false); return; }
       showScreen("home");
       refreshResumeCard();
-      const map = { home: null, format: "formatCard", howto: "howtoCard" };
+      const map = { home: null, formasi: "formasiCard", format: "formatCard", howto: "howtoCard" };
       if (target === "home") window.scrollTo({ top: 0, behavior: "smooth" });
       else if (map[target]) {
         const t = document.getElementById(map[target]);
@@ -774,6 +923,7 @@ async function init() {
     });
   });
 
+  initFormasi();
   refreshResumeCard();
 }
 

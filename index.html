@@ -17,6 +17,7 @@
   </div>
   <nav class="topnav" aria-label="Navigasi utama">
     <a href="#" data-nav="home">Beranda</a>
+    <a href="#" data-nav="formasi">Formasi CPNS</a>
     <a href="#" data-nav="format">Format SKD</a>
     <a href="#" data-nav="howto">Cara Mengerjakan</a>
     <a href="#" data-nav="review">Pembahasan</a>
@@ -161,6 +162,37 @@
           <em>Tanpa timer &middot; tanpa nilai</em>
         </button>
       </div>
+    </div>
+
+    <div class="card" id="formasiCard">
+      <p class="eyebrow">Info resmi SSCASN</p>
+      <h2>Formasi CPNS yang Dibuka</h2>
+      <p class="muted">Cari formasi yang sedang dibuka beserta jumlah orang yang akan diterima.
+      Data diambil langsung dari API resmi SSCASN BKN dan diperbarui otomatis tiap 6 jam —
+      situs ini hanya menampilkan, pendaftaran tetap di portal resmi.</p>
+      <div class="formasi-stats" id="formasiStats" style="display:none">
+        <div class="formasi-stat"><strong id="formasiStatRows">&ndash;</strong><span>formasi dibuka</span></div>
+        <div class="formasi-stat"><strong id="formasiStatNeed">&ndash;</strong><span>orang diterima</span></div>
+        <div class="formasi-stat"><strong id="formasiStatInst">&ndash;</strong><span>instansi</span></div>
+      </div>
+      <p class="formasi-note" id="formasiCpnsNote" style="display:none"></p>
+      <div class="formasi-controls">
+        <input type="search" id="formasiSearch" placeholder="Cari instansi, jabatan, atau lokasi&hellip;" aria-label="Cari formasi">
+        <select id="formasiJenis" aria-label="Jenis pengadaan">
+          <option value="">Semua jenis pengadaan</option>
+        </select>
+        <button class="btn-ghost" id="formasiReset" type="button">Reset</button>
+      </div>
+      <div class="row formasi-cta">
+        <a class="btn-primary" href="https://sscasn.bkn.go.id/" target="_blank" rel="noopener">Daftar CPNS di SSCASN</a>
+        <a class="btn-ghost" href="https://sscasn.bkn.go.id/daftar-formasi/" target="_blank" rel="noopener">Lihat di SSCASN</a>
+      </div>
+      <p class="muted small" id="formasiStatus">Memuat data formasi&hellip;</p>
+      <div id="formasiList"></div>
+      <div class="row" id="formasiMoreWrap" style="display:none">
+        <button class="btn-ghost" id="formasiMore" type="button">Muat lebih banyak</button>
+      </div>
+      <p class="muted small" id="formasiMeta"></p>
     </div>
 
     <div class="card timeline-card" id="alurCard">

@@ -1000,3 +1000,29 @@ body.is-logged-in #screen-home #alurChev1 { display: none; }
   .fig-seq, .fig-analogy { gap: 0.25rem; }
   .opt-fig { flex-basis: 70px; }
 }
+
+/* ---------- Formasi CPNS (data resmi SSCASN BKN) ---------- */
+.formasi-stats { display: flex; gap: 12px; flex-wrap: wrap; margin: 14px 0 4px; }
+.formasi-stat { flex: 1 1 140px; background: #f0f6ff; border: 1px solid #d7e6ff; border-radius: 12px; padding: 12px 14px; }
+.formasi-stat strong { display: block; font-size: 1.5rem; color: var(--blue-dark); line-height: 1.1; }
+.formasi-stat span { font-size: .82rem; color: var(--muted); }
+.formasi-note { background: #fff8e6; border: 1px solid #ffe1a1; border-radius: 10px; padding: 10px 12px; font-size: .9rem; }
+.formasi-controls { display: flex; gap: 8px; flex-wrap: wrap; margin: 14px 0; }
+.formasi-controls input[type="search"] { flex: 2 1 220px; padding: 10px 12px; border: 1px solid var(--border); border-radius: 10px; font: inherit; background: #fff; }
+.formasi-controls select { flex: 1 1 160px; padding: 10px 12px; border: 1px solid var(--border); border-radius: 10px; font: inherit; background: #fff; }
+.formasi-cta { margin: 4px 0 14px; }
+.formasi-cta a { text-decoration: none; }
+.formasi-item { border: 1px solid var(--border); border-radius: 12px; padding: 12px 14px; margin-bottom: 10px; background: #fff; }
+.formasi-head { display: flex; justify-content: space-between; gap: 12px; width: 100%; padding: 0; border: 0; background: none; text-align: left; }
+.formasi-main { display: flex; flex-direction: column; gap: 2px; min-width: 0; }
+.formasi-main > strong { font-size: .98rem; }
+.formasi-main > span { font-size: .85rem; color: var(--muted); }
+.formasi-need { text-align: right; flex-shrink: 0; }
+.formasi-need strong { display: block; font-size: 1.25rem; color: var(--blue-dark); }
+.formasi-need span { font-size: .75rem; color: var(--muted); }
+.formasi-tags { display: flex; gap: 6px; flex-wrap: wrap; margin-top: 8px; }
+.tag { background: #eaf2ff; color: var(--blue-dark); border-radius: 999px; padding: 2px 10px; font-size: .78rem; font-weight: 600; }
+.tag-soft { background: #f1f5f9; color: var(--muted); font-weight: 500; }
+.formasi-detail { margin-top: 10px; padding-top: 10px; border-top: 1px dashed var(--border); display: grid; gap: 6px; font-size: .88rem; }
+.formasi-detail div { display: flex; justify-content: space-between; gap: 12px; }
+.formasi-detail div span { color: var(--muted); }

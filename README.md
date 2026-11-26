@@ -180,6 +180,28 @@ TIU ≥ 60; olahragawan berprestasi — ambang berdasarkan nilai terendah
 pelamar. Di layar hasil ada pemilih jenis kebutuhan untuk menilai hasil
 terhadap ambang kategori itu. Detail dan sumber: `SUMBER.md`.
 
+## Formasi CPNS yang dibuka (data resmi SSCASN BKN)
+
+Beranda menampilkan kartu **Formasi CPNS yang Dibuka**: statistik total formasi,
+total orang yang akan diterima (jumlah kebutuhan), dan jumlah instansi; pencarian
+teks (instansi/jabatan/lokasi) + filter jenis pengadaan; klik satu formasi untuk
+melihat rincian (pendidikan, jenis formasi, usia, kode jabatan); tombol
+**Daftar CPNS di SSCASN** ke https://sscasn.bkn.go.id/ (tab baru) dan tautan
+**Lihat di SSCASN** ke https://sscasn.bkn.go.id/daftar-formasi/.
+
+Sumber data: API resmi SSCASN BKN `https://api-rekrutmen.bkn.go.id/portal/api/spf`
+(GET, tanpa parameter — semua seleksi yang sedang dibuka). API itu hanya
+mengizinkan CORS dari `sscasn.bkn.go.id`, jadi browser situs ini tidak bisa
+mengambilnya langsung: datanya ditarik sisi server oleh
+`scripts/fetch-formasi.mjs` ke `data/formasi.json`, dan halaman memuat file lokal
+itu secara malas (baru saat kartu terlihat). `scripts/fetch-formasi.mjs` hanya
+menyimpan kolom yang ditampilkan (tanpa `persyaratan` yang berulang 3,2 MB,
+tanpa penghasilan yang selalu kosong) — file ~600 KB. GitHub Actions
+`.github/workflows/sync-formasi.yml` menjalankan skrip itu tiap 6 jam dan
+commit bila ada perubahan. Kalau API BKN belum memuat satu pun formasi CPNS,
+kartu menampilkan catatan jujur bahwa yang tampil adalah seleksi lain yang
+sedang dibuka — bukan CPNS.
+
 ## File
 
 - `index.html`, `style.css`, `app.js` — aplikasi (statis, tanpa build).
@@ -190,3 +212,7 @@ terhadap ambang kategori itu. Detail dan sumber: `SUMBER.md`.
 - `SUMBER.md` — format resmi + status verifikasi + sumber.
 - `scripts/build-questions.mjs` — menggabungkan ketiga file kategori menjadi
   `data/questions.json` (dengan validasi jumlah, jawaban, dan skor TKP).
+- `data/formasi.json` — snapshot formasi dari API SSCASN (diperbarui otomatis
+  tiap 6 jam oleh GitHub Actions; jangan edit manual).
+- `scripts/fetch-formasi.mjs` — penarik data formasi dari API SSCASN.
+- `.github/workflows/sync-formasi.yml` — jadwal sinkronisasi formasi.
