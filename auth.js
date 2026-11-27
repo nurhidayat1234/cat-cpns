@@ -115,6 +115,9 @@ const Auth = (() => {
       const el = $("screen-" + s);
       if (el) el.style.display = s === name ? "block" : "none";
     });
+    // Label mode di topbar hanya untuk layar ujian; bersihkan saat pindah
+    // layar lewat alur auth (mis. keluar -> layar login).
+    if (name !== "exam") { const t = $("examModeLabelTop"); if (t) t.textContent = ""; }
     window.scrollTo(0, 0);
   }
 

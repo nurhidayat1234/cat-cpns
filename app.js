@@ -123,6 +123,9 @@ function showScreen(name) {
   ["home", "exam", "result", "review", "auth"].forEach((s) => {
     $("screen-" + s).style.display = s === name ? "block" : "none";
   });
+  // Label mode di topbar hanya untuk layar ujian; bersihkan supaya tidak
+  // menumpuk di topbar beranda/hasil setelah ujian selesai.
+  if (name !== "exam") { const t = $("examModeLabelTop"); if (t) t.textContent = ""; }
   window.scrollTo(0, 0);
 }
 
@@ -287,7 +290,9 @@ function renderExamChrome() {
   const modeLabel = session.mode === "full" ? "SKD Penuh — 110 soal" : CONFIG[session.mode].label;
   const label = modeLabel + " • Paket " + (session.paket || currentPaket);
   $("examModeLabel").textContent = label;
-  $("examModeLabelTop").textContent = label;
+  // Label atas dipendekkan supaya topbar tetap satu baris (label lengkap
+  // sudah tampil sebagai chip di layar ujian).
+  $("examModeLabelTop").textContent = (session.mode === "full" ? "SKD Penuh" : session.mode) + " • Paket " + (session.paket || currentPaket);
   updateTimerUI();
 }
 

@@ -98,6 +98,16 @@ mode 3 kolom di layar ≥1200px. Layar ujian / hasil / Pembahasan tetap di
 lebar 1020px. Tabel format + riwayat bisa digeser horizontal di layar kecil
 (perbaikan overflow 68px di 390px, 26 Nov 2026).
 
+**Topbar tetap satu baris saat login + ujian** (27 Nov 2026): dulu label
+mode panjang ("TWK — Tes Wawasan Kebangsaan • Paket D") + "Halo, nama"
+membuat pil atas membungkus ke 2–4 baris, dan labelnya tidak pernah hilang
+walau sudah kembali ke beranda. Perbaikan: label atas dipendekkan jadi
+"TWK • Paket D" (`renderExamChrome()`), label dibersihkan saat pindah
+layar (`showScreen()` di app.js + `goScreen()` di auth.js), semua teks
+topbar `nowrap` + ellipsis, dan nav disembunyikan di ≤1100px (sebelumnya
+≤900px). Uji: `demo/test-topbar.py` (tamu/login/ujian/kembali di 1440,
+1280, 1024, 390px — topbar tetap 70px desktop, tanpa console error).
+
 ## Akun login (wajib untuk mengerjakan tes) — database Google Sheet
 
 Login punya **halaman sendiri** (`#screen-auth`): tombol **Buat Akun** /
