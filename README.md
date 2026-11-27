@@ -108,6 +108,20 @@ topbar `nowrap` + ellipsis, dan nav disembunyikan di ≤1100px (sebelumnya
 ≤900px). Uji: `demo/test-topbar.py` (tamu/login/ujian/kembali di 1440,
 1280, 1024, 390px — topbar tetap 70px desktop, tanpa console error).
 
+**Menu hamburger di HP** (28 Nov 2026): nav yang disembunyikan di ≤1100px
+tidak punya pengganti, jadi di Android tidak bisa pindah halaman dari
+topbar dan judul "Simulasi CAT CPNS — SKD" terpotong ("Simulasi C…").
+Perbaikan: tombol hamburger (`#navToggle`, tiga garis, berubah jadi X saat
+terbuka) + panel daftar menu (`#mobileMenu`) berisi 5 tautan yang sama
+dengan nav desktop (Beranda, Formasi CPNS, Format SKD, Cara Mengerjakan,
+Pembahasan — memakai `data-nav` yang sama, jadi perilakunya identik).
+Menu menutup saat tautan diklik, saat klik di luar topbar, atau Escape.
+Di layar ≤480px judul diganti "CAT CPNS", tombol "Buat Akun" disembunyikan
+(masih ada di CTA hero), sapaan "Halo, nama" disembunyikan — topbar HP
+tetap satu baris (61px). Uji: `demo/test-topbar.py` (menu dibuka/ditutup/
+navigasi di 390px tamu + login, tombol terlihat di ≤1100px, tersembunyi
+di 1440px).
+
 ## Akun login (wajib untuk mengerjakan tes) — database Google Sheet
 
 Login punya **halaman sendiri** (`#screen-auth`): tombol **Buat Akun** /

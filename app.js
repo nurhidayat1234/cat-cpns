@@ -939,6 +939,26 @@ async function init() {
     });
   });
 
+  // Menu mobile: hamburger membuka daftar menu (nav atas disembunyikan
+  // <=1100px). Tautan menu memakai data-nav yang sama, jadi perilakunya
+  // identik dengan nav desktop. Menu menutup saat tautan diklik, saat
+  // klik di luar topbar, atau saat tombol Escape.
+  const navToggle = $("navToggle"), mobileMenu = $("mobileMenu");
+  if (navToggle && mobileMenu) {
+    const setMenu = (open) => {
+      mobileMenu.classList.toggle("open", open);
+      navToggle.classList.toggle("open", open);
+      navToggle.setAttribute("aria-expanded", open ? "true" : "false");
+      navToggle.setAttribute("aria-label", open ? "Tutup menu" : "Buka menu");
+    };
+    navToggle.addEventListener("click", () => setMenu(!mobileMenu.classList.contains("open")));
+    mobileMenu.addEventListener("click", (ev) => { if (ev.target.closest("a")) setMenu(false); });
+    document.addEventListener("click", (ev) => {
+      if (mobileMenu.classList.contains("open") && !ev.target.closest(".topbar")) setMenu(false);
+    });
+    document.addEventListener("keydown", (ev) => { if (ev.key === "Escape") setMenu(false); });
+  }
+
   initFormasi();
   refreshResumeCard();
 }

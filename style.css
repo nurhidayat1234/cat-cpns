@@ -71,6 +71,48 @@ h3 { font-size: 1.05rem; margin: 0 0 0.6rem; }
 #examModeLabelTop { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 220px; }
 #authChip span { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 160px; }
 .chip-btn { white-space: nowrap; }
+.brand-short { display: none; }
+
+/* Menu mobile: tombol hamburger + daftar menu (28 Nov 2026 — nav disembunyikan
+   di <=1100px tapi tidak ada penggantinya, jadi di Android tidak bisa pindah
+   halaman dari topbar). */
+.nav-toggle {
+  display: none;
+  flex: 0 0 auto;
+  width: 2.5rem; height: 2.5rem;
+  flex-direction: column; align-items: center; justify-content: center; gap: 4px;
+  background: transparent; border: 1px solid #D9DEE9; border-radius: 12px;
+  cursor: pointer; padding: 0;
+}
+.nav-toggle span { display: block; width: 18px; height: 2px; background: var(--navy); border-radius: 2px; transition: transform var(--dur) var(--ease), opacity var(--dur) var(--ease); }
+.nav-toggle.open span:nth-child(1) { transform: translateY(6px) rotate(45deg); }
+.nav-toggle.open span:nth-child(2) { opacity: 0; }
+.nav-toggle.open span:nth-child(3) { transform: translateY(-6px) rotate(-45deg); }
+.mobile-menu {
+  display: none;
+  position: absolute; top: calc(100% + 0.5rem); left: 0; right: 0;
+  background: #fff; border-radius: 24px;
+  box-shadow: 0 12px 40px rgba(35, 37, 43, 0.18);
+  padding: 0.5rem; z-index: 20;
+}
+.mobile-menu.open { display: block; }
+.mobile-menu a {
+  display: block; padding: 0.8rem 1rem; border-radius: 16px;
+  color: #23252B; text-decoration: none; font-weight: 700; font-size: 0.95rem;
+}
+.mobile-menu a:hover { background: #FFF3E0; }
+.mobile-menu a + a { border-top: 1px solid #EEF0F4; }
+@media (min-width: 1101px) { .mobile-menu { display: none !important; } }
+@media (max-width: 1100px) { .nav-toggle { display: inline-flex; } }
+@media (max-width: 480px) {
+  /* Layar HP kecil: judul panjang diganti "CAT CPNS", tombol "Buat Akun"
+     pindah ke CTA hero, sapaan "Halo, nama" disembunyikan (nama tetap
+     terlihat di beranda lewat Riwayat Saya) — supaya topbar muat 1 baris. */
+  .brand > div { display: none; }
+  .brand-short { display: block; font-weight: 700; white-space: nowrap; }
+  #authChip .chip-btn-outline { display: none; }
+  #authChip span { display: none; }
+}
 
 .wrap { max-width: 1020px; margin: 0 auto; padding: 1.2rem 1rem 2rem; }
 .card {
