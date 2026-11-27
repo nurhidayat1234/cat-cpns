@@ -169,6 +169,9 @@ async function loadQuestions(paket) {
   return QUESTIONS;
 }
 
+// Tingkat kesulitan tiap paket (ditampilkan di pemilih paket).
+const PAKET_LEVEL = { A: "Dasar", B: "Menengah", C: "Menengah Atas", D: "Sulit", E: "Tersulit" };
+
 // Pemilih paket di beranda: tombol A-E, yang belum tersedia dinonaktifkan.
 function renderPaketPicker() {
   const box = $("paketPicker");
@@ -181,7 +184,7 @@ function renderPaketPicker() {
     b.dataset.paket = p;
     const ready = AVAILABLE_PAKETS.includes(p);
     b.disabled = !ready;
-    b.innerHTML = "<strong>Paket " + p + "</strong><span>" + (ready ? "110 soal original" : "Segera hadir") + "</span>";
+    b.innerHTML = "<strong>Paket " + p + "</strong><span>" + (ready ? PAKET_LEVEL[p] : "Segera hadir") + "</span>";
     b.addEventListener("click", () => selectPaket(p));
     box.appendChild(b);
   });

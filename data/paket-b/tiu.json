@@ -3,13 +3,13 @@
     "id": "TIU-01",
     "category": "TIU",
     "subtopic": "Verbal — Silogisme",
-    "question": "Semua anggota koperasi adalah warga desa Sukamaju. Tidak ada warga desa Sukamaju yang berprofesi sebagai nelayan. Kesimpulan yang pasti benar adalah ...",
+    "question": "Semua buku di rak A adalah buku pelajaran. Tidak ada buku pelajaran yang boleh dipinjam lebih dari dua minggu. Kesimpulan yang pasti benar adalah ...",
     "options": [
-      "Semua nelayan adalah anggota koperasi.",
-      "Tidak ada anggota koperasi yang berprofesi sebagai nelayan.",
-      "Sebagian anggota koperasi berprofesi sebagai nelayan.",
-      "Semua warga desa Sukamaju adalah anggota koperasi.",
-      "Sebagian warga desa Sukamaju bukan anggota koperasi."
+      "Semua buku pelajaran ada di rak A.",
+      "Tidak ada buku di rak A yang boleh dipinjam lebih dari dua minggu.",
+      "Sebagian buku di rak A boleh dipinjam lebih dari dua minggu.",
+      "Semua buku yang boleh dipinjam lebih dari dua minggu ada di rak A.",
+      "Sebagian buku pelajaran bukan buku di rak A."
     ],
     "answer": 1,
     "scores": [
@@ -19,19 +19,19 @@
       0,
       0
     ],
-    "explanation": "Benar karena anggota koperasi termasuk warga desa Sukamaju, sedangkan tidak satu pun warga desa itu yang menjadi nelayan, sehingga tidak ada anggota koperasi yang berprofesi sebagai nelayan. Opsi A dan D membalik premis, opsi C bertentangan dengan premis kedua, dan opsi E tidak dapat dipastikan dari kedua premis."
+    "explanation": "Benar karena semua buku di rak A adalah buku pelajaran, sedangkan tidak satu pun buku pelajaran yang boleh dipinjam lebih dari dua minggu, sehingga tidak ada buku di rak A yang boleh dipinjam lebih dari dua minggu. Opsi A dan D membalik premis, opsi C bertentangan dengan premis kedua, dan opsi E tidak dapat dipastikan dari kedua premis."
   },
   {
     "id": "TIU-02",
     "category": "TIU",
     "subtopic": "Verbal — Silogisme",
-    "question": "Sebagian mahasiswa fakultas hukum mengikuti magang di pengadilan. Semua mahasiswa yang mengikuti magang di pengadilan memperoleh sertifikat praktik. Kesimpulan yang pasti benar adalah ...",
+    "question": "Sebagian anggota klub fotografi memenangkan lomba. Semua pemenang lomba mendapat hadiah kamera. Kesimpulan yang pasti benar adalah ...",
     "options": [
-      "Semua mahasiswa fakultas hukum mengikuti magang di pengadilan.",
-      "Semua mahasiswa yang memperoleh sertifikat praktik mengikuti magang di pengadilan.",
-      "Tidak ada mahasiswa fakultas hukum yang memperoleh sertifikat praktik.",
-      "Sebagian mahasiswa fakultas hukum memperoleh sertifikat praktik.",
-      "Sebagian mahasiswa yang memperoleh sertifikat praktik bukan mahasiswa fakultas hukum."
+      "Semua anggota klub fotografi memenangkan lomba.",
+      "Semua penerima hadiah kamera memenangkan lomba.",
+      "Tidak ada anggota klub fotografi yang mendapat hadiah kamera.",
+      "Sebagian anggota klub fotografi mendapat hadiah kamera.",
+      "Sebagian penerima hadiah kamera bukan anggota klub fotografi."
     ],
     "answer": 3,
     "scores": [
@@ -41,19 +41,19 @@
       5,
       0
     ],
-    "explanation": "Benar karena sebagian mahasiswa fakultas hukum mengikuti magang, dan semua peserta magang memperoleh sertifikat, sehingga sebagian mahasiswa fakultas hukum itu pasti memperoleh sertifikat. Opsi A mengubah 'sebagian' menjadi 'semua', opsi B membalik premis kedua, opsi C bertentangan dengan kesimpulan yang pasti, dan opsi E tidak dapat dipastikan dari kedua premis."
+    "explanation": "Benar karena sebagian anggota klub fotografi memenangkan lomba, dan semua pemenang lomba mendapat hadiah kamera, sehingga sebagian anggota klub itu pasti mendapat hadiah kamera. Opsi A mengubah 'sebagian' menjadi 'semua', opsi B membalik premis kedua, opsi C bertentangan dengan kesimpulan yang pasti, dan opsi E tidak dapat dipastikan dari kedua premis."
   },
   {
     "id": "TIU-03",
     "category": "TIU",
     "subtopic": "Verbal — Silogisme",
-    "question": "Semua kendaraan roda empat yang masuk kawasan perkantoran harus memiliki kartu akses. Sebagian kendaraan roda empat yang masuk kawasan perkantoran adalah mobil dinas. Kesimpulan yang pasti benar adalah ...",
+    "question": "Semua pegawai yang masuk ruang server harus memakai kartu identitas. Sebagian pegawai yang masuk ruang server adalah teknisi. Kesimpulan yang pasti benar adalah ...",
     "options": [
-      "Sebagian mobil dinas harus memiliki kartu akses.",
-      "Semua mobil dinas adalah kendaraan roda empat yang masuk kawasan perkantoran.",
-      "Semua kendaraan roda empat harus memiliki kartu akses.",
-      "Tidak ada mobil dinas yang harus memiliki kartu akses.",
-      "Sebagian kendaraan roda empat yang masuk kawasan perkantoran bukan mobil dinas."
+      "Sebagian teknisi harus memakai kartu identitas.",
+      "Semua teknisi adalah pegawai yang masuk ruang server.",
+      "Semua pegawai harus memakai kartu identitas.",
+      "Tidak ada teknisi yang harus memakai kartu identitas.",
+      "Sebagian pegawai yang masuk ruang server bukan teknisi."
     ],
     "answer": 0,
     "scores": [
@@ -63,19 +63,19 @@
       0,
       0
     ],
-    "explanation": "Benar karena sebagian mobil dinas termasuk kendaraan roda empat yang masuk kawasan perkantoran, dan semua kendaraan semacam itu wajib memiliki kartu akses. Opsi B membalik premis kedua, opsi C memperluas kewajiban ke semua kendaraan roda empat, opsi D bertentangan dengan premis pertama, dan opsi E tidak dapat dipastikan dari kedua premis."
+    "explanation": "Benar karena sebagian teknisi termasuk pegawai yang masuk ruang server, dan semua pegawai semacam itu wajib memakai kartu identitas. Opsi B membalik premis kedua, opsi C memperluas kewajiban ke semua pegawai, opsi D bertentangan dengan premis pertama, dan opsi E tidak dapat dipastikan dari kedua premis."
   },
   {
     "id": "TIU-04",
     "category": "TIU",
     "subtopic": "Verbal — Silogisme",
-    "question": "Tidak ada pegawai honorer yang menerima tunjangan kinerja. Semua pegawai di unit keuangan adalah pegawai honorer. Kesimpulan yang pasti benar adalah ...",
+    "question": "Tidak ada siswa kelas XII yang boleh mengikuti ekstrakurikuler tari. Semua anggota tim debat adalah siswa kelas XII. Kesimpulan yang pasti benar adalah ...",
     "options": [
-      "Semua pegawai yang tidak menerima tunjangan kinerja adalah pegawai honorer.",
-      "Sebagian pegawai di unit keuangan menerima tunjangan kinerja.",
-      "Tidak ada pegawai di unit keuangan yang menerima tunjangan kinerja.",
-      "Semua pegawai honorer bekerja di unit keuangan.",
-      "Sebagian pegawai honorer bukan pegawai di unit keuangan."
+      "Semua siswa yang tidak boleh mengikuti tari adalah siswa kelas XII.",
+      "Sebagian anggota tim debat boleh mengikuti ekstrakurikuler tari.",
+      "Tidak ada anggota tim debat yang boleh mengikuti ekstrakurikuler tari.",
+      "Semua siswa kelas XII adalah anggota tim debat.",
+      "Sebagian siswa kelas XII bukan anggota tim debat."
     ],
     "answer": 2,
     "scores": [
@@ -85,19 +85,19 @@
       0,
       0
     ],
-    "explanation": "Benar karena semua pegawai unit keuangan adalah pegawai honorer, sedangkan tidak ada pegawai honorer yang menerima tunjangan kinerja, sehingga tidak satu pun pegawai unit keuangan yang menerima tunjangan kinerja. Opsi A dan D membalik premis, opsi B bertentangan dengan kesimpulan yang pasti, dan opsi E tidak dapat dipastikan dari kedua premis."
+    "explanation": "Benar karena semua anggota tim debat adalah siswa kelas XII, sedangkan tidak ada siswa kelas XII yang boleh mengikuti ekstrakurikuler tari, sehingga tidak satu pun anggota tim debat yang boleh mengikuti tari. Opsi A dan D membalik premis, opsi B bertentangan dengan kesimpulan yang pasti, dan opsi E tidak dapat dipastikan dari kedua premis."
   },
   {
     "id": "TIU-05",
     "category": "TIU",
     "subtopic": "Verbal — Penalaran Induktif",
-    "question": "Warga yang bersepeda ke tempat kerja mengaku daya tahannya lebih baik. Sebuah perusahaan yang menyediakan parkir sepeda mencatat lebih sedikit karyawan yang sakit. Sebuah sekolah dengan program bersepeda mencatat lebih sedikit siswa yang terlambat. Generalisasi yang paling mungkin benar berdasarkan fakta-fakta tersebut adalah ...",
+    "question": "Pegawai yang berolahraga pagi mengaku lebih segar saat bekerja. Sebuah kantor yang mengadakan senam pagi mencatat lebih sedikit pegawai yang izin sakit. Sekelompok pelajar yang berlari pagi menyelesaikan tugasnya lebih cepat. Generalisasi yang paling mungkin benar berdasarkan fakta-fakta tersebut adalah ...",
     "options": [
-      "Semua orang yang bersepeda pasti tidak pernah sakit.",
-      "Bersepeda adalah satu-satunya cara menjaga kebugaran.",
-      "Hanya pelajar yang merasakan manfaat bersepeda.",
-      "Semua perusahaan harus mewajibkan karyawannya bersepeda.",
-      "Kebiasaan bersepeda cenderung berkaitan dengan kebugaran dan kedisiplinan yang lebih baik."
+      "Semua orang yang berolahraga pagi pasti tidak pernah sakit.",
+      "Berolahraga pagi adalah satu-satunya cara menjaga kesehatan.",
+      "Hanya pelajar yang merasakan manfaat berolahraga pagi.",
+      "Semua kantor harus mewajibkan pegawainya berolahraga pagi.",
+      "Kebiasaan berolahraga pagi cenderung berkaitan dengan kesehatan dan semangat yang lebih baik."
     ],
     "answer": 4,
     "scores": [
@@ -107,19 +107,19 @@
       0,
       5
     ],
-    "explanation": "Benar karena ketiga fakta menunjukkan pola yang sama, yaitu kebiasaan bersepeda sejalan dengan kondisi fisik dan kedisiplinan yang lebih baik, sehingga generalisasi yang hati-hati dan tidak mutlak inilah yang paling mungkin. Opsi A dan B terlalu mutlak dengan kata 'semua' dan 'satu-satunya', opsi C menyempitkan manfaat hanya untuk pelajar, dan opsi D adalah anjuran yang tidak didukung oleh fakta."
+    "explanation": "Benar karena ketiga fakta menunjukkan pola yang sama, yaitu kebiasaan berolahraga pagi sejalan dengan kondisi fisik dan semangat yang lebih baik, sehingga generalisasi yang hati-hati dan tidak mutlak inilah yang paling mungkin. Opsi A dan B terlalu mutlak dengan kata 'semua' dan 'satu-satunya', opsi C menyempitkan manfaat hanya untuk pelajar, dan opsi D adalah anjuran yang tidak didukung oleh fakta."
   },
   {
     "id": "TIU-06",
     "category": "TIU",
     "subtopic": "Verbal — Penalaran Induktif",
-    "question": "Perpustakaan desa yang membuka layanan malam mencatat lebih banyak pengunjung. Anak-anak yang dibacakan buku oleh orang tuanya memperoleh nilai bahasa yang lebih baik. Sebuah sekolah yang menyediakan sudut baca mencatat lebih banyak siswa yang meminjam buku. Generalisasi yang paling mungkin benar berdasarkan fakta-fakta tersebut adalah ...",
+    "question": "Warga yang ikut kebun komunitas mengaku lebih peduli pada lingkungan. Sebuah kampung yang mengelola kebun bersama mencatat lebih sedikit sampah yang dibuang sembarangan. Sebuah sekolah dengan kebun sekolah mencatat lebih banyak siswa yang memilah sampah. Generalisasi yang paling mungkin benar berdasarkan fakta-fakta tersebut adalah ...",
     "options": [
-      "Akses dan kebiasaan membaca yang didukung lingkungan cenderung meningkatkan minat baca.",
-      "Semua anak yang dibacakan buku pasti menjadi juara kelas.",
-      "Perpustakaan hanya berguna bagi anak-anak.",
-      "Membaca adalah satu-satunya penentu prestasi belajar.",
-      "Semua sekolah harus membuka perpustakaan selama 24 jam."
+      "Berkebun bersama cenderung menumbuhkan kepedulian lingkungan dan kebersamaan warga.",
+      "Semua warga yang berkebun pasti tidak pernah membuang sampah sembarangan.",
+      "Kebun komunitas hanya berguna bagi anak sekolah.",
+      "Berkebun adalah satu-satunya cara menjaga lingkungan.",
+      "Semua kampung harus membuat kebun komunitas."
     ],
     "answer": 0,
     "scores": [
@@ -129,19 +129,19 @@
       0,
       0
     ],
-    "explanation": "Benar karena ketiga fakta menunjukkan pola yang sama, yaitu dukungan lingkungan terhadap kegiatan membaca sejalan dengan meningkatnya minat baca, sehingga generalisasi yang tidak mutlak ini paling mungkin. Opsi B dan D terlalu mutlak dengan kata 'semua' dan 'satu-satunya', opsi C menyempitkan manfaat hanya untuk anak-anak, dan opsi E adalah anjuran yang tidak didukung oleh fakta."
+    "explanation": "Benar karena ketiga fakta menunjukkan pola yang sama, yaitu kegiatan berkebun bersama sejalan dengan meningkatnya kepedulian lingkungan dan kebersamaan warga, sehingga generalisasi yang tidak mutlak ini paling mungkin. Opsi B dan D terlalu mutlak dengan kata 'semua' dan 'satu-satunya', opsi C menyempitkan manfaat hanya untuk anak sekolah, dan opsi E adalah anjuran yang tidak didukung oleh fakta."
   },
   {
     "id": "TIU-07",
     "category": "TIU",
     "subtopic": "Verbal — Penalaran Induktif",
-    "question": "Rumah tangga yang memakai air yang sudah disaring melaporkan lebih sedikit keluhan sakit perut. Sebuah desa yang membangun sumur baru mencatat lebih sedikit kasus diare. Sebuah sekolah yang menyediakan air minum mencatat lebih sedikit siswa yang absen karena sakit. Generalisasi yang paling mungkin benar berdasarkan fakta-fakta tersebut adalah ...",
+    "question": "Siswa yang belajar daring dengan jadwal teratur memperoleh nilai yang lebih baik. Sebuah kelas yang memakai video pembelajaran mencatat lebih banyak siswa yang memahami materi. Sebuah kursus daring yang menyediakan latihan soal mencatat lebih banyak peserta yang lulus ujian. Generalisasi yang paling mungkin benar berdasarkan fakta-fakta tersebut adalah ...",
     "options": [
-      "Air bersih menghilangkan semua penyakit.",
-      "Akses air bersih cenderung berkaitan dengan menurunnya gangguan kesehatan.",
-      "Hanya air sumur baru yang bermanfaat bagi kesehatan.",
-      "Semua rumah tangga harus memasang penyaring air.",
-      "Diare hanya terjadi karena air yang kotor."
+      "Pembelajaran daring menghilangkan semua kesulitan belajar.",
+      "Pembelajaran daring yang terstruktur cenderung membantu siswa memahami materi dengan lebih baik.",
+      "Hanya video pembelajaran yang bermanfaat bagi siswa.",
+      "Semua siswa harus belajar daring setiap hari.",
+      "Ujian hanya dapat dilalui dengan kursus daring."
     ],
     "answer": 1,
     "scores": [
@@ -151,19 +151,19 @@
       0,
       0
     ],
-    "explanation": "Benar karena ketiga fakta menunjukkan pola yang sama, yaitu akses air bersih sejalan dengan berkurangnya gangguan kesehatan, sehingga generalisasi yang hati-hati dan tidak mutlak inilah yang paling mungkin. Opsi A dan E terlalu mutlak dengan kata 'semua' dan 'hanya', opsi C menyempitkan manfaat hanya pada sumur baru, dan opsi D adalah anjuran yang tidak didukung oleh fakta."
+    "explanation": "Benar karena ketiga fakta menunjukkan pola yang sama, yaitu pembelajaran daring yang terstruktur sejalan dengan pemahaman materi yang lebih baik, sehingga generalisasi yang hati-hati dan tidak mutlak inilah yang paling mungkin. Opsi A dan E terlalu mutlak dengan kata 'semua' dan 'hanya', opsi C menyempitkan manfaat hanya pada video, dan opsi D adalah anjuran yang tidak didukung oleh fakta."
   },
   {
     "id": "TIU-08",
     "category": "TIU",
     "subtopic": "Verbal — Penalaran Induktif",
-    "question": "Pegawai yang berolahraga sebelum bekerja mengaku lebih mudah berkonsentrasi. Sebuah bagian yang mengadakan senam pagi mencatat lebih sedikit kesalahan kerja. Sekelompok siswa yang berlari pagi menyelesaikan tugasnya lebih cepat. Generalisasi yang paling mungkin benar berdasarkan fakta-fakta tersebut adalah ...",
+    "question": "Keluarga yang memilah sampah mencatat lebih sedikit sampah yang dibuang ke tempat pembuangan. Sebuah desa yang menjalankan bank sampah mencatat lingkungan yang lebih bersih. Sebuah sekolah yang mengadakan lomba memilah sampah mencatat lebih banyak siswa yang membawa bekal tanpa plastik. Generalisasi yang paling mungkin benar berdasarkan fakta-fakta tersebut adalah ...",
     "options": [
-      "Semua pegawai harus mengikuti senam pagi.",
-      "Olahraga pagi adalah satu-satunya cara meningkatkan konsentrasi.",
-      "Hanya pelajar yang merasakan manfaat olahraga pagi.",
-      "Aktivitas fisik di pagi hari cenderung berkaitan dengan fokus dan kinerja yang lebih baik.",
-      "Orang yang tidak berolahraga pagi pasti kinerjanya buruk."
+      "Semua keluarga harus mengikuti bank sampah.",
+      "Memilah sampah adalah satu-satunya cara menjaga kebersihan.",
+      "Hanya pelajar yang merasakan manfaat memilah sampah.",
+      "Kebiasaan memilah sampah cenderung berkaitan dengan lingkungan yang lebih bersih dan sehat.",
+      "Orang yang tidak memilah sampah pasti merusak lingkungan."
     ],
     "answer": 3,
     "scores": [
@@ -173,19 +173,19 @@
       5,
       0
     ],
-    "explanation": "Benar karena ketiga fakta menunjukkan pola yang sama, yaitu aktivitas fisik di pagi hari sejalan dengan fokus dan kinerja yang lebih baik, sehingga generalisasi yang tidak mutlak ini paling mungkin. Opsi A adalah anjuran yang tidak didukung fakta, opsi B memakai kata 'satu-satunya' yang terlalu mutlak, opsi C menyempitkan manfaat hanya untuk pelajar, dan opsi E memakai kata 'pasti' yang terlalu mutlak."
+    "explanation": "Benar karena ketiga fakta menunjukkan pola yang sama, yaitu kebiasaan memilah sampah sejalan dengan lingkungan yang lebih bersih dan sehat, sehingga generalisasi yang tidak mutlak ini paling mungkin. Opsi A adalah anjuran yang tidak didukung fakta, opsi B memakai kata 'satu-satunya' yang terlalu mutlak, opsi C menyempitkan manfaat hanya untuk pelajar, dan opsi E memakai kata 'pasti' yang terlalu mutlak."
   },
   {
     "id": "TIU-09",
     "category": "TIU",
     "subtopic": "Verbal — Analitis",
-    "question": "Empat teman, yaitu Rina, Sinta, Tono, dan Budi, duduk pada empat kursi berjajar dari kiri ke kanan pada posisi 1 sampai 4. Syaratnya: Rina duduk di kursi 1, Tono duduk tepat di sebelah kanan Sinta, dan Budi tidak duduk di kursi 4. Pernyataan manakah yang pasti benar?",
+    "question": "Empat teman, yaitu Andi, Beni, Cici, dan Dedi, duduk pada empat kursi berjajar dari kiri ke kanan pada posisi 1 sampai 4. Syaratnya: Andi duduk di kursi 2, Dedi duduk tepat di sebelah kanan Cici, dan Beni tidak duduk di kursi 4. Pernyataan manakah yang pasti benar?",
     "options": [
-      "Tono berada di kursi 3.",
-      "Budi berada di kursi 3.",
-      "Sinta berada di kursi 3.",
-      "Budi berada di kursi 4.",
-      "Sinta berada di kursi 2."
+      "Dedi berada di kursi 3.",
+      "Beni berada di kursi 3.",
+      "Cici berada di kursi 3.",
+      "Beni berada di kursi 4.",
+      "Andi berada di kursi 1."
     ],
     "answer": 2,
     "scores": [
@@ -195,19 +195,19 @@
       0,
       0
     ],
-    "explanation": "Benar karena satu-satunya susunan yang memenuhi semua syarat adalah Rina, Budi, Sinta, Tono: Rina di kursi 1, Sinta tepat di kiri Tono, dan Budi bukan di kursi 4, sehingga Sinta pasti di kursi 3. Opsi A dan B salah karena Tono di kursi 4 dan Budi di kursi 2, sedangkan opsi D dan E bertentangan dengan syarat bahwa Budi tidak di kursi 4 dan susunan yang mungkin."
+    "explanation": "Benar karena satu-satunya susunan yang memenuhi semua syarat adalah Beni, Andi, Cici, Dedi: Andi di kursi 2, Cici tepat di kiri Dedi, dan Beni bukan di kursi 4, sehingga Cici pasti di kursi 3. Opsi A dan B salah karena Dedi di kursi 4 dan Beni di kursi 1, sedangkan opsi D dan E bertentangan dengan syarat bahwa Beni tidak di kursi 4 dan Andi di kursi 2."
   },
   {
     "id": "TIU-10",
     "category": "TIU",
     "subtopic": "Verbal — Analitis",
-    "question": "Lima buku, yaitu Kamus, Novel, Majalah, Komik, dan Atlas, disusun di rak dari kiri ke kanan pada posisi 1 sampai 5. Syaratnya: Kamus berada di posisi 1, Majalah berada tepat di sebelah kiri Komik, dan Atlas tidak berada di posisi 5. Susunan manakah yang mungkin?",
+    "question": "Lima berkas, yaitu Laporan, Surat, Proposal, Nota, dan Arsip, disusun di rak dari atas ke bawah pada posisi 1 sampai 5. Syaratnya: Laporan berada di posisi 1, Nota berada tepat di bawah Proposal, dan Arsip tidak berada di posisi 5. Susunan manakah yang mungkin?",
     "options": [
-      "Kamus, Komik, Majalah, Novel, Atlas",
-      "Kamus, Novel, Majalah, Atlas, Komik",
-      "Novel, Kamus, Majalah, Komik, Atlas",
-      "Kamus, Majalah, Novel, Komik, Atlas",
-      "Kamus, Majalah, Komik, Atlas, Novel"
+      "Laporan, Nota, Proposal, Surat, Arsip",
+      "Laporan, Surat, Nota, Arsip, Proposal",
+      "Surat, Laporan, Nota, Proposal, Arsip",
+      "Laporan, Proposal, Surat, Nota, Arsip",
+      "Laporan, Proposal, Nota, Arsip, Surat"
     ],
     "answer": 4,
     "scores": [
@@ -217,19 +217,19 @@
       0,
       5
     ],
-    "explanation": "Benar karena susunan Kamus, Majalah, Komik, Atlas, Novel memenuhi semua syarat: Kamus di posisi 1, Majalah tepat di kiri Komik, dan Atlas di posisi 4 bukan 5. Opsi A dan B salah karena Majalah tidak tepat di kiri Komik, opsi C menempatkan Kamus bukan di posisi 1, dan opsi D menempatkan Atlas di posisi 5 sekaligus Majalah tidak bersebelahan dengan Komik."
+    "explanation": "Benar karena susunan Laporan, Proposal, Nota, Arsip, Surat memenuhi semua syarat: Laporan di posisi 1, Nota tepat di bawah Proposal, dan Arsip di posisi 4 bukan 5. Opsi A salah karena Nota tidak tepat di bawah Proposal, opsi B salah karena Nota tidak tepat di bawah Proposal, opsi C menempatkan Laporan bukan di posisi 1, dan opsi D menempatkan Nota tidak tepat di bawah Proposal."
   },
   {
     "id": "TIU-11",
     "category": "TIU",
     "subtopic": "Verbal — Analitis",
-    "question": "Empat siswa, yaitu Dewi, Eko, Fitri, dan Gani, tampil presentasi secara berurutan pada slot 1 sampai 4. Syaratnya: Dewi tampil sebelum Fitri, Eko tidak tampil pada slot pertama, Gani tampil tepat setelah Eko, dan Fitri tampil pada slot terakhir. Susunan manakah yang mungkin?",
+    "question": "Empat pembicara, yaitu Hana, Irfan, Joko, dan Kirana, tampil secara berurutan pada slot 1 sampai 4. Syaratnya: Hana tampil sebelum Joko, Irfan tidak tampil pada slot pertama, Kirana tampil tepat setelah Irfan, dan Joko tampil pada slot terakhir. Susunan manakah yang mungkin?",
     "options": [
-      "Dewi, Eko, Gani, Fitri",
-      "Eko, Gani, Dewi, Fitri",
-      "Dewi, Fitri, Eko, Gani",
-      "Gani, Eko, Dewi, Fitri",
-      "Dewi, Gani, Eko, Fitri"
+      "Hana, Irfan, Kirana, Joko",
+      "Irfan, Kirana, Hana, Joko",
+      "Hana, Joko, Irfan, Kirana",
+      "Kirana, Irfan, Hana, Joko",
+      "Hana, Kirana, Irfan, Joko"
     ],
     "answer": 0,
     "scores": [
@@ -239,19 +239,19 @@
       0,
       0
     ],
-    "explanation": "Benar karena susunan Dewi, Eko, Gani, Fitri memenuhi semua syarat: Dewi sebelum Fitri, Eko bukan di slot pertama, Gani tepat setelah Eko, dan Fitri di slot terakhir. Opsi B menempatkan Eko pada slot pertama, opsi C menempatkan Fitri bukan pada slot terakhir, opsi D menempatkan Gani sebelum Eko, dan opsi E menempatkan Gani sebelum Eko."
+    "explanation": "Benar karena susunan Hana, Irfan, Kirana, Joko memenuhi semua syarat: Hana sebelum Joko, Irfan bukan di slot pertama, Kirana tepat setelah Irfan, dan Joko di slot terakhir. Opsi B menempatkan Irfan pada slot pertama, opsi C menempatkan Joko bukan pada slot terakhir, opsi D menempatkan Kirana sebelum Irfan, dan opsi E menempatkan Kirana sebelum Irfan."
   },
   {
     "id": "TIU-12",
     "category": "TIU",
     "subtopic": "Verbal — Analitis",
-    "question": "Lima pekerja, yaitu Ani, Budi, Candra, Dina, dan Eko, dibagi ke dua shift: Pagi dan Sore. Syaratnya: Ani dan Budi berada pada shift yang berbeda, Candra satu shift dengan Dina, Eko satu shift dengan Ani, dan Budi bertugas pada shift Sore. Pembagian manakah yang mungkin?",
+    "question": "Lima pegawai, yaitu Fajar, Gita, Hadi, Indah, dan Jaka, dibagi ke dua tim: Merah dan Biru. Syaratnya: Fajar dan Gita berada pada tim yang berbeda, Hadi satu tim dengan Indah, Jaka satu tim dengan Fajar, dan Gita bertugas pada tim Biru. Pembagian manakah yang mungkin?",
     "options": [
-      "Pagi: Ani, Eko, Candra; Sore: Budi, Dina",
-      "Pagi: Ani, Eko; Sore: Budi, Candra, Dina",
-      "Pagi: Ani, Budi; Sore: Candra, Dina, Eko",
-      "Pagi: Budi, Candra, Dina; Sore: Ani, Eko",
-      "Pagi: Ani, Candra, Dina; Sore: Budi, Eko"
+      "Merah: Fajar, Jaka, Hadi; Biru: Gita, Indah",
+      "Merah: Fajar, Jaka; Biru: Gita, Hadi, Indah",
+      "Merah: Fajar, Gita; Biru: Hadi, Indah, Jaka",
+      "Merah: Gita, Hadi, Indah; Biru: Fajar, Jaka",
+      "Merah: Fajar, Hadi, Indah; Biru: Gita, Jaka"
     ],
     "answer": 1,
     "scores": [
@@ -261,19 +261,18 @@
       0,
       0
     ],
-    "explanation": "Benar karena pembagian Pagi: Ani, Eko dan Sore: Budi, Candra, Dina memenuhi semua syarat: Ani dan Budi berbeda shift, Candra satu shift dengan Dina, Eko satu shift dengan Ani, dan Budi di shift Sore. Opsi A memisahkan Candra dari Dina, opsi C menempatkan Ani satu shift dengan Budi, opsi D menempatkan Budi di shift Pagi, dan opsi E memisahkan Eko dari Ani."
-  },
-  {
+    "explanation": "Benar karena pembagian Merah: Fajar, Jaka dan Biru: Gita, Hadi, Indah memenuhi semua syarat: Fajar dan Gita berbeda tim, Hadi satu tim dengan Indah, Jaka satu tim dengan Fajar, dan Gita di tim Biru. Opsi A memisahkan Hadi dari Indah, opsi C menempatkan Fajar satu tim dengan Gita, opsi D menempatkan Gita di tim Merah, dan opsi E memisahkan Jaka dari Fajar."
+  },  {
     "id": "TIU-13",
     "category": "TIU",
     "subtopic": "Numerik — Berhitung",
-    "question": "45% dari 360 adalah ...",
+    "question": "35% dari 420 adalah ...",
     "options": [
-      "150",
-      "158",
-      "160",
-      "162",
-      "170"
+      "140",
+      "145",
+      "146",
+      "147",
+      "150"
     ],
     "answer": 3,
     "scores": [
@@ -283,19 +282,19 @@
       5,
       0
     ],
-    "explanation": "45% × 360 = (45/100) × 360 = 16.200/100 = 162. Opsi lain bukan hasil perkalian 45% dengan 360."
+    "explanation": "35% × 420 = (35/100) × 420 = 14.700/100 = 147. Opsi lain bukan hasil perkalian 35% dengan 420."
   },
   {
     "id": "TIU-14",
     "category": "TIU",
     "subtopic": "Numerik — Berhitung",
-    "question": "3/8 dari 96 adalah ...",
+    "question": "5/12 dari 144 adalah ...",
     "options": [
-      "36",
-      "32",
-      "40",
-      "28",
-      "44"
+      "60",
+      "55",
+      "65",
+      "50",
+      "70"
     ],
     "answer": 0,
     "scores": [
@@ -305,19 +304,19 @@
       0,
       0
     ],
-    "explanation": "3/8 × 96 = 96 ÷ 8 × 3 = 12 × 3 = 36. Opsi lain bukan hasil perkalian 3/8 dengan 96."
+    "explanation": "5/12 × 144 = 144 ÷ 12 × 5 = 12 × 5 = 60. Opsi lain bukan hasil perkalian 5/12 dengan 144."
   },
   {
     "id": "TIU-15",
     "category": "TIU",
     "subtopic": "Numerik — Berhitung",
-    "question": "Harga sebuah tas Rp180.000,00. Setelah mendapat diskon 25%, harga tas tersebut menjadi ...",
+    "question": "Harga sebuah sepatu Rp250.000,00. Setelah mendapat diskon 20%, harga sepatu tersebut menjadi ...",
     "options": [
-      "Rp120.000,00",
-      "Rp130.000,00",
-      "Rp135.000,00",
-      "Rp140.000,00",
-      "Rp145.000,00"
+      "Rp190.000,00",
+      "Rp195.000,00",
+      "Rp200.000,00",
+      "Rp205.000,00",
+      "Rp210.000,00"
     ],
     "answer": 2,
     "scores": [
@@ -327,19 +326,19 @@
       0,
       0
     ],
-    "explanation": "Besar diskon = 25% × Rp180.000,00 = Rp45.000,00. Harga setelah diskon = Rp180.000,00 − Rp45.000,00 = Rp135.000,00. Opsi lain bukan hasil pengurangan diskon 25% dari harga awal."
+    "explanation": "Besar diskon = 20% × Rp250.000,00 = Rp50.000,00. Harga setelah diskon = Rp250.000,00 − Rp50.000,00 = Rp200.000,00. Opsi lain bukan hasil pengurangan diskon 20% dari harga awal."
   },
   {
     "id": "TIU-16",
     "category": "TIU",
     "subtopic": "Numerik — Berhitung",
-    "question": "Perbandingan umur Rudi dan Santi adalah 5 : 3. Jika jumlah umur mereka 64 tahun, umur Santi adalah ...",
+    "question": "Perbandingan kelereng Andi dan Budi adalah 7 : 5. Jika jumlah kelereng mereka 96 butir, kelereng Budi adalah ...",
     "options": [
-      "20 tahun",
-      "30 tahun",
-      "32 tahun",
-      "40 tahun",
-      "24 tahun"
+      "28 butir",
+      "35 butir",
+      "56 butir",
+      "48 butir",
+      "40 butir"
     ],
     "answer": 4,
     "scores": [
@@ -349,19 +348,19 @@
       0,
       5
     ],
-    "explanation": "Jumlah bagian = 5 + 3 = 8 bagian. Satu bagian = 64 ÷ 8 = 8 tahun. Umur Santi = 3 × 8 = 24 tahun. Opsi lain bukan hasil pembagian jumlah umur sesuai perbandingan 5 : 3."
+    "explanation": "Jumlah bagian = 7 + 5 = 12 bagian. Satu bagian = 96 ÷ 12 = 8 butir. Kelereng Budi = 5 × 8 = 40 butir. Opsi lain bukan hasil pembagian jumlah kelereng sesuai perbandingan 7 : 5."
   },
   {
     "id": "TIU-17",
     "category": "TIU",
     "subtopic": "Numerik — Deret Angka",
-    "question": "6, 10, 18, 34, 66, … Suku berikutnya adalah ...",
+    "question": "5, 11, 23, 47, 95, … Suku berikutnya adalah ...",
     "options": [
-      "120",
-      "130",
-      "140",
-      "126",
-      "134"
+      "180",
+      "191",
+      "185",
+      "190",
+      "195"
     ],
     "answer": 1,
     "scores": [
@@ -371,17 +370,17 @@
       0,
       0
     ],
-    "explanation": "Selisih antar suku berlipat dua setiap langkah: 10−6=4, 18−10=8, 34−18=16, 66−34=32. Selisih berikutnya adalah 64, jadi 66+64=130. Pola ini juga sama dengan dikali 2 lalu dikurangi 2."
+    "explanation": "Setiap suku diperoleh dengan mengalikan suku sebelumnya dengan 2 lalu menambah 1: 5×2+1=11, 11×2+1=23, 23×2+1=47, 47×2+1=95. Suku berikutnya adalah 95×2+1=191."
   },
   {
     "id": "TIU-18",
     "category": "TIU",
     "subtopic": "Numerik — Deret Angka",
-    "question": "120, 108, 96, 84, 72, … Suku berikutnya adalah ...",
+    "question": "5, 12, 21, 32, 45, … Suku berikutnya adalah ...",
     "options": [
       "56",
       "58",
-      "64",
+      "57",
       "60",
       "62"
     ],
@@ -393,19 +392,19 @@
       5,
       0
     ],
-    "explanation": "Setiap suku berkurang 12 secara tetap: 120−12=108, 108−12=96, 96−12=84, 84−12=72. Suku berikutnya adalah 72−12=60."
+    "explanation": "Selisih antar suku bertambah 2 setiap langkah: 12−5=7, 21−12=9, 32−21=11, 45−32=13. Selisih berikutnya adalah 15, jadi 45+15=60."
   },
   {
     "id": "TIU-19",
     "category": "TIU",
     "subtopic": "Numerik — Deret Angka",
-    "question": "1, 8, 27, 64, 125, … Suku berikutnya adalah ...",
+    "question": "2, 9, 28, 65, 126, … Suku berikutnya adalah ...",
     "options": [
+      "217",
+      "215",
       "216",
-      "196",
-      "200",
-      "225",
-      "243"
+      "210",
+      "220"
     ],
     "answer": 0,
     "scores": [
@@ -415,19 +414,19 @@
       0,
       0
     ],
-    "explanation": "Setiap suku adalah pangkat tiga berurutan: 1³=1, 2³=8, 3³=27, 4³=64, 5³=125. Suku berikutnya adalah 6³=216."
+    "explanation": "Setiap suku adalah pangkat tiga bilangan berurutan ditambah 1: 1³+1=2, 2³+1=9, 3³+1=28, 4³+1=65, 5³+1=126. Suku berikutnya adalah 6³+1=217."
   },
   {
     "id": "TIU-20",
     "category": "TIU",
     "subtopic": "Numerik — Deret Angka",
-    "question": "3, 6, 11, 18, 27, 38, … Suku berikutnya adalah ...",
+    "question": "3, 7, 16, 35, 74, … Suku berikutnya adalah ...",
     "options": [
-      "49",
-      "50",
-      "51",
-      "52",
-      "53"
+      "150",
+      "152",
+      "153",
+      "155",
+      "160"
     ],
     "answer": 2,
     "scores": [
@@ -437,13 +436,13 @@
       0,
       0
     ],
-    "explanation": "Selisih antar suku adalah bilangan ganjil yang bertambah 2 setiap langkah: 6−3=3, 11−6=5, 18−11=7, 27−18=9, 38−27=11. Selisih berikutnya adalah 13, jadi 38+13=51."
+    "explanation": "Setiap suku diperoleh dengan mengalikan suku sebelumnya dengan 2 lalu menambah bilangan yang bertambah satu: 3×2+1=7, 7×2+2=16, 16×2+3=35, 35×2+4=74. Suku berikutnya adalah 74×2+5=153."
   },
   {
     "id": "TIU-21",
     "category": "TIU",
     "subtopic": "Numerik — Perbandingan Kuantitatif",
-    "question": "Kuantitas A adalah 30% dari 200. Kuantitas B adalah 45. Manakah hubungan yang benar antara Kuantitas A dan Kuantitas B?",
+    "question": "Kuantitas A adalah 40% dari 150. Kuantitas B adalah 55. Manakah hubungan yang benar antara Kuantitas A dan Kuantitas B?",
     "options": [
       "Kuantitas A lebih besar",
       "Kuantitas B lebih besar",
@@ -459,13 +458,13 @@
       0,
       0
     ],
-    "explanation": "Benar karena 30% dari 200 adalah 60, sedangkan Kuantitas B adalah 45, sehingga Kuantitas A lebih besar. Opsi B dan C salah karena hasil hitung menunjukkan A lebih besar dari B, opsi D salah karena kedua kuantitas dapat dihitung dengan pasti, dan opsi E salah karena nilai B adalah 45, bukan 60."
+    "explanation": "Benar karena 40% dari 150 adalah 60, sedangkan Kuantitas B adalah 55, sehingga Kuantitas A lebih besar. Opsi B dan C salah karena hasil hitung menunjukkan A lebih besar dari B, opsi D salah karena kedua kuantitas dapat dihitung dengan pasti, dan opsi E salah karena nilai B adalah 55, bukan 60."
   },
   {
     "id": "TIU-22",
     "category": "TIU",
     "subtopic": "Numerik — Perbandingan Kuantitatif",
-    "question": "Kuantitas A adalah 1/4 dari 160. Kuantitas B adalah 2/3 dari 90. Manakah hubungan yang benar antara Kuantitas A dan Kuantitas B?",
+    "question": "Kuantitas A adalah 1/3 dari 120. Kuantitas B adalah 3/8 dari 160. Manakah hubungan yang benar antara Kuantitas A dan Kuantitas B?",
     "options": [
       "Kuantitas A lebih besar",
       "Kuantitas B lebih besar",
@@ -481,19 +480,19 @@
       0,
       0
     ],
-    "explanation": "Benar karena 1/4 dari 160 adalah 40, sedangkan 2/3 dari 90 adalah 60, sehingga Kuantitas B lebih besar. Opsi A dan C salah karena hasil hitung menunjukkan B lebih besar dari A, opsi D salah karena kedua kuantitas dapat dihitung dengan pasti, dan opsi E salah karena nilai A adalah 40, bukan 50."
+    "explanation": "Benar karena 1/3 dari 120 adalah 40, sedangkan 3/8 dari 160 adalah 60, sehingga Kuantitas B lebih besar. Opsi A dan C salah karena hasil hitung menunjukkan B lebih besar dari A, opsi D salah karena kedua kuantitas dapat dihitung dengan pasti, dan opsi E salah karena nilai A adalah 40, bukan 50."
   },
   {
     "id": "TIU-23",
     "category": "TIU",
     "subtopic": "Numerik — Perbandingan Kuantitatif",
-    "question": "Kuantitas A adalah 4 kali bilangan bulat positif n. Kuantitas B adalah 100. Manakah hubungan yang benar antara Kuantitas A dan Kuantitas B?",
+    "question": "Kuantitas A adalah 3 kali bilangan bulat positif m. Kuantitas B adalah 50. Manakah hubungan yang benar antara Kuantitas A dan Kuantitas B?",
     "options": [
       "Kuantitas A lebih besar",
       "Kuantitas B lebih besar",
       "Keduanya sama",
       "Hubungan tidak dapat ditentukan",
-      "Kuantitas A adalah 100"
+      "Kuantitas A adalah 50"
     ],
     "answer": 3,
     "scores": [
@@ -503,17 +502,17 @@
       5,
       0
     ],
-    "explanation": "Benar karena nilai n tidak diketahui, sehingga Kuantitas A = 4n dapat lebih kecil dari 100 (misalnya n = 10, A = 40) atau lebih besar dari 100 (misalnya n = 30, A = 120). Karena hubungan A dan B berubah tergantung n, hubungan keduanya tidak dapat ditentukan. Opsi A, B, dan C masing-masing hanya benar untuk nilai n tertentu."
+    "explanation": "Benar karena nilai m tidak diketahui, sehingga Kuantitas A = 3m dapat lebih kecil dari 50 (misalnya m = 10, A = 30) atau lebih besar dari 50 (misalnya m = 20, A = 60). Karena hubungan A dan B berubah tergantung m, hubungan keduanya tidak dapat ditentukan. Opsi A, B, dan C masing-masing hanya benar untuk nilai m tertentu."
   },
   {
     "id": "TIU-24",
     "category": "TIU",
     "subtopic": "Numerik — Soal Cerita",
-    "question": "Sebuah bus berangkat pukul 07.30 dan tiba pukul 10.00 setelah menempuh jarak 175 km. Kecepatan rata-rata bus tersebut adalah ...",
+    "question": "Sebuah mobil menempuh jarak 180 km dalam waktu 2,5 jam. Kecepatan rata-rata mobil tersebut adalah ...",
     "options": [
       "60 km/jam",
       "65 km/jam",
-      "70 km/jam",
+      "72 km/jam",
       "75 km/jam",
       "80 km/jam"
     ],
@@ -525,19 +524,19 @@
       0,
       0
     ],
-    "explanation": "Waktu tempuh = 10.00 − 07.30 = 2,5 jam. Kecepatan = jarak ÷ waktu = 175 km ÷ 2,5 jam = 70 km/jam. Opsi lain bukan hasil pembagian 175 dengan 2,5."
+    "explanation": "Kecepatan = jarak ÷ waktu = 180 km ÷ 2,5 jam = 72 km/jam. Opsi lain bukan hasil pembagian 180 dengan 2,5."
   },
   {
     "id": "TIU-25",
     "category": "TIU",
     "subtopic": "Numerik — Soal Cerita",
-    "question": "Harga 6 kg mangga adalah Rp90.000,00. Harga 10 kg mangga adalah ...",
+    "question": "Harga 12 buku tulis adalah Rp144.000,00. Harga 9 buku tulis adalah ...",
     "options": [
-      "Rp120.000,00",
-      "Rp130.000,00",
-      "Rp140.000,00",
-      "Rp145.000,00",
-      "Rp150.000,00"
+      "Rp96.000,00",
+      "Rp100.000,00",
+      "Rp104.000,00",
+      "Rp106.000,00",
+      "Rp108.000,00"
     ],
     "answer": 4,
     "scores": [
@@ -547,19 +546,19 @@
       0,
       5
     ],
-    "explanation": "Harga 1 kg = Rp90.000,00 ÷ 6 = Rp15.000,00. Harga 10 kg = 10 × Rp15.000,00 = Rp150.000,00. Opsi lain bukan hasil perkalian harga per kilogram dengan 10."
+    "explanation": "Harga 1 buku = Rp144.000,00 ÷ 12 = Rp12.000,00. Harga 9 buku = 9 × Rp12.000,00 = Rp108.000,00. Opsi lain bukan hasil perkalian harga per buku dengan 9."
   },
   {
     "id": "TIU-26",
     "category": "TIU",
     "subtopic": "Numerik — Soal Cerita",
-    "question": "Sebuah tangki air dapat diisi penuh oleh keran A dalam 6 jam. Keran B mengisi dua kali lebih cepat daripada keran A. Jika kedua keran dibuka bersama-sama, tangki yang kosong terisi penuh dalam ...",
+    "question": "Sebuah bak air dapat diisi penuh oleh keran A dalam 4 jam. Keran B mengisi dua kali lebih cepat daripada keran A. Jika kedua keran dibuka bersama-sama, bak yang kosong terisi penuh dalam ...",
     "options": [
       "1 jam",
+      "1 jam 20 menit",
+      "1 jam 30 menit",
       "2 jam",
-      "3 jam",
-      "4 jam",
-      "6 jam"
+      "2 jam 30 menit"
     ],
     "answer": 1,
     "scores": [
@@ -569,19 +568,19 @@
       0,
       0
     ],
-    "explanation": "Dalam 1 jam keran A mengisi 1/6 tangki dan keran B mengisi 1/3 tangki, karena kecepatannya dua kali keran A. Bersama-sama keduanya mengisi 1/6 + 1/3 = 1/2 tangki per jam, sehingga tangki penuh dalam 2 jam. Opsi lain bukan hasil penjumlahan laju kedua keran."
+    "explanation": "Dalam 1 jam keran A mengisi 1/4 bak dan keran B mengisi 1/2 bak, karena kecepatannya dua kali keran A. Bersama-sama keduanya mengisi 1/4 + 1/2 = 3/4 bak per jam, sehingga bak penuh dalam 4/3 jam = 1 jam 20 menit. Opsi lain bukan hasil penjumlahan laju kedua keran."
   },
   {
     "id": "TIU-27",
     "category": "TIU",
     "subtopic": "Numerik — Soal Cerita",
-    "question": "Selisih umur ibu dan anaknya adalah 24 tahun. Lima tahun yang lalu, umur ibu 5 kali umur anaknya. Umur anak sekarang adalah ...",
+    "question": "Selisih umur ibu dan anaknya adalah 18 tahun. Tiga tahun yang lalu, umur ibu 4 kali umur anaknya. Umur anak sekarang adalah ...",
     "options": [
-      "9 tahun",
+      "7 tahun",
+      "8 tahun",
       "10 tahun",
-      "12 tahun",
-      "11 tahun",
-      "13 tahun"
+      "9 tahun",
+      "11 tahun"
     ],
     "answer": 3,
     "scores": [
@@ -591,34 +590,15 @@
       5,
       0
     ],
-    "explanation": "Misalkan umur anak sekarang = x, maka umur ibu = x + 24. Lima tahun lalu: (x + 24 − 5) = 5(x − 5), sehingga x + 19 = 5x − 25, 4x = 44, x = 11 tahun. Periksa: anak 11 dan ibu 35; lima tahun lalu anak 6 dan ibu 30, tepat 5 kali."
-  },
-  {
+    "explanation": "Misalkan umur anak sekarang = x, maka umur ibu = x + 18. Tiga tahun lalu: (x + 18 − 3) = 4(x − 3), sehingga x + 15 = 4x − 12, 3x = 27, x = 9 tahun. Periksa: anak 9 dan ibu 27; tiga tahun lalu anak 6 dan ibu 24, tepat 4 kali."
+  },  {
     "id": "TIU-28",
     "category": "TIU",
     "subtopic": "Figural — Serial",
-    "question": "Perhatikan deret gambar berikut. Gambar berikutnya adalah ...",
+    "question": "Lihatlah deret gambar berikut. Gambar yang tepat untuk melanjutkan deret tersebut adalah ...",
     "options": [
       {
-        "s": "circle",
-        "f": "black",
-        "r": 0,
-        "d": 0
-      },
-      {
-        "s": "circle",
-        "f": "white",
-        "r": 0,
-        "d": 0
-      },
-      {
-        "s": "square",
-        "f": "black",
-        "r": 0,
-        "d": 0
-      },
-      {
-        "s": "diamond",
+        "s": "triangle",
         "f": "black",
         "r": 0,
         "d": 0
@@ -626,6 +606,24 @@
       {
         "s": "triangle",
         "f": "white",
+        "r": 0,
+        "d": 0
+      },
+      {
+        "s": "triangle",
+        "f": "black",
+        "r": 90,
+        "d": 0
+      },
+      {
+        "s": "triangle",
+        "f": "black",
+        "r": 270,
+        "d": 0
+      },
+      {
+        "s": "square",
+        "f": "black",
         "r": 0,
         "d": 0
       }
@@ -638,22 +636,10 @@
       0,
       0
     ],
-    "explanation": "Bentuk berubah berurutan lingkaran → kotak → segitiga → belah ketupat, lalu kembali ke lingkaran; isinya bergantian hitam, putih, hitam, putih, sehingga gambar kelima adalah lingkaran hitam. Opsi B salah isinya, opsi C dan E salah bentuknya, opsi D salah bentuk dan isinya.",
+    "explanation": "Segitiga berputar 90 derajat searah jarum jam setiap langkah (0, 90, 180, 270, lalu kembali ke 0 derajat) dan isinya bergantian hitam, putih, hitam, putih, sehingga gambar kelima adalah segitiga hitam menghadap ke atas. Opsi B salah isinya, opsi C dan D salah putarannya, opsi E salah bentuknya.",
     "figure": {
       "kind": "seq",
       "cells": [
-        {
-          "s": "circle",
-          "f": "black",
-          "r": 0,
-          "d": 0
-        },
-        {
-          "s": "square",
-          "f": "white",
-          "r": 0,
-          "d": 0
-        },
         {
           "s": "triangle",
           "f": "black",
@@ -661,9 +647,21 @@
           "d": 0
         },
         {
-          "s": "diamond",
+          "s": "triangle",
           "f": "white",
-          "r": 0,
+          "r": 90,
+          "d": 0
+        },
+        {
+          "s": "triangle",
+          "f": "black",
+          "r": 180,
+          "d": 0
+        },
+        {
+          "s": "triangle",
+          "f": "white",
+          "r": 270,
           "d": 0
         },
         "?"
@@ -674,32 +672,37 @@
     "id": "TIU-29",
     "category": "TIU",
     "subtopic": "Figural — Serial",
-    "question": "Perhatikan deret gambar berikut. Anak panah berputar berlawanan arah jarum jam. Gambar berikutnya adalah ...",
+    "question": "Amati deret gambar berikut dengan saksama. Gambar yang tepat untuk melengkapi deret tersebut adalah ...",
     "options": [
       {
         "s": "arrow",
         "f": "white",
-        "r": 0
+        "r": 180,
+        "d": 0
       },
       {
         "s": "arrow",
         "f": "black",
-        "r": 90
+        "r": 135,
+        "d": 0
+      },
+      {
+        "s": "arrow",
+        "f": "black",
+        "r": 225,
+        "d": 0
       },
       {
         "s": "arrow",
         "f": "white",
-        "r": 180
+        "r": 0,
+        "d": 0
       },
       {
         "s": "arrow",
         "f": "black",
-        "r": 270
-      },
-      {
-        "s": "arrow",
-        "f": "black",
-        "r": 0
+        "r": 180,
+        "d": 0
       }
     ],
     "answer": 4,
@@ -710,29 +713,33 @@
       0,
       5
     ],
-    "explanation": "Anak panah berputar 90 derajat berlawanan arah jarum jam setiap langkah (0, 270, 180, 90, lalu kembali ke 0 derajat) dan isinya bergantian hitam-putih (hitam, putih, hitam, putih, hitam). Jadi gambar kelima adalah anak panah hitam menghadap ke atas. Pilihan A salah isi karena putih, B dan D salah arah putar, C salah arah putar dan isi.",
+    "explanation": "Anak panah berputar 45 derajat searah jarum jam setiap langkah (0, 45, 90, 135, lalu 180 derajat) dan isinya bergantian hitam, putih, hitam, putih, sehingga gambar kelima adalah anak panah hitam menghadap ke bawah. Opsi A salah isinya, opsi B dan C salah putarannya, opsi D salah putaran dan isinya.",
     "figure": {
       "kind": "seq",
       "cells": [
         {
           "s": "arrow",
           "f": "black",
-          "r": 0
+          "r": 0,
+          "d": 0
         },
         {
           "s": "arrow",
           "f": "white",
-          "r": 270
+          "r": 45,
+          "d": 0
         },
         {
           "s": "arrow",
           "f": "black",
-          "r": 180
+          "r": 90,
+          "d": 0
         },
         {
           "s": "arrow",
           "f": "white",
-          "r": 90
+          "r": 135,
+          "d": 0
         },
         "?"
       ]
@@ -748,31 +755,31 @@
         "s": "circle",
         "f": "black",
         "r": 0,
+        "d": 1
+      },
+      {
+        "s": "square",
+        "f": "black",
+        "r": 0,
         "d": 0
       },
       {
         "s": "circle",
         "f": "black",
         "r": 0,
-        "d": 2
-      },
-      {
-        "s": "circle",
-        "f": "black",
-        "r": 0,
-        "d": 3
-      },
-      {
-        "s": "square",
-        "f": "black",
-        "r": 0,
-        "d": 3
+        "d": 0
       },
       {
         "s": "diamond",
         "f": "black",
         "r": 0,
-        "d": 3
+        "d": 0
+      },
+      {
+        "s": "triangle",
+        "f": "black",
+        "r": 0,
+        "d": 0
       }
     ],
     "answer": 2,
@@ -783,7 +790,7 @@
       0,
       0
     ],
-    "explanation": "Bentuk berubah berurutan lingkaran → kotak → segitiga → belah ketupat, dan jumlah titik berkurang satu tiap langkah (3, 2, 1, 0). Setelah belah ketupat, bentuk kembali ke lingkaran dan titik kembali ke 3, jadi jawabannya lingkaran bertitik 3. Opsi A dan B salah jumlah titiknya, opsi D dan E salah bentuknya.",
+    "explanation": "Bentuk berubah berurutan lingkaran → kotak → segitiga → belah ketupat, dan jumlah titik bertambah satu tiap langkah (0, 1, 2, 3). Setelah belah ketupat, bentuk kembali ke lingkaran dan titik kembali ke 0, jadi jawabannya lingkaran hitam tanpa titik. Opsi A salah jumlah titiknya, opsi B, D, dan E salah bentuknya.",
     "figure": {
       "kind": "seq",
       "cells": [
@@ -791,25 +798,25 @@
           "s": "circle",
           "f": "black",
           "r": 0,
-          "d": 3
+          "d": 0
         },
         {
           "s": "square",
           "f": "black",
           "r": 0,
-          "d": 2
+          "d": 1
         },
         {
           "s": "triangle",
           "f": "black",
           "r": 0,
-          "d": 1
+          "d": 2
         },
         {
           "s": "diamond",
           "f": "black",
           "r": 0,
-          "d": 0
+          "d": 3
         },
         "?"
       ]
@@ -822,34 +829,34 @@
     "question": "Gambar pertama berubah menjadi gambar kedua dengan aturan tertentu. Terapkan aturan yang sama pada gambar ketiga. Gambar keempat adalah ...",
     "options": [
       {
-        "s": "square",
+        "s": "arrow",
         "f": "black",
+        "r": 90,
+        "d": 0
+      },
+      {
+        "s": "arrow",
+        "f": "white",
+        "r": 90,
+        "d": 0
+      },
+      {
+        "s": "arrow",
+        "f": "white",
         "r": 0,
         "d": 0
       },
       {
-        "s": "square",
-        "f": "black",
-        "r": 0,
-        "d": 1
+        "s": "arrow",
+        "f": "white",
+        "r": 180,
+        "d": 0
       },
       {
         "s": "square",
-        "f": "black",
-        "r": 0,
-        "d": 2
-      },
-      {
-        "s": "circle",
-        "f": "black",
-        "r": 0,
-        "d": 1
-      },
-      {
-        "s": "triangle",
-        "f": "black",
-        "r": 0,
-        "d": 1
+        "f": "white",
+        "r": 90,
+        "d": 0
       }
     ],
     "answer": 1,
@@ -860,23 +867,23 @@
       0,
       0
     ],
-    "explanation": "Aturannya: bentuk tetap, jumlah titik bertambah satu. Lingkaran bertitik 1 menjadi lingkaran bertitik 2, maka kotak tanpa titik menjadi kotak bertitik 1. Opsi A tidak menambah titik, opsi C menambah dua titik, opsi D dan E salah bentuknya.",
+    "explanation": "Aturannya: bangun berputar 90 derajat searah jarum jam dan isinya berubah dari hitam menjadi putih. Segitiga hitam menghadap atas menjadi segitiga putih menghadap kanan, maka panah hitam menghadap atas menjadi panah putih menghadap kanan. Opsi A tidak mengubah isi, opsi C dan D salah putarannya, opsi E salah bentuknya.",
     "figure": {
       "kind": "analogy",
       "a": {
-        "s": "circle",
+        "s": "triangle",
         "f": "black",
         "r": 0,
-        "d": 1
+        "d": 0
       },
       "b": {
-        "s": "circle",
-        "f": "black",
-        "r": 0,
-        "d": 2
+        "s": "triangle",
+        "f": "white",
+        "r": 90,
+        "d": 0
       },
       "c": {
-        "s": "square",
+        "s": "arrow",
         "f": "black",
         "r": 0,
         "d": 0
@@ -890,34 +897,34 @@
     "question": "Perhatikan pasangan gambar A : B. Aturan yang sama berlaku untuk C. Gambar yang melengkapi C adalah ...",
     "options": [
       {
-        "s": "arrow",
+        "s": "triangle",
         "f": "black",
-        "r": 180,
-        "d": 3
+        "r": 0,
+        "d": 1
       },
       {
-        "s": "arrow",
+        "s": "diamond",
         "f": "black",
         "r": 0,
         "d": 2
       },
       {
-        "s": "arrow",
+        "s": "square",
         "f": "black",
-        "r": 180,
+        "r": 0,
         "d": 1
       },
       {
-        "s": "arrow",
+        "s": "diamond",
         "f": "black",
-        "r": 180,
-        "d": 2
+        "r": 0,
+        "d": 1
       },
       {
-        "s": "square",
-        "f": "black",
-        "r": 180,
-        "d": 2
+        "s": "diamond",
+        "f": "white",
+        "r": 0,
+        "d": 1
       }
     ],
     "answer": 3,
@@ -928,26 +935,26 @@
       5,
       0
     ],
-    "explanation": "Aturannya: bangun dicerminkan (segitiga menghadap atas menjadi menghadap bawah) dan jumlah titik berkurang satu. Maka panah ke atas bertitik 3 menjadi panah ke bawah bertitik 2. Opsi A tidak mengurangi titik, opsi B tidak mencerminkan, opsi C mengurangi dua titik, opsi E salah bentuknya.",
+    "explanation": "Aturannya: bentuk berubah ke bentuk berikutnya dalam urutan lingkaran → kotak → segitiga → belah ketupat, dan jumlah titik bertambah satu. Lingkaran bertitik 1 menjadi kotak bertitik 2, maka segitiga tanpa titik menjadi belah ketupat bertitik 1. Opsi A tidak mengubah bentuk, opsi B salah jumlah titiknya, opsi C salah bentuknya, opsi E salah isinya.",
     "figure": {
       "kind": "analogy",
       "a": {
-        "s": "triangle",
+        "s": "circle",
+        "f": "black",
+        "r": 0,
+        "d": 1
+      },
+      "b": {
+        "s": "square",
         "f": "black",
         "r": 0,
         "d": 2
       },
-      "b": {
+      "c": {
         "s": "triangle",
         "f": "black",
-        "r": 180,
-        "d": 1
-      },
-      "c": {
-        "s": "arrow",
-        "f": "black",
         "r": 0,
-        "d": 3
+        "d": 0
       }
     }
   },
@@ -959,31 +966,31 @@
     "options": [
       {
         "s": "triangle",
-        "f": "black",
-        "r": 0,
-        "d": 0
-      },
-      {
-        "s": "triangle",
         "f": "white",
         "r": 0,
         "d": 0
       },
       {
-        "s": "square",
+        "s": "triangle",
         "f": "black",
+        "r": 0,
+        "d": 0
+      },
+      {
+        "s": "square",
+        "f": "white",
         "r": 0,
         "d": 0
       },
       {
         "s": "circle",
-        "f": "black",
+        "f": "white",
         "r": 0,
         "d": 0
       },
       {
         "s": "diamond",
-        "f": "black",
+        "f": "white",
         "r": 0,
         "d": 0
       }
@@ -996,7 +1003,7 @@
       0,
       0
     ],
-    "explanation": "Setiap kolom memakai bentuk yang sama (kolom 1 lingkaran, kolom 2 kotak, kolom 3 segitiga) dan isi berubah per baris: baris 1 hitam, baris 2 putih, baris 3 hitam. Jadi kotak kosong adalah segitiga hitam. Opsi B salah isinya, opsi C, D, dan E salah bentuknya.",
+    "explanation": "Setiap baris memakai bentuk yang sama (baris 1 lingkaran, baris 2 kotak, baris 3 segitiga) dan isi berubah per kolom: kolom 1 hitam, kolom 2 putih, kolom 3 hitam. Jadi kotak kosong adalah segitiga putih. Opsi B salah isinya, opsi C, D, dan E salah bentuknya.",
     "figure": {
       "kind": "matrix",
       "cells": [
@@ -1008,13 +1015,13 @@
             "d": 0
           },
           {
-            "s": "square",
-            "f": "black",
+            "s": "circle",
+            "f": "white",
             "r": 0,
             "d": 0
           },
           {
-            "s": "triangle",
+            "s": "circle",
             "f": "black",
             "r": 0,
             "d": 0
@@ -1022,8 +1029,8 @@
         ],
         [
           {
-            "s": "circle",
-            "f": "white",
+            "s": "square",
+            "f": "black",
             "r": 0,
             "d": 0
           },
@@ -1034,22 +1041,22 @@
             "d": 0
           },
           {
-            "s": "triangle",
-            "f": "white",
+            "s": "square",
+            "f": "black",
             "r": 0,
             "d": 0
           }
         ],
         [
           {
-            "s": "circle",
+            "s": "triangle",
             "f": "black",
             "r": 0,
             "d": 0
           },
           {
-            "s": "square",
-            "f": "black",
+            "s": "triangle",
+            "f": "white",
             "r": 0,
             "d": 0
           },
@@ -1066,7 +1073,13 @@
     "options": [
       {
         "s": "plus",
-        "f": "white",
+        "f": "black",
+        "r": 0,
+        "d": 0
+      },
+      {
+        "s": "plus",
+        "f": "black",
         "r": 0,
         "d": 1
       },
@@ -1077,14 +1090,8 @@
         "d": 2
       },
       {
-        "s": "plus",
-        "f": "white",
-        "r": 0,
-        "d": 2
-      },
-      {
         "s": "diamond",
-        "f": "white",
+        "f": "black",
         "r": 0,
         "d": 2
       },
@@ -1092,7 +1099,7 @@
         "s": "plus",
         "f": "white",
         "r": 0,
-        "d": 0
+        "d": 2
       }
     ],
     "answer": 2,
@@ -1103,31 +1110,17 @@
       0,
       0
     ],
-    "explanation": "Setiap kolom memakai bentuk yang sama (bintang, belah ketupat, plus) dan isi berubah per baris: putih, hitam, putih. Jumlah titik juga bertambah ke bawah: baris 1 tanpa titik, baris 2 satu titik, baris 3 dua titik. Jadi kotak kosong adalah plus putih bertitik 2. Opsi A dan E salah jumlah titiknya, opsi B salah isinya, opsi D salah bentuknya.",
+    "explanation": "Setiap baris memakai bentuk yang sama (baris 1 bintang, baris 2 belah ketupat, baris 3 plus) dan jumlah titik bertambah per kolom: kolom 1 tanpa titik, kolom 2 satu titik, kolom 3 dua titik; semua bangun berwarna hitam. Jadi kotak kosong adalah plus hitam bertitik 2. Opsi A dan B salah jumlah titiknya, opsi D salah bentuknya, opsi E salah isinya.",
     "figure": {
       "kind": "matrix",
       "cells": [
         [
           {
             "s": "star",
-            "f": "white",
+            "f": "black",
             "r": 0,
             "d": 0
           },
-          {
-            "s": "diamond",
-            "f": "white",
-            "r": 0,
-            "d": 0
-          },
-          {
-            "s": "plus",
-            "f": "white",
-            "r": 0,
-            "d": 0
-          }
-        ],
-        [
           {
             "s": "star",
             "f": "black",
@@ -1135,30 +1128,44 @@
             "d": 1
           },
           {
+            "s": "star",
+            "f": "black",
+            "r": 0,
+            "d": 2
+          }
+        ],
+        [
+          {
+            "s": "diamond",
+            "f": "black",
+            "r": 0,
+            "d": 0
+          },
+          {
             "s": "diamond",
             "f": "black",
             "r": 0,
             "d": 1
+          },
+          {
+            "s": "diamond",
+            "f": "black",
+            "r": 0,
+            "d": 2
+          }
+        ],
+        [
+          {
+            "s": "plus",
+            "f": "black",
+            "r": 0,
+            "d": 0
           },
           {
             "s": "plus",
             "f": "black",
             "r": 0,
             "d": 1
-          }
-        ],
-        [
-          {
-            "s": "star",
-            "f": "white",
-            "r": 0,
-            "d": 2
-          },
-          {
-            "s": "diamond",
-            "f": "white",
-            "r": 0,
-            "d": 2
           },
           "?"
         ]
@@ -1180,25 +1187,25 @@
       {
         "s": "star",
         "f": "black",
-        "r": 90,
+        "r": 45,
         "d": 0
       },
       {
         "s": "star",
         "f": "white",
-        "r": 180,
+        "r": 90,
         "d": 0
       },
       {
         "s": "arrow",
         "f": "black",
-        "r": 180,
+        "r": 90,
         "d": 0
       },
       {
         "s": "star",
         "f": "black",
-        "r": 180,
+        "r": 90,
         "d": 0
       }
     ],
@@ -1210,7 +1217,7 @@
       0,
       5
     ],
-    "explanation": "Setiap kolom memakai bentuk yang sama (segitiga, panah, bintang). Isi berubah per baris (hitam, putih, hitam) dan bangun berputar 90 derajat tiap baris (0°, 90°, 180°). Jadi kotak kosong adalah bintang hitam yang diputar 180°. Opsi A dan B salah putarannya, opsi C salah isinya, opsi D salah bentuknya.",
+    "explanation": "Setiap kolom memakai bentuk yang sama (kolom 1 segitiga, kolom 2 panah, kolom 3 bintang). Isi berubah per baris (hitam, putih, hitam) dan bangun berputar 45 derajat tiap kolom (0°, 45°, 90°). Jadi kotak kosong adalah bintang hitam yang diputar 90°. Opsi A dan B salah putarannya, opsi C salah isinya, opsi D salah bentuknya.",
     "figure": {
       "kind": "matrix",
       "cells": [
@@ -1224,13 +1231,13 @@
           {
             "s": "arrow",
             "f": "black",
-            "r": 0,
+            "r": 45,
             "d": 0
           },
           {
             "s": "star",
             "f": "black",
-            "r": 0,
+            "r": 90,
             "d": 0
           }
         ],
@@ -1238,13 +1245,13 @@
           {
             "s": "triangle",
             "f": "white",
-            "r": 90,
+            "r": 0,
             "d": 0
           },
           {
             "s": "arrow",
             "f": "white",
-            "r": 90,
+            "r": 45,
             "d": 0
           },
           {
@@ -1258,13 +1265,13 @@
           {
             "s": "triangle",
             "f": "black",
-            "r": 180,
+            "r": 0,
             "d": 0
           },
           {
             "s": "arrow",
             "f": "black",
-            "r": 180,
+            "r": 45,
             "d": 0
           },
           "?"

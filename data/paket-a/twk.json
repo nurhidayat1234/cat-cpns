@@ -1,9 +1,9 @@
 [
   {
-    "answer": 0,
-    "category": "TWK",
-    "explanation": "Sila kedua, Kemanusiaan yang Adil dan Beradab, menuntut setiap orang diperlakukan secara adil dan manusiawi tanpa membedakan suku, agama, ras, atau golongan. Pilihan B salah karena sila pertama mengatur hubungan dengan Tuhan dan toleransi beragama, bukan perlakuan adil secara umum. Pilihan C salah karena sila ketiga menekankan persatuan dan kesatuan bangsa, bukan perlakuan adil antarindividu. Pilihan D salah karena musyawarah adalah ciri sila keempat. Pilihan E salah karena sila kelima menekankan pemerataan kesejahteraan, bukan penghormatan terhadap martabat manusia.",
     "id": "TWK-01",
+    "category": "TWK",
+    "subtopic": "Empat Konsensus Kebangsaan",
+    "question": "Seorang pegawai negeri melayani semua warga dengan adil dan hormat, tanpa membedakan suku dan agama. Sikap tersebut paling mencerminkan pengamalan sila Pancasila yang ke-…",
     "options": [
       "Kedua, karena menjunjung tinggi nilai kemanusiaan yang adil dan beradab",
       "Pertama, karena berhubungan dengan keyakinan beragama",
@@ -11,7 +11,7 @@
       "Keempat, karena dilakukan melalui musyawarah",
       "Kelima, karena mewujudkan keadilan sosial"
     ],
-    "question": "Seorang pegawai negeri menolak memberikan pelayanan yang berbeda kepada warga berdasarkan suku dan agama, serta memperlakukan semua warga dengan hormat dan adil. Sikap tersebut paling mencerminkan pengamalan sila Pancasila yang ke-…",
+    "answer": 0,
     "scores": [
       5,
       0,
@@ -19,13 +19,13 @@
       0,
       0
     ],
-    "subtopic": "Empat Konsensus Kebangsaan"
+    "explanation": "Sila kedua, Kemanusiaan yang Adil dan Beradab, menuntut setiap orang diperlakukan adil dan manusiawi tanpa membedakan suku, agama, ras, atau golongan. Pilihan B salah karena sila pertama mengatur hubungan dengan Tuhan dan toleransi beragama. Pilihan C salah karena sila ketiga menekankan persatuan bangsa. Pilihan D salah karena musyawarah adalah ciri sila keempat. Pilihan E salah karena sila kelima menekankan pemerataan kesejahteraan."
   },
   {
-    "answer": 3,
-    "category": "TWK",
-    "explanation": "Sila keempat menegaskan pengambilan keputusan melalui musyawarah untuk mufakat dengan hikmat kebijaksanaan, bukan sekadar voting atau pemaksaan kehendak. Pilihan A salah karena sila pertama menyangkut ketuhanan. Pilihan B salah karena sila kedua menyangkut kemanusiaan. Pilihan C salah karena sila ketiga menyangkut persatuan. Pilihan E salah karena sila kelima menyangkut keadilan sosial dan pemerataan.",
     "id": "TWK-02",
+    "category": "TWK",
+    "subtopic": "Empat Konsensus Kebangsaan",
+    "question": "Dalam rapat desa, warga berbeda pendapat tentang penggunaan dana desa. Kepala desa mengajak semua pihak berdiskusi sampai tercapai kesepakatan bersama. Praktik ini sesuai dengan sila Pancasila yang berbunyi…",
     "options": [
       "Ketuhanan Yang Maha Esa",
       "Kemanusiaan yang Adil dan Beradab",
@@ -33,7 +33,7 @@
       "Kerakyatan yang Dipimpin oleh Hikmat Kebijaksanaan dalam Permusyawaratan/Perwakilan",
       "Keadilan Sosial bagi Seluruh Rakyat Indonesia"
     ],
-    "question": "Dalam rapat desa, warga berbeda pendapat tentang penggunaan dana desa. Kepala desa mengajak semua pihak berdiskusi sampai tercapai kesepakatan bersama, bukan memaksakan kehendak mayoritas semata. Praktik ini sesuai dengan sila Pancasila yang berbunyi…",
+    "answer": 3,
     "scores": [
       0,
       0,
@@ -41,13 +41,13 @@
       5,
       0
     ],
-    "subtopic": "Empat Konsensus Kebangsaan"
+    "explanation": "Sila keempat menegaskan pengambilan keputusan melalui musyawarah untuk mufakat dengan hikmat kebijaksanaan. Pilihan A salah karena sila pertama menyangkut ketuhanan. Pilihan B salah karena sila kedua menyangkut kemanusiaan. Pilihan C salah karena sila ketiga menyangkut persatuan. Pilihan E salah karena sila kelima menyangkut keadilan sosial dan pemerataan."
   },
   {
-    "answer": 0,
-    "category": "TWK",
-    "explanation": "Sebagai dasar negara dan sumber dari segala sumber hukum, seluruh peraturan perundang-undangan harus bersumber dan tidak boleh bertentangan dengan Pancasila. Pilihan B salah karena Pancasila memiliki kekuatan hukum sebagai dasar negara, bukan sekadar pedoman moral. Pilihan C salah karena mengubah dasar negara tidak dapat dilakukan dengan undang-undang biasa. Pilihan D salah karena nilai Pancasila mengikat seluruh bangsa Indonesia. Pilihan E salah karena Pancasila berlaku terus-menerus, bukan hanya saat penyusunan UUD 1945.",
     "id": "TWK-03",
+    "category": "TWK",
+    "subtopic": "Empat Konsensus Kebangsaan",
+    "question": "Pancasila ditetapkan sebagai dasar negara Indonesia. Konsekuensi dari kedudukan tersebut adalah…",
     "options": [
       "Semua peraturan perundang-undangan tidak boleh bertentangan dengan nilai-nilai Pancasila",
       "Pancasila hanya berlaku sebagai pedoman moral tanpa kekuatan hukum",
@@ -55,7 +55,7 @@
       "Pancasila hanya mengikat penyelenggara negara, bukan warga negara",
       "Pancasila berlaku hanya pada saat penyusunan UUD 1945"
     ],
-    "question": "Pancasila ditetapkan sebagai dasar negara Indonesia. Konsekuensi dari kedudukan tersebut adalah…",
+    "answer": 0,
     "scores": [
       5,
       0,
@@ -63,13 +63,13 @@
       0,
       0
     ],
-    "subtopic": "Empat Konsensus Kebangsaan"
+    "explanation": "Sebagai dasar negara, seluruh peraturan perundang-undangan harus bersumber dan tidak boleh bertentangan dengan Pancasila. Pilihan B salah karena Pancasila memiliki kekuatan hukum sebagai dasar negara, bukan sekadar pedoman moral. Pilihan C salah karena dasar negara tidak dapat diganti dengan undang-undang biasa. Pilihan D salah karena nilai Pancasila mengikat seluruh bangsa. Pilihan E salah karena Pancasila berlaku terus-menerus, bukan hanya saat penyusunan UUD 1945."
   },
   {
     "id": "TWK-04",
     "category": "TWK",
     "subtopic": "Bela Negara",
-    "question": "Nilai-nilai dasar bela negara meliputi cinta tanah air, kesadaran berbangsa dan bernegara, setia pada Pancasila, rela berkorban, dan kemampuan awal bela negara. Berikut ini yang BUKAN merupakan wujud bela negara dalam kehidupan sehari-hari adalah ...",
+    "question": "Berikut ini yang BUKAN merupakan wujud bela negara dalam kehidupan sehari-hari adalah ...",
     "options": [
       "Mengikuti upacara bendera dengan khidmat dan tertib.",
       "Menjaga kerukunan dengan tetangga yang berbeda suku dan agama.",
@@ -85,13 +85,13 @@
       0,
       0
     ],
-    "explanation": "Benar karena menyebarkan ujaran kebencian justru merusak persatuan dan bertentangan dengan nilai bela negara, sedangkan keempat opsi lain — upacara bendera, kerukunan, kerja bakti, dan mempelajari sejarah perjuangan — adalah wujud nyata cinta tanah air dan kesadaran berbangsa dalam kehidupan sehari-hari."
+    "explanation": "Menyebarkan ujaran kebencian justru merusak persatuan dan bertentangan dengan nilai bela negara. Pilihan A, B, D, dan E adalah wujud nyata bela negara: mengikuti upacara bendera, menjaga kerukunan, kerja bakti, dan mempelajari sejarah perjuangan bangsa."
   },
   {
-    "answer": 4,
-    "category": "TWK",
-    "explanation": "Sila kelima menuntut pemerataan pembangunan dan keadilan sosial agar seluruh rakyat, termasuk di daerah terpencil, memperoleh kesejahteraan dan layanan yang setara. Pilihan A salah karena sila pertama menyangkut ketuhanan. Pilihan B salah karena sila kedua menyangkut perlakuan manusiawi antarindividu. Pilihan C salah karena sila ketiga menekankan persatuan, bukan pemerataan layanan. Pilihan D salah karena sila keempat menyangkut musyawarah dalam pengambilan keputusan.",
     "id": "TWK-05",
+    "category": "TWK",
+    "subtopic": "Empat Konsensus Kebangsaan",
+    "question": "Pemerintah membangun sekolah, puskesmas, dan jalan di daerah terpencil dengan anggaran yang sama besarnya seperti di kota besar, agar warga di pelosok memperoleh layanan yang setara. Kebijakan tersebut merupakan wujud sila…",
     "options": [
       "Ketuhanan Yang Maha Esa",
       "Kemanusiaan yang Adil dan Beradab",
@@ -99,7 +99,7 @@
       "Kerakyatan yang Dipimpin oleh Hikmat Kebijaksanaan dalam Permusyawaratan/Perwakilan",
       "Keadilan Sosial bagi Seluruh Rakyat Indonesia"
     ],
-    "question": "Pemerintah daerah membangun sekolah, puskesmas, dan jalan di daerah terpencil dengan anggaran yang sama besarnya seperti di kota besar, agar warga di pelosok memperoleh layanan yang setara. Kebijakan tersebut merupakan wujud sila…",
+    "answer": 4,
     "scores": [
       0,
       0,
@@ -107,13 +107,13 @@
       0,
       5
     ],
-    "subtopic": "Empat Konsensus Kebangsaan"
+    "explanation": "Sila kelima menuntut pemerataan pembangunan dan keadilan sosial agar seluruh rakyat memperoleh kesejahteraan dan layanan yang setara. Pilihan A salah karena sila pertama menyangkut ketuhanan. Pilihan B salah karena sila kedua menyangkut perlakuan manusiawi antarindividu. Pilihan C salah karena sila ketiga menekankan persatuan, bukan pemerataan layanan. Pilihan D salah karena sila keempat menyangkut musyawarah dalam pengambilan keputusan."
   },
   {
-    "answer": 2,
-    "category": "TWK",
-    "explanation": "Sila pertama, Ketuhanan Yang Maha Esa, menjamin kebebasan setiap warga memeluk agama dan beribadah menurut agamanya serta menuntut sikap toleran antarumat beragama. Pilihan A salah karena Indonesia tidak mewajibkan satu agama yang sama bagi semua warga. Pilihan B salah karena negara tidak mengatur tata cara ibadah, hanya menjamin kebebasannya. Pilihan D salah karena Indonesia bukan negara agama dan tidak menetapkan agama resmi. Pilihan E salah karena tidak ada ketentuan bahwa ibadah hanya boleh di tempat yang ditentukan negara.",
     "id": "TWK-06",
+    "category": "TWK",
+    "subtopic": "Empat Konsensus Kebangsaan",
+    "question": "Seorang warga menghormati tetangganya yang merayakan hari besar agama lain dan tidak mengganggu ibadah mereka. Sikap tersebut merupakan pengamalan sila pertama yang menekankan…",
     "options": [
       "Setiap warga harus menganut agama yang sama",
       "Negara mengatur seluruh tata cara ibadah warga",
@@ -121,7 +121,7 @@
       "Agama tertentu menjadi agama resmi negara",
       "Ibadah hanya boleh dilakukan di tempat yang ditentukan negara"
     ],
-    "question": "Seorang warga negara beragama Islam menghormati tetangganya yang merayakan hari besar agama lain dan tidak mengganggu ibadah mereka. Sikap tersebut merupakan pengamalan sila pertama yang menekankan…",
+    "answer": 2,
     "scores": [
       0,
       0,
@@ -129,13 +129,13 @@
       0,
       0
     ],
-    "subtopic": "Empat Konsensus Kebangsaan"
+    "explanation": "Sila pertama, Ketuhanan Yang Maha Esa, menjamin kebebasan setiap warga memeluk agama dan beribadah menurut agamanya serta menuntut sikap toleran antarumat beragama. Pilihan A salah karena Indonesia tidak mewajibkan satu agama yang sama. Pilihan B salah karena negara tidak mengatur tata cara ibadah. Pilihan D salah karena Indonesia bukan negara agama. Pilihan E salah karena tidak ada ketentuan ibadah hanya di tempat yang ditentukan negara."
   },
   {
-    "answer": 2,
-    "category": "TWK",
-    "explanation": "Pasal 1 ayat (1) UUD 1945 menyatakan: 'Negara Indonesia ialah negara kesatuan, yang berbentuk Republik.' Pilihan A, D, dan E salah karena Indonesia bukan negara serikat, federasi, atau kerajaan. Pilihan B salah karena Indonesia bukan monarki, melainkan republik dengan presiden sebagai kepala negara dan kepala pemerintahan.",
     "id": "TWK-07",
+    "category": "TWK",
+    "subtopic": "Empat Konsensus Kebangsaan",
+    "question": "Pasal 1 ayat (1) UUD Negara Republik Indonesia Tahun 1945 menyatakan bahwa negara Indonesia ialah negara kesatuan yang berbentuk…",
     "options": [
       "Serikat",
       "Monarki konstitusional",
@@ -143,7 +143,7 @@
       "Federasi",
       "Kerajaan"
     ],
-    "question": "Pasal 1 ayat (1) UUD Negara Republik Indonesia Tahun 1945 menyatakan bahwa negara Indonesia ialah negara kesatuan yang berbentuk…",
+    "answer": 2,
     "scores": [
       0,
       0,
@@ -151,13 +151,13 @@
       0,
       0
     ],
-    "subtopic": "Empat Konsensus Kebangsaan"
+    "explanation": "Pasal 1 ayat (1) UUD 1945 menyatakan: 'Negara Indonesia ialah negara kesatuan, yang berbentuk Republik.' Pilihan A, D, dan E salah karena Indonesia bukan negara serikat, federasi, atau kerajaan. Pilihan B salah karena Indonesia bukan monarki, melainkan republik dengan presiden sebagai kepala negara."
   },
   {
-    "answer": 3,
-    "category": "TWK",
-    "explanation": "Pasal 1 ayat (3) UUD 1945 menegaskan Indonesia adalah negara hukum, sehingga setiap tindakan penegak hukum harus berdasarkan hukum dan menjamin hak warga untuk membela diri. Pilihan A salah karena negara kepulauan menyangkut bentuk geografis, bukan prinsip penegakan hukum. Pilihan C salah karena maritim menyangkut wilayah laut. Pilihan B salah karena agraris menyangkut sektor pertanian. Pilihan E salah karena Indonesia menganut demokrasi Pancasila, bukan demokrasi liberal.",
     "id": "TWK-08",
+    "category": "TWK",
+    "subtopic": "Empat Konsensus Kebangsaan",
+    "question": "Pasal 1 ayat (3) UUD 1945 menyatakan bahwa negara Indonesia adalah negara…",
     "options": [
       "Kepulauan",
       "Agraris",
@@ -165,7 +165,7 @@
       "Hukum",
       "Demokrasi liberal"
     ],
-    "question": "Seorang warga negara ditangkap tanpa surat perintah dan tidak diberi kesempatan membela diri di pengadilan. Tindakan tersebut bertentangan dengan prinsip yang ditegaskan Pasal 1 ayat (3) UUD 1945, yaitu Indonesia adalah negara…",
+    "answer": 3,
     "scores": [
       0,
       0,
@@ -173,13 +173,13 @@
       5,
       0
     ],
-    "subtopic": "Empat Konsensus Kebangsaan"
+    "explanation": "Pasal 1 ayat (3) UUD 1945 menegaskan Indonesia adalah negara hukum, sehingga segala tindakan harus berdasarkan hukum dan hak warga dijamin. Pilihan A salah karena kepulauan menyangkut bentuk geografis. Pilihan B salah karena agraris menyangkut sektor pertanian. Pilihan C salah karena maritim menyangkut wilayah laut. Pilihan E salah karena Indonesia menganut demokrasi Pancasila, bukan demokrasi liberal."
   },
   {
-    "answer": 3,
-    "category": "TWK",
-    "explanation": "Pasal 27 ayat (1) menegaskan persamaan kedudukan setiap warga negara di dalam hukum dan pemerintahan, tanpa pengecualian bagi siapa pun. Pilihan A salah karena tidak ada warga yang kebal hukum. Pilihan C salah karena hukum berlaku bagi semua, termasuk pejabat. Pilihan B salah karena warga tidak dapat memilih hukum sesuka hati. Pilihan E salah karena pembentukan hukum melibatkan DPR sebagai wakil rakyat.",
     "id": "TWK-09",
+    "category": "TWK",
+    "subtopic": "Empat Konsensus Kebangsaan",
+    "question": "Pasal 27 ayat (1) UUD 1945 menyatakan bahwa segala warga negara bersamaan kedudukannya di dalam hukum dan pemerintahan. Makna pasal tersebut adalah…",
     "options": [
       "Pejabat negara kebal terhadap hukum",
       "Warga negara boleh memilih hukum yang ditaatinya",
@@ -187,7 +187,7 @@
       "Semua warga negara memiliki kedudukan yang sama di hadapan hukum",
       "Pemerintah dapat membuat hukum tanpa persetujuan rakyat"
     ],
-    "question": "Pasal 27 ayat (1) UUD 1945 menyatakan bahwa segala warga negara bersamaan kedudukannya di dalam hukum dan pemerintahan serta wajib menjunjung hukum dan pemerintahan itu dengan tidak ada kecualinya. Makna pasal tersebut adalah…",
+    "answer": 3,
     "scores": [
       0,
       0,
@@ -195,13 +195,13 @@
       5,
       0
     ],
-    "subtopic": "Empat Konsensus Kebangsaan"
+    "explanation": "Pasal 27 ayat (1) menegaskan persamaan kedudukan setiap warga negara di dalam hukum dan pemerintahan, tanpa pengecualian. Pilihan A salah karena tidak ada warga yang kebal hukum. Pilihan B salah karena warga tidak dapat memilih hukum sesuka hati. Pilihan C salah karena hukum berlaku bagi semua, termasuk pejabat. Pilihan E salah karena pembentukan hukum melibatkan DPR sebagai wakil rakyat."
   },
   {
-    "answer": 2,
-    "category": "TWK",
-    "explanation": "Pasal 33 ayat (2) UUD 1945 menyatakan cabang-cabang produksi yang penting bagi negara dan menguasai hajat hidup orang banyak dikuasai oleh negara. Pilihan A salah karena Pasal 28 mengatur kemerdekaan berserikat dan berkumpul. Pilihan B salah karena Pasal 31 mengatur hak mendapat pendidikan. Pilihan D salah karena Pasal 34 mengatur fakir miskin dan anak-anak terlantar yang dipelihara negara. Pilihan E salah karena Pasal 36 mengatur bahasa negara.",
     "id": "TWK-10",
+    "category": "TWK",
+    "subtopic": "Empat Konsensus Kebangsaan",
+    "question": "Menurut UUD 1945, cabang-cabang produksi yang penting bagi negara dan yang menguasai hajat hidup orang banyak dikuasai oleh negara. Ketentuan tersebut diatur dalam Pasal…",
     "options": [
       "Pasal 28",
       "Pasal 31",
@@ -209,7 +209,7 @@
       "Pasal 34",
       "Pasal 36"
     ],
-    "question": "Menurut UUD 1945, cabang-cabang produksi yang penting bagi negara dan yang menguasai hajat hidup orang banyak dikuasai oleh negara. Ketentuan tersebut diatur dalam Pasal…",
+    "answer": 2,
     "scores": [
       0,
       0,
@@ -217,13 +217,13 @@
       0,
       0
     ],
-    "subtopic": "Empat Konsensus Kebangsaan"
+    "explanation": "Pasal 33 ayat (2) UUD 1945 menyatakan cabang-cabang produksi yang penting bagi negara dan menguasai hajat hidup orang banyak dikuasai oleh negara. Pilihan A salah karena Pasal 28 mengatur kemerdekaan berserikat dan berkumpul. Pilihan B salah karena Pasal 31 mengatur hak mendapat pendidikan. Pilihan D salah karena Pasal 34 mengatur fakir miskin dan anak-anak terlantar. Pilihan E salah karena Pasal 36 mengatur bahasa negara."
   },
   {
-    "answer": 3,
-    "category": "TWK",
-    "explanation": "Pasal 31 ayat (1) UUD 1945 menyatakan setiap warga negara berhak mendapat pendidikan, dan ayat (3) mewajibkan pemerintah mengusahakan dan menyelenggarakan satu sistem pendidikan nasional. Pilihan A salah karena Pasal 27 ayat (2) mengatur hak atas pekerjaan dan penghidupan yang layak. Pilihan B salah karena Pasal 28A mengatur hak untuk hidup dan mempertahankan kehidupan. Pilihan C salah karena Pasal 30 ayat (1) mengatur hak dan kewajiban warga negara dalam usaha pertahanan dan keamanan negara. Pilihan E salah karena Pasal 32 mengatur pemajuan kebudayaan nasional.",
     "id": "TWK-11",
+    "category": "TWK",
+    "subtopic": "Empat Konsensus Kebangsaan",
+    "question": "Setiap warga negara berhak mendapat pendidikan, dan pemerintah wajib mengusahakan serta menyelenggarakan satu sistem pendidikan nasional. Hak tersebut dijamin dalam Pasal…",
     "options": [
       "Pasal 27 ayat (2)",
       "Pasal 28A",
@@ -231,7 +231,7 @@
       "Pasal 31 ayat (1)",
       "Pasal 32 ayat (1)"
     ],
-    "question": "Setiap warga negara berhak mendapat pendidikan. Ketentuan ini sekaligus mewajibkan pemerintah mengusahakan dan menyelenggarakan satu sistem pendidikan nasional. Hak tersebut dijamin dalam Pasal…",
+    "answer": 3,
     "scores": [
       0,
       0,
@@ -239,13 +239,13 @@
       5,
       0
     ],
-    "subtopic": "Empat Konsensus Kebangsaan"
+    "explanation": "Pasal 31 ayat (1) UUD 1945 menyatakan setiap warga negara berhak mendapat pendidikan. Pilihan A salah karena Pasal 27 ayat (2) mengatur hak atas pekerjaan dan penghidupan yang layak. Pilihan B salah karena Pasal 28A mengatur hak untuk hidup. Pilihan C salah karena Pasal 30 ayat (1) mengatur hak dan kewajiban warga negara dalam usaha pertahanan dan keamanan negara. Pilihan E salah karena Pasal 32 mengatur pemajuan kebudayaan nasional."
   },
   {
-    "answer": 3,
-    "category": "TWK",
-    "explanation": "Pasal 29 ayat (2) menjamin kemerdekaan tiap penduduk untuk memeluk agama dan beribadat menurut agama dan kepercayaannya, tanpa pembatasan pada agama tertentu. Pilihan A salah karena negara tidak menentukan agama yang wajib dianut. Pilihan C salah karena ibadah dapat dilakukan secara pribadi maupun bersama. Pilihan B salah karena tidak ada kewajiban pelaporan agama tahunan. Pilihan E salah karena jaminan berlaku bagi semua penduduk, bukan hanya pemeluk agama mayoritas.",
     "id": "TWK-12",
+    "category": "TWK",
+    "subtopic": "Empat Konsensus Kebangsaan",
+    "question": "Pasal 29 ayat (2) UUD 1945 menyatakan bahwa negara menjamin kemerdekaan tiap-tiap penduduk untuk memeluk agamanya masing-masing dan untuk beribadat menurut agamanya dan kepercayaannya itu. Jaminan ini berarti…",
     "options": [
       "Negara menentukan satu agama yang wajib dianut penduduk",
       "Penduduk wajib melaporkan agamanya setiap tahun kepada negara",
@@ -253,7 +253,7 @@
       "Setiap penduduk bebas memeluk agama dan beribadah sesuai keyakinannya",
       "Kebebasan beragama hanya berlaku bagi pemeluk agama mayoritas"
     ],
-    "question": "Pasal 29 ayat (2) UUD 1945 menyatakan bahwa negara menjamin kemerdekaan tiap-tiap penduduk untuk memeluk agamanya masing-masing dan untuk beribadat menurut agamanya dan kepercayaannya itu. Jaminan ini berarti…",
+    "answer": 3,
     "scores": [
       0,
       0,
@@ -261,13 +261,13 @@
       5,
       0
     ],
-    "subtopic": "Empat Konsensus Kebangsaan"
+    "explanation": "Pasal 29 ayat (2) menjamin kemerdekaan tiap penduduk untuk memeluk agama dan beribadat menurut agama dan kepercayaannya, tanpa pembatasan pada agama tertentu. Pilihan A salah karena negara tidak menentukan agama yang wajib dianut. Pilihan B salah karena tidak ada kewajiban pelaporan agama tahunan. Pilihan C salah karena ibadah dapat dilakukan secara pribadi maupun bersama. Pilihan E salah karena jaminan berlaku bagi semua penduduk, bukan hanya pemeluk agama mayoritas."
   },
   {
-    "answer": 3,
-    "category": "TWK",
-    "explanation": "Bhinneka Tunggal Ika berasal dari Kitab Sutasoma karya Mpu Tantular, pujangga Kerajaan Majapahit pada abad ke-14, dengan arti 'berbeda-beda tetapi tetap satu jua'. Pilihan A salah karena Mpu Prapanca menulis Kitab Negarakertagama. Pilihan C salah karena Ranggawarsita adalah pujangga Jawa abad ke-19. Pilihan B salah karena Sultan Agung adalah raja Mataram Islam. Pilihan E salah karena Ki Hajar Dewantara adalah tokoh pendidikan, pencetus 'Tut Wuri Handayani'.",
     "id": "TWK-13",
+    "category": "TWK",
+    "subtopic": "Empat Konsensus Kebangsaan",
+    "question": "Semboyan Bhinneka Tunggal Ika berasal dari Kitab Sutasoma yang ditulis oleh…",
     "options": [
       "Mpu Prapanca",
       "Sultan Agung",
@@ -275,7 +275,7 @@
       "Mpu Tantular",
       "Ki Hajar Dewantara"
     ],
-    "question": "Semboyan Bhinneka Tunggal Ika berasal dari Kitab Sutasoma yang ditulis oleh…",
+    "answer": 3,
     "scores": [
       0,
       0,
@@ -283,13 +283,13 @@
       5,
       0
     ],
-    "subtopic": "Empat Konsensus Kebangsaan"
+    "explanation": "Bhinneka Tunggal Ika berasal dari Kitab Sutasoma karya Mpu Tantular, pujangga Kerajaan Majapahit pada abad ke-14, dengan arti 'berbeda-beda tetapi tetap satu jua'. Pilihan A salah karena Mpu Prapanca menulis Kitab Negarakertagama. Pilihan B salah karena Sultan Agung adalah raja Mataram Islam. Pilihan C salah karena Ranggawarsita adalah pujangga Jawa abad ke-19. Pilihan E salah karena Ki Hajar Dewantara adalah tokoh pendidikan, pencetus 'Tut Wuri Handayani'."
   },
   {
-    "answer": 4,
-    "category": "TWK",
-    "explanation": "Pasal 36A UUD 1945 menyatakan: 'Lambang negara ialah Garuda Pancasila dengan semboyan Bhinneka Tunggal Ika.' Pilihan A salah karena Pasal 36 mengatur bahasa negara, yaitu bahasa Indonesia. Pilihan C salah karena Pasal 1 ayat (1) mengatur bentuk negara kesatuan yang berbentuk republik. Pilihan D salah karena Pasal 37 mengatur perubahan UUD. Pilihan B salah karena GBHN sudah tidak berlaku lagi sebagai ketetapan MPR.",
     "id": "TWK-14",
+    "category": "TWK",
+    "subtopic": "Empat Konsensus Kebangsaan",
+    "question": "Semboyan Bhinneka Tunggal Ika tercantum dalam peraturan perundang-undangan pada…",
     "options": [
       "Pasal 36 UUD 1945",
       "Ketetapan MPR tentang GBHN",
@@ -297,7 +297,7 @@
       "Pasal 37 UUD 1945",
       "Pasal 36A UUD 1945"
     ],
-    "question": "Semboyan Bhinneka Tunggal Ika tercantum dalam peraturan perundang-undangan pada…",
+    "answer": 4,
     "scores": [
       0,
       0,
@@ -305,21 +305,21 @@
       0,
       5
     ],
-    "subtopic": "Empat Konsensus Kebangsaan"
+    "explanation": "Pasal 36A UUD 1945 menyatakan: 'Lambang negara ialah Garuda Pancasila dengan semboyan Bhinneka Tunggal Ika.' Pilihan A salah karena Pasal 36 mengatur bahasa negara, yaitu bahasa Indonesia. Pilihan B salah karena GBHN sudah tidak berlaku lagi sebagai ketetapan MPR. Pilihan C salah karena Pasal 1 ayat (1) mengatur bentuk negara kesatuan yang berbentuk republik. Pilihan D salah karena Pasal 37 mengatur perubahan UUD."
   },
   {
-    "answer": 0,
-    "category": "TWK",
-    "explanation": "Pasal 37 ayat (5) UUD 1945 menegaskan bahwa khusus mengenai bentuk Negara Kesatuan Republik Indonesia tidak dapat dilakukan perubahan, sehingga usulan mengubah Indonesia menjadi negara federal bertentangan dengan konstitusi. Pilihan B salah karena larangan tersebut bersumber pada Pasal 37 ayat (5), bukan pada sila pertama Pancasila. Pilihan C salah karena perubahan UUD dilakukan oleh MPR, dan bentuk NKRI bahkan tidak dapat diubah oleh MPR. Pilihan D salah karena tidak ada ketentuan bahwa federalisme hanya berlaku bagi negara kepulauan. Pilihan E salah karena bentuk negara adalah urusan dalam negeri, bukan persetujuan PBB.",
     "id": "TWK-15",
+    "category": "TWK",
+    "subtopic": "Empat Konsensus Kebangsaan",
+    "question": "UUD 1945 menegaskan bahwa bentuk Negara Kesatuan Republik Indonesia tidak dapat dilakukan perubahan. Ketentuan tersebut diatur dalam…",
     "options": [
-      "Bentuk negara kesatuan tidak dapat diubah, sebagaimana ditegaskan Pasal 37 ayat (5) UUD 1945",
-      "Federalisme dilarang oleh Pancasila sila pertama",
-      "Perubahan bentuk negara hanya boleh dilakukan oleh presiden",
-      "Negara federal hanya berlaku bagi negara kepulauan",
-      "Pembentukan negara federal memerlukan persetujuan PBB"
+      "Pasal 37 ayat (5) UUD 1945",
+      "Pasal 1 ayat (1) UUD 1945",
+      "Pasal 36 UUD 1945",
+      "Pasal 27 ayat (1) UUD 1945",
+      "Ketetapan MPR tentang GBHN"
     ],
-    "question": "Sebuah kelompok mengusulkan agar Indonesia diubah menjadi negara federal dengan alasan daerah akan lebih maju. Usulan tersebut bertentangan dengan UUD 1945 karena…",
+    "answer": 0,
     "scores": [
       5,
       0,
@@ -327,13 +327,13 @@
       0,
       0
     ],
-    "subtopic": "Empat Konsensus Kebangsaan"
+    "explanation": "Pasal 37 ayat (5) UUD 1945 menegaskan bahwa khusus mengenai bentuk Negara Kesatuan Republik Indonesia tidak dapat dilakukan perubahan. Pilihan B salah karena Pasal 1 ayat (1) hanya menyatakan bentuk negara, bukan larangan mengubahnya. Pilihan C salah karena Pasal 36 mengatur bahasa negara. Pilihan D salah karena Pasal 27 ayat (1) mengatur persamaan kedudukan warga negara di hadapan hukum. Pilihan E salah karena GBHN sudah tidak berlaku lagi."
   },
   {
-    "answer": 2,
-    "category": "TWK",
-    "explanation": "Jawaban benar adalah C: 17 helai bulu sayap, 8 helai bulu ekor, 19 helai bulu leher, dan 45 helai bulu di bawah sayap — melambangkan tanggal 17 Agustus 1945 (17-8-1945). Pilihan A, B, D, dan E salah karena menukar-nukar keempat angka tersebut ke posisi yang tidak sesuai dengan tanggal proklamasi.",
     "id": "TWK-16",
+    "category": "TWK",
+    "subtopic": "Empat Konsensus Kebangsaan",
+    "question": "Lambang negara Indonesia adalah Garuda Pancasila. Jumlah bulu pada sayap Garuda melambangkan tanggal Proklamasi Kemerdekaan, yaitu…",
     "options": [
       "8 helai bulu sayap, 45 helai bulu ekor, 19 helai bulu leher, dan 17 helai bulu di bawah sayap",
       "45 helai bulu sayap, 17 helai bulu ekor, 8 helai bulu leher, dan 19 helai bulu di bawah sayap",
@@ -341,7 +341,7 @@
       "19 helai bulu sayap, 17 helai bulu ekor, 8 helai bulu leher, dan 45 helai bulu di bawah sayap",
       "8 helai bulu sayap, 17 helai bulu ekor, 45 helai bulu leher, dan 19 helai bulu di bawah sayap"
     ],
-    "question": "Lambang negara Indonesia adalah Garuda Pancasila. Jumlah bulu pada sayap Garuda melambangkan tanggal Proklamasi Kemerdekaan, yaitu…",
+    "answer": 2,
     "scores": [
       0,
       0,
@@ -349,13 +349,13 @@
       0,
       0
     ],
-    "subtopic": "Empat Konsensus Kebangsaan"
+    "explanation": "Jumlah bulu Garuda melambangkan tanggal 17 Agustus 1945: 17 helai bulu sayap, 8 helai bulu ekor, 19 helai bulu leher, dan 45 helai bulu di bawah sayap. Pilihan A, B, D, dan E salah karena menukar-nukar keempat angka tersebut ke posisi yang tidak sesuai dengan tanggal proklamasi."
   },
   {
-    "answer": 4,
-    "category": "TWK",
-    "explanation": "Wawasan Nusantara menempatkan persatuan dan kesatuan wilayah serta kepentingan nasional di atas kepentingan pribadi, golongan, atau daerah, sesuai dengan kedudukan Indonesia sebagai negara kepulauan. Pilihan A salah karena justru kepentingan nasional yang diutamakan. Pilihan C salah karena wawasan Nusantara menolak pemisahan berdasarkan suku dan budaya. Pilihan D salah karena wawasan Nusantara bersifat menyeluruh, tidak mengutamakan ekonomi di atas pertahanan. Pilihan B salah karena bentuk pemerintahan ditentukan oleh konstitusi, bukan oleh masing-masing daerah.",
     "id": "TWK-17",
+    "category": "TWK",
+    "subtopic": "Empat Konsensus Kebangsaan",
+    "question": "Wawasan Nusantara adalah cara pandang dan sikap bangsa Indonesia mengenai diri dan lingkungannya yang mengutamakan…",
     "options": [
       "Kepentingan daerah masing-masing di atas kepentingan nasional",
       "Kebebasan setiap daerah menentukan bentuk pemerintahannya sendiri",
@@ -363,7 +363,7 @@
       "Pengutamaan kepentingan ekonomi di atas pertahanan negara",
       "Persatuan dan kesatuan wilayah serta kepentingan nasional di atas kepentingan pribadi atau golongan"
     ],
-    "question": "Wawasan Nusantara adalah cara pandang dan sikap bangsa Indonesia mengenai diri dan lingkungannya yang mengutamakan…",
+    "answer": 4,
     "scores": [
       0,
       0,
@@ -371,13 +371,13 @@
       0,
       5
     ],
-    "subtopic": "Empat Konsensus Kebangsaan"
+    "explanation": "Wawasan Nusantara menempatkan persatuan dan kesatuan wilayah serta kepentingan nasional di atas kepentingan pribadi, golongan, atau daerah, sesuai dengan kedudukan Indonesia sebagai negara kepulauan. Pilihan A salah karena justru kepentingan nasional yang diutamakan. Pilihan B salah karena bentuk pemerintahan ditentukan oleh konstitusi, bukan oleh masing-masing daerah. Pilihan C salah karena wawasan Nusantara menolak pemisahan berdasarkan suku dan budaya. Pilihan D salah karena wawasan Nusantara bersifat menyeluruh, tidak mengutamakan ekonomi di atas pertahanan."
   },
   {
-    "answer": 0,
-    "category": "TWK",
-    "explanation": "Butir pertama Sumpah Pemuda berbunyi: 'Kami putra dan putri Indonesia mengaku bertumpah darah yang satu, tanah Indonesia.' Pilihan B salah karena butir kedua berbunyi 'berbangsa yang satu, bangsa Indonesia', bukan bangsa Belanda. Pilihan C salah karena butir ketiga berbunyi 'menjunjung bahasa persatuan, bahasa Indonesia', bukan bahasa daerah. Pilihan D salah karena tanah air yang satu adalah tanah Indonesia, bukan tanah Jawa. Pilihan E salah karena Sumpah Pemuda tidak memuat ikrar tentang agama.",
     "id": "TWK-18",
+    "category": "TWK",
+    "subtopic": "Nasionalisme",
+    "question": "Ikrar Sumpah Pemuda pada 28 Oktober 1928 berisi tiga butir. Butir pertama berbunyi…",
     "options": [
       "Kami putra dan putri Indonesia mengaku bertumpah darah yang satu, tanah Indonesia",
       "Kami putra dan putri Indonesia mengaku berbangsa yang satu, bangsa Belanda",
@@ -385,7 +385,7 @@
       "Kami putra dan putri Indonesia mengaku bertanah air yang satu, tanah Jawa",
       "Kami putra dan putri Indonesia mengaku beragama yang satu, agama Islam"
     ],
-    "question": "Ikrar Sumpah Pemuda pada 28 Oktober 1928 berisi tiga butir, salah satunya adalah…",
+    "answer": 0,
     "scores": [
       5,
       0,
@@ -393,13 +393,13 @@
       0,
       0
     ],
-    "subtopic": "Nasionalisme"
+    "explanation": "Butir pertama Sumpah Pemuda berbunyi: 'Kami putra dan putri Indonesia mengaku bertumpah darah yang satu, tanah Indonesia.' Pilihan B salah karena butir kedua berbunyi 'berbangsa yang satu, bangsa Indonesia'. Pilihan C salah karena butir ketiga berbunyi 'menjunjung bahasa persatuan, bahasa Indonesia'. Pilihan D salah karena tanah air yang satu adalah tanah Indonesia, bukan tanah Jawa. Pilihan E salah karena Sumpah Pemuda tidak memuat ikrar tentang agama."
   },
   {
-    "answer": 4,
-    "category": "TWK",
-    "explanation": "Sidang pertama BPUPKI membahas dan merumuskan dasar negara Indonesia, dengan tokoh-tokoh seperti Moh. Yamin, Soepomo, dan Soekarno menyampaikan gagasannya. Pilihan A salah karena pengesahan UUD 1945 dilakukan PPKI pada 18 Agustus 1945. Pilihan C salah karena proklamasi dibacakan 17 Agustus 1945. Pilihan D salah karena TNI dibentuk 5 Oktober 1945. Pilihan B salah karena presiden dan wakil presiden pertama ditetapkan PPKI pada 18 Agustus 1945.",
     "id": "TWK-19",
+    "category": "TWK",
+    "subtopic": "Nasionalisme",
+    "question": "Sidang pertama BPUPKI berlangsung pada 29 Mei–1 Juni 1945. Agenda utama sidang tersebut adalah…",
     "options": [
       "Mengesahkan Undang-Undang Dasar 1945",
       "Menetapkan presiden dan wakil presiden pertama",
@@ -407,7 +407,7 @@
       "Membentuk Tentara Nasional Indonesia",
       "Membahas dan merumuskan dasar negara Indonesia"
     ],
-    "question": "Sidang pertama BPUPKI berlangsung pada 29 Mei–1 Juni 1945. Agenda utama sidang tersebut adalah…",
+    "answer": 4,
     "scores": [
       0,
       0,
@@ -415,13 +415,13 @@
       0,
       5
     ],
-    "subtopic": "Nasionalisme"
+    "explanation": "Sidang pertama BPUPKI membahas dan merumuskan dasar negara Indonesia, dengan tokoh-tokoh seperti Moh. Yamin, Soepomo, dan Soekarno menyampaikan gagasannya. Pilihan A salah karena pengesahan UUD 1945 dilakukan PPKI pada 18 Agustus 1945. Pilihan B salah karena presiden dan wakil presiden pertama ditetapkan PPKI pada 18 Agustus 1945. Pilihan C salah karena proklamasi dibacakan 17 Agustus 1945. Pilihan D salah karena TNI dibentuk 5 Oktober 1945."
   },
   {
-    "answer": 4,
-    "category": "TWK",
-    "explanation": "Sidang PPKI 18 Agustus 1945 mengesahkan UUD 1945, memilih Soekarno dan Mohammad Hatta sebagai presiden dan wakil presiden, serta membentuk Komite Nasional Indonesia Pusat (KNIP). Pilihan A salah karena BPUPKI dibentuk sebelum proklamasi dan Piagam Jakarta dirumuskan Panitia Sembilan pada Juni 1945. Pilihan C salah karena perang terhadap Belanda bukan keputusan sidang PPKI dan TNI baru dibentuk 5 Oktober 1945. Pilihan D salah karena Sumpah Pemuda terjadi pada 1928. Pilihan B salah karena Bank Indonesia dan rupiah bukan hasil sidang PPKI 18 Agustus 1945.",
     "id": "TWK-20",
+    "category": "TWK",
+    "subtopic": "Nasionalisme",
+    "question": "Pada 18 Agustus 1945, sehari setelah proklamasi, PPKI mengadakan sidang. Salah satu keputusan penting sidang tersebut adalah…",
     "options": [
       "Membentuk BPUPKI dan menyusun Piagam Jakarta",
       "Mendirikan Bank Indonesia dan menetapkan mata uang rupiah",
@@ -429,7 +429,7 @@
       "Mengadakan Sumpah Pemuda dan menetapkan bahasa Indonesia",
       "Mengesahkan UUD 1945, memilih Soekarno sebagai presiden dan Mohammad Hatta sebagai wakil presiden, serta membentuk KNIP"
     ],
-    "question": "Pada 18 Agustus 1945, sehari setelah proklamasi, PPKI mengadakan sidang yang menghasilkan beberapa keputusan penting, yaitu…",
+    "answer": 4,
     "scores": [
       0,
       0,
@@ -437,13 +437,13 @@
       0,
       5
     ],
-    "subtopic": "Nasionalisme"
+    "explanation": "Sidang PPKI 18 Agustus 1945 mengesahkan UUD 1945, memilih Soekarno dan Mohammad Hatta sebagai presiden dan wakil presiden, serta membentuk Komite Nasional Indonesia Pusat (KNIP). Pilihan A salah karena BPUPKI dibentuk sebelum proklamasi dan Piagam Jakarta dirumuskan Panitia Sembilan pada Juni 1945. Pilihan B salah karena Bank Indonesia dan rupiah bukan hasil sidang PPKI 18 Agustus 1945. Pilihan C salah karena perang terhadap Belanda bukan keputusan sidang PPKI dan TNI baru dibentuk 5 Oktober 1945. Pilihan D salah karena Sumpah Pemuda terjadi pada 1928."
   },
   {
-    "answer": 4,
-    "category": "TWK",
-    "explanation": "Pertempuran Surabaya 10 November 1945 adalah perlawanan heroik rakyat Surabaya dan para pejuang terhadap tentara Sekutu yang menewaskan Brigadir Jenderal Mallaby, sehingga tanggal itu ditetapkan sebagai Hari Pahlawan. Pilihan A salah karena Belanda baru mengakui kedaulatan Indonesia pada 27 Desember 1949. Pilihan C salah karena Proklamasi dibacakan 17 Agustus 1945 di Jakarta. Pilihan D salah karena Pemerintahan Darurat dibentuk pada Desember 1948 di Bukittinggi. Pilihan B salah karena Perjanjian Renville ditandatangani pada Januari 1948.",
     "id": "TWK-21",
+    "category": "TWK",
+    "subtopic": "Nasionalisme",
+    "question": "Peristiwa Pertempuran Surabaya pada 10 November 1945 diperingati sebagai Hari Pahlawan karena…",
     "options": [
       "Pada tanggal itu Belanda mengakui kemerdekaan Indonesia",
       "Pada tanggal itu ditandatangani Perjanjian Renville",
@@ -451,7 +451,7 @@
       "Pada tanggal itu dibentuk pemerintahan darurat Republik Indonesia",
       "Rakyat Surabaya bersama pejuang dari berbagai daerah mempertahankan kemerdekaan dengan pengorbanan besar melawan tentara Sekutu"
     ],
-    "question": "Peristiwa Pertempuran Surabaya pada 10 November 1945 diperingati sebagai Hari Pahlawan karena…",
+    "answer": 4,
     "scores": [
       0,
       0,
@@ -459,13 +459,13 @@
       0,
       5
     ],
-    "subtopic": "Nasionalisme"
+    "explanation": "Pertempuran Surabaya 10 November 1945 adalah perlawanan heroik rakyat Surabaya dan para pejuang terhadap tentara Sekutu yang menewaskan Brigadir Jenderal Mallaby, sehingga tanggal itu ditetapkan sebagai Hari Pahlawan. Pilihan A salah karena Belanda baru mengakui kedaulatan Indonesia pada 27 Desember 1949. Pilihan B salah karena Perjanjian Renville ditandatangani pada Januari 1948. Pilihan C salah karena Proklamasi dibacakan 17 Agustus 1945 di Jakarta. Pilihan D salah karena Pemerintahan Darurat dibentuk pada Desember 1948 di Bukittinggi."
   },
   {
-    "answer": 0,
-    "category": "TWK",
-    "explanation": "Sila pertama Piagam Jakarta semula berbunyi 'Ketuhanan dengan kewajiban menjalankan syariat Islam bagi pemeluk-pemeluknya'; tujuh kata terakhir dihapus sebelum pengesahan UUD 1945 demi persatuan bangsa, sehingga menjadi 'Ketuhanan Yang Maha Esa'. Pilihan B salah karena sila pertama tetap tentang Ketuhanan, bukan Kemanusiaan. Pilihan C salah karena Pancasila tetap terdiri dari lima sila. Pilihan D salah karena sila pertama tidak dihapus, hanya rumusan kalimatnya diubah. Pilihan E salah karena Trisila adalah gagasan Soekarno yang berbeda, bukan pengganti Pancasila.",
     "id": "TWK-22",
+    "category": "TWK",
+    "subtopic": "Nasionalisme",
+    "question": "Piagam Jakarta yang dirumuskan Panitia Sembilan pada 22 Juni 1945 memuat rumusan sila pertama yang kemudian diubah. Perubahan tersebut adalah…",
     "options": [
       "Penghapusan tujuh kata 'dengan kewajiban menjalankan syariat Islam bagi pemeluk-pemeluknya'",
       "Penggantian kata 'Ketuhanan' menjadi 'Kemanusiaan'",
@@ -473,7 +473,7 @@
       "Penghapusan seluruh sila pertama dari Pancasila",
       "Penggantian Pancasila dengan Trisila"
     ],
-    "question": "Piagam Jakarta yang dirumuskan Panitia Sembilan pada 22 Juni 1945 memuat rumusan sila pertama yang kemudian diubah. Perubahan tersebut adalah…",
+    "answer": 0,
     "scores": [
       5,
       0,
@@ -481,13 +481,13 @@
       0,
       0
     ],
-    "subtopic": "Nasionalisme"
+    "explanation": "Sila pertama Piagam Jakarta semula berbunyi 'Ketuhanan dengan kewajiban menjalankan syariat Islam bagi pemeluk-pemeluknya'; tujuh kata terakhir dihapus sebelum pengesahan UUD 1945 demi persatuan bangsa, sehingga menjadi 'Ketuhanan Yang Maha Esa'. Pilihan B salah karena sila pertama tetap tentang Ketuhanan, bukan Kemanusiaan. Pilihan C salah karena Pancasila tetap terdiri dari lima sila. Pilihan D salah karena sila pertama tidak dihapus, hanya rumusan kalimatnya diubah. Pilihan E salah karena Trisila adalah gagasan Soekarno yang berbeda, bukan pengganti Pancasila."
   },
   {
-    "answer": 1,
-    "category": "TWK",
-    "explanation": "Integritas menuntut ASN menolak gratifikasi dan tetap bekerja sesuai prosedur, karena menerima uang untuk pelayanan yang sudah menjadi kewajiban adalah bentuk korupsi. Pilihan A salah karena percepatan prosedur bukan alasan menerima uang. Pilihan C salah karena membagikan uang hasil gratifikasi tetap merupakan pelanggaran. Pilihan D dan E salah karena keduanya adalah pemerasan dan penyalahgunaan wewenang.",
     "id": "TWK-23",
+    "category": "TWK",
+    "subtopic": "Integritas",
+    "question": "Seorang ASN ditawari uang oleh pengusaha agar mempercepat pengurusan izin yang sebenarnya sudah sesuai prosedur. Tindakan yang paling sesuai dengan nilai integritas ASN adalah…",
     "options": [
       "Menerima uang itu karena pengurusan izin memang dipercepat",
       "Menolak uang itu dan tetap memproses izin sesuai prosedur yang berlaku",
@@ -495,7 +495,7 @@
       "Meminta uang yang lebih besar agar izin diproses lebih cepat",
       "Menunda pengurusan izin sampai pengusaha menambah uangnya"
     ],
-    "question": "Seorang ASN ditawari uang oleh pengusaha agar mempercepat pengurusan izin yang sebenarnya sudah sesuai prosedur. Tindakan yang paling sesuai dengan nilai integritas ASN adalah…",
+    "answer": 1,
     "scores": [
       0,
       5,
@@ -503,13 +503,13 @@
       0,
       0
     ],
-    "subtopic": "Integritas"
+    "explanation": "Integritas menuntut ASN menolak gratifikasi dan tetap bekerja sesuai prosedur, karena menerima uang untuk pelayanan yang sudah menjadi kewajiban adalah bentuk korupsi. Pilihan A salah karena percepatan prosedur bukan alasan menerima uang. Pilihan C salah karena membagikan uang hasil gratifikasi tetap merupakan pelanggaran. Pilihan D dan E salah karena keduanya adalah pemerasan dan penyalahgunaan wewenang."
   },
   {
-    "answer": 1,
-    "category": "TWK",
-    "explanation": "BerAKHLAK adalah singkatan dari Berorientasi Pelayanan, Akuntabel, Kompeten, Harmonis, Loyal, Adaptif, dan Kolaboratif — nilai dasar ASN yang ditetapkan dalam Undang-Undang Nomor 20 Tahun 2023 tentang Aparatur Sipil Negara dan Surat Edaran Menteri PANRB. Pilihan A, C, D, dan E adalah sifat yang baik secara umum, tetapi bukan bagian dari akronim BerAKHLAK.",
     "id": "TWK-24",
+    "category": "TWK",
+    "subtopic": "Integritas",
+    "question": "Nilai-nilai dasar ASN yang dikenal dengan sebutan BerAKHLAK meliputi Berorientasi Pelayanan, Akuntabel, Kompeten, Harmonis, Loyal, Adaptif, dan…",
     "options": [
       "Kreatif",
       "Kolaboratif",
@@ -517,7 +517,7 @@
       "Konsisten",
       "Kritis"
     ],
-    "question": "Nilai-nilai dasar ASN yang dikenal dengan sebutan BerAKHLAK meliputi Berorientasi Pelayanan, Akuntabel, Kompeten, Harmonis, Loyal, Adaptif, dan…",
+    "answer": 1,
     "scores": [
       0,
       5,
@@ -525,13 +525,13 @@
       0,
       0
     ],
-    "subtopic": "Integritas"
+    "explanation": "BerAKHLAK adalah singkatan dari Berorientasi Pelayanan, Akuntabel, Kompeten, Harmonis, Loyal, Adaptif, dan Kolaboratif — nilai dasar ASN yang ditetapkan dalam Undang-Undang Nomor 20 Tahun 2023 tentang Aparatur Sipil Negara. Pilihan A, C, D, dan E adalah sifat yang baik secara umum, tetapi bukan bagian dari akronim BerAKHLAK."
   },
   {
-    "answer": 1,
-    "category": "TWK",
-    "explanation": "Bela negara bagi pelajar diwujudkan dengan belajar tekun, disiplin, dan menjaga nama baik bangsa — bentuk kontribusi sesuai dengan kedudukan dan kemampuannya. Pilihan A salah karena tidak ada kewajiban wajib militer tahunan bagi pelajar. Pilihan C dan E salah karena pembentukan kelompok bersenjata dan penyimpanan senjata oleh warga sipil melanggar hukum. Pilihan D salah karena mengikuti upacara bendera justru merupakan salah satu wujud sikap bela negara dan nasionalisme.",
     "id": "TWK-25",
+    "category": "TWK",
+    "subtopic": "Bela Negara",
+    "question": "Pasal 27 ayat (3) UUD 1945 menyatakan bahwa setiap warga negara berhak dan wajib ikut serta dalam upaya pembelaan negara. Wujud bela negara yang paling sesuai bagi seorang pelajar adalah…",
     "options": [
       "Mengikuti wajib militer setiap tahun",
       "Belajar dengan tekun, mematuhi tata tertib sekolah, dan menjaga nama baik bangsa",
@@ -539,7 +539,7 @@
       "Menolak mengikuti upacara bendera karena tidak wajib",
       "Menyimpan senjata di rumah untuk berjaga-jaga"
     ],
-    "question": "Pasal 27 ayat (3) UUD 1945 menyatakan bahwa setiap warga negara berhak dan wajib ikut serta dalam upaya pembelaan negara. Wujud bela negara yang paling sesuai bagi seorang pelajar adalah…",
+    "answer": 1,
     "scores": [
       0,
       5,
@@ -547,13 +547,13 @@
       0,
       0
     ],
-    "subtopic": "Bela Negara"
+    "explanation": "Bela negara bagi pelajar diwujudkan dengan belajar tekun, disiplin, dan menjaga nama baik bangsa — bentuk kontribusi sesuai dengan kedudukan dan kemampuannya. Pilihan A salah karena tidak ada kewajiban wajib militer tahunan bagi pelajar. Pilihan C dan E salah karena pembentukan kelompok bersenjata dan penyimpanan senjata oleh warga sipil melanggar hukum. Pilihan D salah karena mengikuti upacara bendera justru merupakan salah satu wujud sikap bela negara dan nasionalisme."
   },
   {
-    "answer": 1,
-    "category": "TWK",
-    "explanation": "UU Nomor 20 Tahun 2023 bertujuan mewujudkan ASN yang profesional, berintegritas, dan berorientasi pelayanan publik, dengan penguatan sistem merit. Pilihan A salah karena jabatan fungsional tetap ada dan justru diperkuat. Pilihan C salah karena ASN wajib menjaga netralitas dan dilarang berpolitik praktis. Pilihan D salah karena ASN tetap terikat aturan disiplin. Pilihan E salah karena sistem merit justru menjadi prinsip utama dalam manajemen ASN.",
     "id": "TWK-26",
+    "category": "TWK",
+    "subtopic": "Integritas",
+    "question": "Undang-Undang Nomor 20 Tahun 2023 tentang Aparatur Sipil Negara menggantikan Undang-Undang Nomor 5 Tahun 2014. Salah satu tujuan utama undang-undang ini adalah…",
     "options": [
       "Menghapus seluruh jabatan fungsional di instansi pemerintah",
       "Mewujudkan ASN yang profesional, berintegritas, dan melayani masyarakat dengan baik",
@@ -561,7 +561,7 @@
       "Menetapkan bahwa ASN tidak perlu mengikuti aturan disiplin",
       "Menghapus sistem merit dalam pengangkatan jabatan ASN"
     ],
-    "question": "Undang-Undang Nomor 20 Tahun 2023 tentang Aparatur Sipil Negara menggantikan Undang-Undang Nomor 5 Tahun 2014. Salah satu tujuan utama undang-undang ini adalah…",
+    "answer": 1,
     "scores": [
       0,
       5,
@@ -569,13 +569,13 @@
       0,
       0
     ],
-    "subtopic": "Integritas"
+    "explanation": "UU Nomor 20 Tahun 2023 bertujuan mewujudkan ASN yang profesional, berintegritas, dan berorientasi pelayanan publik, dengan penguatan sistem merit. Pilihan A salah karena jabatan fungsional tetap ada dan justru diperkuat. Pilihan C salah karena ASN wajib menjaga netralitas dan dilarang berpolitik praktis. Pilihan D salah karena ASN tetap terikat aturan disiplin. Pilihan E salah karena sistem merit justru menjadi prinsip utama dalam manajemen ASN."
   },
   {
-    "answer": 2,
-    "category": "TWK",
-    "explanation": "Kalimat C benar karena seluruh katanya baku, termasuk 'jadwal' dan 'diumumkan'. Pilihan A dan D salah karena kata bakunya adalah 'apotek', bukan 'apotik'. Pilihan B salah karena kata bakunya adalah 'survei', bukan 'survey'. Pilihan E salah karena kata bakunya adalah 'izin', bukan 'ijin'.",
     "id": "TWK-27",
+    "category": "TWK",
+    "subtopic": "Bahasa Indonesia",
+    "question": "Manakah kalimat berikut yang menggunakan kata baku secara tepat?",
     "options": [
       "Petugas apotik itu ramah sekali.",
       "Hasil survey menunjukkan kepuasan warga meningkat.",
@@ -583,7 +583,7 @@
       "Dia membeli obat di apotik dekat rumah.",
       "Dia mengajukan cuti dengan surat ijin dokter."
     ],
-    "question": "Manakah kalimat berikut yang menggunakan kata baku secara tepat?",
+    "answer": 2,
     "scores": [
       0,
       0,
@@ -591,13 +591,13 @@
       0,
       0
     ],
-    "subtopic": "Bahasa Indonesia"
+    "explanation": "Kalimat C benar karena seluruh katanya baku, termasuk 'jadwal' dan 'diumumkan'. Pilihan A dan D salah karena kata bakunya adalah 'apotek', bukan 'apotik'. Pilihan B salah karena kata bakunya adalah 'survei', bukan 'survey'. Pilihan E salah karena kata bakunya adalah 'izin', bukan 'ijin'."
   },
   {
-    "answer": 2,
-    "category": "TWK",
-    "explanation": "Kalimat C benar: 'Bahasa Indonesia' sebagai nama bahasa ditulis dengan huruf kapital, dan 'Indonesia' sebagai nama bangsa juga kapital. Pilihan A salah karena 'Jawa Tengah' sebagai nama daerah harus ditulis dengan huruf kapital. Pilihan B salah karena 'Bali' dan 'Desember' harus kapital. Pilihan D salah karena 'Musi' dan 'Palembang' sebagai nama diri harus kapital. Pilihan E salah karena 'Senin' sebagai nama hari harus ditulis dengan huruf kapital.",
     "id": "TWK-28",
+    "category": "TWK",
+    "subtopic": "Bahasa Indonesia",
+    "question": "Penulisan huruf kapital yang benar terdapat pada kalimat…",
     "options": [
       "Presiden Joko Widodo meresmikan bendungan di jawa tengah.",
       "Mereka berlibur ke pulau bali pada bulan desember.",
@@ -605,7 +605,7 @@
       "Sungai musi mengalir melalui kota palembang.",
       "Hari senin adalah hari pertama masuk sekolah."
     ],
-    "question": "Penulisan huruf kapital yang benar terdapat pada kalimat…",
+    "answer": 2,
     "scores": [
       0,
       0,
@@ -613,13 +613,13 @@
       0,
       0
     ],
-    "subtopic": "Bahasa Indonesia"
+    "explanation": "Kalimat C benar: 'Bahasa Indonesia' sebagai nama bahasa ditulis dengan huruf kapital, dan 'Indonesia' sebagai nama bangsa juga kapital. Pilihan A salah karena 'Jawa Tengah' sebagai nama daerah harus ditulis dengan huruf kapital. Pilihan B salah karena 'Bali' dan 'Desember' harus kapital. Pilihan D salah karena 'Musi' dan 'Palembang' sebagai nama diri harus kapital. Pilihan E salah karena 'Senin' sebagai nama hari harus ditulis dengan huruf kapital."
   },
   {
-    "answer": 1,
-    "category": "TWK",
-    "explanation": "Bahasa Indonesia bersifat terbuka dan menyerap kosakata dari berbagai bahasa, seperti Belanda (kantor), Inggris (komputer), Arab, dan Sanskerta, selama sesuai dengan kaidah ejaan dan tata bahasa Indonesia. Pilihan A salah karena justru sebaliknya, bahasa Indonesia terbuka terhadap serapan. Pilihan C salah karena serapan berasal dari banyak bahasa, bukan hanya Belanda. Pilihan D salah karena bahasa Indonesia memiliki kosakata asli yang kaya. Pilihan E salah karena tidak ada kewajiban mengganti kata serapan dengan kata daerah.",
     "id": "TWK-29",
+    "category": "TWK",
+    "subtopic": "Bahasa Indonesia",
+    "question": "Kata serapan dari bahasa Belanda 'kantor' dan dari bahasa Inggris 'komputer' menunjukkan bahwa bahasa Indonesia bersifat…",
     "options": [
       "Tertutup dan menolak unsur bahasa asing",
       "Terbuka dan dapat menyerap unsur bahasa lain yang sesuai dengan kaidah",
@@ -627,7 +627,7 @@
       "Tidak memiliki kosakata asli",
       "Wajib mengganti semua kata serapan dengan kata daerah"
     ],
-    "question": "Kata serapan dari bahasa Belanda 'kantor' dan dari bahasa Inggris 'komputer' menunjukkan bahwa bahasa Indonesia bersifat…",
+    "answer": 1,
     "scores": [
       0,
       5,
@@ -635,13 +635,13 @@
       0,
       0
     ],
-    "subtopic": "Bahasa Indonesia"
+    "explanation": "Bahasa Indonesia bersifat terbuka dan menyerap kosakata dari berbagai bahasa, seperti Belanda (kantor), Inggris (komputer), Arab, dan Sanskerta, selama sesuai dengan kaidah ejaan dan tata bahasa Indonesia. Pilihan A salah karena justru sebaliknya, bahasa Indonesia terbuka terhadap serapan. Pilihan C salah karena serapan berasal dari banyak bahasa, bukan hanya Belanda. Pilihan D salah karena bahasa Indonesia memiliki kosakata asli yang kaya. Pilihan E salah karena tidak ada kewajiban mengganti kata serapan dengan kata daerah."
   },
   {
-    "answer": 1,
-    "category": "TWK",
-    "explanation": "Kalimat B efektif karena tidak ada pengulangan yang mubazir: 'para siswa' sudah jamak sehingga tidak perlu 'siswa-siswa', dan 'di dalam kelas' sudah cukup tanpa tambahan 'ruangan' atau 'sekolah'. Pilihan A salah karena 'para' dan 'siswa-siswa' sama-sama penanda jamak sehingga terjadi pengulangan. Pilihan C salah karena 'ruangan kelas yang ada di dalam sekolah' bertele-tele. Pilihan D salah karena menggabungkan dua penanda jamak sekaligus. Pilihan E salah karena 'ruangan kelas yang ada' mengandung unsur yang tidak perlu.",
     "id": "TWK-30",
+    "category": "TWK",
+    "subtopic": "Bahasa Indonesia",
+    "question": "Manakah kalimat berikut yang termasuk kalimat efektif?",
     "options": [
       "Para siswa-siswa itu sedang mengikuti ujian di dalam ruangan kelas.",
       "Para siswa sedang mengikuti ujian di dalam kelas.",
@@ -649,7 +649,7 @@
       "Para siswa-siswa itu sedang mengikuti ujian di dalam ruangan kelas sekolah.",
       "Siswa-siswa itu sedang mengikuti ujian di dalam ruangan kelas yang ada."
     ],
-    "question": "Manakah kalimat berikut yang termasuk kalimat efektif?",
+    "answer": 1,
     "scores": [
       0,
       5,
@@ -657,6 +657,6 @@
       0,
       0
     ],
-    "subtopic": "Bahasa Indonesia"
+    "explanation": "Kalimat B efektif karena tidak ada pengulangan yang mubazir: 'para siswa' sudah jamak sehingga tidak perlu 'siswa-siswa', dan 'di dalam kelas' sudah cukup tanpa tambahan 'ruangan' atau 'sekolah'. Pilihan A salah karena 'para' dan 'siswa-siswa' sama-sama penanda jamak sehingga terjadi pengulangan. Pilihan C salah karena 'ruangan kelas yang ada di dalam sekolah' bertele-tele. Pilihan D salah karena menggabungkan dua penanda jamak sekaligus. Pilihan E salah karena 'ruangan kelas yang ada' mengandung unsur yang tidak perlu."
   }
 ]

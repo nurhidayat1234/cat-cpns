@@ -27,6 +27,14 @@ Harus lewat HTTP server (bukan `file://`) karena soal dimuat dari
   sebelum memilih mode; simulasi, latihan per kategori, dan Pembahasan
   mengikuti paket yang dipilih. Hasil tersimpan ke akun dengan nama paketnya
   (mis. "SKD Penuh • Paket B").
+- **Tingkat kesulitan bertingkat (27 Nov 2026)** — A **Dasar** (pengenalan
+  langsung: hafalan Pancasila/UUD 1945, deret satu operasi, TKP jawaban
+  terbaiknya langsung terlihat) → B **Menengah** (penalaran satu langkah,
+  distraktor masuk akal) → C **Menengah Atas** (penalaran multi-langkah,
+  dilema butuh pertimbangan) → D **Sulit** (analitis, TKP beda jawaban tipis)
+  → E **Tersulit** (HOTS: kombinasi beberapa konsep, dilema ambigu antar
+  nilai). Level tiap paket tampil di tombol pemilih paket. Semua paket tetap
+  mengikuti kisi-kisi KepmenPANRB 674/2026 dan sebaran subtopik yang sama.
 - **Simulasi SKD Penuh** — 110 soal (TWK 30 + TIU 35 + TKP 45), 100 menit.
 - **Latihan per kategori** — TWK (30 soal, 27 menit), TIU (35 soal, 32 menit),
   TKP (45 soal, 41 menit).

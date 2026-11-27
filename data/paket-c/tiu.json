@@ -2,16 +2,16 @@
   {
     "answer": 1,
     "category": "TIU",
-    "explanation": "Benar karena peserta diklat termasuk pejabat eselon III, sedangkan tidak satu pun pejabat eselon III berstatus pegawai kontrak, sehingga tidak ada peserta diklat yang berstatus pegawai kontrak. Opsi A dan D membalik premis, opsi C bertentangan dengan premis kedua, dan opsi E tidak dapat dipastikan dari kedua premis.",
+    "explanation": "Dosen yang menjadi peneliti adalah pegawai negeri, dan semua pegawai negeri wajib mengikuti diklat, sehingga sebagian peneliti (yaitu dosen yang menjadi peneliti) pasti wajib mengikuti diklat. Pilihan A, C, dan E membalik hubungan premis, sedangkan D bertentangan dengan premis kedua.",
     "id": "TIU-01",
     "options": [
-      "Semua pegawai kontrak adalah peserta diklat kepemimpinan.",
-      "Tidak ada peserta diklat kepemimpinan yang berstatus pegawai kontrak.",
-      "Sebagian peserta diklat kepemimpinan berstatus pegawai kontrak.",
-      "Semua pejabat eselon III adalah peserta diklat kepemimpinan.",
-      "Sebagian pejabat eselon III bukan peserta diklat kepemimpinan."
+      "Semua peneliti adalah dosen.",
+      "Sebagian peneliti wajib mengikuti diklat.",
+      "Semua pegawai negeri adalah peneliti.",
+      "Tidak ada dosen yang wajib mengikuti diklat.",
+      "Semua dosen adalah peneliti."
     ],
-    "question": "Semua peserta diklat kepemimpinan adalah pejabat eselon III. Tidak ada pejabat eselon III yang berstatus pegawai kontrak. Kesimpulan yang pasti benar adalah ...",
+    "question": "Semua dosen adalah pegawai negeri. Semua pegawai negeri wajib mengikuti diklat. Sebagian dosen adalah peneliti. Kesimpulan yang pasti benar adalah ...",
     "scores": [
       0,
       5,
@@ -24,16 +24,16 @@
   {
     "answer": 3,
     "category": "TIU",
-    "explanation": "Benar karena sebagian arsip gudang pusat adalah arsip keuangan, dan semua arsip keuangan wajib disimpan sepuluh tahun, sehingga sebagian arsip gudang pusat itu pasti wajib disimpan sepuluh tahun. Opsi A mengubah 'sebagian' menjadi 'semua', opsi B membalik premis kedua, opsi C bertentangan dengan kesimpulan yang pasti, dan opsi E tidak dapat dipastikan dari kedua premis.",
+    "explanation": "Anggota koperasi yang menjadi petani mendapat subsidi pupuk, dan mereka adalah warga desa, sehingga sebagian warga desa pasti mendapat subsidi pupuk. Pilihan A dan B membalik hubungan premis, C bertentangan dengan premis, sedangkan E terlalu luas karena hanya sebagian anggota koperasi yang menjadi petani.",
     "id": "TIU-02",
     "options": [
-      "Semua arsip di gudang pusat harus disimpan selama sepuluh tahun.",
-      "Semua arsip yang disimpan sepuluh tahun adalah arsip keuangan.",
-      "Tidak ada arsip di gudang pusat yang harus disimpan selama sepuluh tahun.",
-      "Sebagian arsip di gudang pusat harus disimpan selama sepuluh tahun.",
-      "Sebagian arsip keuangan bukan arsip di gudang pusat."
+      "Semua warga desa adalah petani.",
+      "Semua petani adalah anggota koperasi.",
+      "Tidak ada warga desa yang mendapat subsidi pupuk.",
+      "Sebagian warga desa mendapat subsidi pupuk.",
+      "Semua anggota koperasi mendapat subsidi pupuk."
     ],
-    "question": "Sebagian arsip di gudang pusat adalah arsip keuangan. Semua arsip keuangan harus disimpan selama sepuluh tahun. Kesimpulan yang pasti benar adalah ...",
+    "question": "Semua anggota koperasi adalah warga desa. Sebagian anggota koperasi adalah petani. Semua petani mendapat subsidi pupuk. Kesimpulan yang pasti benar adalah ...",
     "scores": [
       0,
       0,
@@ -46,16 +46,16 @@
   {
     "answer": 2,
     "category": "TIU",
-    "explanation": "Benar karena sebagian pegawai senior memiliki sertifikat auditor, sehingga sebagian pemilik sertifikat itu pasti pegawai senior. Opsi A dan D membalik premis, opsi B tidak dapat dipastikan karena sertifikat itu mungkin dimiliki pegawai senior di luar tim audit, dan opsi E bertentangan dengan kemungkinan yang terbuka.",
+    "explanation": "Buku sejarah di rak B tidak berbahasa Belanda, sehingga sebagian buku di rak B pasti tidak berbahasa Belanda. Pilihan A terlalu luas karena hanya sebagian buku di rak B yang merupakan buku sejarah, B tidak dapat disimpulkan, D bertentangan dengan kata 'sebagian', dan E bertentangan dengan premis ketiga.",
     "id": "TIU-03",
     "options": [
-      "Semua pemilik sertifikat auditor adalah anggota tim audit.",
-      "Sebagian anggota tim audit memiliki sertifikat auditor.",
-      "Sebagian pemilik sertifikat auditor adalah pegawai senior.",
-      "Semua pegawai senior adalah anggota tim audit.",
-      "Tidak ada anggota tim audit yang memiliki sertifikat auditor."
+      "Semua buku di rak B tidak berbahasa Belanda.",
+      "Semua buku berbahasa Belanda ada di rak A.",
+      "Sebagian buku di rak B tidak berbahasa Belanda.",
+      "Semua buku di rak B adalah buku sejarah.",
+      "Tidak ada buku sejarah di rak B."
     ],
-    "question": "Semua anggota tim audit adalah pegawai senior. Sebagian pegawai senior memiliki sertifikat auditor. Kesimpulan yang pasti benar adalah ...",
+    "question": "Semua buku di rak A adalah buku sejarah. Tidak ada buku sejarah yang berbahasa Belanda. Sebagian buku di rak B adalah buku sejarah. Kesimpulan yang pasti benar adalah ...",
     "scores": [
       0,
       0,
@@ -68,16 +68,16 @@
   {
     "answer": 0,
     "category": "TIU",
-    "explanation": "Benar karena semua kendaraan tamu adalah kendaraan bermotor, sedangkan tidak ada kendaraan bermotor yang boleh parkir di halaman depan, sehingga tidak satu pun kendaraan tamu yang boleh parkir di halaman depan. Opsi B dan D membalik premis, opsi C bertentangan dengan kesimpulan yang pasti, dan opsi E tidak dapat dipastikan dari kedua premis.",
+    "explanation": "Guru yang mengajar di sekolah negeri adalah pendidik, dan semua pendidik wajib mengikuti sertifikasi, sehingga sebagian guru yang mengajar di sekolah negeri pasti wajib mengikuti sertifikasi. Pilihan B membalik hubungan premis, C bertentangan dengan premis ketiga, D membalik hubungan, dan E bertentangan dengan premis kedua.",
     "id": "TIU-04",
     "options": [
-      "Tidak ada kendaraan tamu yang boleh parkir di halaman depan.",
-      "Semua kendaraan yang tidak boleh parkir di halaman depan adalah kendaraan tamu.",
-      "Sebagian kendaraan tamu boleh parkir di halaman depan.",
-      "Semua kendaraan bermotor adalah kendaraan tamu.",
-      "Sebagian kendaraan bermotor bukan kendaraan tamu."
+      "Sebagian guru yang mengajar di sekolah negeri wajib mengikuti sertifikasi.",
+      "Semua pendidik adalah guru.",
+      "Tidak ada guru yang mengajar di sekolah negeri.",
+      "Semua yang wajib sertifikasi adalah guru.",
+      "Sebagian guru tidak wajib mengikuti sertifikasi."
     ],
-    "question": "Tidak ada kendaraan bermotor yang boleh parkir di halaman depan. Semua kendaraan tamu adalah kendaraan bermotor. Kesimpulan yang pasti benar adalah ...",
+    "question": "Semua guru adalah pendidik. Semua pendidik wajib mengikuti sertifikasi. Sebagian guru mengajar di sekolah negeri. Kesimpulan yang pasti benar adalah ...",
     "scores": [
       5,
       0,
@@ -90,16 +90,16 @@
   {
     "answer": 1,
     "category": "TIU",
-    "explanation": "Benar karena ketiga fakta menunjukkan pola yang sama, yaitu pelatihan memakai aplikasi sejalan dengan berkurangnya kesalahan kerja, sehingga generalisasi yang hati-hati dan tidak mutlak inilah yang paling mungkin. Opsi A dan D terlalu mutlak dengan kata 'semua' dan 'hanya', opsi C menyempitkan manfaat hanya untuk pegawai kantor, dan opsi E adalah anjuran yang tidak didukung oleh fakta.",
+    "explanation": "Ketiga fakta menunjukkan hubungan antara olahraga teratur dan kondisi yang lebih baik pada berbagai kelompok, sehingga generalisasi yang paling mungkin adalah olahraga teratur cenderung berkaitan dengan kebugaran dan kualitas hidup. Pilihan A dan E terlalu mutlak, C terlalu sempit, dan D mengklaim olahraga satu-satunya cara.",
     "id": "TIU-05",
     "options": [
-      "Semua kesalahan administrasi pasti hilang jika memakai aplikasi.",
-      "Pelatihan penggunaan aplikasi perkantoran cenderung meningkatkan ketepatan kerja pegawai.",
-      "Aplikasi hanya berguna bagi pegawai kantor.",
-      "Kesalahan input nilai hanya terjadi di sekolah yang tidak memakai aplikasi.",
-      "Semua instansi harus mengganti seluruh pegawainya dengan aplikasi."
+      "Semua orang yang berolahraga pasti sukses.",
+      "Olahraga teratur cenderung berkaitan dengan kebugaran dan kualitas hidup yang lebih baik.",
+      "Hanya karyawan yang merasakan manfaat olahraga.",
+      "Olahraga adalah satu-satunya cara hidup sehat.",
+      "Semua lansia harus berjalan kaki setiap pagi."
     ],
-    "question": "Sebuah kantor yang melatih pegawainya memakai aplikasi perkantoran mencatat lebih sedikit kesalahan administrasi. Sebuah sekolah yang melatih gurunya memakai aplikasi penilaian mencatat lebih sedikit kesalahan input nilai. Sebuah puskesmas yang melatih petugasnya memakai aplikasi rekam medis mencatat lebih sedikit kesalahan pencatatan pasien. Generalisasi yang paling mungkin benar berdasarkan fakta-fakta tersebut adalah ...",
+    "question": "Di tiga perusahaan berbeda, karyawan yang berolahraga pagi mengaku lebih bersemangat bekerja. Mahasiswa yang berolahraga teratur mencatat nilai yang lebih baik. Para lansia yang berjalan kaki setiap pagi mengaku tidur lebih nyenyak. Generalisasi yang paling mungkin benar berdasarkan fakta-fakta tersebut adalah ...",
     "scores": [
       0,
       5,
@@ -112,16 +112,16 @@
   {
     "answer": 4,
     "category": "TIU",
-    "explanation": "Benar karena ketiga fakta menunjukkan pola yang sama, yaitu kebiasaan sarapan sejalan dengan konsentrasi dan semangat yang lebih baik, sehingga generalisasi yang tidak mutlak ini paling mungkin. Opsi A dan B terlalu mutlak dengan kata 'semua' dan 'satu-satunya', opsi C menyempitkan manfaat hanya untuk siswa, dan opsi D adalah anjuran yang tidak didukung oleh fakta.",
+    "explanation": "Ketiga fakta menunjukkan hubungan antara kebiasaan membaca dan pemahaman bahasa pada berbagai kelompok, sehingga generalisasi yang paling mungkin adalah membaca teratur cenderung memperkaya kosakata. Pilihan A dan C terlalu mutlak, B terlalu sempit, dan D mengklaim membaca satu-satunya cara belajar.",
     "id": "TIU-06",
     "options": [
-      "Semua orang yang tidak sarapan pasti gagal belajar.",
-      "Sarapan adalah satu-satunya penentu konsentrasi.",
-      "Hanya siswa yang merasakan manfaat sarapan.",
-      "Semua sekolah harus menyediakan sarapan gratis setiap hari.",
-      "Kebiasaan sarapan cenderung berkaitan dengan konsentrasi dan semangat yang lebih baik."
+      "Semua orang yang membaca pasti pandai.",
+      "Membaca hanya bermanfaat bagi pelajar.",
+      "Semua buku meningkatkan kosakata dengan cepat.",
+      "Membaca adalah satu-satunya cara belajar.",
+      "Membaca secara teratur cenderung memperkaya kosakata."
     ],
-    "question": "Siswa yang sarapan sebelum berangkat sekolah lebih mudah berkonsentrasi di kelas. Sebuah sekolah yang menyediakan sarapan mencatat lebih sedikit siswa yang mengantuk pada jam pertama. Para pekerja yang sarapan sebelum bekerja mengaku lebih bersemangat menyelesaikan tugas. Generalisasi yang paling mungkin benar berdasarkan fakta-fakta tersebut adalah ...",
+    "question": "Siswa yang membaca buku setiap hari memiliki kosakata yang lebih banyak. Mahasiswa yang gemar membaca lebih mudah memahami teks yang sulit. Pegawai yang membaca laporan secara rutin lebih cepat memahami instruksi kerja. Generalisasi yang paling mungkin benar berdasarkan fakta-fakta tersebut adalah ...",
     "scores": [
       0,
       0,
@@ -134,16 +134,16 @@
   {
     "answer": 0,
     "category": "TIU",
-    "explanation": "Benar karena ketiga fakta menunjukkan pola yang sama, yaitu layanan bus yang memadai sejalan dengan berkurangnya kendaraan pribadi, sehingga generalisasi umum yang tidak mutlak ini paling mungkin. Opsi B dan D memakai kata 'hanya' dan 'satu-satunya' yang terlalu mutlak, opsi C memakai kata 'pasti' yang terlalu mutlak, dan opsi E adalah anjuran yang tidak didukung oleh fakta.",
+    "explanation": "Ketiga fakta menunjukkan hubungan antara asupan cairan yang cukup dan kondisi tubuh yang lebih baik pada berbagai kelompok, sehingga generalisasi yang paling mungkin adalah asupan cairan yang cukup cenderung berkaitan dengan konsentrasi dan kebugaran. Pilihan B, C, dan E terlalu mutlak, sedangkan D terlalu sempit.",
     "id": "TIU-07",
     "options": [
-      "Layanan transportasi umum yang memadai cenderung mengurangi penggunaan kendaraan pribadi.",
-      "Kemacetan hanya terjadi karena kurangnya armada bus.",
-      "Semua pengendara kendaraan pribadi pasti beralih ke bus jika bus gratis.",
-      "Bus antar-jemput adalah satu-satunya solusi kemacetan.",
-      "Semua kota harus melarang kendaraan pribadi masuk kawasan perkantoran."
+      "Asupan cairan yang cukup cenderung berkaitan dengan konsentrasi dan kebugaran yang lebih baik.",
+      "Semua orang harus minum delapan gelas air setiap hari.",
+      "Minum air putih menyembuhkan semua penyakit.",
+      "Hanya atlet yang membutuhkan air putih.",
+      "Air putih adalah satu-satunya sumber cairan tubuh."
     ],
-    "question": "Sebuah kota yang menambah armada bus mencatat berkurangnya kemacetan di jam sibuk. Sebuah kawasan perkantoran yang menyediakan bus antar-jemput mencatat lebih sedikit kendaraan pribadi yang masuk. Sebuah kampus yang menggratiskan bus kampus mencatat lebih banyak mahasiswa yang beralih dari kendaraan pribadi. Generalisasi yang paling mungkin benar berdasarkan fakta-fakta tersebut adalah ...",
+    "question": "Pekerja yang minum air putih cukup mengaku lebih jarang sakit kepala. Siswa yang membawa botol minum mencatat lebih sedikit keluhan lelah. Atlet yang menjaga asupan cairan mengaku pemulihannya lebih cepat. Generalisasi yang paling mungkin benar berdasarkan fakta-fakta tersebut adalah ...",
     "scores": [
       5,
       0,
@@ -156,16 +156,16 @@
   {
     "answer": 2,
     "category": "TIU",
-    "explanation": "Benar karena ketiga fakta menunjukkan pola yang sama, yaitu penghijauan sejalan dengan suasana yang lebih sejuk dan nyaman, sehingga generalisasi yang merangkum ketiganya dan tidak mutlak inilah yang paling mungkin. Opsi A terlalu mutlak dengan kata 'semua' dan 'pasti', opsi B mengklaim 'satu-satunya cara' tanpa bukti, opsi D menyempitkan manfaat tanpa dasar, dan opsi E adalah anjuran yang tidak didukung oleh fakta.",
+    "explanation": "Ketiga fakta menunjukkan hubungan antara belajar atau berdiskusi bersama dan pemahaman yang lebih baik pada berbagai kelompok, sehingga generalisasi yang paling mungkin adalah belajar kelompok cenderung membantu pemahaman materi. Pilihan A, B, dan E terlalu mutlak, sedangkan D tidak didukung fakta.",
     "id": "TIU-08",
     "options": [
-      "Semua gedung pasti sejuk jika ditanami pohon.",
-      "Taman hijau adalah satu-satunya cara menenangkan pasien.",
-      "Penghijauan di lingkungan bangunan cenderung menciptakan suasana yang lebih nyaman.",
-      "Pohon hanya bermanfaat bagi kantor dan sekolah.",
-      "Semua rumah sakit harus menanam pohon di setiap ruangan."
+      "Semua siswa harus belajar kelompok setiap hari.",
+      "Belajar kelompok adalah satu-satunya cara memahami pelajaran.",
+      "Belajar kelompok cenderung membantu pemahaman materi.",
+      "Hanya siswa pandai yang boleh belajar kelompok.",
+      "Belajar sendiri tidak pernah bermanfaat."
     ],
-    "question": "Sebuah kantor yang menanam pohon di halaman mencatat suhu ruangan yang lebih sejuk. Sebuah sekolah yang membuat taman di halaman mencatat lebih banyak siswa yang betah beristirahat di luar kelas. Sebuah rumah sakit yang menata taman hijau mencatat lebih banyak pasien yang merasa tenang. Generalisasi yang paling mungkin benar berdasarkan fakta-fakta tersebut adalah ...",
+    "question": "Siswa yang belajar kelompok mengaku lebih mudah memahami soal yang sulit. Mahasiswa yang berdiskusi dengan teman lebih cepat menyelesaikan tugas. Pegawai yang berdiskusi dengan rekan kerja lebih jarang salah memahami instruksi. Generalisasi yang paling mungkin benar berdasarkan fakta-fakta tersebut adalah ...",
     "scores": [
       0,
       0,
@@ -178,16 +178,16 @@
   {
     "answer": 2,
     "category": "TIU",
-    "explanation": "Benar karena satu-satunya susunan yang memenuhi semua syarat adalah Hana, Irma, Galih, Kiki, Lestari: Galih di kursi 3, Hana tepat di kiri Irma, Kiki bukan di kursi 1, dan Lestari di kursi 5, sehingga Irma pasti di kursi 2. Opsi A dan E salah karena Hana di kursi 1 dan Galih di kursi 3, sedangkan opsi B dan D bertentangan dengan syarat bahwa Lestari di kursi 5.",
+    "explanation": "Karena C tepat di kanan A dan D tidak di ujung, A hanya mungkin di posisi 1 (jika A di posisi 2 atau 3, susunan tidak memenuhi semua syarat), sehingga A pasti berada di posisi 1. Pilihan A, B, D, dan E hanya benar pada sebagian susunan yang mungkin, bukan pada semuanya.",
     "id": "TIU-09",
     "options": [
-      "Hana berada di kursi 2.",
-      "Kiki berada di kursi 5.",
-      "Irma berada di kursi 2.",
-      "Lestari berada di kursi 4.",
-      "Galih berada di kursi 1."
+      "B berada di ujung kanan.",
+      "D berada di posisi 3.",
+      "A berada di posisi 1.",
+      "E berada di posisi 4.",
+      "C berada di posisi 3."
     ],
-    "question": "Lima teman, yaitu Galih, Hana, Irma, Kiki, dan Lestari, duduk berjajar pada lima kursi bernomor 1 sampai 5 dari kiri ke kanan. Ketentuannya: Galih duduk di kursi 3, Hana duduk tepat di sebelah kiri Irma, Kiki tidak duduk di kursi 1, dan Lestari duduk di kursi 5. Pernyataan manakah yang pasti benar?",
+    "question": "Lima buku, yaitu A, B, C, D, dan E, disusun berjajar dari kiri ke kanan. Syaratnya: A berada di sebelah kiri B; C berada tepat di sebelah kanan A; D tidak berada di ujung; dan E berada di sebelah kanan D. Pernyataan yang pasti benar adalah ...",
     "scores": [
       0,
       0,
@@ -200,16 +200,16 @@
   {
     "answer": 3,
     "category": "TIU",
-    "explanation": "Benar karena susunan Arsip, Laporan, Memo, Nota, Surat memenuhi semua syarat: Arsip di posisi 1, Laporan di posisi 2, Surat tepat di atas Nota, dan Memo di posisi 3 bukan 5. Opsi A menempatkan Memo di posisi 5, opsi B menempatkan Surat bukan di atas Nota, opsi C menempatkan Arsip bukan di posisi 1, dan opsi E menempatkan Laporan bukan di posisi 2.",
+    "explanation": "Karena Q di peringkat 3 dan R tepat setelah S, satu-satunya susunan yang memenuhi semua syarat adalah P, T, Q, S, R, sehingga P pasti finis di peringkat 1. Pilihan A, B, C, dan E bertentangan dengan susunan tersebut.",
     "id": "TIU-10",
     "options": [
-      "Arsip, Laporan, Nota, Surat, Memo",
-      "Arsip, Surat, Laporan, Nota, Memo",
-      "Laporan, Arsip, Memo, Nota, Surat",
-      "Arsip, Laporan, Memo, Nota, Surat",
-      "Arsip, Memo, Laporan, Nota, Surat"
+      "S finis di peringkat 5.",
+      "R finis di peringkat 4.",
+      "T finis di peringkat 1.",
+      "P finis di peringkat 1.",
+      "Q finis di peringkat 2."
     ],
-    "question": "Lima berkas, yaitu Laporan, Surat, Nota, Memo, dan Arsip, ditumpuk dari bawah ke atas pada posisi 1 sampai 5. Syaratnya: Arsip berada di posisi 1, Laporan berada di posisi 2, Surat berada tepat di atas Nota, dan Memo tidak berada di posisi 5. Susunan manakah yang mungkin?",
+    "question": "Lima siswa, yaitu P, Q, R, S, dan T, mengikuti lomba dan finis pada peringkat 1 sampai 5. Syaratnya: P finis sebelum Q; R finis tepat setelah S; T tidak finis pertama; dan Q finis di peringkat 3. Pernyataan yang pasti benar adalah ...",
     "scores": [
       0,
       0,
@@ -222,16 +222,16 @@
   {
     "answer": 0,
     "category": "TIU",
-    "explanation": "Benar karena susunan Cici, Agus, Bambang, Dedi, Endang memenuhi semua syarat: Agus bukan hari Senin, Bambang tepat sehari setelah Agus, Cici sebelum Dedi, Dedi bukan hari Selasa, dan Endang pada hari Jumat. Opsi B dan D menempatkan Agus pada hari Senin, opsi C menempatkan Dedi pada hari Selasa, dan opsi E menempatkan Bambang tidak tepat setelah Agus.",
+    "explanation": "Pelatihan tepat dua hari setelah Seminar dan Workshop di antaranya, sehingga Seminar harus hari pertama, Workshop hari kedua, dan Pelatihan hari ketiga; Rapat tinggal di hari keempat. Pilihan B, C, D, dan E melanggar setidaknya satu syarat tersebut.",
     "id": "TIU-11",
     "options": [
-      "Cici, Agus, Bambang, Dedi, Endang",
-      "Agus, Bambang, Cici, Dedi, Endang",
-      "Cici, Dedi, Agus, Bambang, Endang",
-      "Agus, Cici, Bambang, Dedi, Endang",
-      "Cici, Agus, Dedi, Bambang, Endang"
+      "Seminar, Workshop, Pelatihan, Rapat",
+      "Seminar, Pelatihan, Workshop, Rapat",
+      "Rapat, Seminar, Workshop, Pelatihan",
+      "Workshop, Seminar, Pelatihan, Rapat",
+      "Seminar, Workshop, Rapat, Pelatihan"
     ],
-    "question": "Lima pegawai, yaitu Agus, Bambang, Cici, Dedi, dan Endang, mengikuti pelatihan pada hari Senin sampai Jumat, satu orang per hari. Syaratnya: Agus tidak mengikuti pelatihan pada hari Senin, Bambang mengikuti pelatihan tepat sehari setelah Agus, Cici mengikuti pelatihan sebelum Dedi, Dedi tidak mengikuti pelatihan pada hari Selasa, dan Endang mengikuti pelatihan pada hari Jumat. Susunan manakah yang mungkin?",
+    "question": "Empat kegiatan, yaitu Seminar, Workshop, Pelatihan, dan Rapat, dijadwalkan selama empat hari, satu kegiatan per hari. Syaratnya: Seminar diadakan sebelum Workshop; Pelatihan diadakan tepat dua hari setelah Seminar; Rapat tidak diadakan pada hari pertama; dan Workshop diadakan sebelum Pelatihan. Urutan kegiatan yang mungkin adalah ...",
     "scores": [
       5,
       0,
@@ -244,16 +244,16 @@
   {
     "answer": 2,
     "category": "TIU",
-    "explanation": "Benar karena satu-satunya susunan yang memenuhi semua syarat adalah Nanda di lantai 1, Made di lantai 2, Putri di lantai 3, dan Ratna di lantai 4, sehingga Putri pasti di lantai 3. Opsi A dan B salah karena Made di lantai 2 dan Nanda di lantai 1, sedangkan opsi D dan E bertentangan dengan syarat bahwa Ratna di lantai 4 dan susunan yang mungkin.",
+    "explanation": "Andi dan Budi tidak mungkin di lantai 2 karena hanya ada dua ruangan di sana dan Cici sudah menempati salah satunya, sehingga Andi dan Budi di lantai 1, sedangkan Cici dan Dedi di lantai 2. Pilihan A, B, dan D hanya benar pada sebagian susunan, sedangkan E bertentangan dengan kesimpulan tersebut.",
     "id": "TIU-12",
     "options": [
-      "Made bekerja di lantai 1.",
-      "Nanda bekerja di lantai 2.",
-      "Putri bekerja di lantai 3.",
-      "Ratna bekerja di lantai 3.",
-      "Nanda bekerja di lantai 3."
+      "Andi berada di ruangan R1.",
+      "Cici berada di ruangan R3.",
+      "Dedi berada di lantai 2.",
+      "Budi berada di ruangan R2.",
+      "Andi berada di lantai 2."
     ],
-    "question": "Empat pegawai, yaitu Made, Nanda, Putri, dan Ratna, bekerja di empat lantai gedung kantor, yaitu lantai 1 sampai 4. Syaratnya: Made bekerja satu lantai di atas Nanda, Putri tidak bekerja di lantai 1, dan Ratna bekerja di lantai 4. Pernyataan manakah yang pasti benar?",
+    "question": "Empat pegawai, yaitu Andi, Budi, Cici, dan Dedi, menempati empat ruangan: ruangan R1 dan R2 berada di lantai 1, sedangkan ruangan R3 dan R4 berada di lantai 2. Syaratnya: Andi dan Budi berada di lantai yang sama; Cici berada di lantai 2; dan Dedi tidak berada di ruangan R1. Pernyataan yang pasti benar adalah ...",
     "scores": [
       0,
       0,
@@ -266,16 +266,16 @@
   {
     "answer": 2,
     "category": "TIU",
-    "explanation": "28% × 450 = (28/100) × 450 = 12.600/100 = 126. Opsi lain bukan hasil perkalian 28% dengan 450.",
+    "explanation": "Kerjakan pembagian dahulu: 48 ÷ 6 = 8, lalu 8 + 15 = 23, kemudian 23 × 2 = 46, dan 46 − 10 = 36. Pilihan lain berasal dari urutan pengerjaan yang keliru, misalnya mengerjakan perkalian sebelum penjumlahan di dalam kurung.",
     "id": "TIU-13",
     "options": [
-      "120",
-      "124",
-      "126",
-      "128",
-      "130"
+      "30",
+      "34",
+      "36",
+      "40",
+      "46"
     ],
-    "question": "28% dari 450 adalah ...",
+    "question": "Hasil dari (48 ÷ 6 + 15) × 2 − 10 adalah ...",
     "scores": [
       0,
       0,
@@ -288,16 +288,16 @@
   {
     "answer": 0,
     "category": "TIU",
-    "explanation": "2/7 × 91 = 91 ÷ 7 × 2 = 13 × 2 = 26. Opsi lain bukan hasil perkalian 2/7 dengan 91.",
+    "explanation": "Setelah diskon 20%, harga menjadi Rp250.000,00 × 80% = Rp200.000,00, lalu dinaikkan 10% menjadi Rp200.000,00 × 110% = Rp220.000,00. Pilihan B hanya menghitung diskonnya, C dan D salah menerapkan persen, sedangkan E justru menaikkan harga awal.",
     "id": "TIU-14",
     "options": [
-      "26",
-      "24",
-      "28",
-      "30",
-      "22"
+      "Rp220.000,00",
+      "Rp200.000,00",
+      "Rp225.000,00",
+      "Rp230.000,00",
+      "Rp275.000,00"
     ],
-    "question": "2/7 dari 91 adalah ...",
+    "question": "Sebuah toko memberi diskon 20% untuk barang seharga Rp250.000,00, lalu harga setelah diskon dinaikkan 10%. Harga akhir barang tersebut adalah ...",
     "scores": [
       5,
       0,
@@ -310,16 +310,16 @@
   {
     "answer": 4,
     "category": "TIU",
-    "explanation": "Setiap anggota menerima Rp840.000,00 ÷ 7 = Rp120.000,00. Opsi lain bukan hasil pembagian 840.000 dengan 7.",
+    "explanation": "Misalkan bilangan terkecil adalah x, maka x + (x + 1) + (x + 2) = 96, sehingga 3x = 93 dan x = 31. Bilangan-bilangannya adalah 31, 32, dan 33, jadi yang terbesar adalah 33. Pilihan lain adalah bilangan terkecil, tengah, atau hasil hitung yang keliru.",
     "id": "TIU-15",
     "options": [
-      "Rp110.000,00",
-      "Rp115.000,00",
-      "Rp118.000,00",
-      "Rp125.000,00",
-      "Rp120.000,00"
+      "30",
+      "31",
+      "32",
+      "34",
+      "33"
     ],
-    "question": "Sebuah koperasi membagikan sisa hasil usaha sebesar Rp840.000,00 kepada 7 anggota sama besar. Setiap anggota menerima ...",
+    "question": "Jumlah tiga bilangan berurutan adalah 96. Bilangan yang terbesar adalah ...",
     "scores": [
       0,
       0,
@@ -332,16 +332,16 @@
   {
     "answer": 1,
     "category": "TIU",
-    "explanation": "Harga 1 buku = Rp144.000,00 ÷ 12 = Rp12.000,00. Harga 8 buku = 8 × Rp12.000,00 = Rp96.000,00. Opsi lain bukan hasil perkalian harga per buku dengan 8.",
+    "explanation": "Lebarnya adalah 96 ÷ 12 = 8 cm, sehingga kelilingnya 2 × (12 + 8) = 40 cm. Pilihan A, C, D, dan E berasal dari lebar yang salah atau rumus keliling yang keliru.",
     "id": "TIU-16",
     "options": [
-      "Rp88.000,00",
-      "Rp96.000,00",
-      "Rp100.000,00",
-      "Rp92.000,00",
-      "Rp104.000,00"
+      "36 cm",
+      "40 cm",
+      "44 cm",
+      "48 cm",
+      "32 cm"
     ],
-    "question": "Harga 1 lusin buku tulis adalah Rp144.000,00. Harga 8 buku tulis adalah ...",
+    "question": "Luas sebuah persegi panjang adalah 96 cm² dan panjangnya 12 cm. Keliling persegi panjang tersebut adalah ...",
     "scores": [
       0,
       5,
@@ -354,38 +354,38 @@
   {
     "answer": 1,
     "category": "TIU",
-    "explanation": "Polanya adalah dikali 2 lalu dikurangi 3: 4×2−3=5, 5×2−3=7, 7×2−3=11, 11×2−3=19. Suku berikutnya adalah 19×2−3=35. Pola ini juga sama dengan selisih yang berlipat dua: 1, 2, 4, 8, lalu 16.",
+    "explanation": "Selisih antar suku bertambah 2 setiap langkah: +3, +5, +7, +9, sehingga selisih berikutnya +11 dan suku berikutnya 27 + 11 = 38. Pilihan lain tidak mengikuti pertambahan selisih yang berurutan.",
     "id": "TIU-17",
     "options": [
-      "33",
-      "35",
-      "37",
-      "31",
-      "39"
-    ],
-    "question": "4, 5, 7, 11, 19, … Suku berikutnya adalah ...",
-    "scores": [
-      0,
-      5,
-      0,
-      0,
-      0
-    ],
-    "subtopic": "Numerik — Deret Angka"
-  },
-  {
-    "answer": 4,
-    "category": "TIU",
-    "explanation": "Setiap suku adalah kuadrat bilangan berurutan ditambah 1: 1²+1=2, 2²+1=5, 3²+1=10, 4²+1=17, 5²+1=26. Suku berikutnya adalah 6²+1=37. Pola ini juga sama dengan selisih yang bertambah 2: 3, 5, 7, 9, lalu 11.",
-    "id": "TIU-18",
-    "options": [
-      "35",
       "36",
       "38",
+      "39",
       "40",
       "37"
     ],
-    "question": "2, 5, 10, 17, 26, … Suku berikutnya adalah ...",
+    "question": "3, 6, 11, 18, 27, … Suku berikutnya adalah ...",
+    "scores": [
+      0,
+      5,
+      0,
+      0,
+      0
+    ],
+    "subtopic": "Numerik — Deret Angka"
+  },
+  {
+    "answer": 4,
+    "category": "TIU",
+    "explanation": "Selisih antar suku bertambah 2 setiap langkah: +4, +6, +8, +10, sehingga selisih berikutnya +12 dan suku berikutnya 30 + 12 = 42. Pilihan lain tidak mengikuti pertambahan selisih yang berurutan.",
+    "id": "TIU-18",
+    "options": [
+      "38",
+      "40",
+      "44",
+      "46",
+      "42"
+    ],
+    "question": "2, 6, 12, 20, 30, … Suku berikutnya adalah ...",
     "scores": [
       0,
       0,
@@ -398,16 +398,16 @@
   {
     "answer": 3,
     "category": "TIU",
-    "explanation": "Selisih antar suku bertambah 3 setiap langkah: 12−7=5, 20−12=8, 31−20=11, 45−31=14. Selisih berikutnya adalah 17, jadi 45+17=62.",
+    "explanation": "Setiap suku diperoleh dari suku sebelumnya dikali 2 lalu dikurangi 1: 5 × 2 − 1 = 9, 9 × 2 − 1 = 17, 17 × 2 − 1 = 33, 33 × 2 − 1 = 65, sehingga suku berikutnya 65 × 2 − 1 = 129. Pilihan lain tidak mengikuti pola kali dua kurang satu.",
     "id": "TIU-19",
     "options": [
-      "59",
-      "60",
-      "64",
-      "62",
-      "66"
+      "125",
+      "127",
+      "128",
+      "129",
+      "131"
     ],
-    "question": "7, 12, 20, 31, 45, … Suku berikutnya adalah ...",
+    "question": "5, 9, 17, 33, 65, … Suku berikutnya adalah ...",
     "scores": [
       0,
       0,
@@ -420,16 +420,16 @@
   {
     "answer": 0,
     "category": "TIU",
-    "explanation": "Ada dua deret yang berselang-seling: deret posisi ganjil 3, 6, 9, 12, … (bertambah 3) dan deret posisi genap 20, 18, 16, … (berkurang 2). Suku ke-8 mengikuti deret genap: 16−2=14.",
+    "explanation": "Selisih antar suku makin besar: −8, −10, −12, −14, sehingga selisih berikutnya −16 dan suku berikutnya 56 − 16 = 40. Pilihan lain tidak mengikuti pengurangan yang bertambah 2 setiap langkah.",
     "id": "TIU-20",
     "options": [
-      "14",
-      "13",
-      "15",
-      "12",
-      "16"
+      "40",
+      "38",
+      "42",
+      "36",
+      "44"
     ],
-    "question": "3, 20, 6, 18, 9, 16, 12, … Suku berikutnya adalah ...",
+    "question": "100, 92, 82, 70, 56, … Suku berikutnya adalah ...",
     "scores": [
       5,
       0,
@@ -442,16 +442,16 @@
   {
     "answer": 2,
     "category": "TIU",
-    "explanation": "Benar karena 40% dari 150 adalah 60, sama dengan Kuantitas B yang bernilai 60, sehingga keduanya sama. Opsi A dan B salah karena kedua kuantitas bernilai sama, opsi D salah karena kedua kuantitas dapat dihitung dengan pasti, dan opsi E salah karena nilai A adalah 60, bukan 50.",
+    "explanation": "Kuantitas A = 15% × 240 = 36 dan Kuantitas B = 20% × 180 = 36, sehingga keduanya sama. Pilihan A dan B salah karena kedua kuantitas bernilai sama, D salah karena hubungan keduanya dapat ditentukan, dan E salah karena Kuantitas A adalah 36.",
     "id": "TIU-21",
     "options": [
       "Kuantitas A lebih besar",
       "Kuantitas B lebih besar",
       "Keduanya sama",
       "Hubungan tidak dapat ditentukan",
-      "Kuantitas A adalah 50"
+      "Kuantitas A adalah 30"
     ],
-    "question": "Kuantitas A adalah 40% dari 150, sedangkan Kuantitas B adalah 60. Pernyataan manakah yang benar tentang kedua kuantitas tersebut?",
+    "question": "Dua kuantitas berikut akan dibandingkan. Kuantitas A adalah 15% dari 240. Kuantitas B adalah 20% dari 180. Manakah yang lebih besar, Kuantitas A atau Kuantitas B?",
     "scores": [
       0,
       0,
@@ -464,16 +464,16 @@
   {
     "answer": 0,
     "category": "TIU",
-    "explanation": "Benar karena 5/6 dari 120 adalah 100, sedangkan 4/5 dari 100 adalah 80, sehingga Kuantitas A lebih besar. Opsi B dan C salah karena hasil hitung menunjukkan A lebih besar dari B, opsi D salah karena kedua kuantitas dapat dihitung dengan pasti, dan opsi E salah karena nilai B adalah 80, bukan 90.",
+    "explanation": "Kuantitas A = 3/4 × 96 = 72, sedangkan Kuantitas B = 5/6 × 84 = 70, sehingga Kuantitas A lebih besar. Pilihan B dan C salah karena 72 lebih besar dari 70, D salah karena hubungan keduanya dapat ditentukan, dan E salah karena Kuantitas B adalah 70.",
     "id": "TIU-22",
     "options": [
       "Kuantitas A lebih besar",
       "Kuantitas B lebih besar",
       "Keduanya sama",
       "Hubungan tidak dapat ditentukan",
-      "Kuantitas B adalah 90"
+      "Kuantitas B adalah 72"
     ],
-    "question": "Kuantitas A adalah 5/6 dari 120, sedangkan Kuantitas B adalah 4/5 dari 100. Pernyataan manakah yang benar tentang kedua kuantitas tersebut?",
+    "question": "Perhatikan Kuantitas A dan Kuantitas B berikut. Kuantitas A adalah 3/4 dari 96. Kuantitas B adalah 5/6 dari 84. Manakah hubungan yang benar antara Kuantitas A dan Kuantitas B?",
     "scores": [
       5,
       0,
@@ -486,16 +486,16 @@
   {
     "answer": 3,
     "category": "TIU",
-    "explanation": "Benar karena Kuantitas A hanya diketahui genap dan lebih besar dari 50, sehingga A dapat lebih kecil dari 60 (misalnya 52), sama dengan 60, atau lebih besar dari 60 (misalnya 62). Karena hubungan A dan B berubah tergantung nilai A, hubungan keduanya tidak dapat ditentukan. Opsi A, B, dan C masing-masing hanya benar untuk nilai A tertentu.",
+    "explanation": "Kuantitas A = (18 + 24 + 30) ÷ 3 = 72 ÷ 3 = 24, sedangkan Kuantitas B = 25, sehingga Kuantitas B lebih besar. Pilihan A dan B salah karena 24 lebih kecil dari 25, C salah karena hubungan keduanya dapat ditentukan, dan E salah karena Kuantitas A adalah 24.",
     "id": "TIU-23",
     "options": [
       "Kuantitas A lebih besar",
-      "Kuantitas B lebih besar",
       "Keduanya sama",
       "Hubungan tidak dapat ditentukan",
-      "Kuantitas A adalah 52"
+      "Kuantitas B lebih besar",
+      "Kuantitas A adalah 25"
     ],
-    "question": "Kuantitas A adalah bilangan genap yang lebih besar dari 50, sedangkan Kuantitas B adalah 60. Pernyataan manakah yang benar tentang kedua kuantitas tersebut?",
+    "question": "Kuantitas A adalah rata-rata dari 18, 24, dan 30, sedangkan Kuantitas B adalah 25. Bandingkan kedua kuantitas tersebut.",
     "scores": [
       0,
       0,
@@ -508,16 +508,16 @@
   {
     "answer": 4,
     "category": "TIU",
-    "explanation": "Hasil penjualan = 40 × Rp6.000,00 = Rp240.000,00. Keuntungan = Rp240.000,00 − Rp200.000,00 = Rp40.000,00. Opsi lain bukan selisih hasil penjualan dengan modal.",
+    "explanation": "Siswa gemar sepak bola 3/5 × 40 = 24 orang dan gemar basket 1/4 × 40 = 10 orang, sehingga siswa gemar voli adalah 40 − 24 − 10 = 6 orang. Pilihan lain berasal dari perhitungan pecahan yang keliru.",
     "id": "TIU-24",
     "options": [
-      "Rp30.000,00",
-      "Rp35.000,00",
-      "Rp45.000,00",
-      "Rp50.000,00",
-      "Rp40.000,00"
+      "4 orang",
+      "5 orang",
+      "8 orang",
+      "10 orang",
+      "6 orang"
     ],
-    "question": "Seorang pedagang membeli 40 buku tulis seharga Rp200.000,00. Ia menjual setiap buku dengan harga Rp6.000,00. Keuntungan pedagang tersebut adalah ...",
+    "question": "Sebuah kelas memiliki 40 siswa. Sebanyak 3/5 bagian gemar sepak bola, 1/4 bagian gemar basket, dan sisanya gemar voli. Banyak siswa yang gemar voli adalah ...",
     "scores": [
       0,
       0,
@@ -530,16 +530,16 @@
   {
     "answer": 0,
     "category": "TIU",
-    "explanation": "Volume air = panjang × lebar × kedalaman = 25 m × 10 m × 2 m = 500 m³. Opsi lain bukan hasil perkalian 25, 10, dan 2.",
+    "explanation": "Setelah 8 minggu tabungan Andi 8 × Rp50.000,00 = Rp400.000,00. Ia memakai 1/4 × Rp400.000,00 = Rp100.000,00, sehingga sisanya Rp400.000,00 − Rp100.000,00 = Rp300.000,00. Pilihan lain berasal dari perhitungan pecahan atau pengurangan yang keliru.",
     "id": "TIU-25",
     "options": [
-      "500 m³",
-      "450 m³",
-      "550 m³",
-      "400 m³",
-      "600 m³"
+      "Rp300.000,00",
+      "Rp250.000,00",
+      "Rp200.000,00",
+      "Rp350.000,00",
+      "Rp100.000,00"
     ],
-    "question": "Sebuah kolam renang berukuran panjang 25 m dan lebar 10 m. Jika kolam diisi air hingga kedalaman 2 m, volume air dalam kolam adalah ...",
+    "question": "Andi menabung Rp50.000,00 setiap minggu. Setelah 8 minggu, ia memakai 1/4 tabungannya untuk membeli buku. Sisa tabungan Andi adalah ...",
     "scores": [
       5,
       0,
@@ -552,16 +552,16 @@
   {
     "answer": 2,
     "category": "TIU",
-    "explanation": "Jarak sebenarnya = 8 cm × 500.000 = 4.000.000 cm = 40 km. Opsi lain bukan hasil perkalian 8 dengan 500.000 yang diubah ke kilometer.",
+    "explanation": "Total usaha yang dibutuhkan adalah 6 × 12 = 72 hari-pekerja, sehingga dengan 8 pekerja waktunya 72 ÷ 8 = 9 hari. Pilihan lain berasal dari perbandingan yang terbalik atau penjumlahan waktu yang keliru.",
     "id": "TIU-26",
     "options": [
-      "30 km",
-      "35 km",
-      "40 km",
-      "45 km",
-      "50 km"
+      "8 hari",
+      "10 hari",
+      "9 hari",
+      "7 hari",
+      "6 hari"
     ],
-    "question": "Jarak dua kota pada peta adalah 8 cm dengan skala 1 : 500.000. Jarak sebenarnya kedua kota tersebut adalah ...",
+    "question": "Sebuah pekerjaan selesai dalam 12 hari jika dikerjakan oleh 6 pekerja. Jika pekerjaan yang sama dikerjakan oleh 8 pekerja dengan kecepatan yang sama, pekerjaan itu selesai dalam ...",
     "scores": [
       0,
       0,
@@ -574,16 +574,16 @@
   {
     "answer": 1,
     "category": "TIU",
-    "explanation": "Tabungan per bulan = 1/8 × Rp4.800.000,00 = Rp600.000,00. Setelah 6 bulan tabungannya = 6 × Rp600.000,00 = Rp3.600.000,00. Opsi lain bukan hasil perkalian tabungan bulanan dengan 6.",
+    "explanation": "Harga setelah diskon 15% adalah Rp180.000,00 × 85% = Rp153.000,00, sehingga kembaliannya Rp200.000,00 − Rp153.000,00 = Rp47.000,00. Pilihan lain berasal dari diskon yang dihitung keliru atau kembalian yang tidak dikurangi harga setelah diskon.",
     "id": "TIU-27",
     "options": [
-      "Rp3.200.000,00",
-      "Rp3.600.000,00",
-      "Rp3.000.000,00",
-      "Rp3.800.000,00",
-      "Rp4.000.000,00"
+      "Rp45.000,00",
+      "Rp47.000,00",
+      "Rp50.000,00",
+      "Rp27.000,00",
+      "Rp53.000,00"
     ],
-    "question": "Seorang karyawan menerima gaji Rp4.800.000,00 per bulan. Ia menabung 1/8 dari gajinya setiap bulan. Setelah 6 bulan, jumlah tabungannya adalah ...",
+    "question": "Harga sebuah tas adalah Rp180.000,00. Toko memberi diskon 15%, lalu pembeli membayar dengan uang Rp200.000,00. Kembalian yang diterima pembeli adalah ...",
     "scores": [
       0,
       5,
@@ -596,38 +596,68 @@
   {
     "answer": 4,
     "category": "TIU",
-    "explanation": "Panah berputar 45 derajat searah jarum jam tiap langkah dan isinya bergantian hitam-putih: 0 derajat hitam, 45 derajat putih, 90 derajat hitam, 135 derajat putih, maka berikutnya panah 180 derajat hitam (E). Pilihan A isinya putih, B putarannya 225 derajat, C bentuknya segitiga, D putarannya 90 derajat, semuanya melanggar pola.",
+    "explanation": "Panah berputar 90 derajat searah jarum jam setiap langkah (0, 90, 180, 270 derajat) dan isinya bergantian hitam-putih, sehingga gambar kelima adalah panah hitam menghadap ke atas (0 derajat). Pilihan A salah isi (putih), B dan C salah arah putaran, dan D salah bentuk.",
+    "figure": {
+      "cells": [
+        {
+          "d": 0,
+          "f": "black",
+          "r": 0,
+          "s": "arrow"
+        },
+        {
+          "d": 0,
+          "f": "white",
+          "r": 90,
+          "s": "arrow"
+        },
+        {
+          "d": 0,
+          "f": "black",
+          "r": 180,
+          "s": "arrow"
+        },
+        {
+          "d": 0,
+          "f": "white",
+          "r": 270,
+          "s": "arrow"
+        },
+        "?"
+      ],
+      "kind": "seq"
+    },
     "id": "TIU-28",
     "options": [
       {
-        "s": "arrow",
+        "d": 0,
         "f": "white",
-        "r": 180,
-        "d": 0
+        "r": 0,
+        "s": "arrow"
       },
       {
-        "s": "arrow",
-        "f": "black",
-        "r": 225,
-        "d": 0
-      },
-      {
-        "s": "triangle",
-        "f": "black",
-        "r": 180,
-        "d": 0
-      },
-      {
-        "s": "arrow",
+        "d": 0,
         "f": "black",
         "r": 90,
-        "d": 0
+        "s": "arrow"
       },
       {
-        "s": "arrow",
+        "d": 0,
         "f": "black",
-        "r": 180,
-        "d": 0
+        "r": 270,
+        "s": "arrow"
+      },
+      {
+        "d": 0,
+        "f": "black",
+        "r": 0,
+        "s": "triangle"
+      },
+      {
+        "d": 0,
+        "f": "black",
+        "r": 0,
+        "s": "arrow"
       }
     ],
     "question": "Perhatikan deret gambar berikut. Gambar berikutnya adalah ...",
@@ -638,76 +668,76 @@
       0,
       5
     ],
-    "subtopic": "Figural — Serial",
-    "figure": {
-      "kind": "seq",
-      "cells": [
-        {
-          "s": "arrow",
-          "f": "black",
-          "r": 0,
-          "d": 0
-        },
-        {
-          "s": "arrow",
-          "f": "white",
-          "r": 45,
-          "d": 0
-        },
-        {
-          "s": "arrow",
-          "f": "black",
-          "r": 90,
-          "d": 0
-        },
-        {
-          "s": "arrow",
-          "f": "white",
-          "r": 135,
-          "d": 0
-        },
-        "?"
-      ]
-    }
+    "subtopic": "Figural — Serial"
   },
   {
     "answer": 1,
     "category": "TIU",
-    "explanation": "Bangun bergantian segitiga-segiempat dan tiap langkah berputar 45 derajat searah jarum jam: segitiga 0 derajat, segiempat 45 derajat, segitiga 90 derajat, segiempat 135 derajat, maka berikutnya segitiga 180 derajat (B). Pilihan A dan E bentuknya salah, C dan D putarannya salah.",
+    "explanation": "Bentuk bergantian segitiga-kotak dan putaran bertambah 45 derajat setiap langkah (0, 45, 90, 135 derajat), sehingga gambar kelima adalah segitiga hitam berputar 180 derajat. Pilihan A salah bentuk, C dan D salah putaran, dan E salah bentuk.",
+    "figure": {
+      "cells": [
+        {
+          "d": 0,
+          "f": "black",
+          "r": 0,
+          "s": "triangle"
+        },
+        {
+          "d": 0,
+          "f": "black",
+          "r": 45,
+          "s": "square"
+        },
+        {
+          "d": 0,
+          "f": "black",
+          "r": 90,
+          "s": "triangle"
+        },
+        {
+          "d": 0,
+          "f": "black",
+          "r": 135,
+          "s": "square"
+        },
+        "?"
+      ],
+      "kind": "seq"
+    },
     "id": "TIU-29",
     "options": [
       {
-        "s": "square",
+        "d": 0,
         "f": "black",
         "r": 180,
-        "d": 0
+        "s": "square"
       },
       {
-        "s": "triangle",
+        "d": 0,
         "f": "black",
         "r": 180,
-        "d": 0
+        "s": "triangle"
       },
       {
-        "s": "triangle",
+        "d": 0,
         "f": "black",
         "r": 135,
-        "d": 0
+        "s": "triangle"
       },
       {
-        "s": "triangle",
+        "d": 0,
         "f": "black",
         "r": 225,
-        "d": 0
+        "s": "triangle"
       },
       {
-        "s": "circle",
+        "d": 0,
         "f": "black",
         "r": 180,
-        "d": 0
+        "s": "circle"
       }
     ],
-    "question": "Amati deret bangun berikut. Bangun kelima yang tepat adalah ...",
+    "question": "Perhatikan deret gambar berikut. Bentuk dan putarannya berubah beraturan. Gambar berikutnya adalah ...",
     "scores": [
       0,
       5,
@@ -715,76 +745,76 @@
       0,
       0
     ],
-    "subtopic": "Figural — Serial",
-    "figure": {
-      "kind": "seq",
-      "cells": [
-        {
-          "s": "triangle",
-          "f": "black",
-          "r": 0,
-          "d": 0
-        },
-        {
-          "s": "square",
-          "f": "black",
-          "r": 45,
-          "d": 0
-        },
-        {
-          "s": "triangle",
-          "f": "black",
-          "r": 90,
-          "d": 0
-        },
-        {
-          "s": "square",
-          "f": "black",
-          "r": 135,
-          "d": 0
-        },
-        "?"
-      ]
-    }
+    "subtopic": "Figural — Serial"
   },
   {
     "answer": 1,
     "category": "TIU",
-    "explanation": "Bentuk bersiklus segitiga, segiempat, lingkaran, segitiga, sedangkan isinya bergantian hitam-putih: segitiga hitam, segiempat putih, lingkaran hitam, segitiga putih, maka berikutnya segiempat hitam (B). Pilihan A isinya putih, C dan D bentuknya salah, E bentuk dan isinya salah.",
+    "explanation": "Bentuk bersiklus segitiga, kotak, lingkaran, lalu kembali ke segitiga, sedangkan isinya bergantian hitam-putih, sehingga gambar kelima adalah kotak hitam. Pilihan A salah isi, C dan D salah bentuk, dan E salah bentuk.",
+    "figure": {
+      "cells": [
+        {
+          "d": 0,
+          "f": "black",
+          "r": 0,
+          "s": "triangle"
+        },
+        {
+          "d": 0,
+          "f": "white",
+          "r": 0,
+          "s": "square"
+        },
+        {
+          "d": 0,
+          "f": "black",
+          "r": 0,
+          "s": "circle"
+        },
+        {
+          "d": 0,
+          "f": "white",
+          "r": 0,
+          "s": "triangle"
+        },
+        "?"
+      ],
+      "kind": "seq"
+    },
     "id": "TIU-30",
     "options": [
       {
-        "s": "square",
+        "d": 0,
         "f": "white",
         "r": 0,
-        "d": 0
+        "s": "square"
       },
       {
-        "s": "square",
+        "d": 0,
         "f": "black",
         "r": 0,
-        "d": 0
+        "s": "square"
       },
       {
-        "s": "circle",
+        "d": 0,
         "f": "black",
         "r": 0,
-        "d": 0
+        "s": "circle"
       },
       {
-        "s": "triangle",
+        "d": 0,
         "f": "black",
         "r": 0,
-        "d": 0
+        "s": "triangle"
       },
       {
-        "s": "diamond",
-        "f": "white",
+        "d": 0,
+        "f": "black",
         "r": 0,
-        "d": 0
+        "s": "diamond"
       }
     ],
-    "question": "Perhatikan urutan gambar di bawah ini. Gambar selanjutnya adalah ...",
+    "question": "Perhatikan urutan gambar berikut. Gambar yang tepat untuk melengkapi deret adalah ...",
     "scores": [
       0,
       5,
@@ -792,76 +822,67 @@
       0,
       0
     ],
-    "subtopic": "Figural — Serial",
-    "figure": {
-      "kind": "seq",
-      "cells": [
-        {
-          "s": "triangle",
-          "f": "black",
-          "r": 0,
-          "d": 0
-        },
-        {
-          "s": "square",
-          "f": "white",
-          "r": 0,
-          "d": 0
-        },
-        {
-          "s": "circle",
-          "f": "black",
-          "r": 0,
-          "d": 0
-        },
-        {
-          "s": "triangle",
-          "f": "white",
-          "r": 0,
-          "d": 0
-        },
-        "?"
-      ]
-    }
+    "subtopic": "Figural — Serial"
   },
   {
     "answer": 3,
     "category": "TIU",
-    "explanation": "A ke B hanya diputar 180 derajat: panah menghadap atas menjadi menghadap bawah, isinya tetap hitam. Terapkan pada C: segitiga putih 90 derajat diputar 180 derajat menjadi 270 derajat dan tetap putih (D). Pilihan A tidak diputar, B hanya diputar 90 derajat, C isinya hitam, E bentuknya segiempat.",
+    "explanation": "Aturan A ke B: bangun berputar 90 derajat searah jarum jam dan isinya berbalik dari hitam menjadi putih. Gambar C adalah segitiga hitam 45 derajat, sehingga hasilnya segitiga putih 135 derajat. Pilihan A tidak berputar, B isinya tidak berbalik, C salah arah putaran, dan E salah bentuk.",
+    "figure": {
+      "a": {
+        "d": 0,
+        "f": "black",
+        "r": 0,
+        "s": "arrow"
+      },
+      "b": {
+        "d": 0,
+        "f": "white",
+        "r": 90,
+        "s": "arrow"
+      },
+      "c": {
+        "d": 0,
+        "f": "black",
+        "r": 45,
+        "s": "triangle"
+      },
+      "kind": "analogy"
+    },
     "id": "TIU-31",
     "options": [
       {
-        "s": "triangle",
+        "d": 0,
         "f": "white",
-        "r": 90,
-        "d": 0
+        "r": 45,
+        "s": "triangle"
       },
       {
-        "s": "triangle",
-        "f": "white",
-        "r": 180,
-        "d": 0
-      },
-      {
-        "s": "triangle",
+        "d": 0,
         "f": "black",
-        "r": 270,
-        "d": 0
+        "r": 135,
+        "s": "triangle"
       },
       {
-        "s": "triangle",
+        "d": 0,
         "f": "white",
-        "r": 270,
-        "d": 0
+        "r": 225,
+        "s": "triangle"
       },
       {
-        "s": "square",
+        "d": 0,
         "f": "white",
-        "r": 270,
-        "d": 0
+        "r": 135,
+        "s": "triangle"
+      },
+      {
+        "d": 0,
+        "f": "white",
+        "r": 135,
+        "s": "square"
       }
     ],
-    "question": "Gambar A berubah menjadi gambar B. Perubahan yang sama berlaku untuk gambar C. Gambar hasil perubahan C adalah ...",
+    "question": "Gambar A berubah menjadi gambar B. Jika perubahan yang sama diterapkan pada gambar C, gambar yang dihasilkan adalah ...",
     "scores": [
       0,
       0,
@@ -869,67 +890,67 @@
       5,
       0
     ],
-    "subtopic": "Figural — Analogi",
-    "figure": {
-      "kind": "analogy",
-      "a": {
-        "s": "arrow",
-        "f": "black",
-        "r": 0,
-        "d": 0
-      },
-      "b": {
-        "s": "arrow",
-        "f": "black",
-        "r": 180,
-        "d": 0
-      },
-      "c": {
-        "s": "triangle",
-        "f": "white",
-        "r": 90,
-        "d": 0
-      }
-    }
+    "subtopic": "Figural — Analogi"
   },
   {
     "answer": 1,
     "category": "TIU",
-    "explanation": "A ke B diputar 180 derajat dan isinya berubah dari hitam menjadi putih. Terapkan pada C: segitiga putih diputar 180 derajat dan isinya menjadi hitam (B). Pilihan A isinya tetap putih, C tidak diputar, D bentuknya panah, E hanya diputar 90 derajat.",
+    "explanation": "Aturan A ke B: bentuk berubah dari anak panah menjadi segitiga dan berputar 90 derajat berlawanan arah jarum jam. Gambar C adalah anak panah putih 180 derajat, sehingga hasilnya segitiga putih 90 derajat. Pilihan A salah putaran, B salah isi, C bentuknya tidak berubah, dan E salah arah putaran.",
+    "figure": {
+      "a": {
+        "d": 0,
+        "f": "black",
+        "r": 90,
+        "s": "arrow"
+      },
+      "b": {
+        "d": 0,
+        "f": "black",
+        "r": 0,
+        "s": "triangle"
+      },
+      "c": {
+        "d": 0,
+        "f": "white",
+        "r": 180,
+        "s": "arrow"
+      },
+      "kind": "analogy"
+    },
     "id": "TIU-32",
     "options": [
       {
-        "s": "triangle",
+        "d": 0,
         "f": "white",
         "r": 180,
-        "d": 0
+        "s": "triangle"
       },
       {
-        "s": "triangle",
-        "f": "black",
-        "r": 180,
-        "d": 0
+        "d": 0,
+        "f": "white",
+        "r": 90,
+        "s": "triangle"
       },
       {
-        "s": "triangle",
-        "f": "black",
-        "r": 0,
-        "d": 0
-      },
-      {
-        "s": "arrow",
-        "f": "black",
-        "r": 180,
-        "d": 0
-      },
-      {
-        "s": "triangle",
+        "d": 0,
         "f": "black",
         "r": 90,
-        "d": 0
+        "s": "triangle"
+      },
+      {
+        "d": 0,
+        "f": "white",
+        "r": 90,
+        "s": "arrow"
+      },
+      {
+        "d": 0,
+        "f": "white",
+        "r": 0,
+        "s": "triangle"
       }
     ],
-    "question": "Perhatikan perubahan dari gambar A ke gambar B, lalu terapkan perubahan yang sama pada gambar C. Hasilnya adalah ...",
+    "question": "Perhatikan pasangan gambar A : B. Terapkan aturan yang sama pada gambar C. Gambar yang tepat adalah ...",
     "scores": [
       0,
       5,
@@ -937,64 +958,103 @@
       0,
       0
     ],
-    "subtopic": "Figural — Analogi",
-    "figure": {
-      "kind": "analogy",
-      "a": {
-        "s": "arrow",
-        "f": "black",
-        "r": 0,
-        "d": 0
-      },
-      "b": {
-        "s": "arrow",
-        "f": "white",
-        "r": 180,
-        "d": 0
-      },
-      "c": {
-        "s": "triangle",
-        "f": "white",
-        "r": 0,
-        "d": 0
-      }
-    }
+    "subtopic": "Figural — Analogi"
   },
   {
     "answer": 2,
     "category": "TIU",
-    "explanation": "Tiap kolom berisi bangun yang sama, kolom 1 segitiga, kolom 2 segiempat, kolom 3 lingkaran, dan tiap baris isinya sama: baris 1 hitam, baris 2 putih, baris 3 hitam. Jadi kotak tanda tanya harus lingkaran hitam (C). Pilihan A isinya putih, B dan D bentuknya salah, E ada titiknya padahal tidak ada titik di matriks.",
+    "explanation": "Setiap baris memakai satu bentuk yang sama, dan isinya bergantian hitam-putih-hitam dari kolom ke kolom. Baris ketiga berisi lingkaran, sehingga kotak tanya adalah lingkaran hitam. Pilihan A salah isi, B dan D salah bentuk, dan E salah jumlah titik.",
+    "figure": {
+      "cells": [
+        [
+          {
+            "d": 0,
+            "f": "black",
+            "r": 0,
+            "s": "triangle"
+          },
+          {
+            "d": 0,
+            "f": "white",
+            "r": 0,
+            "s": "triangle"
+          },
+          {
+            "d": 0,
+            "f": "black",
+            "r": 0,
+            "s": "triangle"
+          }
+        ],
+        [
+          {
+            "d": 0,
+            "f": "black",
+            "r": 0,
+            "s": "square"
+          },
+          {
+            "d": 0,
+            "f": "white",
+            "r": 0,
+            "s": "square"
+          },
+          {
+            "d": 0,
+            "f": "black",
+            "r": 0,
+            "s": "square"
+          }
+        ],
+        [
+          {
+            "d": 0,
+            "f": "black",
+            "r": 0,
+            "s": "circle"
+          },
+          {
+            "d": 0,
+            "f": "white",
+            "r": 0,
+            "s": "circle"
+          },
+          "?"
+        ]
+      ],
+      "kind": "matrix"
+    },
     "id": "TIU-33",
     "options": [
       {
-        "s": "circle",
+        "d": 0,
         "f": "white",
         "r": 0,
-        "d": 0
+        "s": "circle"
       },
       {
-        "s": "square",
+        "d": 0,
         "f": "black",
         "r": 0,
-        "d": 0
+        "s": "square"
       },
       {
-        "s": "circle",
+        "d": 0,
         "f": "black",
         "r": 0,
-        "d": 0
+        "s": "circle"
       },
       {
-        "s": "triangle",
+        "d": 0,
         "f": "black",
         "r": 0,
-        "d": 0
+        "s": "triangle"
       },
       {
-        "s": "circle",
+        "d": 1,
         "f": "black",
         "r": 0,
-        "d": 1
+        "s": "circle"
       }
     ],
     "question": "Perhatikan matriks gambar 3 x 3 berikut. Gambar yang tepat untuk mengisi kotak bertanda tanya adalah ...",
@@ -1005,106 +1065,106 @@
       0,
       0
     ],
-    "subtopic": "Figural — Penalaran Matriks",
-    "figure": {
-      "kind": "matrix",
-      "cells": [
-        [
-          {
-            "s": "triangle",
-            "f": "black",
-            "r": 0,
-            "d": 0
-          },
-          {
-            "s": "square",
-            "f": "black",
-            "r": 0,
-            "d": 0
-          },
-          {
-            "s": "circle",
-            "f": "black",
-            "r": 0,
-            "d": 0
-          }
-        ],
-        [
-          {
-            "s": "triangle",
-            "f": "white",
-            "r": 0,
-            "d": 0
-          },
-          {
-            "s": "square",
-            "f": "white",
-            "r": 0,
-            "d": 0
-          },
-          {
-            "s": "circle",
-            "f": "white",
-            "r": 0,
-            "d": 0
-          }
-        ],
-        [
-          {
-            "s": "triangle",
-            "f": "black",
-            "r": 0,
-            "d": 0
-          },
-          {
-            "s": "square",
-            "f": "black",
-            "r": 0,
-            "d": 0
-          },
-          "?"
-        ]
-      ]
-    }
+    "subtopic": "Figural — Penalaran Matriks"
   },
   {
     "answer": 3,
     "category": "TIU",
-    "explanation": "Tiap baris berisi bangun yang sama, baris 1 lingkaran, baris 2 segiempat, baris 3 segitiga, dan tiap kolom jumlah titiknya sama: kolom 1 satu titik, kolom 2 dua titik, kolom 3 tiga titik. Jadi kotak kosong harus segitiga bertitik tiga (D). Pilihan A dan C jumlah titiknya salah, B dan E bentuknya salah.",
+    "explanation": "Jumlah titik bertambah 1 setiap kolom (1, 2, 3) dan putaran bertambah 45 derajat setiap kolom (0, 45, 90 derajat), sedangkan tiap baris memakai satu bentuk. Baris ketiga berisi segitiga, sehingga kotak tanya adalah segitiga hitam 90 derajat berisi 3 titik. Pilihan A salah putaran, B dan E salah bentuk, dan C salah jumlah titik.",
+    "figure": {
+      "cells": [
+        [
+          {
+            "d": 1,
+            "f": "black",
+            "r": 0,
+            "s": "circle"
+          },
+          {
+            "d": 2,
+            "f": "black",
+            "r": 45,
+            "s": "circle"
+          },
+          {
+            "d": 3,
+            "f": "black",
+            "r": 90,
+            "s": "circle"
+          }
+        ],
+        [
+          {
+            "d": 1,
+            "f": "black",
+            "r": 0,
+            "s": "square"
+          },
+          {
+            "d": 2,
+            "f": "black",
+            "r": 45,
+            "s": "square"
+          },
+          {
+            "d": 3,
+            "f": "black",
+            "r": 90,
+            "s": "square"
+          }
+        ],
+        [
+          {
+            "d": 1,
+            "f": "black",
+            "r": 0,
+            "s": "triangle"
+          },
+          {
+            "d": 2,
+            "f": "black",
+            "r": 45,
+            "s": "triangle"
+          },
+          "?"
+        ]
+      ],
+      "kind": "matrix"
+    },
     "id": "TIU-34",
     "options": [
       {
-        "s": "triangle",
+        "d": 3,
         "f": "black",
-        "r": 0,
-        "d": 2
+        "r": 45,
+        "s": "triangle"
       },
       {
-        "s": "square",
+        "d": 3,
         "f": "black",
-        "r": 0,
-        "d": 3
+        "r": 90,
+        "s": "square"
       },
       {
-        "s": "triangle",
+        "d": 2,
         "f": "black",
-        "r": 0,
-        "d": 1
+        "r": 90,
+        "s": "triangle"
       },
       {
-        "s": "triangle",
+        "d": 3,
         "f": "black",
-        "r": 0,
-        "d": 3
+        "r": 90,
+        "s": "triangle"
       },
       {
-        "s": "circle",
+        "d": 3,
         "f": "black",
-        "r": 0,
-        "d": 3
+        "r": 90,
+        "s": "circle"
       }
     ],
-    "question": "Amati pola pada matriks gambar berikut. Gambar yang melengkapi kotak kosong adalah ...",
+    "question": "Lengkapi matriks gambar berikut. Gambar pada kotak bertanda tanya adalah ...",
     "scores": [
       0,
       0,
@@ -1112,106 +1172,106 @@
       5,
       0
     ],
-    "subtopic": "Figural — Penalaran Matriks",
-    "figure": {
-      "kind": "matrix",
-      "cells": [
-        [
-          {
-            "s": "circle",
-            "f": "black",
-            "r": 0,
-            "d": 1
-          },
-          {
-            "s": "circle",
-            "f": "black",
-            "r": 0,
-            "d": 2
-          },
-          {
-            "s": "circle",
-            "f": "black",
-            "r": 0,
-            "d": 3
-          }
-        ],
-        [
-          {
-            "s": "square",
-            "f": "black",
-            "r": 0,
-            "d": 1
-          },
-          {
-            "s": "square",
-            "f": "black",
-            "r": 0,
-            "d": 2
-          },
-          {
-            "s": "square",
-            "f": "black",
-            "r": 0,
-            "d": 3
-          }
-        ],
-        [
-          {
-            "s": "triangle",
-            "f": "black",
-            "r": 0,
-            "d": 1
-          },
-          {
-            "s": "triangle",
-            "f": "black",
-            "r": 0,
-            "d": 2
-          },
-          "?"
-        ]
-      ]
-    }
+    "subtopic": "Figural — Penalaran Matriks"
   },
   {
     "answer": 4,
     "category": "TIU",
-    "explanation": "Tiap kolom isinya sama, kolom 1 hitam, kolom 2 putih, kolom 3 hitam, dan tiap baris bangunnya sama: baris 1 segitiga, baris 2 segiempat, baris 3 bintang. Jadi kotak tanda tanya harus bintang hitam (E). Pilihan A isinya putih, B dan D bentuknya salah, C ada titiknya padahal tidak ada titik di matriks.",
+    "explanation": "Setiap baris memakai satu bentuk, isinya bergantian hitam-putih-hitam tiap kolom, dan putaran bertambah 90 derajat tiap kolom (0, 90, 180 derajat). Baris ketiga berisi anak panah, sehingga kotak tanya adalah anak panah hitam 180 derajat. Pilihan A salah isi, B dan D salah putaran, dan C salah bentuk.",
+    "figure": {
+      "cells": [
+        [
+          {
+            "d": 0,
+            "f": "black",
+            "r": 0,
+            "s": "star"
+          },
+          {
+            "d": 0,
+            "f": "white",
+            "r": 90,
+            "s": "star"
+          },
+          {
+            "d": 0,
+            "f": "black",
+            "r": 180,
+            "s": "star"
+          }
+        ],
+        [
+          {
+            "d": 0,
+            "f": "black",
+            "r": 0,
+            "s": "triangle"
+          },
+          {
+            "d": 0,
+            "f": "white",
+            "r": 90,
+            "s": "triangle"
+          },
+          {
+            "d": 0,
+            "f": "black",
+            "r": 180,
+            "s": "triangle"
+          }
+        ],
+        [
+          {
+            "d": 0,
+            "f": "black",
+            "r": 0,
+            "s": "arrow"
+          },
+          {
+            "d": 0,
+            "f": "white",
+            "r": 90,
+            "s": "arrow"
+          },
+          "?"
+        ]
+      ],
+      "kind": "matrix"
+    },
     "id": "TIU-35",
     "options": [
       {
-        "s": "star",
+        "d": 0,
         "f": "white",
-        "r": 0,
-        "d": 0
+        "r": 180,
+        "s": "arrow"
       },
       {
-        "s": "square",
+        "d": 0,
         "f": "black",
-        "r": 0,
-        "d": 0
+        "r": 90,
+        "s": "arrow"
       },
       {
-        "s": "star",
+        "d": 0,
         "f": "black",
-        "r": 0,
-        "d": 2
+        "r": 180,
+        "s": "square"
       },
       {
-        "s": "circle",
+        "d": 0,
         "f": "black",
         "r": 0,
-        "d": 0
+        "s": "arrow"
       },
       {
-        "s": "star",
+        "d": 0,
         "f": "black",
-        "r": 0,
-        "d": 0
+        "r": 180,
+        "s": "arrow"
       }
     ],
-    "question": "Perhatikan susunan gambar dalam matriks berikut. Gambar yang tepat untuk kotak bertanda tanya adalah ...",
+    "question": "Perhatikan susunan gambar dalam matriks berikut. Gambar yang hilang adalah ...",
     "scores": [
       0,
       0,
@@ -1219,66 +1279,6 @@
       0,
       5
     ],
-    "subtopic": "Figural — Penalaran Matriks",
-    "figure": {
-      "kind": "matrix",
-      "cells": [
-        [
-          {
-            "s": "triangle",
-            "f": "black",
-            "r": 0,
-            "d": 0
-          },
-          {
-            "s": "triangle",
-            "f": "white",
-            "r": 0,
-            "d": 0
-          },
-          {
-            "s": "triangle",
-            "f": "black",
-            "r": 0,
-            "d": 0
-          }
-        ],
-        [
-          {
-            "s": "square",
-            "f": "black",
-            "r": 0,
-            "d": 0
-          },
-          {
-            "s": "square",
-            "f": "white",
-            "r": 0,
-            "d": 0
-          },
-          {
-            "s": "square",
-            "f": "black",
-            "r": 0,
-            "d": 0
-          }
-        ],
-        [
-          {
-            "s": "star",
-            "f": "black",
-            "r": 0,
-            "d": 0
-          },
-          {
-            "s": "star",
-            "f": "white",
-            "r": 0,
-            "d": 0
-          },
-          "?"
-        ]
-      ]
-    }
+    "subtopic": "Figural — Penalaran Matriks"
   }
 ]

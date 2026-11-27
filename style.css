@@ -968,7 +968,7 @@ body:not(.is-logged-in) #modeCard { display: none; }
 .paket-btn span { font-size: 0.8rem; color: var(--muted); }
 .paket-btn.active { border-color: var(--blue); background: #FFF3E0; box-shadow: 0 0 0 2px #FFF3E0; }
 .paket-btn:disabled { opacity: 0.45; cursor: not-allowed; }
-@media (max-width: 640px) { .paket-grid { grid-template-columns: repeat(5, 1fr); gap: 0.35rem; } .paket-btn span { display: none; } }
+@media (max-width: 640px) { .paket-grid { grid-template-columns: repeat(5, 1fr); gap: 0.35rem; } .paket-btn { padding: 0.6rem 0.2rem; } .paket-btn span { font-size: 0.68rem; line-height: 1.25; } }
 
 /* ===== Beranda rapi untuk user sudah login (26 Nov 2026) ===== */
 /* Sembunyikan yang tidak perlu sesudah login: hero marketing, disclaimer
