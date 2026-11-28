@@ -118,9 +118,16 @@ Pembahasan — memakai `data-nav` yang sama, jadi perilakunya identik).
 Menu menutup saat tautan diklik, saat klik di luar topbar, atau Escape.
 Di layar ≤480px judul diganti "CAT CPNS", tombol "Buat Akun" disembunyikan
 (masih ada di CTA hero), sapaan "Halo, nama" disembunyikan — topbar HP
-tetap satu baris (61px). Uji: `demo/test-topbar.py` (menu dibuka/ditutup/
-navigasi di 390px tamu + login, tombol terlihat di ≤1100px, tersembunyi
-di 1440px).
+tetap satu baris (61px). **28 Nov 2026 (lanjutan, permintaan user)**:
+tombol Masuk/Buat Akun/Keluar pindah ke dalam menu — chip akun topbar
+hanya tampil di desktop (`#authChip` disembunyikan di ≤1100px); menu jadi
+dropdown sempit (260px) yang menempel di pinggir kanan pil, isinya rata
+kanan. Tamu melihat Masuk + Buat Akun, user login melihat baris sapaan
+"Halo, nama" + Keluar (diatur `body.is-logged-in` + `Auth.logout()` baru
+di auth.js; nama menu diisi `renderChip()`). Topbar HP tinggal logo +
+hamburger (+ label mode saat ujian). Uji: `demo/test-topbar.py` 16/16 OK
+(menu dibuka/ditutup/navigasi + aksi auth di 390px tamu + login, tombol
+terlihat di ≤1100px, tersembunyi di 1440px).
 
 ## Akun login (wajib untuk mengerjakan tes) — database Google Sheet
 

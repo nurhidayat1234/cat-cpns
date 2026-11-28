@@ -952,7 +952,19 @@ async function init() {
       navToggle.setAttribute("aria-label", open ? "Tutup menu" : "Buka menu");
     };
     navToggle.addEventListener("click", () => setMenu(!mobileMenu.classList.contains("open")));
-    mobileMenu.addEventListener("click", (ev) => { if (ev.target.closest("a")) setMenu(false); });
+    mobileMenu.addEventListener("click", (ev) => {
+      // Aksi auth di dalam menu (Masuk / Buat Akun / Keluar).
+      const act = ev.target.closest("[data-action]");
+      if (act) {
+        ev.preventDefault();
+        setMenu(false);
+        if (act.dataset.action === "login") Auth.promptLogin();
+        else if (act.dataset.action === "register") Auth.promptRegister();
+        else if (act.dataset.action === "logout") Auth.logout();
+        return;
+      }
+      if (ev.target.closest("a")) setMenu(false);
+    });
     document.addEventListener("click", (ev) => {
       if (mobileMenu.classList.contains("open") && !ev.target.closest(".topbar")) setMenu(false);
     });

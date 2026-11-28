@@ -86,13 +86,7 @@ const Auth = (() => {
       const out = document.createElement("button");
       out.className = "chip-btn";
       out.textContent = "Keluar";
-      out.onclick = () => {
-        clearUser();
-        render();
-        showMsg("Kamu sudah keluar.", true);
-        goScreen("auth");
-        switchTab("login");
-      };
+      out.onclick = () => logout();
       chip.appendChild(hello);
       chip.appendChild(out);
     } else {
@@ -107,6 +101,17 @@ const Auth = (() => {
       chip.appendChild(reg);
       chip.appendChild(login);
     }
+    // Nama di baris sapaan menu mobile (topbar HP tidak lagi menampilkan chip akun).
+    const menuName = $("menuUserName");
+    if (menuName) menuName.textContent = isLoggedIn() ? user.nama : "";
+  }
+
+  function logout() {
+    clearUser();
+    render();
+    showMsg("Kamu sudah keluar.", true);
+    goScreen("auth");
+    switchTab("login");
   }
 
   const SCREENS = ["home", "exam", "result", "review", "auth"];
@@ -333,7 +338,7 @@ const Auth = (() => {
     render();
   }
 
-  return { init, isLoggedIn, getUser, saveResult, render, loadHistory, promptLogin, promptRegister };
+  return { init, isLoggedIn, getUser, saveResult, render, loadHistory, promptLogin, promptRegister, logout };
 })();
 
 // Diekspos ke window agar app.js bisa memanggil Auth.isLoggedIn()/saveResult().

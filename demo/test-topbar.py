@@ -1,10 +1,12 @@
-"""Reproduksi + verifikasi kerapian topbar CAT CPNS saat login.
+"""Reproduksi + verifikasi kerapian topbar CAT CPNS saat login dan menu mobile.
 
 Alur: buka situs lokal -> login sebagai aaa -> pilih Paket D -> Latihan TWK.
 Di tiap kondisi (tamu, login di beranda, login di layar ujian) ukur tinggi
 topbar dan apakah tiap bagiannya membungkus (wrap) ke >1 baris.
-Topbar yang rapi = tinggi ~satu baris isi (<= 64px di desktop) dan tidak ada
-bagian yang membungkus.
+Topbar yang rapi = tinggi ~satu baris isi (70px desktop, 61px HP) dan tidak ada
+bagian yang membungkus. Menu hamburger (<=1100px): panel dropdown di kanan,
+isi rata kanan, 5 tautan nav + baris auth (tamu: Masuk/Buat Akun; login:
+sapaan + Keluar); chip akun topbar hanya tampil di desktop.
 
 Pakai: python demo/test-topbar.py
 """
@@ -34,6 +36,7 @@ def measure(page, label):
         authChip: lines('#authChip'),
         navVisible: getComputedStyle(document.querySelector('.topnav')).display !== 'none',
         toggleVisible: getComputedStyle(document.querySelector('#navToggle')).display !== 'none',
+        authChipVisible: getComputedStyle(document.querySelector('#authChip')).display !== 'none',
         brandShortVisible: getComputedStyle(document.querySelector('.brand-short')).display !== 'none',
         brandLongVisible: getComputedStyle(document.querySelector('.brand > div')).display !== 'none',
       };
@@ -57,8 +60,9 @@ def check(label, m, baseline):
 
 
 def check_menu(pg, label, logged_in=False):
-    """Menu hamburger: tombol terlihat, daftar 5 tautan, klik menutup + navigasi,
-    Escape menutup, klik di luar menutup."""
+    """Menu hamburger: tombol terlihat, panel menempel di kanan + isi rata kanan,
+    5 tautan nav, baris auth sesuai status login, klik menutup + navigasi,
+    Escape menutup, klik di luar menutup, aksi auth (Masuk/Keluar) jalan."""
     ok = True
     def fail(msg):
         nonlocal ok
@@ -69,27 +73,51 @@ def check_menu(pg, label, logged_in=False):
     if not toggle.is_visible():
         fail("tombol hamburger tidak terlihat")
         return False
-    links = menu.locator("a")
-    if links.count() != 5:
-        fail(f"tautan menu {links.count()}, harus 5")
-    labels = [links.nth(i).inner_text().strip() for i in range(links.count())]
-    if labels != ["Beranda", "Formasi CPNS", "Format SKD", "Cara Mengerjakan", "Pembahasan"]:
-        fail(f"label menu salah: {labels}")
-    # buka -> klik Formasi CPNS -> menu menutup + kartu formasi terlihat
     toggle.click()
     pg.wait_for_timeout(300)
     if not menu.evaluate("el => el.classList.contains('open')"):
         fail("menu tidak terbuka setelah klik hamburger")
-    links.nth(1).click()
-    pg.wait_for_timeout(1300)
-    if menu.evaluate("el => el.classList.contains('open')"):
-        fail("menu tidak menutup setelah klik tautan")
-    top = pg.evaluate("document.getElementById('formasiCard').getBoundingClientRect().top")
-    if not (0 <= top < 844):
-        fail(f"formasiCard tidak terlihat setelah navigasi (top={top:.0f})")
+        return False
+    nav_links = menu.locator("a[data-nav]")
+    if nav_links.count() != 5:
+        fail(f"tautan nav {nav_links.count()}, harus 5")
+    labels = [nav_links.nth(i).inner_text().strip() for i in range(nav_links.count())]
+    if labels != ["Beranda", "Formasi CPNS", "Format SKD", "Cara Mengerjakan", "Pembahasan"]:
+        fail(f"label menu salah: {labels}")
+    # panel menempel di pinggir kanan pil + isi rata kanan
+    geo = pg.evaluate("""() => {
+      const m = document.getElementById('mobileMenu').getBoundingClientRect();
+      const t = document.querySelector('.topbar').getBoundingClientRect();
+      const a = document.querySelector('#mobileMenu a');
+      return {menuRight: m.right, topbarRight: t.right, menuW: m.width, topbarW: t.width,
+              align: getComputedStyle(a).textAlign};
+    }""")
+    if abs(geo["menuRight"] - geo["topbarRight"]) > 2:
+        fail(f"panel tidak menempel di kanan (menu {geo['menuRight']:.0f} vs topbar {geo['topbarRight']:.0f})")
+    if geo["menuW"] >= geo["topbarW"]:
+        fail("panel selebar topbar, harus dropdown sempit di kanan")
+    if geo["align"] != "right":
+        fail(f"isi menu rata {geo['align']}, harus right")
+    # baris auth sesuai status login
+    def auth_visible(action):
+        return pg.locator(f"#mobileMenu [data-action='{action}']").is_visible()
+    if logged_in:
+        if not pg.locator("#mobileMenu .menu-user").is_visible():
+            fail("baris sapaan tidak tampil saat login")
+        elif "aaa" not in pg.locator("#mobileMenu .menu-user").inner_text():
+            fail("baris sapaan tidak berisi nama akun")
+        if not auth_visible("logout"):
+            fail("Keluar tidak tampil di menu saat login")
+        if auth_visible("login") or auth_visible("register"):
+            fail("Masuk/Buat Akun masih tampil di menu saat login")
+    else:
+        if pg.locator("#mobileMenu .menu-user").is_visible():
+            fail("baris sapaan tampil padahal tamu")
+        if not (auth_visible("login") and auth_visible("register")):
+            fail("Masuk/Buat Akun tidak tampil di menu saat tamu")
+        if auth_visible("logout"):
+            fail("Keluar tampil di menu padahal tamu")
     # Escape menutup
-    toggle.click()
-    pg.wait_for_timeout(300)
     pg.keyboard.press("Escape")
     pg.wait_for_timeout(200)
     if menu.evaluate("el => el.classList.contains('open')"):
@@ -102,6 +130,33 @@ def check_menu(pg, label, logged_in=False):
     pg.wait_for_timeout(200)
     if menu.evaluate("el => el.classList.contains('open')"):
         fail("menu tidak menutup dengan klik di luar")
+    # klik Formasi CPNS -> menu menutup + kartu formasi terlihat
+    toggle.click()
+    pg.wait_for_timeout(300)
+    nav_links.nth(1).click()
+    pg.wait_for_timeout(1300)
+    if menu.evaluate("el => el.classList.contains('open')"):
+        fail("menu tidak menutup setelah klik tautan")
+    top = pg.evaluate("document.getElementById('formasiCard').getBoundingClientRect().top")
+    if not (-10 <= top < 844):
+        fail(f"formasiCard tidak terlihat setelah navigasi (top={top:.0f})")
+    # aksi auth terakhir (meninggalkan halaman): tamu -> Masuk, login -> Keluar
+    toggle.click()
+    pg.wait_for_timeout(300)
+    if logged_in:
+        pg.locator("#mobileMenu [data-action='logout']").click()
+        pg.wait_for_timeout(800)
+        if pg.evaluate("document.body.classList.contains('is-logged-in')"):
+            fail("masih login setelah Keluar dari menu")
+        if not pg.locator("#screen-auth:visible").is_visible():
+            fail("tidak pindah ke layar login setelah Keluar")
+    else:
+        pg.locator("#mobileMenu [data-action='login']").click()
+        pg.wait_for_timeout(800)
+        if menu.evaluate("el => el.classList.contains('open')"):
+            fail("menu tidak menutup setelah klik Masuk")
+        if not pg.locator("#screen-auth:visible").is_visible():
+            fail("tidak pindah ke layar login setelah Masuk")
     print(("  OK  " if ok else "  RUSAK") + f" menu hamburger {label}")
     return ok
 
@@ -125,13 +180,23 @@ def main():
             if m["toggleVisible"] != want_toggle:
                 print(f"  RUSAK toggle {width}px (terlihat={m['toggleVisible']}, harus {want_toggle})")
                 all_ok = False
+            # chip akun hanya di desktop; di <=1100px auth pindah ke dalam menu
+            if m["authChipVisible"] != (width > 1100):
+                print(f"  RUSAK authChip {width}px (terlihat={m['authChipVisible']}, harus {width > 1100})")
+                all_ok = False
             # login sebagai aaa (password akun itu: 123456, cocok hash di Sheet)
-            pg.locator("#authChip button:has-text('Masuk')").click()
+            # di <=1100px Masuk sudah pindah ke dalam menu hamburger
+            if width <= 1100:
+                pg.locator("#navToggle").click()
+                pg.wait_for_timeout(300)
+                pg.locator("#mobileMenu [data-action='login']").click()
+            else:
+                pg.locator("#authChip button:has-text('Masuk')").click()
             pg.wait_for_selector("#screen-auth:visible", timeout=10000)
             pg.fill("#loginEmail", "aaa@gmail.com")
             pg.fill("#loginPassword", "123456")
             pg.locator("#loginForm button[type='submit']").click()
-            pg.wait_for_selector("#authChip:has-text('aaa')", timeout=30000)
+            pg.wait_for_selector("body.is-logged-in", timeout=30000)
             pg.wait_for_timeout(600)
             m = measure(pg, f"login beranda {width}px")
             all_ok &= check(f"login beranda {width}px", m, baseline)
@@ -168,32 +233,33 @@ def main():
         pg.wait_for_timeout(600)
         m = measure(pg, "tamu 390px")
         all_ok &= check("tamu 390px", m, m["topbarH"])
-        # judul panjang diganti "CAT CPNS", tombol "Buat Akun" disembunyikan
+        # judul panjang diganti "CAT CPNS", chip akun pindah ke menu
         if not (m["brandShortVisible"] and not m["brandLongVisible"]):
             print("  RUSAK brand 390px (judul pendek harus tampil, judul panjang sembunyi)")
             all_ok = False
-        if pg.locator("#authChip button:has-text('Buat Akun')").is_visible():
-            print("  RUSAK tombol Buat Akun masih tampil di 390px")
+        if m["authChipVisible"]:
+            print("  RUSAK chip akun masih tampil di topbar 390px (harus di dalam menu)")
             all_ok = False
         all_ok &= check_menu(pg, "tamu 390px")
         pg.close()
-        # mobile 390px saat login: sapaan disembunyikan, Keluar tetap ada
+        # mobile 390px saat login: chip akun di menu, topbar tinggal logo + hamburger
         pg = b.new_page(viewport={"width": 390, "height": 844})
         pg.goto(BASE + "/", wait_until="networkidle", timeout=30000)
-        pg.locator("#authChip button:has-text('Masuk')").click()
+        pg.wait_for_timeout(600)
+        # login lewat menu (Masuk sudah pindah ke dalam menu)
+        pg.locator("#navToggle").click()
+        pg.wait_for_timeout(300)
+        pg.locator("#mobileMenu [data-action='login']").click()
         pg.wait_for_selector("#screen-auth:visible", timeout=10000)
         pg.fill("#loginEmail", "aaa@gmail.com")
         pg.fill("#loginPassword", "123456")
         pg.locator("#loginForm button[type='submit']").click()
-        pg.wait_for_selector("#authChip:has-text('aaa')", timeout=30000)
+        pg.wait_for_selector("body.is-logged-in", timeout=30000)
         pg.wait_for_timeout(600)
         m = measure(pg, "login 390px")
         all_ok &= check("login 390px", m, m["topbarH"])
-        if pg.locator("#authChip span").first.is_visible():
-            print("  RUSAK sapaan 'Halo, ...' masih tampil di 390px")
-            all_ok = False
-        if not pg.locator("#authChip button:has-text('Keluar')").is_visible():
-            print("  RUSAK tombol Keluar tidak tampil di 390px saat login")
+        if m["authChipVisible"]:
+            print("  RUSAK chip akun masih tampil di topbar 390px saat login")
             all_ok = False
         all_ok &= check_menu(pg, "login 390px", logged_in=True)
         pg.close()

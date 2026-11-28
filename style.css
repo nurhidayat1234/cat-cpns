@@ -90,7 +90,8 @@ h3 { font-size: 1.05rem; margin: 0 0 0.6rem; }
 .nav-toggle.open span:nth-child(3) { transform: translateY(-6px) rotate(-45deg); }
 .mobile-menu {
   display: none;
-  position: absolute; top: calc(100% + 0.5rem); left: 0; right: 0;
+  position: absolute; top: calc(100% + 0.5rem); right: 0; left: auto;
+  width: 260px; max-width: calc(100% - 1rem);
   background: #fff; border-radius: 24px;
   box-shadow: 0 12px 40px rgba(35, 37, 43, 0.18);
   padding: 0.5rem; z-index: 20;
@@ -99,19 +100,30 @@ h3 { font-size: 1.05rem; margin: 0 0 0.6rem; }
 .mobile-menu a {
   display: block; padding: 0.8rem 1rem; border-radius: 16px;
   color: #23252B; text-decoration: none; font-weight: 700; font-size: 0.95rem;
+  text-align: right;
 }
 .mobile-menu a:hover { background: #FFF3E0; }
 .mobile-menu a + a { border-top: 1px solid #EEF0F4; }
+.mobile-menu .menu-user {
+  display: block; padding: 0.8rem 1rem;
+  font-size: 0.9rem; color: var(--muted); text-align: right;
+}
+/* Baris auth di menu: tamu lihat Masuk/Buat Akun, user login lihat sapaan + Keluar. */
+.mobile-menu .menu-auth-user { display: none; }
+body.is-logged-in .mobile-menu .menu-auth-user { display: block; }
+body.is-logged-in .mobile-menu .menu-auth-guest { display: none; }
 @media (min-width: 1101px) { .mobile-menu { display: none !important; } }
-@media (max-width: 1100px) { .nav-toggle { display: inline-flex; } }
+@media (max-width: 1100px) {
+  .nav-toggle { display: inline-flex; }
+  /* Chip akun pindah ke dalam menu (28 Nov 2026 — permintaan user: tombol
+     Masuk masuk menu; topbar HP tinggal logo + hamburger + label mode).
+     Selektor ganda supaya menang atas `#authChip { display: flex; }` di bawah. */
+  #topbarRight #authChip { display: none; }
+}
 @media (max-width: 480px) {
-  /* Layar HP kecil: judul panjang diganti "CAT CPNS", tombol "Buat Akun"
-     pindah ke CTA hero, sapaan "Halo, nama" disembunyikan (nama tetap
-     terlihat di beranda lewat Riwayat Saya) — supaya topbar muat 1 baris. */
+  /* Layar HP kecil: judul panjang diganti "CAT CPNS" supaya topbar muat 1 baris. */
   .brand > div { display: none; }
   .brand-short { display: block; font-weight: 700; white-space: nowrap; }
-  #authChip .chip-btn-outline { display: none; }
-  #authChip span { display: none; }
 }
 
 .wrap { max-width: 1020px; margin: 0 auto; padding: 1.2rem 1rem 2rem; }
