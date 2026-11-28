@@ -100,13 +100,13 @@ h3 { font-size: 1.05rem; margin: 0 0 0.6rem; }
 .mobile-menu a {
   display: block; padding: 0.8rem 1rem; border-radius: 16px;
   color: #23252B; text-decoration: none; font-weight: 700; font-size: 0.95rem;
-  text-align: right;
+  text-align: left;
 }
 .mobile-menu a:hover { background: #FFF3E0; }
 .mobile-menu a + a { border-top: 1px solid #EEF0F4; }
 .mobile-menu .menu-user {
   display: block; padding: 0.8rem 1rem;
-  font-size: 0.9rem; color: var(--muted); text-align: right;
+  font-size: 0.9rem; color: var(--muted); text-align: left;
 }
 /* Baris auth di menu: tamu lihat Masuk/Buat Akun, user login lihat sapaan + Keluar. */
 .mobile-menu .menu-auth-user { display: none; }

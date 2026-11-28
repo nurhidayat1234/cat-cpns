@@ -5,7 +5,7 @@ Di tiap kondisi (tamu, login di beranda, login di layar ujian) ukur tinggi
 topbar dan apakah tiap bagiannya membungkus (wrap) ke >1 baris.
 Topbar yang rapi = tinggi ~satu baris isi (70px desktop, 61px HP) dan tidak ada
 bagian yang membungkus. Menu hamburger (<=1100px): panel dropdown di kanan,
-isi rata kanan, 5 tautan nav + baris auth (tamu: Masuk/Buat Akun; login:
+isi rata kiri, 5 tautan nav + baris auth (tamu: Masuk/Buat Akun; login:
 sapaan + Keluar); chip akun topbar hanya tampil di desktop.
 
 Pakai: python demo/test-topbar.py
@@ -84,7 +84,7 @@ def check_menu(pg, label, logged_in=False):
     labels = [nav_links.nth(i).inner_text().strip() for i in range(nav_links.count())]
     if labels != ["Beranda", "Formasi CPNS", "Format SKD", "Cara Mengerjakan", "Pembahasan"]:
         fail(f"label menu salah: {labels}")
-    # panel menempel di pinggir kanan pil + isi rata kanan
+    # panel menempel di pinggir kanan pil + isi rata kiri
     geo = pg.evaluate("""() => {
       const m = document.getElementById('mobileMenu').getBoundingClientRect();
       const t = document.querySelector('.topbar').getBoundingClientRect();
@@ -96,8 +96,8 @@ def check_menu(pg, label, logged_in=False):
         fail(f"panel tidak menempel di kanan (menu {geo['menuRight']:.0f} vs topbar {geo['topbarRight']:.0f})")
     if geo["menuW"] >= geo["topbarW"]:
         fail("panel selebar topbar, harus dropdown sempit di kanan")
-    if geo["align"] != "right":
-        fail(f"isi menu rata {geo['align']}, harus right")
+    if geo["align"] != "left":
+        fail(f"isi menu rata {geo['align']}, harus left")
     # baris auth sesuai status login
     def auth_visible(action):
         return pg.locator(f"#mobileMenu [data-action='{action}']").is_visible()

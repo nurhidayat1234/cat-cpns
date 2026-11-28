@@ -121,13 +121,14 @@ Di layar ≤480px judul diganti "CAT CPNS", tombol "Buat Akun" disembunyikan
 tetap satu baris (61px). **28 Nov 2026 (lanjutan, permintaan user)**:
 tombol Masuk/Buat Akun/Keluar pindah ke dalam menu — chip akun topbar
 hanya tampil di desktop (`#authChip` disembunyikan di ≤1100px); menu jadi
-dropdown sempit (260px) yang menempel di pinggir kanan pil, isinya rata
-kanan. Tamu melihat Masuk + Buat Akun, user login melihat baris sapaan
-"Halo, nama" + Keluar (diatur `body.is-logged-in` + `Auth.logout()` baru
-di auth.js; nama menu diisi `renderChip()`). Topbar HP tinggal logo +
-hamburger (+ label mode saat ujian). Uji: `demo/test-topbar.py` 16/16 OK
-(menu dibuka/ditutup/navigasi + aksi auth di 390px tamu + login, tombol
-terlihat di ≤1100px, tersembunyi di 1440px).
+dropdown sempit (260px) yang menempel di pinggir kanan pil. Tamu melihat
+Masuk + Buat Akun, user login melihat baris sapaan "Halo, nama" + Keluar
+(diatur `body.is-logged-in` + `Auth.logout()` baru di auth.js; nama menu
+diisi `renderChip()`). **28 Nov 2026 (lanjutan)**: isi menu dikembalikan
+rata kiri — rata kanan terlihat kurang rapi; panel tetap menempel di
+kanan. Topbar HP tinggal logo + hamburger (+ label mode saat ujian). Uji:
+`demo/test-topbar.py` 16/16 OK (menu dibuka/ditutup/navigasi + aksi auth
+di 390px tamu + login, tombol terlihat di ≤1100px, tersembunyi di 1440px).
 
 ## Akun login (wajib untuk mengerjakan tes) — database Google Sheet
 
